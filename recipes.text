@@ -1,0 +1,927 @@
+# USDA:  Nutrient Database at http://ndb.nal.usda.gov/ndb/
+
+[item bagel]
+serving size: 115g
+45g carbohydrate
+0g fat
+8g protein
+289 calories
+
+[item brown rice]
+serving size: 130g
+30g carbohydrate
+1g fat
+3g protein
+143 calories
+
+[item white rice]
+alias: rice
+alias: rice, white basmati
+source: USDA: Rice, white, long-grain, regular, cooked, enriched
+serving size: 100g
+130 calories
+3g protein
+0g fat
+28g carbohydrate
+0mg sodium
+0mg cholesterol
+
+[item frozen corn]
+serving size: 100g
+88 calories
+3g protein
+1g fat
+20g carbohydrate
+3mg sodium
+0mg cholesterol
+
+[item cornstarch]
+serving size: 100g
+381 calories
+0g protein
+0g fat
+91g carbohydrate
+9mg sodium
+0mg cholesterol
+
+[item flour]
+source: USDA: Wheat flour, white, all-purpose, enriched, bleached
+serving size: 100g
+# 1C = 125g
+364 calories
+10g protein
+1g fat
+76g carbohydrate
+2mg sodium
+0mg cholesterol
+
+[item masa harina]
+source: USDA: Corn flour, masa, unenriched, white
+serving size: 100g
+# 1C = 114g
+363 calories
+8g protein
+4g fat
+77g carbohydrate
+5mg sodium
+0mg cholesterol
+
+[item fried tortillas]
+source: USDA: Tortillas, ready-to-bake or -fry, corn 
+# with added fat
+serving size: 19g
+# 1C = 114g
+41 calories
+1g protein
+10g fat
+8g carbohydrate
+9mg sodium
+0mg cholesterol
+
+[item butter]
+serving size: 1T
+0g carbohydrate
+5g fat
+0g protein
+50 calories
+
+[item walnuts]
+source: USDA: Nuts, walnuts, english
+serving size: 1C
+# nominal size 80g
+523 calories
+12g protein
+52g fat
+11g carbohydrate
+2mg sodium
+0mg cholesterol
+
+[item cashews]
+serving size: 40g
+12g carbohydrate
+20g fat
+7g protein
+240 calories
+
+[item raisins]
+serving size: 40g
+21g carbohydrate
+0g fat
+1g protein
+78 calories
+
+[item avocado]
+source: USDA: Avocados, raw, all commercial varieties
+serving size: 100g
+# 1C = 150g
+160 calories
+2g protein
+15g fat
+9g carbohydrate
+7mg sodium
+0mg cholesterol
+
+[item medium coffee, double whole milk]
+alias: medium coffee, double whole milk, no sugar
+serving size: 12oz
+2g carbohydrate
+1g fat
+2g protein
+46 calories
+
+[item Kickstand Cafe scone]
+# [this is wrong, but the best we can do.  -- rgr, 15-Jan-15.]
+alias: Kickstand Cafe scone, mixed berry
+alias: Kickstand Cafe scone, maple walnut
+alias: Kickstand Cafe scone, maple pecan
+alias: Kickstand Cafe scone, vegan raisin
+alias: Kickstand Cafe scone, pear ginger
+source: USDA: some random Starbucks scone
+56g carbohydrate
+29g fat
+6g protein
+500 calories
+
+[item Royal Dansk butter cookies]
+alias: Royal Dansk cookies
+serving size: 4 cookies
+2g protein
+9g fat
+23g carbohydrate
+180 calories
+
+[item tortilla chips]
+alias: Tostitos original restaurant style tortilla chips
+serving size: 1oz
+140 calories
+7g fat
+0mg cholesterol
+115mg sodium
+19g carbohydrate
+2g protein
+
+[item Tasty Bite channa masala]
+serving size: 1/2 package
+168 calories
+6g fat
+0mg cholesterol
+452mg sodium
+22g carbohydrate
+6g protein
+
+[item Trader Joe's Jaipur vegetables]
+serving size: 1/2 package
+7g protein
+11g fat
+10g carbohydrate
+170 calories
+5mg cholesterol
+370mg sodium
+
+[item Trader Joe's palak paneer]
+serving size: 1/2 package
+6g protein
+12g fat
+7g carbohydrate
+160 calories
+
+[item feta cheese]
+serving size: 28g
+75 calories
+4g protein
+6g fat
+1g carbohydrate
+260mg sodium
+25mg cholesterol
+
+[item Tofurkey chicken & apple sausage]
+serving size: 1 sausage
+26g protein
+12g fat
+13g carbohydrate
+260 calories
+
+[item Tofurkey Italian sausage]
+serving size: 1 sausage
+26g protein
+12g fat
+13g carbohydrate
+260 calories
+
+[item Tofurkey ground beef style]
+alias: meatless ground crumbles
+serving size: 55g
+90 calories
+4g fat
+0mg cholesterol
+320mg sodium
+6g carbohydrate
+9g protein
+
+[item Boca veggie crumbles]
+serving size: 57g
+70 calories
+0g fat
+0mg cholesterol
+210mg sodium
+6g carbohydrate
+13g protein
+
+[item TVP]
+serving size: 100g
+290 calories
+1g fat
+0mg cholesterol
+25mg sodium
+32g carbohydrate
+53g protein
+
+[item Daiya cheddar style shreds]
+serving size: 28g
+90 calories
+6g fat
+0mg cholesterol
+250mg sodium
+7g carbohydrate
+1g protein
+
+[item Helen's Kitchen organic veggie chorizo]
+serving size: 57g
+# package size: 340g
+110 calories
+9g fat
+0mg cholesterol
+360mg sodium
+6g carbohydrate
+7g protein
+
+[item artichoke hearts]
+source: USDA: Artichokes, (globe or french), cooked, boiled, drained, with salt; cup hearts, 84g
+serving size: 84g
+2g protein
+0g fat
+10g carbohydrate
+43 calories
+0mg cholesterol
+249mg sodium
+
+[item white mushrooms]
+serving size: 96g
+# serving size: 1C
+3g protein
+0g fat
+3g carbohydrate
+21 calories
+0mg cholesterol
+5mg sodium
+
+[item olive oil]
+alias: oil
+serving size: 1T
+0g carbohydrate
+13g fat
+0g protein
+120 calories
+0mg cholesterol
+0mg sodium
+
+[item Nissin cup noodles with shrimp]
+serving size: 64g
+300 calories
+13g fat
+5mg cholesterol
+1180mg sodium
+38g carbohydrate
+7g protein
+
+[item Market Basket sliced banana nut bread]
+serving size: 1 slice
+3g protein
+7g fat
+25g carbohydrate
+170 calories
+20mg cholesterol
+160mg sodium
+
+[item Wheat Thins]
+serving size: 31g
+22g carbohydrate
+5g fat
+2g protein
+140 calories
+0mg cholesterol
+230mg sodium
+
+[item Girl Scout PB cookies]
+alias: Girl Scout peanut butter sandwich cookies
+serving size: 35g
+160 calories
+6g fat
+0mg cholesterol
+135mg sodium
+26g carbohydrate
+2g protein
+
+[item dry pasta]
+alias: shell pasta
+serving size: 100g
+source: USDA: Macaroni, dry, enriched
+371 calories
+13g protein
+2g fat
+75g carbohydrate
+0mg cholesterol
+6mg sodium
+
+[item cooked pasta]
+serving size: 100g
+source: USDA: Macaroni, cooked, enriched
+158 calories
+6g protein
+1g fat
+31g carbohydrate
+0mg cholesterol
+1mg sodium
+
+[item dry whole wheat pasta]
+serving size: 56g
+source: USDA: Macaroni, cooked, enriched
+200 calories
+2g fat
+0mg cholesterol
+10mg sodium
+41g carbohydrate
+7g protein
+
+[item sugar]
+serving size: 1T
+source: USDA: Sugars, granulated
+49 calories
+0g protein
+0g fat
+13g carbohydrate
+0mg cholesterol
+0mg sodium
+
+[item molasses]
+serving size: 1T
+# 1T = 20g
+source: USDA: Molasses
+58 calories
+0g protein
+0g fat
+15g carbohydrate
+0mg cholesterol
+7mg sodium
+
+[item agave syrup]
+serving size: 1T
+# 1T = 20.7g
+source: USDA: Sweetener, syrup, agave 
+64 calories
+0g protein
+0g fat
+16g carbohydrate
+0mg cholesterol
+1mg sodium
+
+[item kettle potato chips]
+serving size: 1oz
+16g carbohydrate
+9g fat
+2g protein
+150 calories
+0mg cholesterol
+115mg sodium
+
+[item Goya chickpeas]
+serving size: 122g
+20g carbohydrate
+2g fat
+6g protein
+100 calories
+0mg cholesterol
+360mg sodium
+
+[item black beans]
+serving size: 15oz
+382 calories
+25g protein
+1g fat
+70g carbohydrate
+0mg cholesterol
+580mg sodium
+
+[item kidney beans]
+serving size: 130g
+# can size 15.5oz
+source: Stop And Shop
+110 calories
+7g protein
+0g fat
+19g carbohydrate
+0mg cholesterol
+360mg sodium
+
+[item pinto beans]
+# This is not right.  -- rgr, 15-Jan-15.
+alias: dried pinto beans
+source: USDA: Beans, pinto, canned, drained solids 
+serving size: 100g
+114 calories
+7g protein
+1g fat
+20g carbohydrate
+0mg cholesterol
+239mg sodium
+
+[item butternut squash]
+source: USDA: Squash, winter, butternut, raw 
+serving size: 70g
+31 calories
+1g protein
+0g fat
+8g carbohydrate
+0mg cholesterol
+3mg sodium
+
+[item one half Boudin sourdough roll]
+serving size: 56g
+150 calories
+0g fat
+0mg cholesterol
+340mg sodium
+31g carbohydrate
+5g protein
+
+[item tomato sauce]
+serving size: 61g
+5g carbohydrate
+0g fat
+0g protein
+20 calories
+0mg cholesterol
+280mg sodium
+
+[item tomato paste]
+serving size: 33g
+7g carbohydrate
+0g fat
+1g protein
+30 calories
+0mg cholesterol
+20mg sodium
+
+[item celery]
+serving size: 40g
+nominal size: 1 medium stalk
+6 calories
+0g protein
+0g fat
+1g carbohydrate
+0mg cholesterol
+32mg sodium
+
+[item carrots]
+serving size: 61g
+nominal size: 1 medium
+25 calories
+1g protein
+0g fat
+6g carbohydrate
+0mg cholesterol
+42mg sodium
+
+[item onion]
+alias: large onion
+serving size: 150g
+nominal size: large
+60 calories
+2g protein
+0g fat
+14g carbohydrate
+0mg cholesterol
+6mg sodium
+
+[item leeks]
+source: USDA: Leeks, (bulb and lower leaf-portion), raw
+serving size: 1lb
+377 calories
+7g protein
+1g fat
+64g carbohydrate
+0mg cholesterol
+91mg sodium
+
+[item dry lentils]
+source: USDA: Lentils, raw
+serving size: 1C
+676 calories
+47g protein
+2g fat
+121g carbohydrate
+0mg cholesterol
+12mg sodium
+
+[item fresh kale]
+serving size: 100g
+source: USDA: kale, raw
+49 calories
+4g protein
+1g fat
+9g carbohydrate
+0mg cholesterol
+38mg sodium
+
+[item mirin]
+serving size: 1T
+source: unknown
+0 calories
+0g protein
+0g fat
+0g carbohydrate
+0mg cholesterol
+0mg sodium
+
+[item soy sauce]
+serving size: 1T
+source: Kikkoman
+10 calories
+2g protein
+0g fat
+0g carbohydrate
+0mg cholesterol
+920mg sodium
+
+[item miso paste]
+serving size: 100g
+source: USDA: Miso
+34 calories
+2g protein
+1g fat
+5g carbohydrate
+0mg cholesterol
+634mg sodium
+
+[item refried beans]
+serving size: 118g
+source: Old El Paso
+90 calories
+5g protein
+1g fat
+16g carbohydrate
+0mg cholesterol
+570mg sodium
+
+[item apple cider vinegar]
+serving size: 100g
+source: USDA: Vinegar, cider
+21 calories
+0g protein
+0g fat
+1g carbohydrate
+0mg cholesterol
+5mg sodium
+
+[item frozen peas]
+serving size: 1C
+103 calories
+7g protein
+1g fat
+18g carbohydrate
+0mg cholesterol
+145mg sodium
+
+[item frozen cauliflower]
+alias: fresh cauliflower
+alias: cauliflower
+serving size: 132g
+32 calories
+3g protein
+0g fat
+6g carbohydrate
+0mg cholesterol
+32mg sodium
+
+[item large tomatoes]
+alias: tomatoes
+serving size: 182g
+33 calories
+2g protein
+0g fat
+7g carbohydrate
+0mg cholesterol
+9mg sodium
+
+[item fresh spinach]
+serving size: 100g
+23 calories
+3g protein
+0g fat
+1g carbohydrate
+0mg cholesterol
+24mg sodium
+
+[item potatoes]
+source: USDA: Potatoes, flesh and skin, raw 
+serving size: 1lb
+350 calories
+9g protein
+0g fat
+79g carbohydrate
+0mg cholesterol
+27mg sodium
+
+[item medium sweet potatoes]
+source: USDA: Sweet potato, raw, unprepared, 5" long, 130g
+serving size: 1
+112 calories
+2g protein
+0g fat
+26g carbohydrate
+0mg cholesterol
+72mg sodium
+
+[item broccoli]
+source: USDA: Broccoli, raw
+serving size: 1C
+# 1C chopped = 91g
+30 calories
+2g protein
+0g fat
+6g carbohydrate
+0mg cholesterol
+29mg sodium
+
+[item steamed broccoli]
+source: USDA: Broccoli, cooked, boiled, drained, without salt 
+serving size: 100g
+35 calories
+2g protein
+0g fat
+7g carbohydrate
+0mg cholesterol
+41mg sodium
+
+[item firm tofu]
+serving size: 135g
+120 calories
+7g fat
+0mg cholesterol
+20mg sodium
+3g carbohydrate
+11g protein
+
+[item extra-firm tofu]
+source: USDA
+serving size: 100g
+91 calories
+10g protein
+8g fat
+2g carbohydrate
+0mg cholesterol
+8mg sodium
+
+[item salmon]
+source: USDA: Fish, salmon, sockeye, cooked, dry heat
+serving size: 100g
+169 calories
+25g protein
+7g fat
+0g carbohydrate
+63mg cholesterol
+134mg sodium
+
+[item apple pie]
+source: USDA: Pie, apple, prepared from recipe 
+serving size: 155g
+411 calories
+4g protein
+19g fat
+57g carbohydrate
+0mg cholesterol
+327mg sodium
+
+[item Himalya Fresh mini samosas]
+source: Himalya Fresh
+serving size: 80g
+# 4 samosas
+192 calories
+6.4g fat
+0mg cholesterol
+516mg sodium
+30g carbohydrate
+4g protein
+
+[item baked tuna]
+source: USDA: Fish, tuna, fresh, bluefin, cooked, dry heat
+serving size: 100g
+184 calories
+30g protein
+6g fat
+0g carbohydrate
+50mg sodium
+49mg cholesterol
+
+[item french fries]
+source: USDA: Potatoes, french fried, all types, salt not added in processing, frozen, oven-heated
+serving size: 100g
+172 calories
+3g protein
+5g fat
+29g carbohydrate
+32mg sodium
+0mg cholesterol
+
+### Recipes.
+
+[recipe grilled tuna]
+servings: 1
+100g baked tuna
+1T oil
+
+[recipe spiced spinach with "paneer"]
+source:  Vegan Indian Cooking, p175
+servings: 5
+2T olive oil
+1 onion
+2 large tomatoes
+2T tomato paste
+10oz fresh spinach
+400g extra-firm tofu
+
+[recipe Indian cauliflower dish]
+source: Jan
+servings:  5
+434g Goya chickpeas
+1 onion
+15g tomato paste (1T)
+160g tomato sauce (2/3C)
+280g white mushrooms
+0.5C frozen peas
+450g frozen cauliflower
+
+[recipe Jan's pinto beans and kale]
+source: Jan
+servings:  8
+1lb dried pinto beans
+1lb fresh kale
+5.55oz celery
+6.4oz onion
+2T olive oil
+5.7oz dry pasta
+
+[recipe Jan's chickpeas and stars]
+source: Jan
+servings: 6
+2T mirin
+7.6oz onion
+5.15oz celery
+7.6oz carrots
+2T miso paste
+2T olive oil
+2.55oz dry pasta (star noodles)
+15.5oz Goya chickpeas
+
+[recipe spiced crumbles with peas]
+alias: mock keema
+source:  Vegan Indian Cooking, p205
+servings: 5
+12oz meatless ground crumbles
+1 onion
+2T olive oil
+320g large tomatoes
+1C frozen peas
+
+[recipe Anna's Boudin sourdough garlic bread]
+servings: 1
+source: Anna
+one half Boudin sourdough roll
+2T olive oil
+
+[recipe broccoli-potato soup with fresh herbs]
+source: Veganomicon, p139
+servings: 6
+2T olive oil
+1 onion
+2lb potatoes
+4C broccoli (chopped)
+
+[recipe black beans in chipotle adobo sauce]
+source: Veganomicon, p122
+servings: 4
+30oz black beans
+1 large onion
+3T olive oil
+
+[recipe linguine with tomato curry]
+source: Bold Vegetarian, p182
+servings: 5
+serving size: 215g
+1T olive oil
+29oz tomato sauce
+0.5T sugar
+15.5oz Goya chickpeas
+5C broccoli (chopped)
+
+[recipe Boca spaghetti sauce]
+servings: 5
+serving size: 230g
+2T olive oil
+29oz tomato sauce
+1 large onion
+6 (1 package) Boca veggie crumbles
+
+[recipe stir-fried veggies with fried tofu]
+servings: 4
+serving size: 230g
+4 firm tofu (1 package)
+1 large onion
+4 carrots
+3C broccoli
+2T oil
+60g cornstarch
+
+[recipe stir-fried veggies 1]
+servings: 4
+serving size: 230g
+4 carrots
+3C broccoli
+4T olive oil
+
+[recipe baked tofu]
+servings: 4
+4 firm tofu (1 package)
+4T oil
+
+[recipe potato leek soup with lentils]
+servings: 8
+3lb potatoes
+2lb leeks
+1 large onion
+1T olive oil
+1C dry lentils
+
+[recipe chorizo potato soup]
+servings: 8
+0.6 large onion
+137g carrots
+1T olive oil
+1T flour
+900g potatoes
+6 Helen's Kitchen organic veggie chorizo (1 package)
+78g (0.5C) frozen corn
+
+[recipe three bean chili burger]
+source: The Best Veggie Burgers On The Planet, p137
+servings: 8
+210g pinto beans
+236g refried beans
+236g kidney beans
+85g tomato paste
+80g onion
+48g TVP
+114g (1C) masa harina (flour)
+5.5T (1/3C) olive oil
+
+[recipe quick and simple BBQ sauce]
+source: The Best Veggie Burgers On The Planet, p183
+servings: 6
+1T olive oil
+0.5 large onion
+16oz tomato sauce
+2T apple cider vinegar
+2T molasses
+2T soy sauce
+
+[recipe sweet potato fries]
+servings: 4
+4 medium sweet potatoes
+4T olive oil
+
+[recipe Jan's feta pizza]
+servings: 16
+375g flour (3C)
+1T agave syrup
+16oz tomato sauce
+8oz feta cheese
+216g white mushrooms
+1 large onion
+12oz artichoke hearts
+
+[recipe taco filling]
+servings: 8
+15oz black beans
+15.5oz kidney beans
+# this is supposed to be 1C.
+200g TVP
+15g tomato paste (1T)
+
+[recipe chick-pea-walnut cream]
+source: The Bold Vegetarian, p188
+servings: 2
+2T olive oil
+1 large onion
+15.5oz Goya chickpeas
+0.5C walnuts
+3C broccoli
