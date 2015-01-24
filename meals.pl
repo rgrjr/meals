@@ -42,9 +42,9 @@ for my $file (@ARGV) {
 	    $day_total->$slot($slot_value + $meal_totals[$i]);
 	}
     }
-    $day_total->present_summary($detailed_p, 1)
+    $day_total->present_summary(1, 1)
 	if $day_total;
-    $file_total->present_summary($detailed_p, 1);
+    $file_total->present_summary(1, 1);
 }
 exit(0);
 
@@ -504,12 +504,11 @@ sub present_summary {
     my $ingredients = $self->ingredients || [ ];
     for my $ingredient (@$ingredients) {
 	my $item = $ingredient->item;
-	$item->finalize()
-	    if 0 && $item->can('finalize');
     }
 
     my @totals;
     printf('%-32s', $self->date . ' ' . $self->meal . ':');
+    my ($cho_grams, $calories);
     for my $slot (qw(carbohydrate_grams fat_grams protein_grams calories)) {
 	my ($total, $missing_p);
 	for my $ingredient (@$ingredients) {
@@ -526,9 +525,17 @@ sub present_summary {
 		$missing_p++;
 	    }
 	}
+	if ($slot eq 'carbohydrate_grams') {
+	    $cho_grams = $total;
+	}
+	elsif ($slot eq 'calories') {
+	    $calories = $total;
+	}
 	push(@totals, $total);
 	print $self->show_total($total, $missing_p);
     }
+    printf(" CHO%%%.1f", 100.0 * (4 * $cho_grams) / $calories)
+	if defined($cho_grams) && defined($calories);
     print("\n");
 
     if ($detailed_p) {
