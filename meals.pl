@@ -87,46 +87,40 @@ sub cleanup {
     return $string;
 }
 
+my (%weight_in_grams, %volume_in_ml);
+BEGIN {
+    %weight_in_grams
+	= ('g' => 1,
+	   'lb' => 453.5,
+	   'kg' => 1000,
+	   'oz' => 28.3);
+    %volume_in_ml
+	= ('ml' => 1,
+	   'l' => 1000,
+	   'L' => 1000,
+	   'T' => 15,
+	   'g' => 1,	# cheat.
+	   'tsp' => 5);
+}
+
 sub convert {
     my ($self, $from_amount, $from_units, $to_amount, $to_units, $what) = @_;
     ($to_amount, $to_units) = ($1, $2)
 	if ! $to_units && $to_amount =~ /^([\d.]+)(\S+)$/;
 
-    if ($to_units eq 'g') {
-	if ($from_units eq 'T') {
-	    return $from_amount * 15 / $to_amount;
-	}
-	elsif ($from_units eq 'oz') {
-	    return $from_amount * 28 / $to_amount;
-	}
-	elsif ($from_units eq 'lb') {
-	    return $from_amount * 453.5 / $to_amount;
-	}
+    my $from_factor = $weight_in_grams{$from_units};
+    if ($from_factor) {
+	my $to_factor = $weight_in_grams{$to_units};
+	return $from_amount * $from_factor / ($to_amount * $to_factor)
+	    if $to_factor;
     }
-    elsif ($to_units eq 'oz') {
-	if ($from_units eq 'g') {
-	    return $from_amount / (28 * $to_amount);
-	}
+    elsif ($from_factor = $volume_in_ml{$from_units}) {
+	my $to_factor = $volume_in_ml{$to_units};
+	return $from_amount * $from_factor / ($to_amount * $to_factor)
+	    if $to_factor;
     }
-    elsif ($to_units eq 'T') {
-	if ($from_units eq 'tsp') {
-	    return $from_amount / (3 * $to_amount);
-	}
-    }
-    elsif ($to_units eq 'tsp') {
-	if ($from_units eq 'T') {
-	    return $from_amount * 3 / $to_amount;
-	}
-    }
-    elsif ($to_units eq 'lb') {
-	if ($from_units eq 'oz') {
-	    return $from_amount / (16 * $to_amount);
-	}
-	elsif ($from_units eq 'g') {
-	    return $from_amount / ( 453.5 * $to_amount);
-	}
-    }
-    die "oops, can't convert '$from_units' to '$to_units', for $what";
+    warn "oops, can't convert '$from_units' to '$to_units', for $what";
+    return $from_amount;
 }
 
 sub show_total {
