@@ -1,6 +1,6 @@
 # meals.pl testing.  -- rgr, 24-Jan-15.
 
-test:	test-day1 test-day2 test-day3
+test:	test-day1 test-day2 test-day3 test-day4
 
 test-day1:
 	./meals.pl day1.text > $@.tmp 2>/dev/null
@@ -12,5 +12,9 @@ test-day2:
 	rm -f $@.tmp
 test-day3:
 	./meals.pl --det day3.text > $@.tmp 2>/dev/null
+	cmp $@.text $@.tmp
+	rm -f $@.tmp
+test-day4:
+	./meals.pl --det day4.text > $@.tmp 2>/dev/null
 	cmp $@.text $@.tmp
 	rm -f $@.tmp
