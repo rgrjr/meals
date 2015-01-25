@@ -108,6 +108,16 @@ sub convert {
 	    return $from_amount / (28 * $to_amount);
 	}
     }
+    elsif ($to_units eq 'T') {
+	if ($from_units eq 'tsp') {
+	    return $from_amount / (3 * $to_amount);
+	}
+    }
+    elsif ($to_units eq 'tsp') {
+	if ($from_units eq 'T') {
+	    return $from_amount * 3 / $to_amount;
+	}
+    }
     elsif ($to_units eq 'lb') {
 	if ($from_units eq 'oz') {
 	    return $from_amount / (16 * $to_amount);
