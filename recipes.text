@@ -1,5 +1,27 @@
 # USDA:  Nutrient Database at http://ndb.nal.usda.gov/ndb/
 
+[item salt]
+source: USDA: Salt, table
+serving size: 1tsp
+# 1tsp = 6g
+0 calories
+0g protein
+0g fat
+0g carbohydrate
+2325mg sodium
+0mg cholesterol
+
+[item lime juice]
+source: USDA: Lime juice, raw
+serving size: 1T
+# 1T = 0.5floz = 15.4g
+4 calories
+0g protein
+0g fat
+1g carbohydrate
+0mg sodium
+0mg cholesterol
+
 [item bagel]
 serving size: 115g
 45g carbohydrate
@@ -412,6 +434,16 @@ serving size: 15oz
 0mg cholesterol
 580mg sodium
 
+[item dry black beans]
+source: USDA: Beans, black, mature seeds, raw 
+serving size: 1C
+662 calories
+42g protein
+3g fat
+121g carbohydrate
+0mg cholesterol
+10mg sodium
+
 [item kidney beans]
 serving size: 130g
 # can size 15.5oz
@@ -813,6 +845,25 @@ servings: 4
 30oz black beans
 1 large onion
 3T olive oil
+
+[recipe kale and black bean enchiladas]
+source: Veganomicon, p162
+# with black beans substituted for potatoes in the
+# "potato and kale enchiladas" recipe.  each "serving" is an
+# enchilada (about 150g).
+servings: 13
+0.67C dry black beans
+0.5lb fresh kale
+3T olive oil
+3T lime juice
+0.5T salt
+13 fried tortillas
+# sauce recipe
+2T oil
+0.5 large onion
+28oz tomatoes
+1tsp sugar
+2tsp salt
 
 [recipe linguine with tomato curry]
 source: Bold Vegetarian, p182
