@@ -486,6 +486,17 @@ serving size: 56g
 31g carbohydrate
 5g protein
 
+[item old-fashioned doughnut]
+source: USDA: Doughnuts, cake-type, plain (includes unsugared, old-fashioned)
+serving size: 52g
+# from "doughnut, long type (twist) (4-1/2" long) 52g"
+226 calories
+3g protein
+13g fat
+24g carbohydrate
+248mg sodium
+0mg cholesterol
+
 [item tomato sauce]
 serving size: 61g
 5g carbohydrate
@@ -616,6 +627,8 @@ source: USDA: Vinegar, cider
 5mg sodium
 
 [item frozen peas]
+source: USDA: Peas, green, frozen, unprepared
+alias: frozen green peas
 serving size: 1C
 103 calories
 7g protein
@@ -623,6 +636,16 @@ serving size: 1C
 18g carbohydrate
 0mg cholesterol
 145mg sodium
+
+[item dried green peas]
+source: USDA: Peas, green, split, mature seeds, raw
+serving size: 1lb
+1597 calories
+108g protein
+5g fat
+289g carbohydrate
+0mg cholesterol
+68mg sodium
 
 [item frozen cauliflower]
 alias: fresh cauliflower
@@ -976,3 +999,14 @@ servings: 2
 15.5oz Goya chickpeas
 0.5C walnuts
 3C broccoli
+
+[recipe pea soup with red peppers]
+alias: double pea soup with roasted red peppers
+source: Veganomicon, p140
+servings: 7
+1.5T olive oil
+1 large onion
+2 carrots
+1lb dried green peas
+2C frozen green peas
+1.5tsp salt
