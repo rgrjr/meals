@@ -626,6 +626,16 @@ source: USDA: Vinegar, cider
 0mg cholesterol
 5mg sodium
 
+[item snow peas]
+source: USDA: Peas, edible-podded, cooked, boiled, drained, with salt 
+serving size: 1C
+64 calories
+5g protein
+0g fat
+10g carbohydrate
+0mg cholesterol
+384mg sodium
+
 [item frozen peas]
 source: USDA: Peas, green, frozen, unprepared
 alias: frozen green peas
@@ -657,6 +667,17 @@ serving size: 132g
 6g carbohydrate
 0mg cholesterol
 32mg sodium
+
+[item medium cauliflower]
+alias: fresh cauliflower
+# one medium head, 5-6" diameter, 588g
+serving size: 588g
+147 calories
+11g protein
+2g fat
+30g carbohydrate
+0mg cholesterol
+176mg sodium
 
 [item large tomatoes]
 alias: tomatoes
@@ -717,6 +738,38 @@ serving size: 100g
 7g carbohydrate
 0mg cholesterol
 41mg sodium
+
+[item zucchini]
+source: USDA: Squash, summer, zucchini, includes skin, raw
+# "one medium"
+serving size: 196g
+33 calories
+2g protein
+0g fat
+6g carbohydrate
+0mg cholesterol
+16mg sodium
+
+[item bell peppers]
+source: USDA: Peppers, sweet, green, raw 
+# "one medium"
+serving size: 119g
+24 calories
+1g protein
+0g fat
+6g carbohydrate
+0mg cholesterol
+4mg sodium
+
+[item capers]
+source: USDA: Capers, canned
+serving size: 1T
+23 calories
+2g protein
+1g fat
+5g carbohydrate
+0mg cholesterol
+2348mg sodium
 
 [item firm tofu]
 serving size: 135g
@@ -923,6 +976,13 @@ serving size: 230g
 3C broccoli
 4T olive oil
 
+[recipe stir-fried veggies 2]
+servings: 4
+serving size: 230g
+4 carrots
+3C broccoli
+1C snow peas
+
 [recipe baked tofu]
 servings: 4
 4 firm tofu (1 package)
@@ -1010,3 +1070,21 @@ servings: 7
 1lb dried green peas
 2C frozen green peas
 1.5tsp salt
+
+[recipe zucchini and pine nuts]
+source: Jan
+servings: 6
+1 onion
+4 zucchini
+15.5oz Goya chickpeas
+3T capers
+2 bell peppers
+1T olive oil
+
+[recipe Jan's aloo gobhi]
+# 275g servings, CHO%42.
+servings: 6
+20oz potatoes
+1 medium cauliflower
+15.5oz Goya chickpeas
+8T oil
