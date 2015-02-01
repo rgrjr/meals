@@ -157,6 +157,7 @@ alias: Kickstand Cafe scone, mixed berry
 alias: Kickstand Cafe scone, maple walnut
 alias: Kickstand Cafe scone, maple pecan
 alias: Kickstand Cafe scone, vegan raisin
+alias: Kickstand Cafe scone, blackberry oatmeal
 alias: Kickstand Cafe scone, pear ginger
 source: USDA: some random Starbucks scone
 56g carbohydrate
@@ -348,6 +349,9 @@ serving size: 35g
 alias: shell pasta
 serving size: 100g
 source: USDA: Macaroni, dry, enriched
+# 105g = 1C elbow shaped
+# 84g = 1C spiral shaped
+# 93g = 1C small shells
 371 calories
 13g protein
 2g fat
@@ -416,6 +420,15 @@ serving size: 1oz
 0mg cholesterol
 115mg sodium
 
+[item TJ's potato chips]
+serving size: 1oz
+150 calories
+10g fat
+0mg cholesterol
+180mg sodium
+15g carbohydrate
+2g protein
+
 [item Goya chickpeas]
 serving size: 122g
 20g carbohydrate
@@ -424,6 +437,18 @@ serving size: 122g
 100 calories
 0mg cholesterol
 360mg sodium
+
+[item dry chickpeas]
+source: USDA: Chickpeas (garbanzo beans, bengal gram), mature seeds, raw
+serving size: 1C
+# 1C = 200g
+756 calories
+41g protein
+12g fat
+126g carbohydrate
+24g fiber
+0mg cholesterol
+48mg sodium
 
 [item black beans]
 serving size: 15oz
@@ -454,6 +479,18 @@ source: Stop And Shop
 19g carbohydrate
 0mg cholesterol
 360mg sodium
+
+[item dry kidney beans]
+source: USDA: Beans, kidney, red, mature seeds, raw
+serving size: 1C
+# 1C = 184g
+620 calories
+41g protein
+2g fat
+112g carbohydrate
+28g fiber
+0mg cholesterol
+22mg sodium
 
 [item pinto beans]
 # This is not right.  -- rgr, 15-Jan-15.
@@ -516,12 +553,16 @@ serving size: 33g
 20mg sodium
 
 [item celery]
+alias: celery stalk
+alias: celery stalks
+source: USDA: Celery, raw
 serving size: 40g
 nominal size: 1 medium stalk
 6 calories
 0g protein
 0g fat
 1g carbohydrate
+0.6g fiber
 0mg cholesterol
 32mg sodium
 
@@ -537,14 +578,31 @@ nominal size: 1 medium
 
 [item onion]
 alias: large onion
+alias: onions
+source: USDA: Onions, raw
 serving size: 150g
 nominal size: large
+# 1C chopped = 160g
 60 calories
 2g protein
 0g fat
 14g carbohydrate
+3g fiber
 0mg cholesterol
 6mg sodium
+
+[item shredded cabbage]
+source: USDA: Cabbage, raw
+serving size: 1C
+# 1C shredded = 70g
+# 1 head, medium (about 5-3/4" dia) = 908g
+18 calories
+1g protein
+0g fat
+4g carbohydrate
+2g fiber
+0mg cholesterol
+13mg sodium
 
 [item leeks]
 source: USDA: Leeks, (bulb and lower leaf-portion), raw
@@ -657,6 +715,18 @@ serving size: 1lb
 0mg cholesterol
 68mg sodium
 
+[item green beans]
+source: USDA: Beans, snap, green, raw 
+serving size: 100g
+# 100g == 1C 1/2" pieces
+31 calories
+2g protein
+0g fat
+7g carbohydrate
+3g fiber
+0mg cholesterol
+6mg sodium
+
 [item frozen cauliflower]
 alias: fresh cauliflower
 alias: cauliflower
@@ -680,12 +750,16 @@ serving size: 588g
 176mg sodium
 
 [item large tomatoes]
+source: USDA: Tomatoes, red, ripe, raw, year round average
 alias: tomatoes
 serving size: 182g
+# 182g == 1 large whole (3" dia)
+# 180g == 1C chopped or sliced
 33 calories
 2g protein
 0g fat
 7g carbohydrate
+2.2g fiber
 0mg cholesterol
 9mg sodium
 
@@ -1088,3 +1162,21 @@ servings: 6
 1 medium cauliflower
 15.5oz Goya chickpeas
 8T oil
+
+[recipe multibean minestrone]
+source: recipes from an ecological kitchen, p50
+servings: 8
+0.5C dry kidney beans
+0.5C dry chickpeas
+1T olive oil
+320g (2C chopped) onions
+2 carrots
+2 celery stalks
+10oz white mushrooms
+360g (2C) tomatoes
+52g (0.5C) dry pasta
+4C shredded cabbage
+8oz green beans
+156g (1C) frozen corn
+2tsp salt
+
