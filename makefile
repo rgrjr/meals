@@ -18,3 +18,18 @@ test-day4:
 	./meals.pl --det day4.text > $@.tmp
 	cmp $@.text $@.tmp
 	rm -f $@.tmp
+
+# "Production" targets.
+all-plots =     2014-Dec-calories.png 2014-Dec-carbs.png \
+		2015-Jan-calories.png 2015-Jan-carbs.png
+all:	${all-plots}
+2014-Dec-calories.png:	1412-food.text
+	./meals.pl $^ --plot-cal $@
+2014-Dec-carbs.png:	1412-food.text
+	./meals.pl $^ --plot-cho $@
+2015-Jan-calories.png:	1501-food.text
+	./meals.pl $^ --plot-cal $@
+2015-Jan-carbs.png:	1501-food.text
+	./meals.pl $^ --plot-cho $@
+clean:
+	rm -f ${all-plots}

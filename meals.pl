@@ -6,10 +6,28 @@ use warnings;
 use Getopt::Long;
 
 my $detailed_p = 0;
-GetOptions('detailed!' => \$detailed_p);
+my $calorie_plot_file = '';
+my $cho_pct_plot_file = '';
+GetOptions('detailed!' => \$detailed_p,
+	   'plot-cho-percent=s' => \$cho_pct_plot_file,
+	   'plot-calories=s' => \$calorie_plot_file);
+my $plot_p = $calorie_plot_file || $cho_pct_plot_file;
 
 # Read the item/recipe database.
 Food::Item->parse_recipes("recipes.text");
+
+my @day_totals;
+
+sub produce_day_total {
+    my ($day_total) = @_;
+
+    return
+	unless $day_total;
+    push(@day_totals, $day_total)
+	if $plot_p;
+    $day_total->present_summary(1, 1)
+	if $detailed_p;
+}
 
 # Read the date files.
 unshift(@ARGV, '-')
@@ -21,10 +39,9 @@ for my $file (@ARGV) {
     my $file_total = Food::Item->new(name => "$file total");
     my ($day_total, $current_day);
     for my $meal (@$meals) {
-	if ($detailed_p
-	    && (! $day_total || $current_day ne $meal->date)) {
-	    $day_total->present_summary($detailed_p, 1)
-		if $day_total;
+	if (($detailed_p || $plot_p)
+	        && (! $day_total || $current_day ne $meal->date)) {
+	    produce_day_total($day_total);
 	    $day_total = Food::Item->new(name => $meal->date . ' total');
 	    $current_day = $meal->date;
 	}
@@ -42,9 +59,65 @@ for my $file (@ARGV) {
 	    $day_total->$slot($slot_value + $meal_totals[$i]);
 	}
     }
-    $day_total->present_summary(1, 1)
-	if $day_total;
+    produce_day_total($day_total);
     $file_total->present_summary(1, 1);
+}
+
+# Produce a calorie plot if requested.
+if ($plot_p) {
+    # Write the temp files.
+    my $cho_pct_file = "$cho_pct_plot_file.tmp";
+    my $cho_calorie_file = "$calorie_plot_file.cho.tmp";
+    my $total_calorie_file = "$calorie_plot_file.total.tmp";
+    {
+	open(my $cho_pct_out, '>', $cho_pct_file)
+	    or die;
+	open(my $cho_calorie_out, '>', $cho_calorie_file)
+	    or die;
+	open(my $total_calorie_out, '>', $total_calorie_file)
+	    or die;
+	for my $day_total (@day_totals) {
+	    my ($date) = split(' ', $day_total->name);
+	    my $calories = $day_total->calories;
+	    print $total_calorie_out ("$date\t$calories\n")
+		if $calories;
+	    my $cho_grams = $day_total->carbohydrate_grams;
+	    if ($cho_grams) {
+		my $cho_calories = 4 * $cho_grams;
+		print $cho_calorie_out ("$date\t$cho_calories\n");
+		print $cho_pct_out ("$date\t", 100 * $cho_calories / $calories,
+				    "\n")
+		    if $calories;
+	    }
+	}
+    }
+
+    # Generate the plot.
+    if ($calorie_plot_file) {
+	open(my $gnuplot, "| gnuplot > '$calorie_plot_file'")
+	    or die "bug:  could not open gnuplot to '$calorie_plot_file':  $!";
+	print $gnuplot ("set term png\n");
+	print $gnuplot ("set boxwidth 0.8 relative\n");
+	print $gnuplot ("set xdata time\n");
+	print $gnuplot ("set timefmt '%d-%b-%y'\n");
+	print $gnuplot ("plot '$total_calorie_file' using 1:2 with boxes ",
+			"title 'Total calories', ",
+			"'$cho_calorie_file' using 1:2 with boxes ",
+			"title 'Carb calories';");
+    }
+    if ($cho_pct_plot_file) {
+	open(my $gnuplot, "| gnuplot > '$cho_pct_plot_file'")
+	    or die "bug:  could not open gnuplot to '$cho_pct_plot_file':  $!";
+	print $gnuplot ("set term png\n");
+	print $gnuplot ("set boxwidth 0.8 relative\n");
+	print $gnuplot ("set xdata time\n");
+	print $gnuplot ("set mytics 2\n");
+	print $gnuplot ("set timefmt '%d-%b-%y'\n");
+	print $gnuplot ("plot [] [0:60] '$cho_pct_file' using 1:2 with boxes ",
+			"title 'Carb calories (percent)';");
+    }
+    # Clean up.
+    unlink($cho_pct_file, $total_calorie_file, $cho_calorie_file);
 }
 exit(0);
 
@@ -177,6 +250,16 @@ sub add_item {
 	 $item->name, " to it.\n");
 }
 
+sub carbohydrate_percent {
+    my ($self) = @_;
+
+    my $cho_grams = $self->carbohydrate_grams;
+    my $calories = $self->calories;
+    return
+	unless defined($cho_grams) && defined($calories);
+    return 100.0 * (4 * $cho_grams) / $calories;
+}
+
 sub present_summary {
     my ($self, $detailed_p, $n_servings) = @_;
     $n_servings = 1
@@ -193,10 +276,9 @@ sub present_summary {
     printf "\t%3.2fsvg", $n_servings
 	if $n_servings != 1;
     if ($detailed_p) {
-	my $cho_grams = $self->carbohydrate_grams;
-	my $calories = $self->calories;
-	printf(" CHO%%%.1f", 100.0 * (4 * $cho_grams) / $calories)
-	    if defined($cho_grams) && defined($calories);
+	my $cho_percent = $self->carbohydrate_percent;
+	printf(" CHO%%%.1f", $cho_percent)
+	    if defined($cho_percent);
     }
     print "\n";
 }
@@ -442,7 +524,7 @@ sub parse_meals {
     my ($class, $file_name) = @_;
 
     open(my $stream, '<', $file_name)
-	or die "bug";
+	or die "$0:  Can't open '$file_name' for input:  $!";
     my ($current_date, $current_meal_name, $current_meal);
     my $meals = [ ];
     my %meal_from_day_and_name;
