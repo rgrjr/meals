@@ -153,7 +153,7 @@ use base qw(Food::Base);
 BEGIN {
     Food::Item->define_class_slots
 	(qw(name serving_size protein_grams fat_grams carbohydrate_grams
-	    calories cholesterol_mg sodium_mg));
+	    fiber_grams calories cholesterol_mg sodium_mg));
 }
 
 our %item_from_name;
@@ -165,6 +165,7 @@ BEGIN {
 	   fat => [ qw(fat_grams g) ],
 	   carbohydrate => [ qw(carbohydrate_grams g) ],
 	   calories => [ 'calories', '' ],
+	   fiber => [ qw(fiber_grams g) ],
 	   cholesterol => [ qw(cholesterol_mg mg) ],
 	   sodium => [ qw(sodium_mg mg) ]);
 }
