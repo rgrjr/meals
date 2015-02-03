@@ -208,6 +208,26 @@ serving size: 1/2 package
 7g carbohydrate
 160 calories
 
+[item Trader Joe's Madras lentils]
+serving size: 1/2 package
+130 calories
+5g fat
+5mg cholesterol
+455mg sodium
+14g carbohydrate
+5g fiber
+6g protein
+
+[item Trader Joe's Punjab eggplant]
+serving size: 1/2 package
+150 calories
+9g fat
+0mg cholesterol
+510mg sodium
+13g carbohydrate
+2g fiber
+4g protein
+
 [item feta cheese]
 serving size: 28g
 75 calories
@@ -385,7 +405,7 @@ source: USDA: Sugars, granulated
 49 calories
 0g protein
 0g fat
-13g carbohydrate
+12.25g carbohydrate
 0mg cholesterol
 0mg sodium
 
@@ -1004,6 +1024,24 @@ source: Veganomicon, p162
 servings: 13
 0.67C dry black beans
 0.5lb fresh kale
+3T olive oil
+3T lime juice
+0.5T salt
+13 fried tortillas
+# sauce recipe
+2T oil
+0.5 large onion
+28oz tomatoes
+1tsp sugar
+2tsp salt
+
+[recipe spinach and black bean enchiladas]
+source: Veganomicon, p162
+# with black beans substituted for potatoes, and spinach for kale, in the
+# "potato and kale enchiladas" recipe.  each serving is one enchilada (~150g).
+servings: 13
+1 (can) black beans
+1lb fresh spinach
 3T olive oil
 3T lime juice
 0.5T salt
