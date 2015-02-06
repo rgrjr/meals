@@ -29,6 +29,18 @@ serving size: 115g
 8g protein
 289 calories
 
+[item bread crumbs]
+source: USDA: Bread crumbs, dry, grated, plain
+serving size: 1C
+# 1C = 108g
+427 calories
+14g protein
+6g fat
+78g carbohydrate
+5g fiber
+791mg sodium
+0mg cholesterol
+
 [item brown rice]
 serving size: 130g
 30g carbohydrate
@@ -124,6 +136,18 @@ serving size: 40g
 20g fat
 7g protein
 240 calories
+
+[item pine nuts]
+source: USDA: Nuts, pine nuts, dried
+serving size: 1C
+# 1C = 135g
+909 calories
+18g protein
+92g fat
+18g carbohydrate
+5g fiber
+3mg sodium
+0mg cholesterol
 
 [item raisins]
 serving size: 40g
@@ -497,6 +521,7 @@ source: Stop And Shop
 7g protein
 0g fat
 19g carbohydrate
+8g fiber
 0mg cholesterol
 360mg sodium
 
@@ -1042,6 +1067,7 @@ source: Veganomicon, p162
 servings: 13
 1 (can) black beans
 1lb fresh spinach
+0.25C pine nuts
 3T olive oil
 3T lime juice
 0.5T salt
@@ -1218,3 +1244,12 @@ servings: 8
 156g (1C) frozen corn
 2tsp salt
 
+
+[recipe kidney beans with mushroom casserole]
+source: Jan
+servings: 3
+15.5oz kidney beans
+1 onion
+8oz white mushrooms
+# 3 cloves garlic
+0.33C bread crumbs
