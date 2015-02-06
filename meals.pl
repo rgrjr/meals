@@ -100,7 +100,8 @@ if ($plot_p) {
 	print $gnuplot ("set boxwidth 0.8 relative\n");
 	print $gnuplot ("set xdata time\n");
 	print $gnuplot ("set timefmt '%d-%b-%y'\n");
-	print $gnuplot ("plot '$total_calorie_file' using 1:2 with boxes ",
+	print $gnuplot ("plot [] [0:3000] ",
+			"'$total_calorie_file' using 1:2 with boxes ",
 			"title 'Total calories', ",
 			"'$cho_calorie_file' using 1:2 with boxes ",
 			"title 'Carb calories';");
