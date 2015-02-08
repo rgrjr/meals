@@ -8,13 +8,44 @@ use Getopt::Long;
 my $detailed_p = 0;
 my $calorie_plot_file = '';
 my $cho_pct_plot_file = '';
+my @show_items;
 GetOptions('detailed!' => \$detailed_p,
 	   'plot-cho-percent=s' => \$cho_pct_plot_file,
+	   'show-item=s' => \@show_items,
 	   'plot-calories=s' => \$calorie_plot_file);
 my $plot_p = $calorie_plot_file || $cho_pct_plot_file;
 
 # Read the item/recipe database.
 Food::Item->parse_recipes("recipes.text");
+for my $item_name (@show_items) {
+    my $item = Food::Item->fetch_item($item_name);
+    if (! $item) {
+	warn "$0:  Can't find '$item_name' in our database.\n";
+	next;
+    }
+    # use Data::Dumper; warn Dumper($item);
+
+    $item->present_summary(1);
+    my $total_weight = 0;
+    for my $ing (sort { $b->n_servings * $b->item->carbohydrate_grams
+			    <=> ($a->n_servings
+				 * $a->item->carbohydrate_grams);
+		 } @{$item->ingredients}) {
+	my $it = $ing->item;
+	my $n_svg = $ing->n_servings;
+	my $calories = $n_svg * $it->calories;
+	my $carbs = $n_svg * $it->carbohydrate_grams;
+	my $fat = $n_svg * $it->fat_grams;
+	my $protein = $n_svg * $it->protein_grams;
+	my $cho_pct = $calories ? 100.0 * (4 * $carbs) / $calories : 0;
+	printf("    %-28s  %s %s %s %s CHO%%%.1f\n",
+	       (($ing->amount || '') . ($ing->units || '')
+		. ' ' . $it->name),
+	       $item->show_total($carbs), $item->show_total($fat),
+	       $item->show_total($protein),
+	       $item->show_total($calories), $cho_pct);
+    }
+}
 
 my @day_totals;
 
@@ -29,9 +60,9 @@ sub produce_day_total {
 	if $detailed_p;
 }
 
-# Read the date files.
+# Read the meal files.
 unshift(@ARGV, '-')
-    unless @ARGV;
+    unless @ARGV || @show_items;
 my @slots = qw(carbohydrate_grams fat_grams protein_grams calories);
 for my $file (@ARGV) {
     my $meals = Food::Meal->parse_meals($file);
@@ -244,6 +275,12 @@ BEGIN {
 	   sodium => [ qw(sodium_mg mg) ]);
 }
 
+sub fetch_item {
+    my ($class, $item_name) = @_;
+
+    return $item_from_name{$class->cleanup($item_name)};
+}
+
 sub add_item {
     my ($self, $item, $amount, $units) = @_;
 
@@ -340,7 +377,7 @@ sub parse_recipes {
 		    die "$0:  Can't convert from $units to $desired_units.\n";
 		}
 	    }
-	    elsif (my $item = $item_from_name{$class->cleanup($name)}) {
+	    elsif (my $item = $class->fetch_item($name)) {
 		$current_item->add_item($item, $amount, $units);
 	    }
 	    else {
@@ -350,7 +387,7 @@ sub parse_recipes {
 	elsif (/^(source|nominal size):/) {
 	    # Ignore these for now.
 	}
-	elsif (my $item = $item_from_name{$class->cleanup($_)}) {
+	elsif (my $item = $class->fetch_item($_)) {
 	    $current_item->add_item($item, 1, 'serving');
 	}
 	else {
@@ -557,7 +594,7 @@ sub parse_meals {
 	    my ($amount, $units, $name) = //;
 	    $units = 'serving'
 		if $name =~ s/^(serving|svg)s?\s+//;
-	    my $item = $item_from_name{Food::Item->cleanup($name)};
+	    my $item = Food::Item->fetch_item($name);
 	    if (! $item) {
 		warn "Can't find '$name' to add it to the current meal.\n";
 		# Make a fake item to record our uncertainty.
@@ -566,7 +603,7 @@ sub parse_meals {
 	    $current_meal = $register_meal->();
 	    $current_meal->add_item($item, $amount, $units);
 	}
-	elsif (my $item = $item_from_name{$class->cleanup($_)}) {
+	elsif (my $item = Food::Item->fetch_item($_)) {
 	    $current_meal = $register_meal->();
 	    $current_meal->add_item($item, 1, 'serving');
 	}

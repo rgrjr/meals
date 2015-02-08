@@ -20,6 +20,7 @@ serving size: 1T
 0g protein
 0g fat
 1g carbohydrate
+0g fiber
 0mg sodium
 0mg cholesterol
 
@@ -95,6 +96,18 @@ serving size: 100g
 3g fiber
 2mg sodium
 0mg cholesterol
+
+[item soy flour]
+source: Bob's Red Mill organic whole grain soy flour
+serving size: 0.25C
+# 1C = 125g
+120 calories
+6g fat
+0mg cholesterol
+0mg sodium
+8g carbohydrate
+3g fiber
+10g protein
 
 [item masa harina]
 alias: corn flour
@@ -203,6 +216,26 @@ source: USDA: some random Starbucks scone
 29g fat
 6g protein
 500 calories
+
+[item Starbucks blueberry scone]
+source: Starbucks: http://www.starbucks.com/menu/food/bakery/blueberry-scone
+460 calories
+22g fat
+61g carbohydrate
+2g fiber
+7g protein
+420mg sodium
+75mg cholesterol
+
+[item Panera orange scone]
+source: http://www.caloriecount.com/calories-panera-bread-orange-scone-i63414
+430 calories
+21g fat
+54g carbohydrate
+1g fiber
+9g protein
+310mg sodium
+120mg cholesterol
 
 [item Royal Dansk butter cookies]
 alias: Royal Dansk cookies
@@ -482,16 +515,41 @@ source: USDA: Molasses
 0mg cholesterol
 7mg sodium
 
-[item agave syrup]
+[item agave nectar]
+alias: organic blue agave
+alias: agave syrup
 serving size: 1T
 # 1T = 20.7g
-source: USDA: Sweetener, syrup, agave 
-64 calories
+source: Wholesome Sweeteners, Inc
+60 calories
 0g protein
 0g fat
-16g carbohydrate
+15g carbohydrate
 0mg cholesterol
-1mg sodium
+0mg sodium
+
+[item vanilla extract]
+source: USDA: Vanilla extract
+serving size: 1tsp
+# 1tsp = 4.2g
+12 calories
+0g protein
+0g fat
+1g carbohydrate
+0g fiber
+0mg sodium
+0mg cholesterol
+
+[item unsweetened soy milk]
+serving size: 1C
+source: Whole Foods
+70 calories
+4g fat
+0mg cholesterol
+120mg sodium
+4g carbohydrate
+2g fiber
+7g protein
 
 [item kettle potato chips]
 serving size: 1oz
@@ -1332,3 +1390,18 @@ servings: 4
 3.67T olive oil
 1lb brown mushrooms
 0.5 onion
+
+[recipe Jan's pancakes]
+source: Jan's variation on Vegan Brunch, p87
+servings: 8
+# one serving = one pancake
+125g (1C) flour
+0.25C soy flour
+# reversed flour proportions:
+# 31g (0.25C) flour
+# 1C soy flour
+0.5T salt
+2T oil
+1C unsweetened soy milk
+2T agave nectar
+1tsp vanilla extract
