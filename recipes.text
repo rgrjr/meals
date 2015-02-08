@@ -8,6 +8,7 @@ serving size: 1tsp
 0g protein
 0g fat
 0g carbohydrate
+0g fiber
 2325mg sodium
 0mg cholesterol
 
@@ -57,24 +58,29 @@ serving size: 100g
 3g protein
 0g fat
 28g carbohydrate
-0mg sodium
+0g fiber
+1mg sodium
 0mg cholesterol
 
 [item frozen corn]
+source: USDA: Corn, sweet, yellow, frozen, kernels cut off cob, unprepared
 serving size: 100g
 88 calories
 3g protein
 1g fat
-20g carbohydrate
+21g carbohydrate
+2g fiber
 3mg sodium
 0mg cholesterol
 
 [item cornstarch]
+source: USDA: Cornstarch
 serving size: 100g
 381 calories
 0g protein
 0g fat
 91g carbohydrate
+1g fiber
 9mg sodium
 0mg cholesterol
 
@@ -86,10 +92,12 @@ serving size: 100g
 10g protein
 1g fat
 76g carbohydrate
+3g fiber
 2mg sodium
 0mg cholesterol
 
 [item masa harina]
+alias: corn flour
 source: USDA: Corn flour, masa, unenriched, white
 serving size: 100g
 # 1C = 114g
@@ -97,10 +105,12 @@ serving size: 100g
 8g protein
 4g fat
 77g carbohydrate
+6g fiber
 5mg sodium
 0mg cholesterol
 
 [item fried tortillas]
+alias: fried corn tortillas
 source: USDA: Tortillas, ready-to-bake or -fry, corn 
 # with added fat
 serving size: 19g
@@ -109,6 +119,7 @@ serving size: 19g
 1g protein
 10g fat
 8g carbohydrate
+1g fiber
 9mg sodium
 0mg cholesterol
 
@@ -122,11 +133,12 @@ serving size: 1T
 [item walnuts]
 source: USDA: Nuts, walnuts, english
 serving size: 1C
-# nominal size 80g
+# 1C ground = 80g
 523 calories
 12g protein
 52g fat
 11g carbohydrate
+5g fiber
 2mg sodium
 0mg cholesterol
 
@@ -164,6 +176,7 @@ serving size: 100g
 2g protein
 15g fat
 9g carbohydrate
+7g fiber
 7mg sodium
 0mg cholesterol
 
@@ -171,6 +184,7 @@ serving size: 100g
 alias: medium coffee, double whole milk, no sugar
 serving size: 12oz
 2g carbohydrate
+0g fiber
 1g fat
 2g protein
 46 calories
@@ -185,6 +199,7 @@ alias: Kickstand Cafe scone, blackberry oatmeal
 alias: Kickstand Cafe scone, pear ginger
 source: USDA: some random Starbucks scone
 56g carbohydrate
+2g fiber
 29g fat
 6g protein
 500 calories
@@ -195,6 +210,7 @@ serving size: 4 cookies
 2g protein
 9g fat
 23g carbohydrate
+0g fiber
 180 calories
 
 [item tortilla chips]
@@ -205,6 +221,7 @@ serving size: 1oz
 0mg cholesterol
 115mg sodium
 19g carbohydrate
+1g fiber
 2g protein
 
 [item Tasty Bite channa masala]
@@ -253,11 +270,14 @@ serving size: 1/2 package
 4g protein
 
 [item feta cheese]
+source: USDA: Cheese, feta
 serving size: 28g
+# 1C crumbled = 150g
 75 calories
 4g protein
 6g fat
 1g carbohydrate
+0g fiber
 260mg sodium
 25mg cholesterol
 
@@ -265,15 +285,21 @@ serving size: 28g
 serving size: 1 sausage
 26g protein
 12g fat
-13g carbohydrate
 260 calories
+13g carbohydrate
+4g fiber
+540mg sodium
+0mg cholesterol
 
 [item Tofurkey Italian sausage]
 serving size: 1 sausage
 26g protein
 12g fat
-13g carbohydrate
 260 calories
+13g carbohydrate
+1g fiber
+620mg sodium
+0mg cholesterol
 
 [item Tofurkey ground beef style]
 alias: meatless ground crumbles
@@ -333,6 +359,7 @@ serving size: 84g
 249mg sodium
 
 [item white mushrooms]
+alias: brown mushrooms
 serving size: 96g
 # serving size: 1C
 3g protein
@@ -432,6 +459,17 @@ source: USDA: Sugars, granulated
 12.25g carbohydrate
 0mg cholesterol
 0mg sodium
+
+[item brown sugar]
+serving size: 1tsp
+# 1tsp packed = 4.6g
+source: USDA: Sugars, brown
+17 calories
+0g protein
+0g fat
+4.5g carbohydrate
+0mg cholesterol
+1mg sodium
 
 [item molasses]
 serving size: 1T
@@ -858,6 +896,17 @@ serving size: 100g
 0mg cholesterol
 41mg sodium
 
+[item Brussels sprouts]
+source: USDA: Brussels sprouts, raw
+serving size: 100g
+43 calories
+3g protein
+0g fat
+9g carbohydrate
+4g fiber
+25mg sodium
+0mg cholesterol
+
 [item zucchini]
 source: USDA: Squash, summer, zucchini, includes skin, raw
 # "one medium"
@@ -908,6 +957,18 @@ serving size: 100g
 2g carbohydrate
 0mg cholesterol
 8mg sodium
+
+[item Vitasoy extra-firm tofu]
+source: USDA
+serving size: 85g
+# package size: 397g
+90 calories
+9g protein
+5g fat
+3g carbohydrate
+1g fiber
+0mg cholesterol
+10mg sodium
 
 [item salmon]
 source: USDA: Fish, salmon, sockeye, cooked, dry heat
@@ -1244,7 +1305,6 @@ servings: 8
 156g (1C) frozen corn
 2tsp salt
 
-
 [recipe kidney beans with mushroom casserole]
 source: Jan
 servings: 3
@@ -1253,3 +1313,22 @@ servings: 3
 8oz white mushrooms
 # 3 cloves garlic
 0.33C bread crumbs
+
+[recipe roasted Brussels sprouts]
+source: Jan
+servings: 9
+2lb Brussels sprouts
+# garlic
+2tsp salt
+4T oil
+
+[recipe seared mushrooms with tofu cubes]
+source: This Can't Be Tofu!, p97
+servings: 4
+14oz (1 package) Vitasoy extra-firm tofu
+2T brown sugar
+4tsp soy sauce
+0.5tsp salt
+3.67T olive oil
+1lb brown mushrooms
+0.5 onion
