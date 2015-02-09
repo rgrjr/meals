@@ -515,6 +515,18 @@ source: USDA: Molasses
 0mg cholesterol
 7mg sodium
 
+[item maple syrup]
+serving size: 1T
+# 1T = 20g
+source: USDA: Syrups, maple
+52 calories
+0g protein
+0g fat
+13g carbohydrate
+0g fiber
+2mg sodium
+0mg cholesterol
+
 [item agave nectar]
 alias: organic blue agave
 alias: agave syrup
@@ -754,6 +766,20 @@ serving size: 1lb
 64g carbohydrate
 0mg cholesterol
 91mg sodium
+
+[item beets]
+source: USDA: Beets, raw
+serving size: 1C
+# 1C = 136g
+# 1 beet (2" dia) = 82g
+# when broiled, they shrink by a factor of 2.5
+58 calories
+2g protein
+0g fat
+13g carbohydrate
+4g fiber
+106mg sodium
+0mg cholesterol
 
 [item dry lentils]
 source: USDA: Lentils, raw
@@ -1405,3 +1431,28 @@ servings: 8
 1C unsweetened soy milk
 2T agave nectar
 1tsp vanilla extract
+
+[recipe Jan's pancakes 2]
+source: another Jan's variation on Vegan Brunch, p87
+servings: 8
+# one serving = one pancake
+94g (3/4C) flour
+0.5C soy flour
+0.5T salt
+2T oil
+1C unsweetened soy milk
+2T agave nectar
+1tsp vanilla extract
+
+[recipe tamarind lentils]
+source: Veganomicon, p123
+servings: 4
+3T oil
+# 3 cloves garlic
+# 1/2-inch cube ginger
+1 large onion
+1C dry lentils
+# 2tsp tamarind syrup
+1T agave nectar
+2T tomato paste
+0.5tsp salt
