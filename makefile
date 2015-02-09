@@ -25,7 +25,8 @@ test-show1:
 
 # "Production" targets.
 all-plots =     2014-Dec-calories.png 2014-Dec-carbs.png \
-		2015-Jan-calories.png 2015-Jan-carbs.png
+		2015-Jan-calories.png 2015-Jan-carbs.png \
+		2015-Feb-calories.png 2015-Feb-carbs.png
 all:	${all-plots}
 2014-Dec-calories.png:	1412-food.text
 	./meals.pl $^ --plot-cal $@
@@ -34,6 +35,10 @@ all:	${all-plots}
 2015-Jan-calories.png:	1501-food.text
 	./meals.pl $^ --plot-cal $@
 2015-Jan-carbs.png:	1501-food.text
+	./meals.pl $^ --plot-cho $@
+2015-Feb-calories.png:	1502-food.text
+	./meals.pl $^ --plot-cal $@
+2015-Feb-carbs.png:	1502-food.text
 	./meals.pl $^ --plot-cho $@
 clean:
 	rm -f ${all-plots}
