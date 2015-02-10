@@ -24,12 +24,18 @@ serving size: 1T
 0mg sodium
 0mg cholesterol
 
-[item bagel]
-serving size: 115g
-45g carbohydrate
-0g fat
-8g protein
-289 calories
+[item cinnamon-raisin bagel]
+alias: bagel
+source: USDA: Bagels, cinnamon-raisin
+serving size: 105g
+# medium bagel (3-1/2" to 4" dia)
+288 calories
+10g protein
+2g fat
+58g carbohydrate
+2g fiber
+361mg sodium
+0mg cholesterol
 
 [item bread crumbs]
 source: USDA: Bread crumbs, dry, grated, plain
@@ -44,11 +50,16 @@ serving size: 1C
 0mg cholesterol
 
 [item brown rice]
-serving size: 130g
-30g carbohydrate
+serving size: 100g
+# 1C = 190g
+source: USDA: Rice, brown, medium-grain, cooked
+112 calories
+2g protein
 1g fat
-3g protein
-143 calories
+24g carbohydrate
+2g fiber
+1mg sodium
+0mg cholesterol
 
 [item white rice]
 alias: rice
@@ -137,11 +148,16 @@ serving size: 19g
 0mg cholesterol
 
 [item butter]
+source: USDA: Butter, salted
 serving size: 1T
-0g carbohydrate
-5g fat
+# 1T = 14.2g
+102 calories
 0g protein
-50 calories
+12g fat
+0g carbohydrate
+0g fiber
+91mg sodium
+31mg cholesterol
 
 [item walnuts]
 source: USDA: Nuts, walnuts, english
@@ -156,11 +172,16 @@ serving size: 1C
 0mg cholesterol
 
 [item cashews]
-serving size: 40g
-12g carbohydrate
-20g fat
-7g protein
-240 calories
+alias: River Queen cashew halves
+alias: cashew halves
+serving size: 33g
+190 calories
+16g fat
+0mg cholesterol
+80mg sodium
+9g carbohydrate
+1g fiber
+5g protein
 
 [item Kirkland cashews]
 serving size: 30g
@@ -185,11 +206,17 @@ serving size: 1C
 0mg cholesterol
 
 [item raisins]
-serving size: 40g
-21g carbohydrate
-0g fat
+source: USDA: Raisins, seedless
+serving size: 43g
+# 1 small (1.5oz) box = 43g
+# 1 cup, packed = 165g
+109 calories
 1g protein
-78 calories
+0g fat
+34g carbohydrate
+2g fiber
+5mg sodium
+0mg cholesterol
 
 [item avocado]
 source: USDA: Avocados, raw, all commercial varieties
@@ -393,25 +420,29 @@ serving size: 57g
 7g protein
 
 [item artichoke hearts]
-source: USDA: Artichokes, (globe or french), cooked, boiled, drained, with salt; cup hearts, 84g
+source: USDA: Artichokes, (globe or french), cooked, boiled, drained, with salt
 serving size: 84g
+# 1C hearts = 84g
+43 calories
 2g protein
 0g fat
 10g carbohydrate
-43 calories
-0mg cholesterol
+7g fiber
 249mg sodium
+0mg cholesterol
 
 [item white mushrooms]
-alias: brown mushrooms
+source: USDA: Mushrooms, white, raw
 serving size: 96g
-# serving size: 1C
+# 1C whole = 96g
+# 1C pieces or slices = 70g
+21 calories
 3g protein
 0g fat
 3g carbohydrate
-21 calories
-0mg cholesterol
+1g fiber
 5mg sodium
+0mg cholesterol
 
 [item brown mushrooms]
 source: USDA: Mushrooms, brown, italian, or crimini, raw
@@ -950,22 +981,27 @@ serving size: 100g
 
 [item frozen cauliflower]
 alias: cauliflower
-serving size: 132g
-32 calories
-3g protein
+source: USDA: Cauliflower, frozen, unprepared
+serving size: 100g
+# 1C (1" pieces) = 66g
+24 calories
+2g protein
 0g fat
-6g carbohydrate
+5g carbohydrate
+2g fiber
 0mg cholesterol
-32mg sodium
+24mg sodium
 
 [item medium cauliflower]
 alias: fresh cauliflower
-# one medium head, 5-6" diameter, 588g
+source: USDA: Cauliflower, raw
 serving size: 588g
+# one medium head, 5-6" diameter = 588g
 147 calories
 11g protein
 2g fat
 30g carbohydrate
+12g fiber
 0mg cholesterol
 176mg sodium
 
@@ -984,13 +1020,15 @@ serving size: 182g
 9mg sodium
 
 [item fresh spinach]
+source: USDA: Spinach, raw
 serving size: 100g
 23 calories
 3g protein
 0g fat
-1g carbohydrate
+4g carbohydrate
+2g fiber
 0mg cholesterol
-24mg sodium
+79mg sodium
 
 [item potatoes]
 source: USDA: Potatoes, flesh and skin, raw 
