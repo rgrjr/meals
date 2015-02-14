@@ -205,6 +205,7 @@ BEGIN {
 	   'L' => 1000,
 	   'T' => 15,
 	   'g' => 1,	# cheat.
+	   'C' => 236.6,
 	   'tsp' => 5);
 }
 
@@ -646,7 +647,9 @@ sub present_summary {
 		$total += $ingredient->n_servings * $value;
 	    }
 	    else {
-		# warn $item->name, " $slot is missing";
+		warn($self->date, ' ', $self->meal, ':  ',
+		     $item->name, " $slot is missing\n")
+		    if $slot eq 'carbohydrate_grams' || $slot eq 'calories';
 		$missing_p++;
 	    }
 	}
