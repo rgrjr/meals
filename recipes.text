@@ -108,6 +108,17 @@ serving size: 100g
 2mg sodium
 0mg cholesterol
 
+[item vital wheat gluten]
+source: USDA: Vital wheat gluten
+serving size: 100g
+370 calories
+75g protein
+2g fat
+14g carbohydrate
+1g fiber
+29mg sodium
+0mg cholesterol
+
 [item soy flour]
 source: Bob's Red Mill organic whole grain soy flour
 serving size: 0.25C
@@ -158,6 +169,18 @@ serving size: 1T
 0g fiber
 91mg sodium
 31mg cholesterol
+
+[item cranberries]
+source: USDA: Cranberries, raw
+serving size: 1C
+# 1C chopped = 110g
+51 calories
+0g protein
+0g fat
+13g carbohydrate
+5g fiber
+2mg sodium
+0mg cholesterol
 
 [item walnuts]
 source: USDA: Nuts, walnuts, english
@@ -688,6 +711,18 @@ serving size: 1C
 0mg cholesterol
 10mg sodium
 
+[item cooked black soy beans]
+source: USDA: Soybeans, mature cooked, boiled, without salt 
+serving size: 1C
+# 1C = 172g
+298 calories
+29g protein
+15g fat
+17g carbohydrate
+10g fiber
+0mg cholesterol
+2mg sodium
+
 [item kidney beans]
 serving size: 130g
 # can size 15.5oz
@@ -1181,6 +1216,19 @@ serving size: 155g
 0mg cholesterol
 327mg sodium
 
+[item cherry pie]
+source: USDA: Pie, cherry, prepared from recipe 
+serving size: 155g
+# 1 slice (1/8 of 9" dia) = 180g
+486 calories
+5g protein
+22g fat
+69g carbohydrate
+# The fiber amount does not appear in the table.
+0g fiber
+344mg sodium
+0mg cholesterol
+
 [item Himalya Fresh mini samosas]
 source: Himalya Fresh
 serving size: 80g
@@ -1565,3 +1613,51 @@ servings: 4
 1T agave nectar
 2T tomato paste
 0.5tsp salt
+
+[recipe soybean chili]
+source: Jan's variation, from The Complete Soy Cookbook p54
+servings: 5
+# 1 serving = 340g
+2T olive oil
+4 carrots
+1 bell peppers
+160g (1C) onion
+2 celery stalks
+6oz tomato paste
+14oz tomatoes
+3C cooked black soy beans
+1tsp agave nectar
+
+[recipe Brooksetta burgers]
+source: The Best Veggie Burgers On The Planet, p77, Jan's variation
+servings: 6
+# 1 burger = 1 serving
+# [burger]
+100g TVP
+# 1C vegetable broth
+72g vital wheat gluten
+6oz tomato paste
+# [topping]
+14oz Vitasoy extra-firm tofu
+0.25C olive oil
+1C tomatoes
+
+[recipe cranberry orange walnut muffin]
+source: Vegan Brunch, p162
+# slightly modified by Jan
+servings: 12
+# 1 muffin = 1 serving
+1.5C flour
+0.5C soy flour
+0.67C sugar
+# 2T vanilla
+2tsp vanilla extract
+# 0.25tsp almond extract
+1.5C cranberries
+1C walnuts
+
+[recipe Jan's bean wombat]
+servings: 4
+15oz black beans
+2 bell peppers
+1 onion
