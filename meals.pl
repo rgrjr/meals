@@ -566,14 +566,12 @@ sub parse_meals {
 	or die "$0:  Can't open '$file_name' for input:  $!";
     my ($current_date, $current_meal_name, $current_meal);
     my $meals = [ ];
-    my %meal_from_day_and_name;
     my $register_meal = sub {
-	my $meal = $meal_from_day_and_name{$current_date}{$current_meal_name};
-	return $meal
-	    if $meal;
-	$meal = $class->new(date => $current_date,
-			    meal => $current_meal_name);
-	$meal_from_day_and_name{$current_date}{$current_meal_name} = $meal;
+	return $current_meal
+	    if ($current_meal && $current_meal->date eq $current_date
+		&& $current_meal->meal eq $current_meal_name);
+	my $meal = $class->new(date => $current_date,
+			       meal => $current_meal_name);
 	push(@$meals, $meal);
 	return $meal;
     };
