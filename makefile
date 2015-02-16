@@ -40,5 +40,16 @@ all:	${all-plots}
 	./meals.pl $^ --plot-cal $@
 2015-Feb-carbs.png:	1502-food.text
 	./meals.pl $^ --plot-cho $@
-clean:
+# For ephemeral use, not on all-plots.
+recent:	recent-calories.png recent-carbs.png
+recent-food.text:
+	cat 1501-food.text 1502-food.text > $@
+recent-calories.png:	recent-food.text
+	./meals.pl $^ --plot-cal $@
+recent-carbs.png:	recent-food.text
+	./meals.pl $^ --plot-cho $@
+
+clean-recent:
+	rm -f recent-calories.png recent-carbs.png recent-food.text
+clean:	clean-recent
 	rm -f ${all-plots}
