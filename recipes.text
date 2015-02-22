@@ -24,6 +24,19 @@ serving size: 1T
 0mg sodium
 0mg cholesterol
 
+[item lemon juice]
+source: USDA: Lemon juice, raw
+serving size: 1C
+# 1C = 244g
+# 1oz = 30.5g
+54 calories
+1g protein
+1g fat
+17g carbohydrate
+1g fiber
+2mg sodium
+0mg cholesterol
+
 [item cinnamon-raisin bagel]
 alias: bagel
 source: USDA: Bagels, cinnamon-raisin
@@ -73,6 +86,28 @@ serving size: 100g
 0g fiber
 1mg sodium
 0mg cholesterol
+
+[item cooked quinoa]
+serving size: 100g
+source: USDA: Basic Report:  20137, Quinoa, cooked
+120 calories
+4g protein
+2g fat
+21g carbohydrate
+3g fiber
+3mg sodium
+7mg cholesterol
+
+[item baby corn]
+serving size: 3oz
+source: Dynasty cut baby corn [product can]
+20 calories
+1g protein
+0g fat
+3g carbohydrate
+2g fiber
+0mg cholesterol
+190mg sodium
 
 [item frozen corn]
 source: USDA: Corn, sweet, yellow, frozen, kernels cut off cob, unprepared
@@ -216,6 +251,17 @@ serving size: 30g
 0g fiber
 5g protein
 
+[item pecans]
+serving size: 50g
+# 1C chopped = 109g
+346 calories
+5g protein
+36g fat
+7g carbohydrate
+5g fiber
+0mg sodium
+0mg cholesterol
+
 [item pine nuts]
 source: USDA: Nuts, pine nuts, dried
 serving size: 1C
@@ -269,6 +315,7 @@ alias: Kickstand Cafe scone, maple walnut
 alias: Kickstand Cafe scone, maple pecan
 alias: Kickstand Cafe scone, vegan raisin
 alias: Kickstand Cafe scone, blackberry oatmeal
+alias: Kickstand Cafe scone, raspberry lemon
 alias: Kickstand Cafe scone, pear ginger
 alias: Kickstand Cafe scone, strawberry coconut
 source: USDA: some random Starbucks scone
@@ -669,6 +716,16 @@ serving size: 1oz
 15g carbohydrate
 2g protein
 
+[item MB potato chips]
+alias: Marked Basket classic potato chips
+serving size: 1oz
+140 calories
+8g fat
+0mg cholesterol
+180mg sodium
+16g carbohydrate
+2g protein
+
 [item Goya chickpeas]
 serving size: 122g
 20g carbohydrate
@@ -722,6 +779,18 @@ serving size: 1C
 10g fiber
 0mg cholesterol
 2mg sodium
+
+[item toor dal]
+source: USDA: Pigeonpeas, immature seeds, raw
+serving size: 1C
+# 1C = 154g
+209 calories
+11g protein
+2.5g fat
+37g carbohydrate
+8g fiber
+8mg sodium
+0mg cholesterol
 
 [item kidney beans]
 serving size: 130g
@@ -901,6 +970,18 @@ serving size: 1C
 0mg cholesterol
 12mg sodium
 
+[item dried black-eyed peas]
+source: USDA: Basic Report:  11191, Cowpeas (blackeyes), immature seeds, raw
+serving size: 1C
+# 1C = 145g
+130 calories
+4g protein
+1g fat
+27g carbohydrate
+7g fiber
+0mg cholesterol
+6mg sodium
+
 [item fresh kale]
 serving size: 100g
 source: USDA: kale, raw
@@ -943,6 +1024,18 @@ source: USDA: Miso
 1g fiber
 0mg cholesterol
 634mg sodium
+
+[item water chestnuts]
+serving size: 100g
+source: USDA: Basic Report:  12093, Nuts, chestnuts, chinese, raw
+224 calories
+4g protein
+1g fat
+49g carbohydrate
+# [the fiber value is not actually shown.]
+0g fiber
+0mg cholesterol
+3mg sodium
 
 [item refried beans]
 serving size: 118g
@@ -1240,6 +1333,18 @@ serving size: 80g
 30g carbohydrate
 4g protein
 
+[item roti]
+source: Rotiland (Circle Foods)
+serving size: 57g
+# 1 roti
+160 calories
+4.5g fat
+0mg cholesterol
+130mg sodium
+26g carbohydrate
+2g fiber
+4g protein
+
 [item baked tuna]
 source: USDA: Fish, tuna, fresh, bluefin, cooked, dry heat
 serving size: 100g
@@ -1278,6 +1383,18 @@ servings: 5
 2T tomato paste
 10oz fresh spinach
 400g extra-firm tofu
+
+[recipe spiced spinach with "paneer" 2]
+source:  Vegan Indian Cooking, p175
+# Jan's variation
+servings: 5
+2T olive oil
+1 onion
+28oz large tomatoes
+2T tomato paste
+2tsp salt
+10oz fresh spinach
+28g extra-firm tofu (2 packages)
 
 [recipe Indian cauliflower dish]
 source: Jan
@@ -1661,3 +1778,37 @@ servings: 4
 15oz black beans
 2 bell peppers
 1 onion
+
+[recipe black-eyed peas and greens]
+source: Joy of Cooking, p277
+servings: 4
+# (+ (* 1.5 145) 150 (* 4 61) (* 236.6 6) 454) 2485.1
+1.5C dried black-eyed peas
+1 onion
+4 carrots
+2 celery stalks
+# 6C water
+1lb fresh kale
+1T apple cider vinegar
+0.5tsp salt
+
+[recipe tofu and veggies 1]
+servings: 4
+4C broccoli
+4 firm tofu (1 package)
+8oz baby corn
+12oz brown mushrooms
+5oz water chestnuts
+2T soy sauce
+2T cornstarch
+1T oil
+
+[recipe toor dal with chopped spinach]
+source: The Art of Indian Vegetarian Cooking, p66
+servings: 3
+# Jan's variation
+1C toor dal
+2T oil
+1tsp salt
+0.5lb fresh spinach
+1tsp lemon juice
