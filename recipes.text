@@ -143,6 +143,18 @@ serving size: 100g
 2mg sodium
 0mg cholesterol
 
+[item whole-wheat flour]
+source: USDA: Basic Report:  20080, Wheat flour, whole-grain
+serving size: 1C
+# 1C = 120g
+408 calories
+16g protein
+3g fat
+86g carbohydrate
+13g fiber
+2mg sodium
+0mg cholesterol
+
 [item vital wheat gluten]
 source: USDA: Vital wheat gluten
 serving size: 100g
@@ -206,9 +218,11 @@ serving size: 1T
 31mg cholesterol
 
 [item cranberries]
+alias: fresh cranberries
 source: USDA: Cranberries, raw
 serving size: 1C
 # 1C chopped = 110g
+# 1C whole = 100g
 51 calories
 0g protein
 0g fat
@@ -221,6 +235,8 @@ serving size: 1C
 source: USDA: Nuts, walnuts, english
 serving size: 1C
 # 1C ground = 80g
+# 1C chopped = 117g
+# 1C shelled = 100g
 523 calories
 12g protein
 52g fat
@@ -250,6 +266,18 @@ serving size: 30g
 9g carbohydrate
 0g fiber
 5g protein
+
+[item almonds]
+source: USDA: Basic Report:  12061, Nuts, almonds
+serving size: 50g
+# 1C whole = 143g
+290 calories
+11g protein
+25g fat
+11g carbohydrate
+6g fiber
+0mg sodium
+0mg cholesterol
 
 [item pecans]
 serving size: 50g
@@ -528,8 +556,10 @@ serving size: 87g
 0mg cholesterol
 
 [item olive oil]
+source: USDA: Basic Report:  44005, Oil, corn, peanut, and olive
 alias: oil
 serving size: 1T
+# 1T = 14g
 0g carbohydrate
 13g fat
 0g protein
@@ -616,6 +646,8 @@ serving size: 57g
 
 [item sugar]
 serving size: 1T
+# 1T = 12.6g
+# 1C = 200g
 source: USDA: Sugars, granulated
 49 calories
 0g protein
@@ -628,7 +660,8 @@ source: USDA: Sugars, granulated
 [item brown sugar]
 serving size: 1tsp
 # 1tsp packed = 4.6g
-source: USDA: Sugars, brown
+# 1C packed = 220g
+source: USDA: Basic Report:  19334, Sugars, brown
 17 calories
 0g protein
 0g fat
@@ -698,6 +731,19 @@ source: Whole Foods
 2g fiber
 7g protein
 
+[item almond milk]
+source: Blue Diamond Almond Breeze
+serving size: 1C
+# 1C = 240ml
+# 1 container = 4C
+30 calories
+2.5g fat
+0mg cholesterol
+180mg sodium
+2g carbohydrate
+1g fiber
+1g protein
+
 [item kettle potato chips]
 serving size: 1oz
 16g carbohydrate
@@ -726,7 +772,20 @@ serving size: 1oz
 16g carbohydrate
 2g protein
 
+[item flaxseeds]
+source: USDA: Seeds, flaxseed
+serving size: 1C
+# 1C = 168g
+897 calories
+31g protein
+71g fat
+49g carbohydrate
+46g fiber
+50mg sodium
+0mg cholesterol
+
 [item Goya chickpeas]
+alias: canned chickpeas
 serving size: 122g
 20g carbohydrate
 2g fat
@@ -748,13 +807,17 @@ serving size: 1C
 48mg sodium
 
 [item black beans]
-serving size: 15oz
-382 calories
-25g protein
+source: Goya
+serving size: 122g
+# 122g = 1/2C
+# 15.5oz = 439g = 1 can
+90 calories
 1g fat
-70g carbohydrate
 0mg cholesterol
-580mg sodium
+460mg sodium
+19g carbohydrate
+6g fiber
+7g protein
 
 [item dry black beans]
 source: USDA: Beans, black, mature seeds, raw 
@@ -828,6 +891,18 @@ serving size: 100g
 6g fiber
 0mg cholesterol
 239mg sodium
+
+[item pumpkin puree]
+source: USDA: Basic Report:  11422, Pumpkin, raw
+serving size: 100ml
+# assuming 100ml = 100g
+26 calories
+1g protein
+0g fat
+7g carbohydrate
+1g fiber
+1mg sodium
+0mg cholesterol
 
 [item butternut squash]
 source: USDA: Squash, winter, butternut, raw 
@@ -1158,6 +1233,18 @@ serving size: 100g
 0mg cholesterol
 79mg sodium
 
+[item creamy tofu italian dressing]
+source: Tofu Cookery, p39
+serving size: 1T
+21 calories
+1g protein
+2g fat
+0g carbohydrate
+0g fiber
+0mg cholesterol
+# estimate.
+116mg sodium
+
 [item potatoes]
 source: USDA: Potatoes, flesh and skin, raw 
 serving size: 1lb
@@ -1456,7 +1543,7 @@ servings: 6
 [recipe black beans in chipotle adobo sauce]
 source: Veganomicon, p122
 servings: 4
-30oz black beans
+2 (cans) black beans
 1 large onion
 3T olive oil
 
@@ -1515,6 +1602,13 @@ serving size: 230g
 29oz tomato sauce
 1 large onion
 6 (1 package) Boca veggie crumbles
+
+[recipe fried tofu]
+servings: 4
+serving size: 150g
+4 firm tofu (1 package)
+2T oil
+60g cornstarch
 
 [recipe stir-fried veggies with fried tofu]
 servings: 4
@@ -1602,7 +1696,7 @@ servings: 16
 
 [recipe taco filling]
 servings: 8
-15oz black beans
+1 (can) black beans
 15.5oz kidney beans
 # this is supposed to be 1C.
 200g TVP
@@ -1775,7 +1869,7 @@ servings: 12
 
 [recipe Jan's bean wombat]
 servings: 4
-15oz black beans
+1 (can) black beans
 2 bell peppers
 1 onion
 
@@ -1812,3 +1906,52 @@ servings: 3
 1tsp salt
 0.5lb fresh spinach
 1tsp lemon juice
+
+[recipe lentils topped with garlic mushrooms]
+source: World Vegetarian, p66, p61
+servings: 4
+# Jan's variation
+1lb white mushrooms
+2T oil
+1tsp salt
+# lentils with onion and garlic
+1C dry lentils
+1 onion
+
+[recipe Jan's spaghetti sauce]
+source: Jan
+servings: 3
+14oz tomato sauce
+0.5 (1/2 package) Tofurkey ground beef style
+0.5 onion
+4oz white mushrooms
+15.5oz (1 can) black beans
+
+[recipe walnut sauce]
+source: World Vegetarian, p684
+# makes 1C
+servings: 8
+# serving size: 2T
+0.5C walnuts
+5T oil
+3T lemon juice
+0.5tsp salt
+# 0.5C vegetable stock
+
+[recipe pumpkin-cranberry scone]
+source: Veganomicon, p225
+# Jan's variation
+servings: 12
+# 1 scone = 1 serving = 100g
+# raw weight ~= 1.3kg
+# cooked weight = 1.2kg
+2C whole-wheat flour
+1C soy flour
+0.75C sugar
+1.25tsp salt
+0.5C oil
+0.75C almond milk
+4tsp flaxseeds
+1.5C pumpkin puree
+3T molasses
+1C fresh cranberries
