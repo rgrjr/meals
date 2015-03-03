@@ -598,6 +598,7 @@ serving size: 31g
 [item Girl Scout PB cookies]
 alias: Girl Scout peanut butter sandwich cookies
 serving size: 35g
+# 35g = 3 cookies
 160 calories
 6g fat
 0mg cholesterol
@@ -928,6 +929,7 @@ serving size: 56g
 source: USDA: Doughnuts, cake-type, plain (includes unsugared, old-fashioned)
 serving size: 52g
 # from "doughnut, long type (twist) (4-1/2" long) 52g"
+# CHO%42.5
 226 calories
 3g protein
 13g fat
@@ -935,6 +937,17 @@ serving size: 52g
 1g fiber
 248mg sodium
 0mg cholesterol
+
+[item Dunkin' Donuts plain stick]
+source: http://calorielab.com/restaurants/dunkin-donuts/11
+# CHO%33.3, but has trans fat.
+420 calories
+29g fat
+36mg cholesterol
+310mg sodium
+35g carbohydrate
+1g fiber
+4g protein
 
 [item tomato sauce]
 serving size: 61g
@@ -1223,6 +1236,7 @@ serving size: 182g
 9mg sodium
 
 [item fresh spinach]
+alias: spinach
 source: USDA: Spinach, raw
 serving size: 100g
 23 calories
@@ -1739,6 +1753,24 @@ servings: 6
 1 medium cauliflower
 15.5oz Goya chickpeas
 8T oil
+
+[recipe Jan's aloo gobhi 2]
+# 255g servings
+servings: 6
+16oz potatoes
+1 medium cauliflower
+15.5oz Goya chickpeas
+0.75C oil
+
+[recipe Jan's spinach pesto]
+# makes 275g total
+# 45g servings
+servings: 6
+# 2 cloves garlic
+1lb spinach
+0.5C olive oil
+3oz feta cheese
+0.25C walnuts (chopped)
 
 [recipe multibean minestrone]
 source: recipes from an ecological kitchen, p50
