@@ -745,9 +745,20 @@ serving size: 1C
 1g fiber
 1g protein
 
+[item Utz Ripples potato chips]
+serving size: 1oz
+# CHO%37.3
+150 calories
+10g fat
+0mg cholesterol
+95mg sodium
+14g carbohydrate
+2g protein
+
 [item kettle potato chips]
 serving size: 1oz
 16g carbohydrate
+1g fiber
 9g fat
 2g protein
 150 calories
@@ -1427,6 +1438,7 @@ serving size: 155g
 source: Himalya Fresh
 serving size: 80g
 # 4 samosas
+# CHO%62.5
 192 calories
 6.4g fat
 0mg cholesterol
@@ -2000,3 +2012,19 @@ servings: 12
 1.5C pumpkin puree
 3T molasses
 1C fresh cranberries
+
+[recipe broccospuds]
+source: Jan
+servings: 6
+8C broccoli
+6T oil
+645g potatoes (3 count)
+
+[recipe Punjab kidney beans]
+source: Jan
+servings: 5
+1.5C dry kidney beans
+28oz tomato sauce
+1 large onion
+# 4 cloves garlic
+3T oil
