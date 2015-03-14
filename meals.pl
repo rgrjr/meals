@@ -562,7 +562,7 @@ sub add_item {
 sub parse_meals {
     my ($class, $file_name) = @_;
 
-    open(my $stream, '<', $file_name)
+    open(my $stream, "<$file_name")
 	or die "$0:  Can't open '$file_name' for input:  $!";
     my ($current_date, $current_meal_name, $current_meal);
     my $meals = [ ];
