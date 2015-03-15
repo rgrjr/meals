@@ -56,7 +56,7 @@ sub produce_day_total {
 	unless $day_total;
     push(@day_totals, $day_total)
 	if $plot_p;
-    $day_total->present_summary(1, 1)
+    $day_total->present_summary(1, 1, 1)
 	if $detailed_p;
 }
 
@@ -67,13 +67,13 @@ my @slots = qw(carbohydrate_grams fat_grams protein_grams calories);
 for my $file (@ARGV) {
     my $meals = Food::Meal->parse_meals($file);
     my @totals;
-    my $file_total = Food::Item->new(name => "$file total");
+    my $file_total = Food::Item->new(name => "$file total:");
     my ($day_total, $current_day);
     for my $meal (@$meals) {
 	if (($detailed_p || $plot_p)
 	        && (! $day_total || $current_day ne $meal->date)) {
 	    produce_day_total($day_total);
-	    $day_total = Food::Item->new(name => $meal->date . ' total');
+	    $day_total = Food::Item->new(name => $meal->date . ' total:');
 	    $current_day = $meal->date;
 	}
 	my @meal_totals = $meal->present_summary($detailed_p);
@@ -91,7 +91,7 @@ for my $file (@ARGV) {
 	}
     }
     produce_day_total($day_total);
-    $file_total->present_summary(1, 1);
+    $file_total->present_summary(1, 1, 1);
 }
 
 # Produce a calorie plot if requested.
@@ -300,11 +300,11 @@ sub carbohydrate_percent {
 }
 
 sub present_summary {
-    my ($self, $detailed_p, $n_servings) = @_;
+    my ($self, $detailed_p, $n_servings, $total_p) = @_;
     $n_servings = 1
 	unless defined($n_servings);
 
-    printf('%-32s', '  ' . $self->name);
+    printf('%-32s', $total_p ? $self->name : '  ' . $self->name);
     for my $slot (qw(carbohydrate_grams fat_grams
 		     protein_grams calories)) {
 	my $value = $self->$slot();
