@@ -178,6 +178,18 @@ serving size: 0.25C
 3g fiber
 10g protein
 
+[item chickpea flour]
+source: USDA: 16157, Chickpea flour (besan)
+serving size: 1C
+# 1C = 92g
+356 calories
+20g protein
+6g fat
+53g carbohydrate
+10g fiber
+59mg sodium
+0mg cholesterol
+
 [item masa harina]
 alias: corn flour
 source: USDA: Corn flour, masa, unenriched, white
@@ -855,6 +867,18 @@ serving size: 1C
 0mg cholesterol
 2mg sodium
 
+[item dry black soy beans]
+source: USDA: 16108, Soybeans, mature seeds, raw
+serving size: 1C
+# 1C = 186g
+830 calories
+68g protein
+37g fat
+56g carbohydrate
+17g fiber
+0mg cholesterol
+4mg sodium
+
 [item toor dal]
 source: USDA: Pigeonpeas, immature seeds, raw
 serving size: 1C
@@ -1354,6 +1378,18 @@ serving size: 119g
 0mg cholesterol
 4mg sodium
 
+[item Market Basket frozen bell pepper strips]
+source: Market Basket
+serving size: 83g
+# 1 package = 227g = 2.73 svg
+20 calories
+0g protein
+0g fat
+4g carbohydrate
+2g fiber
+0mg cholesterol
+10mg sodium
+
 [item capers]
 source: USDA: Capers, canned
 serving size: 100g
@@ -1386,7 +1422,7 @@ serving size: 100g
 8mg sodium
 
 [item Vitasoy extra-firm tofu]
-source: USDA
+source: Vitasoy
 serving size: 85g
 # package size: 397g
 90 calories
@@ -1396,6 +1432,18 @@ serving size: 85g
 1g fiber
 0mg cholesterol
 10mg sodium
+
+[item Trident Alaskan salmon burger]
+source: USDA: Fish, salmon, sockeye, cooked, dry heat
+serving size: 113g
+# 113g = 4oz = 1 burger
+170 calories
+9g fat
+60mg cholesterol
+330mg sodium
+2g carbohydrate
+0g fiber
+20g protein
 
 [item salmon]
 source: USDA: Fish, salmon, sockeye, cooked, dry heat
@@ -1457,6 +1505,18 @@ serving size: 57g
 26g carbohydrate
 2g fiber
 4g protein
+
+[item Au Bon Pain clam chowder]
+source: http://aubonpain.com/menu/clam-chowder
+serving size: 480ml
+# large (16floz)
+430 calories
+25g fat
+14g protein
+38g carbohydrate
+2g fiber
+1490mg sodium
+60mg cholesterol
 
 [item baked tuna]
 source: USDA: Fish, tuna, fresh, bluefin, cooked, dry heat
@@ -2028,3 +2088,33 @@ servings: 5
 1 large onion
 # 4 cloves garlic
 3T oil
+
+[recipe Jan's Indian soybean wombat]
+servings: 4
+# 1 serving = 365g
+1C dry black soy beans
+227g Market Basket frozen bell pepper strips
+4 celery stalks
+0.6 onion
+3T olive oil
+
+[recipe chickpeas in golden karhi sauce]
+source: The Art of Indian Vegetarian Cooking, p326
+servings: 6
+190g canned chickpeas
+2tsp salt
+0.25C chickpea flour
+# 2.5C water
+2C unsweetened soy milk
+3T oil
+
+[recipe curried red kidney beans with paneer]
+source: The Art of Indian Vegetarian Cooking, p77
+servings: 6
+2C dry kidney beans
+# 6C water
+2T oil
+1T salt
+1.5T lemon juice
+14oz Vitasoy extra-firm tofu
+28oz tomatoes
