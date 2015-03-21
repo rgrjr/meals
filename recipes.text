@@ -598,6 +598,30 @@ serving size: 1 slice
 20mg cholesterol
 160mg sodium
 
+[item Streit's matzos]
+source: Streit's
+serving size: 28g
+# 1 matzo = 28g
+100 calories
+3g protein
+0g fat
+23g carbohydrate
+1g fiber
+0mg sodium
+0mg cholesterol
+
+[item Yehuda matzos]
+source: Yehuda
+serving size: 35g
+# 1 matzo = 35g
+125 calories
+3g protein
+0g fat
+28g carbohydrate
+1g fiber
+0mg sodium
+0mg cholesterol
+
 [item Wheat Thins]
 serving size: 31g
 22g carbohydrate
@@ -1366,6 +1390,42 @@ serving size: 196g
 0mg cholesterol
 16mg sodium
 
+[item tamarind pulp]
+source: USDA: 09322, Tamarinds, raw 
+# "one cup pulp"
+serving size: 120g
+287 calories
+3g protein
+1g fat
+75g carbohydrate
+6g fiber
+0mg cholesterol
+34mg sodium
+
+[item dates]
+source: USDA:  09421, Dates, medjool 
+# "one date, pitted"
+serving size: 24g
+66 calories
+0g protein
+0g fat
+18g carbohydrate
+2g fiber
+0mg cholesterol
+0mg sodium
+
+[item ancho chilis]
+source: USDA: 11978, Peppers, ancho, dried
+# "one pepper"
+serving size: 17g
+48 calories
+2g protein
+1g fat
+9g carbohydrate
+4g fiber
+0mg cholesterol
+7mg sodium
+
 [item bell peppers]
 source: USDA: Peppers, sweet, green, raw 
 # "one medium"
@@ -2118,3 +2178,22 @@ servings: 6
 1.5T lemon juice
 14oz Vitasoy extra-firm tofu
 28oz tomatoes
+
+[recipe bell pepper pakoras]
+source: The Art of Indian Vegetarian Cooking, p450
+servings: 6
+1.5C chickpea flour
+1T lemon juice
+1tsp salt
+3 bell peppers
+5T oil
+
+[recipe tamarind sauce]
+source: The Art of Indian Vegetarian Cooking, p426
+servings: 10
+50g tamarind pulp
+2 ancho chilis
+1T oil
+75g raisins
+35g dates
+2tsp salt
