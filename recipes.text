@@ -670,6 +670,18 @@ serving size: 57g
 10mg sodium
 0mg cholesterol
 
+[item gnocchi]
+source: Mama Rosie's
+serving size: 112g
+# 1 package = 411g
+270 calories
+8g protein
+0.5g fat
+57g carbohydrate
+2g fiber
+190mg sodium
+0mg cholesterol
+
 [item sugar]
 serving size: 1T
 # 1T = 12.6g
@@ -859,6 +871,7 @@ serving size: 122g
 360mg sodium
 
 [item dry chickpeas]
+alias: dried kala channa
 source: USDA: Chickpeas (garbanzo beans, bengal gram), mature seeds, raw
 serving size: 1C
 # 1C = 200g
@@ -1120,6 +1133,19 @@ serving size: 1C
 4g fiber
 106mg sodium
 0mg cholesterol
+
+[item eggplant]
+source: USDA: 11209, Eggplant, raw
+serving size: 458g
+# 1 eggplant, peeled = 458g
+# 1C cubes = 82g
+114 calories
+4g protein
+1g fat
+27g carbohydrate
+14g fiber
+0mg cholesterol
+9mg sodium
 
 [item dry lentils]
 source: USDA: Lentils, raw
@@ -1647,6 +1673,16 @@ servings: 5
 10oz fresh spinach
 28g extra-firm tofu (2 packages)
 
+[recipe Anna's spinach and mushrooms]
+servings: 4
+source: Anna
+4C spinach
+1 onion
+330g white mushrooms (5 giant, 66g each)
+15.5oz kidney beans
+1C unsweetened soy milk
+1T tomato paste
+
 [recipe Indian cauliflower dish]
 source: Jan
 servings:  5
@@ -1749,6 +1785,26 @@ servings: 13
 1tsp sugar
 2tsp salt
 
+[recipe spinach and black bean enchiladas 2]
+source: Veganomicon, p162
+# with black beans substituted for potatoes (2 cans this time), and
+# spinach for kale, in the "potato and kale enchiladas" recipe.  each
+# serving is one enchilada (~120g).
+servings: 14
+2 (cans) black beans
+1lb fresh spinach
+0.25C pine nuts
+3T olive oil
+3T lime juice
+0.5T salt
+13 fried tortillas
+# sauce recipe
+2T oil
+0.5 large onion
+28oz tomatoes
+1tsp sugar
+2tsp salt
+
 [recipe linguine with tomato curry]
 source: Bold Vegetarian, p182
 servings: 5
@@ -1834,6 +1890,7 @@ servings: 8
 5.5T (1/3C) olive oil
 
 [recipe quick and simple BBQ sauce]
+alias: barbecue sauce
 source: The Best Veggie Burgers On The Planet, p183
 servings: 6
 1T olive oil
@@ -2206,12 +2263,42 @@ servings: 6
 3 bell peppers
 5T oil
 
+[recipe spinach pakoras]
+source: Jan
+servings: 4
+1.5C chickpea flour
+1T lemon juice
+1tsp salt
+70g spinach
+5T oil
+
 [recipe tamarind sauce]
 source: The Art of Indian Vegetarian Cooking, p426
 servings: 10
+# 1 svg = 22g (estimated)
 50g tamarind pulp
 2 ancho chilis
 1T oil
 75g raisins
 35g dates
 2tsp salt
+
+[recipe curried whole brown chickpeas]
+source: The Art of Indian Vegetarian Cooking, p73
+servings: 4
+2C dried kala channa (brown chickpeas)
+3T oil
+1.5tsp salt
+180g tomatoes
+
+[recipe eggplant stew without gnocchi]
+source: 150 Vegan Favorites, p128, Jan's variation.
+servings: 4
+2T oil
+1 onion
+1 bell peppers
+2 eggplant
+# 4 cloves garlic
+28oz tomatoes
+0.5tsp salt
+31oz (2 cans) Goya chickpeas
