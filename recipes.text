@@ -131,7 +131,20 @@ serving size: 100g
 9mg sodium
 0mg cholesterol
 
+[item oats]
+source: Stop And Shop Old Fashioned Oats
+serving size: 0.5C
+# 0.5C = 40g dry
+150 calories
+5g protein
+2.5g fat
+27g carbohydrate
+4g fiber
+0mg sodium
+0mg cholesterol
+
 [item flour]
+alias: wheat flour
 source: USDA: Wheat flour, white, all-purpose, enriched, bleached
 serving size: 100g
 # 1C = 125g
@@ -570,6 +583,7 @@ serving size: 1T
 
 [item Nissin cup noodles with shrimp]
 serving size: 64g
+# CHO%50.7
 300 calories
 13g fat
 5mg cholesterol
@@ -578,8 +592,20 @@ serving size: 64g
 1g fiber
 7g protein
 
+[item Maruchan cup noodles with shrimp]
+serving size: 64g
+# CHO%53.8
+290 calories
+12g fat
+10mg cholesterol
+1120mg sodium
+39g carbohydrate
+2g fiber
+7g protein
+
 [item Market Basket sliced banana nut bread]
 serving size: 1 slice
+# 1 slice = 1.8oz = 51g
 3g protein
 7g fat
 25g carbohydrate
@@ -858,6 +884,29 @@ serving size: 1C
 49g carbohydrate
 46g fiber
 50mg sodium
+0mg cholesterol
+
+[item sesame seeds]
+source: USDA: 12023, Seeds, sesame seeds, whole, dried
+serving size: 1C
+# 1C = 144g
+825 calories
+26g protein
+72g fat
+34g carbohydrate
+17g fiber
+16mg sodium
+0mg cholesterol
+
+[item coconut]
+source: USDA: 
+serving size: 100g
+660 calories
+7g protein
+65g fat
+24g carbohydrate
+16g fiber
+4mg sodium
 0mg cholesterol
 
 [item Goya chickpeas]
@@ -1622,6 +1671,19 @@ serving size: 480ml
 1490mg sodium
 60mg cholesterol
 
+[item Qdoba veggie burrito]
+source: http://www.qdoba.com/menu-nutrition/burritos-menu-nutrition
+# with flour tortilla, brown rice, salsa verde, guacamole, and fajita
+# vegetables.
+serving size: 1
+655 calories
+19g fat
+15g protein
+102g carbohydrate
+12g fiber
+1665mg sodium
+0mg cholesterol
+
 [item baked tuna]
 source: USDA: Fish, tuna, fresh, bluefin, cooked, dry heat
 serving size: 100g
@@ -1838,6 +1900,14 @@ serving size: 230g
 4 carrots
 3C broccoli
 2T oil
+60g cornstarch
+
+[recipe stir-fried veggies with fried tofu 2]
+servings: 4
+serving size: 230g
+4 firm tofu (1 package)
+4C broccoli
+3T oil
 60g cornstarch
 
 [recipe stir-fried veggies 1]
@@ -2302,3 +2372,53 @@ servings: 4
 28oz tomatoes
 0.5tsp salt
 31oz (2 cans) Goya chickpeas
+
+[recipe golden "chicken" patties]
+source: Vegetarian Times Cookbook, p266
+servings: 6
+30oz Goya chickpeas
+1.5C oats
+3T oil
+
+[recipe mushroom gravy]
+source: Vegan Vittles, p137
+# doubled recipe, makes 2.5C
+servings: 8
+6T wheat flour
+# 2C water
+4T soy sauce
+1tsp oil
+8oz white mushrooms
+
+[recipe tofu saag paneer]
+source: Jan
+servings: 4
+2 onions
+1lb spinach
+18oz tomatoes
+14oz Vitasoy extra-firm tofu
+
+[recipe fragrant tomato and yogurt gravy]
+source: The Art of Indian Vegetarian Cooking, p423
+# but without the yogurt.
+# Makes 600-710ml
+servings: 6
+2T sesame seeds
+40g almonds
+2T coconut
+1 ancho chilis
+1T agave nectar
+4T oil
+1.5lb tomatoes
+0.5T salt
+
+[recipe chickpea koftas]
+source: The Art of Indian Vegetarian Cooking, p474
+servings: 16
+# 1 serving = 1 kofta
+2C canned chickpeas
+230g potatoes
+0.5T salt
+3T oil
+0.25C sesame seeds
+
