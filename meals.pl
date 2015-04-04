@@ -6,10 +6,12 @@ use warnings;
 use Getopt::Long;
 
 my $detailed_p = 0;
+my $daily_p = 0;
 my $calorie_plot_file = '';
 my $cho_pct_plot_file = '';
 my @show_items;
 GetOptions('detailed!' => \$detailed_p,
+	   'daily!' => \$daily_p,
 	   'plot-cho-percent=s' => \$cho_pct_plot_file,
 	   'show-item=s' => \@show_items,
 	   'plot-calories=s' => \$calorie_plot_file);
@@ -57,7 +59,7 @@ sub produce_day_total {
     push(@day_totals, $day_total)
 	if $plot_p;
     $day_total->present_summary(1, 1, 1)
-	if $detailed_p;
+	if $detailed_p || $daily_p;
 }
 
 # Read the meal files.
@@ -70,7 +72,7 @@ for my $file (@ARGV) {
     my $file_total = Food::Item->new(name => "$file total:");
     my ($day_total, $current_day);
     for my $meal (@$meals) {
-	if (($detailed_p || $plot_p)
+	if (($detailed_p || $daily_p || $plot_p)
 	        && (! $day_total || $current_day ne $meal->date)) {
 	    produce_day_total($day_total);
 	    $day_total = Food::Item->new(name => $meal->date . ' total:');
@@ -91,7 +93,8 @@ for my $file (@ARGV) {
 	}
     }
     produce_day_total($day_total);
-    $file_total->present_summary(1, 1, 1);
+    $file_total->present_summary(1, 1, 1)
+	unless $daily_p;
 }
 
 # Produce a calorie plot if requested.
