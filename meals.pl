@@ -241,12 +241,29 @@ sub parse_units {
     # "volume", else nothing.
     my ($class, $string, $verbose_p) = @_;
 
-    if ($string =~ m@^(\.?\d+|\d+.\d*)\s*([a-zA-Z]+)\s+(.+)@) {
-	my ($amount, $units, $name) = $string =~ //;
-	warn "have '$string' => ($amount, $units, $name)\n"
-	    if $verbose_p;
-	my $unit_class = '';
-	if ($units =~ /(svg|serving)s?$/) {
+    # Extract the amount.
+    my ($amount, $unit_string);
+    if ($string =~ m@^\s*(\d+)/(\d+)\s*(.*)@) {
+	# Fraction.
+	($amount, $unit_string) = ($1 / $2, $3);
+    }
+    elsif ($string =~ m@^\s*(\.\d+|\d+\.\d*)\s*(.*)@) {
+	# Integer or decimal fraction.
+	($amount, $unit_string) = ($1, $2);
+    }
+    elsif ($string =~ m@^\s*(\d+)\s*(.*)@) {
+	# Integer.
+	($amount, $unit_string) = ($1, $2);
+    }
+    else {
+	return;
+    }
+
+    # Now look for units.
+    if ($unit_string =~ m@([a-zA-Z]+)\s+(.+)@) {
+	my ($units, $name) = ($1, $2);
+	my $unit_class;
+	if ($units =~ /(svg|serving)s?$/i) {
 	    $unit_class = $units = 'serving';
 	}
 	elsif ($weight_in_grams{$units}) {
@@ -256,18 +273,19 @@ sub parse_units {
 	    $unit_class = 'volume';
 	}
 	else {
-	    # Assume this should have been part of the name.
-	    $name = "$units $name";
-	    $units = '';
+	    # Assume "serving" was meant, so $units is part of the name.
+	    $name = $unit_string;
+	    $unit_class = $units = 'serving';
 	}
+	warn "have '$string' => ($amount, $units, $name)\n"
+	    if $verbose_p;
 	return ($amount, $units, $unit_class, $name);
     }
-    elsif ($string =~ m@^(\.?\d+|\d+.\d*)\s+(.+)@) {
+    else {
 	# An amount, but no units, so this must be the number of servings.
-	my ($amount, $name) = $string =~ //;
-	warn "have '$string' => ($amount, '', $name)\n"
+	warn "have '$string' => ($amount, 'serving', $unit_string)\n"
 	    if $verbose_p;
-	return ($amount, 'serving', 'serving', $name);
+	return ($amount, 'serving', 'serving', $unit_string);
     }
 }
 
