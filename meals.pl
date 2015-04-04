@@ -201,6 +201,7 @@ my (%weight_in_grams, %volume_in_ml);
 BEGIN {
     %weight_in_grams
 	= ('g' => 1,
+	   'mg' => 1e-3,
 	   'lb' => 453.5,
 	   'kg' => 1000,
 	   'oz' => 28.3);
@@ -232,6 +233,42 @@ sub convert {
     }
     warn "oops, can't convert '$from_units' to '$to_units', for $what";
     return $from_amount;
+}
+
+sub parse_units {
+    # Returns ($amount, $units, $unit_class, $name) if $string starts with a
+    # number and optional units, where $unit_class is "serving", "weight", or
+    # "volume", else nothing.
+    my ($class, $string, $verbose_p) = @_;
+
+    if ($string =~ m@^(\.?\d+|\d+.\d*)\s*([a-zA-Z]+)\s+(.+)@) {
+	my ($amount, $units, $name) = $string =~ //;
+	warn "have '$string' => ($amount, $units, $name)\n"
+	    if $verbose_p;
+	my $unit_class = '';
+	if ($units =~ /(svg|serving)s?$/) {
+	    $unit_class = $units = 'serving';
+	}
+	elsif ($weight_in_grams{$units}) {
+	    $unit_class = 'weight';
+	}
+	elsif ($volume_in_ml{$units}) {
+	    $unit_class = 'volume';
+	}
+	else {
+	    # Assume this should have been part of the name.
+	    $name = "$units $name";
+	    $units = '';
+	}
+	return ($amount, $units, $unit_class, $name);
+    }
+    elsif ($string =~ m@^(\.?\d+|\d+.\d*)\s+(.+)@) {
+	# An amount, but no units, so this must be the number of servings.
+	my ($amount, $name) = $string =~ //;
+	warn "have '$string' => ($amount, '', $name)\n"
+	    if $verbose_p;
+	return ($amount, 'serving', 'serving', $name);
+    }
 }
 
 sub show_total {
@@ -370,9 +407,9 @@ sub parse_recipes {
 	    # Aliases are cheap.
 	    $item_from_name{$1} = $current_item;
 	}
-	elsif (/^([\d.]+)(\S*)\s+(.*)/) {
+	elsif ($class->parse_units($_)) {
 	    # Data value.
-	    my ($amount, $units, $name) = //;
+	    my ($amount, $units, $unit_class, $name) = $class->parse_units($_);
 	    my $mu = $message_and_units_from_name{$name};
 	    if ($mu) {
 		my ($message, $desired_units) = @$mu;
@@ -380,6 +417,7 @@ sub parse_recipes {
 		    $current_item->$message($amount);
 		}
 		else {
+		    # [we could do better here.  -- rgr, 4-Apr-15.]
 		    die "$0:  Can't convert from $units to $desired_units.\n";
 		}
 	    }
@@ -594,10 +632,8 @@ sub parse_meals {
 	elsif (/(breakfast|lunch|snack|dinner):$/i) {
 	    $current_meal_name = lc($1);
 	}
-	elsif (/^([\d.]+)(\S*)\s+(.*)/) {
-	    my ($amount, $units, $name) = //;
-	    $units = 'serving'
-		if $name =~ s/^(serving|svg)s?\s+//;
+	elsif ($class->parse_units($_)) {
+	    my ($amount, $units, $unit_class, $name) = $class->parse_units($_);
 	    my $item = Food::Item->fetch_item($name);
 	    if (! $item) {
 		warn "Can't find '$name' to add it to the current meal.\n";
