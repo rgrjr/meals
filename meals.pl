@@ -7,18 +7,20 @@ use Getopt::Long;
 
 my $detailed_p = 0;
 my $daily_p = 0;
+my $recipe_file_name = 'recipes.text';
 my $calorie_plot_file = '';
 my $cho_pct_plot_file = '';
 my @show_items;
 GetOptions('detailed!' => \$detailed_p,
 	   'daily!' => \$daily_p,
+	   'recipe-file=s' => \$recipe_file_name,
 	   'plot-cho-percent=s' => \$cho_pct_plot_file,
 	   'show-item=s' => \@show_items,
 	   'plot-calories=s' => \$calorie_plot_file);
 my $plot_p = $calorie_plot_file || $cho_pct_plot_file;
 
 # Read the item/recipe database.
-Food::Item->parse_recipes("recipes.text");
+Food::Item->parse_recipes($recipe_file_name);
 for my $item_name (@show_items) {
     my $item = Food::Item->fetch_item($item_name);
     if (! $item) {
@@ -329,7 +331,7 @@ sub parse_recipes {
     my ($class, $file_name) = @_;
 
     open(my $stream, '<', $file_name)
-	or die "bug";
+	or die "Can't open '$file_name':  $!";
     my $current_item;
     while (<$stream>) {
 	chomp;
@@ -399,7 +401,7 @@ sub parse_recipes {
 	}
     }
     $current_item->finalize()
-	if $current_item;
+	if $current_item && $current_item->can('finalize');
 }
 
 ###================

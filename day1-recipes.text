@@ -1,0 +1,118 @@
+
+[item brown rice]
+serving size: 100g
+# 1C = 190g
+source: USDA: Rice, brown, medium-grain, cooked
+112 calories
+2g protein
+1g fat
+24g carbohydrate
+2g fiber
+1mg sodium
+0mg cholesterol
+
+[item butter]
+source: USDA: Butter, salted
+serving size: 1T
+# 1T = 14.2g
+102 calories
+0g protein
+12g fat
+0g carbohydrate
+0g fiber
+91mg sodium
+31mg cholesterol
+
+[item cashews]
+alias: River Queen cashew halves
+alias: cashew halves
+serving size: 33g
+190 calories
+16g fat
+0mg cholesterol
+80mg sodium
+9g carbohydrate
+1g fiber
+5g protein
+
+[item cinnamon-raisin bagel]
+alias: bagel
+source: USDA: Bagels, cinnamon-raisin
+serving size: 105g
+# medium bagel (3-1/2" to 4" dia)
+288 calories
+10g protein
+2g fat
+58g carbohydrate
+2g fiber
+361mg sodium
+0mg cholesterol
+
+[item Kickstand Cafe scone]
+alias: Kickstand Cafe scone, maple walnut
+source: USDA: some random Starbucks scone
+56g carbohydrate
+2g fiber
+29g fat
+6g protein
+500 calories
+
+[item medium coffee, double whole milk]
+alias: medium coffee, double whole milk, no sugar
+serving size: 12oz
+2g carbohydrate
+0g fiber
+1g fat
+2g protein
+46 calories
+
+[item olive oil]
+source: USDA: Basic Report:  44005, Oil, corn, peanut, and olive
+alias: oil
+serving size: 1T
+# 1T = 14g
+0g carbohydrate
+13g fat
+0g protein
+120 calories
+0mg cholesterol
+0mg sodium
+
+[item raisins]
+source: USDA: Raisins, seedless
+serving size: 43g
+# 1 small (1.5oz) box = 43g
+# 1 cup, packed = 165g
+109 calories
+1g protein
+0g fat
+34g carbohydrate
+2g fiber
+5mg sodium
+0mg cholesterol
+
+[item Royal Dansk butter cookies]
+alias: Royal Dansk cookies
+serving size: 4 cookies
+2g protein
+9g fat
+23g carbohydrate
+0g fiber
+180 calories
+
+[item Tofurkey chicken & apple sausage]
+serving size: 1 sausage
+26g protein
+12g fat
+260 calories
+13g carbohydrate
+4g fiber
+540mg sodium
+0mg cholesterol
+
+[item Trader Joe's palak paneer]
+serving size: 1/2 package
+6g protein
+12g fat
+7g carbohydrate
+160 calories

@@ -3,7 +3,7 @@
 test:	test-show1 test-day1 test-day2 test-day3 test-day4
 
 test-day1:
-	./meals.pl day1.text > $@.tmp
+	./meals.pl --recipe-file day1-recipes.text day1.text > $@.tmp
 	cmp $@.tbl $@.tmp
 	rm -f $@.tmp
 test-day2:
