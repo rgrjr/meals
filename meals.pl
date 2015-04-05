@@ -210,9 +210,20 @@ BEGIN {
 	   'l' => 1000,
 	   'L' => 1000,
 	   'T' => 15,
-	   'g' => 1,	# cheat.
 	   'C' => 236.6,
 	   'tsp' => 5);
+}
+
+sub weight_units_p {
+    my ($class, $units) = @_;
+
+    return $weight_in_grams{$units};
+}
+
+sub volume_units_p {
+    my ($class, $units) = @_;
+
+    return $volume_in_ml{$units};
 }
 
 sub convert {
@@ -307,7 +318,8 @@ sub show_total {
 ###================
 package Food::Item;
 
-# A food item has a name, a serving size, and specific nutritional values per
+# A food item has a name, a serving size (in terms of volume,
+# weight, or both), and specific nutritional values per
 # serving.  It can be a pure food item (e.g. an apple), a processed item with
 # its nutritional values from the package, or (as a Food::Recipe) a collection
 # of other food items with the sum of their nutritional values.  A Food::Item
@@ -318,7 +330,8 @@ use base qw(Food::Base);
 
 BEGIN {
     Food::Item->define_class_slots
-	(qw(name serving_size protein_grams fat_grams carbohydrate_grams
+	(qw(name serving_size_g serving_size_ml
+	    protein_grams fat_grams carbohydrate_grams
 	    fiber_grams calories cholesterol_mg sodium_mg));
 }
 
@@ -416,7 +429,21 @@ sub parse_recipes {
 	    # Just ignore orphaned data.
 	}
 	elsif (/^serving size:\s*(.*)/) {
-	    $current_item->serving_size($1);
+	    my $size = $1;
+	    my ($amount, $units, $unit_class, $name)
+		= $class->parse_units("$size foo");
+	    if ($unit_class eq 'weight') {
+		my $weight = $class->convert($amount, $units, 1, 'g');
+		$current_item->serving_size_g($weight);
+	    }
+	    elsif ($unit_class eq 'volume') {
+		my $volume = $class->convert($amount, $units, 1, 'ml');
+		$current_item->serving_size_ml($volume);
+	    }
+	    else {
+		warn("$0:  Can't parse serving size '$size', for ",
+		     $current_item->name, "\n.");
+	    }
 	}
 	elsif (/^servings:\s*(.*)/) {
 	    $current_item->n_servings($1);
@@ -482,31 +509,31 @@ sub new {
     my $verbose_p = 0; # $item->name =~ /cook/;
     my $amount = $self->amount || 0;
     if (! $amount) {
-	$self->serving_size(0);
+	$self->n_servings(0);
 	return $self;
     }
     my $units = $self->units || '';
     my $item = $self->item or die;
-    my $item_serving_size = $item->serving_size;
-    if (! defined($item_serving_size)
-	    || $units eq '' || $units eq 'serving' || $units eq 'svg') {
+    if ($units eq 'serving') {
 	$self->n_servings($amount);
     }
     else {
-	my $n_servings;
-	my ($item_qty, $item_units)
-	    = ($item_serving_size =~ /^([\d.]+)(\S+)$/ ? ($1, $2)
-	       : $item_serving_size =~ /^(\d+) / ? ($1, 'each')
-	       : (1, 'each'));
-	if (lc($units) ne lc($item_units)) {
-	    $n_servings = $self->convert($amount, $units,
-					 $item_qty, $item_units, $item->name);
-	    warn("converted $amount '$units' to '$item_serving_size' to get ",
-		 " $n_servings servings for ", $item->name, ".\n")
-		if 0;
+	my ($n_servings, $from_factor);
+	# [units are case-sensitive elsewhere.  -- rgr, 4-Apr-15.]
+	if ($item->serving_size_ml
+	       && ($from_factor = $self->volume_units_p($units))) {
+	    $n_servings = $amount * $from_factor / $item->serving_size_ml;
+	}
+	elsif ($item->serving_size_g
+	       && ($from_factor = $self->weight_units_p($units))) {
+	    $n_servings = $amount * $from_factor / $item->serving_size_g;
 	}
 	else {
-	    $n_servings = $amount / $item_qty;
+	    warn("$0:  No conversion from $amount$units to ",
+		 "item units for ", $item->name, ".\n")
+		if $item->serving_size_g || $item->serving_size_ml;
+	    # punt.
+	    $n_servings = $amount;
 	}
 	$self->n_servings($n_servings);
     }

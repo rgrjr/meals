@@ -2,6 +2,7 @@
 [item brown rice]
 serving size: 100g
 # 1C = 190g
+serving size: 0.526C
 source: USDA: Rice, brown, medium-grain, cooked
 112 calories
 2g protein
@@ -93,7 +94,6 @@ serving size: 43g
 
 [item Royal Dansk butter cookies]
 alias: Royal Dansk cookies
-serving size: 4 cookies
 2g protein
 9g fat
 23g carbohydrate
@@ -101,7 +101,6 @@ serving size: 4 cookies
 180 calories
 
 [item Tofurkey chicken & apple sausage]
-serving size: 1 sausage
 26g protein
 12g fat
 260 calories
@@ -111,8 +110,10 @@ serving size: 1 sausage
 0mg cholesterol
 
 [item Trader Joe's palak paneer]
-serving size: 1/2 package
-6g protein
+serving size: 150g
+# 150g = 1/2 package
+160 calories
 12g fat
 7g carbohydrate
-160 calories
+1g fiber
+6g protein
