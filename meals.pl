@@ -42,9 +42,11 @@ for my $item_name (@show_items) {
 	my $fat = $n_svg * $it->fat_grams;
 	my $protein = $n_svg * $it->protein_grams;
 	my $cho_pct = $calories ? 100.0 * (4 * $carbs) / $calories : 0;
+	my $units = $ing->units || '';
+	$units = ''
+	    if $units eq 'serving';
 	printf("    %-28s  %s %s %s %s CHO%%%.1f\n",
-	       (($ing->amount || '') . ($ing->units || '')
-		. ' ' . $it->name),
+	       ($ing->amount || '') . $units . ' ' . $it->name,
 	       $item->show_total($carbs), $item->show_total($fat),
 	       $item->show_total($protein),
 	       $item->show_total($calories), $cho_pct);
