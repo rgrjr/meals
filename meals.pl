@@ -31,10 +31,13 @@ for my $item_name (@show_items) {
 
     $item->present_summary(1);
     my $total_weight = 0;
+    my $ingredients = $item->ingredients;
+    next
+	unless $ingredients;
     for my $ing (sort { $b->n_servings * $b->item->carbohydrate_grams
 			    <=> ($a->n_servings
 				 * $a->item->carbohydrate_grams);
-		 } @{$item->ingredients}) {
+		 } @$ingredients) {
 	my $it = $ing->item;
 	my $n_svg = $ing->n_servings;
 	my $calories = $n_svg * $it->calories;
@@ -363,6 +366,8 @@ sub add_item {
     warn($self->name, " is an item, not a recipe; can't add ",
 	 $item->name, " to it.\n");
 }
+
+sub ingredients { }
 
 sub carbohydrate_percent {
     my ($self) = @_;
