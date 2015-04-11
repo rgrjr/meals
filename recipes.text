@@ -236,7 +236,7 @@ serving size: 19g
 [item butter]
 source: USDA: Butter, salted
 serving size: 1T
-# 1T = 14.2g
+serving size: 14.2g
 102 calories
 0g protein
 12g fat
@@ -1150,6 +1150,7 @@ source: USDA: Onions, raw
 serving size: 150g
 # 1 large = 150g
 # 1C chopped = 160g
+serving size: 0.94C
 60 calories
 2g protein
 0g fat
@@ -1194,6 +1195,31 @@ serving size: 1C
 13g carbohydrate
 4g fiber
 106mg sodium
+0mg cholesterol
+
+[item egg]
+alias: eggs
+source: USDA: 01123, Egg, whole, raw, fresh
+serving size: 50g
+# 1 large egg = 50g
+72 calories
+6g protein
+5g fat
+0g carbohydrate
+0g fiber
+71mg sodium
+186mg cholesterol
+
+[item egg whites]
+source: USDA:  01124, Egg, white, raw, fresh
+serving size: 33g
+# 1 large egg = 33g
+17 calories
+4g protein
+0g fat
+0g carbohydrate
+0g fiber
+55mg sodium
 0mg cholesterol
 
 [item eggplant]
@@ -1501,6 +1527,44 @@ serving size: 196g
 0mg cholesterol
 16mg sodium
 
+[item scallions]
+alias: bunches scallions
+# Jan: "six, skinny, stupid"
+source: USDA: 11291, Onions, spring or scallions (includes tops and bulb), raw
+serving size: 90g
+serving size: 0.9C
+29 calories
+2g protein
+0g fat
+7g carbohydrate
+2g fiber
+0mg cholesterol
+14mg sodium
+
+[item mung bean sprouts]
+source: USDA: 11043, Mung beans, mature seeds, sprouted, raw
+serving size: 104g
+serving size: 1C
+31 calories
+3g protein
+0g fat
+6g carbohydrate
+2g fiber
+0mg cholesterol
+6mg sodium
+
+[item sliced ripe olives]
+source: Pastene
+serving size: 16g
+serving size: 2T
+30 calories
+2.5g fat
+0g carbohydrate
+0g fiber
+0mg cholesterol
+140mg sodium
+0g protein
+
 [item tamarind pulp]
 source: USDA: 09322, Tamarinds, raw 
 # "one cup pulp"
@@ -1654,6 +1718,19 @@ serving size: 155g
 344mg sodium
 0mg cholesterol
 
+[item blueberry pie]
+source: USDA: 18306, Pie, blueberry, prepared from recipe 
+serving size: 147g
+# 1 slice (1/8 of 9" dia) = 147g
+360 calories
+4g protein
+17g fat
+49g carbohydrate
+# The fiber amount does not appear in the table.
+0g fiber
+272mg sodium
+0mg cholesterol
+
 [item Himalya Fresh mini samosas]
 source: Himalya Fresh
 serving size: 80g
@@ -1700,6 +1777,20 @@ source: http://www.qdoba.com/menu-nutrition/burritos-menu-nutrition
 102g carbohydrate
 12g fiber
 1665mg sodium
+0mg cholesterol
+
+[item vegetable lo mein]
+source: USDA: 36625, Restaurant, Chinese, vegetable lo mein, without meat
+serving size: 741g
+# 1 order = 741g
+serving size: 0.184C
+# 1C = 136g
+897 calories
+35g protein
+17g fat
+150g carbohydrate
+10g fiber
+3186mg sodium
 0mg cholesterol
 
 [item baked tuna]
@@ -2439,3 +2530,46 @@ servings: 16
 3T oil
 0.25C sesame seeds
 
+[recipe sukiyaki]
+source: Vegetarian Times Cookbook, p252
+servings: 4
+2T oil
+14oz Vitasoy extra-firm tofu
+4C white mushrooms
+2 zucchini
+1C soy sauce
+1/4C agave nectar
+1/4C mirin
+# 1/2C water
+6C spinach
+2 bunches scallions
+4C mung bean sprouts
+
+[recipe vegetarian sesame "chicken"]
+source: as served at Shanghai Village, estimated
+servings: 1
+# per medallion, seitan
+25g vital wheat gluten
+1tsp sugar
+1tsp oil
+
+[recipe quiche with broccoli]
+source: Vegetarian Times Cookbook, p454, as modified by Jan
+servings: 4
+# 1 serving = 1/4 "pie"
+# Crust:
+1/2C (rolled) oats
+1C whole-wheat flour
+1/4tsp salt
+1/4C oil
+2T lemon juice
+1.5tsp agave nectar
+2tsp sesame seeds
+# Filling:
+1C onions
+# 1tsp garlic
+3C broccoli
+4 egg whites
+14oz Vitasoy extra-firm tofu
+1/4tsp salt
+45g (1/4 can) sliced ripe olives
