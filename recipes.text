@@ -707,6 +707,18 @@ serving size: 57g
 10mg sodium
 0mg cholesterol
 
+[item Top Ramen]
+source: Nissin
+serving size: 1.5oz
+# 1.5oz = 1/2 package
+190 calories
+7g fat
+0mg cholesterol
+800mg sodium
+26g carbohydrate
+1g fiber
+5g protein
+
 [item gnocchi]
 source: Mama Rosie's
 serving size: 112g
@@ -908,6 +920,7 @@ serving size: 1C
 0mg cholesterol
 
 [item sesame seeds]
+alias: black sesame seeds
 source: USDA: 12023, Seeds, sesame seeds, whole, dried
 serving size: 1C
 # 1C = 144g
@@ -1053,6 +1066,19 @@ serving size: 100g
 0mg cholesterol
 239mg sodium
 
+[item bean sprouts]
+source: Nature's Wonder
+serving size: 100g
+# 100g = 1C
+serving size: 1C
+30 calories
+0.5g fat
+0mg cholesterol
+10mg sodium
+4g carbohydrate
+0g fiber
+3g protein
+
 [item pumpkin puree]
 source: USDA: Basic Report:  11422, Pumpkin, raw
 serving size: 100ml
@@ -1135,6 +1161,7 @@ source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/bakery/don
 alias: DD sausage egg and cheese on croissant
 alias: Dunkin' Donuts sausage egg and cheese sandwich on croissant
 source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/sandwiches/breakfastsandwiches/sausage_egg_and_cheese.html?DRP_EGG=Egg&DRP_CARRIER=Croissant&DRP_MEAT=Sausage
+source: USDA: 01253, Cheese, pasteurized process, American, without added vitamin D 
 # CHO%25.2
 650 calories
 43g fat
@@ -1143,6 +1170,31 @@ source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/sandwiches
 41g carbohydrate
 2g fiber
 24g protein
+
+[item DD sausage & egg on croissant]
+alias: DD sausage & egg on croissant, no cheese
+# created by subtracting an american cheese slice from the DD info.
+source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/sandwiches/breakfastsandwiches/sausage_egg_and_cheese.html?DRP_EGG=Egg&DRP_CARRIER=Croissant&DRP_MEAT=Sausage
+# CHO%25.2
+546 calories
+34g fat
+94mg cholesterol
+782mg sodium
+40g carbohydrate
+2g fiber
+19g protein
+
+[item american cheese slice]
+source: USDA: 01253, Cheese, pasteurized process, American, without added vitamin D 
+serving size: 1oz
+# 1 slice = 1oz
+104 calories
+5g protein
+9g fat
+1g carbohydrate
+0g fiber
+468mg sodium
+21mg cholesterol
 
 [item DD hash browns, 6 count]
 source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/More/hash_browns.html
@@ -1273,6 +1325,8 @@ serving size: 50g
 source: USDA:  01124, Egg, white, raw, fresh
 serving size: 33g
 # 1 large egg = 33g
+# 1C = 243g
+serving size: 0.136C
 17 calories
 4g protein
 0g fat
@@ -1545,6 +1599,8 @@ serving size: 130g
 source: USDA: Broccoli, raw
 serving size: 1C
 # 1C chopped = 91g
+serving size: 91g
+# 1 bunch = 608g
 30 calories
 2g protein
 0g fat
@@ -1890,6 +1946,18 @@ serving size: 100g
 324mg sodium
 0mg cholesterol
 
+[item chocolate chips]
+serving size: 14g
+# 1g = 2 chips
+source: Nestle
+70 calories
+4g fat
+0mg cholesterol
+0mg sodium
+9g carbohydrate
+1g fiber
+0g protein
+
 ### Recipes.
 
 [recipe grilled tuna]
@@ -2108,10 +2176,24 @@ serving size: 230g
 3C broccoli
 1C snow peas
 
-[recipe baked tofu]
+[recipe stir-fried veggies 3]
 servings: 4
-4 firm tofu (1 package)
-4T oil
+serving size: 230g
+900g broccoli (1.5 bunches)
+9oz white mushrooms
+2/3 onion
+1.5 bell peppers (2 small)
+3T olive oil
+2T cornstarch
+
+[recipe oriental baked tofu]
+alias: baked tofu
+source: Recipes From An Ecological Kitchen, p223
+servings: 4
+14oz (1 package) Vitasoy extra-firm tofu
+2T soy sauce
+2T oil
+1T sesame seeds
 
 [recipe potato leek soup with lentils]
 servings: 8
@@ -2525,6 +2607,15 @@ servings: 6
 3 bell peppers
 5T oil
 
+[recipe onion ring pakoras]
+source: The Art of Indian Vegetarian Cooking, p450
+servings: 6
+1.5C chickpea flour
+1T lemon juice
+1tsp salt
+1 large onion
+5T oil
+
 [recipe spinach pakoras]
 source: Jan
 servings: 4
@@ -2589,6 +2680,15 @@ servings: 4
 1lb spinach
 18oz tomatoes
 14oz Vitasoy extra-firm tofu
+
+[recipe double tofu saag paneer]
+# same as tofu saag paneer but with twice as much tofu.
+source: Jan
+servings: 4
+2 onions
+1lb spinach
+18oz tomatoes
+28oz Vitasoy extra-firm tofu
 
 [recipe fragrant tomato and yogurt gravy]
 source: The Art of Indian Vegetarian Cooking, p423
@@ -2703,3 +2803,23 @@ servings: 3
 # bagar:
 1T oil
 2 ancho chilis
+
+[recipe spinach in black sesame dressing]
+source: The Japanese Kitchen, p252
+servings: 4
+5T black sesame seeds
+1/2T sugar
+# 2T dashi
+1/2T soy sauce
+10oz spinach
+
+[recipe Spice Box rassam]
+alias: south Indian soup
+source: The Spice Box, p63
+servings: 6
+10g tamarind pulp
+1/4C dry lentils
+2 ancho chilis (dried)
+1tsp salt
+28oz tomatoes
+2tsp oil
