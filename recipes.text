@@ -851,6 +851,17 @@ serving size: 1oz
 15g carbohydrate
 2g protein
 
+[item Lay's Classic potato chips]
+# CHO%38.2
+serving size: 78g
+440 calories
+29g fat
+0mg cholesterol
+460mg sodium
+42g carbohydrate
+3g fiber
+5g protein
+
 [item corn chips]
 alias: Fritos
 # CHO%40.0
@@ -1958,6 +1969,39 @@ source: Nestle
 1g fiber
 0g protein
 
+[item Bridgford pepperoni]
+serving size: 1oz
+source: Bridgford Foods Corporation
+130 calories
+12g fat
+25mg cholesterol
+500mg sodium
+0g carbohydrate
+0g fiber
+6g protein
+
+[item Nature Valley cashew granola bar]
+serving size: 35g
+source: Nature Valley "Sweet & Salty Nut"
+160 calories
+6g fat
+0mg cholesterol
+140mg sodium
+23g carbohydrate
+1g fiber
+2g protein
+
+[item reduced sugar craisins]
+serving size: 40g
+source: Ocean Spray
+100 calories
+0g fat
+0mg cholesterol
+0mg sodium
+31g carbohydrate
+10g fiber
+0g protein
+
 ### Recipes.
 
 [recipe grilled tuna]
@@ -2823,3 +2867,14 @@ servings: 6
 1tsp salt
 28oz tomatoes
 2tsp oil
+
+[recipe vegetable pad cashew with extra tofu]
+source: guesswork, based on Thai Smile
+servings: 1
+7oz Vitasoy extra-firm tofu
+1 carrots
+1/2 bell peppers
+1/4 onion
+4oz baby corn
+50g Kirkland cashews
+1T oil
