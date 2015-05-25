@@ -43,7 +43,7 @@ all:	${all-plots}
 # For ephemeral use, not on all-plots.
 recent:	recent-calories.png recent-carbs.png
 recent-food.text:
-	cat 1502-food.text 1503-food.text > $@
+	cat 1504-food.text 1505-food.text > $@
 recent-calories.png:	recent-food.text
 	./meals.pl $^ --plot-cal $@
 recent-carbs.png:	recent-food.text
