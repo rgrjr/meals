@@ -276,7 +276,7 @@ sub parse_units {
     }
 
     # Now look for units.
-    if ($unit_string =~ m@([a-zA-Z]+)\s+(.+)@) {
+    if ($unit_string =~ m@^\s*([a-zA-Z]+)\s+(.+)@) {
 	my ($units, $name) = ($1, $2);
 	my $unit_class;
 	if ($units =~ /(svg|serving)s?$/i) {
@@ -357,7 +357,12 @@ BEGIN {
 sub fetch_item {
     my ($class, $item_name) = @_;
 
-    return $item_from_name{$class->cleanup($item_name)};
+    my $clean_name = $class->cleanup($item_name);
+    my $item = $item_from_name{$clean_name};
+    return $item
+	if $item;
+    return $item_from_name{$clean_name}
+        if $clean_name =~ s/s$//;
 }
 
 sub add_item {
