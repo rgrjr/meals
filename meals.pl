@@ -199,7 +199,7 @@ sub cleanup {
 
     $string =~ s/ *\([^()]*\)//g;
     $string =~ s/^ +//;
-    return $string;
+    return lc($string);
 }
 
 my (%weight_in_grams, %volume_in_ml);
@@ -426,11 +426,11 @@ sub parse_recipes {
 		if $current_item && $current_item->can('finalize');
 	    if ($type eq 'item') {
 		$current_item = Food::Item->new(name => $name);
-		$item_from_name{$name} = $current_item;
+		$item_from_name{lc($name)} = $current_item;
 	    }
 	    elsif ($type eq 'recipe') {
 		$current_item = Food::Recipe->new(name => $name);
-		$item_from_name{$name} = $current_item;
+		$item_from_name{lc($name)} = $current_item;
 	    }
 	    else {
 		warn "$file_name:$.:  Unknown type '$type'.\n";
@@ -462,7 +462,7 @@ sub parse_recipes {
 	}
 	elsif (/^alias:\s*(.*)/) {
 	    # Aliases are cheap.
-	    $item_from_name{$1} = $current_item;
+	    $item_from_name{lc($1)} = $current_item;
 	}
 	elsif ($class->parse_units($_)) {
 	    # Data value.
