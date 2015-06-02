@@ -25,16 +25,31 @@ serving size: 1T
 0mg cholesterol
 
 [item lemon juice]
-source: USDA: Lemon juice, raw
+source: USDA: 09152 Lemon juice, raw
 serving size: 1C
 # 1C = 244g
+serving size: 244g
 # 1oz = 30.5g
+# 1 lemon = 48g
 54 calories
 1g protein
 1g fat
 17g carbohydrate
 1g fiber
 2mg sodium
+0mg cholesterol
+
+[item tahini]
+source: USDA: 12698, Seeds, sesame butter, tahini, type of kernels unspecified
+serving size: 1T
+# 1T = 15g
+serving size: 15g
+89 calories
+3g protein
+8g fat
+3g carbohydrate
+1g fiber
+1mg sodium
 0mg cholesterol
 
 [item cinnamon-raisin bagel]
@@ -959,7 +974,7 @@ serving size: 1oz
 16g carbohydrate
 2g protein
 
-[item kettle potato chips]
+[item Kettle potato chips]
 serving size: 1oz
 # CHO%42.7
 16g carbohydrate
@@ -1020,6 +1035,7 @@ serving size: 100g
 
 [item Goya chickpeas]
 alias: canned chickpeas
+alias: cooked chickpeas
 source: Goya
 serving size: 122g
 serving size: 1/2C
@@ -1042,6 +1058,42 @@ serving size: 1C
 24g fiber
 0mg cholesterol
 48mg sodium
+
+[item hummus]
+source: USDA: 16137, Hummus, home prepared
+serving size: 1C
+serving size: 246g
+435 calories
+12g protein
+21g fat
+50g carbohydrate
+10g fiber
+0mg cholesterol
+595mg sodium
+
+[item generic falafel]
+source: USDA: 16138, Falafel, home-prepared
+serving size: 17g
+# one patty (approx 2-1/4" dia) = 17g 
+57 calories
+2g protein
+3g fat
+5g carbohydrate
+1g fiber
+0mg cholesterol
+50mg sodium
+
+[item pita bread]
+source: USDA: 18041, Bread, pita, white, enriched 
+serving size: 60g
+# 1 large (6-1/2" dia) = 60g
+165 calories
+5g protein
+1g fat
+33g carbohydrate
+10g fiber
+0mg cholesterol
+322mg sodium
 
 [item black beans]
 source: Goya
@@ -1328,6 +1380,19 @@ serving size: 61g
 2g fiber
 0mg cholesterol
 42mg sodium
+
+[item peeled cucumber]
+source: USDA: 11206, Cucumber, peeled, raw
+serving size: 1C
+# 1 cup, sliced = 119g
+serving size: 119g
+14 calories
+1g protein
+0g fat
+3g carbohydrate
+1g fiber
+0mg cholesterol
+2mg sodium
 
 [item onion]
 alias: large onion
@@ -1658,6 +1723,18 @@ serving size: 1.5C
 2g fiber
 0mg cholesterol
 79mg sodium
+
+[item frozen spinach]
+source: USDA: 11463, Spinach, frozen, chopped or leaf, unprepared
+serving size: 1C
+serving size: 156g
+45 calories
+6g protein
+1g fat
+7g carbohydrate
+5g fiber
+0mg cholesterol
+115mg sodium
 
 [item creamy tofu italian dressing]
 source: Tofu Cookery, p39
@@ -3086,3 +3163,47 @@ servings: 2
 286g cooked pasta
 122g feta cheese
 3T olive oil
+
+[recipe stuffed pepper with black beans]
+servings: 6
+6 bell peppers
+1/2C raw white rice
+0.5 onion
+# 4 cloves garlic
+31oz black beans (2 cans)
+1/2lb frozen spinach
+
+[recipe Jan's hummus without tahini]
+source: recipes from an ecological kitchen, p312
+# makes 2.5 cups
+# serving size = 1/2C
+servings: 5
+3C cooked chickpeas
+# 3 cloves roasted garlic
+3T sesame seeds
+1T olive oil
+4T lemon juice
+1tsp salt
+
+[recipe tahini dressing]
+source: Vegan With A Vengeance, p121
+# makes 2 cups
+# serving size = 1/4C = 4T
+servings: 8
+8T olive oil
+# 3 cloves garlic
+1/2C tahini
+2tsp apple cider vinegar (really balsamic)
+1/2tsp salt
+48g lemon juice (one lemon)
+
+[recipe VV falafel]
+source: Vegan With A Vengeance, p98
+servings: 4
+2C cooked chickpeas
+1/4C bread crumbs
+2T flour
+0.6 onion
+# 2 cloves garlic
+1/2tsp salt
+4T oil
