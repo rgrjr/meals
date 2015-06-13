@@ -10,17 +10,29 @@ my $daily_p = 0;
 my $recipe_file_name = 'recipes.text';
 my $calorie_plot_file = '';
 my $cho_pct_plot_file = '';
-my @show_items;
+my (@show_items, @recipes_matching, @ingredients_matching);
 GetOptions('detailed!' => \$detailed_p,
 	   'daily!' => \$daily_p,
 	   'recipe-file=s' => \$recipe_file_name,
 	   'plot-cho-percent=s' => \$cho_pct_plot_file,
 	   'show-item=s' => \@show_items,
+	   'recipes-matching=s' => \@recipes_matching,
+	   'ingredients-matching=s' => \@ingredients_matching,
 	   'plot-calories=s' => \$calorie_plot_file);
 my $plot_p = $calorie_plot_file || $cho_pct_plot_file;
 
 # Read the item/recipe database.
 Food::Item->parse_recipes($recipe_file_name);
+
+# Look for matching recipes.
+if (@recipes_matching || @ingredients_matching) {
+    Food::Item->show_matching_recipes(\@recipes_matching,
+				      \@ingredients_matching);
+    exit(0)
+	unless @show_items || @ARGV;
+}
+
+# Do items we've been asked to show.
 for my $item_name (@show_items) {
     my $item = Food::Item->fetch_item($item_name);
     if (! $item) {
@@ -497,6 +509,38 @@ sub parse_recipes {
     }
     $current_item->finalize()
 	if $current_item && $current_item->can('finalize');
+}
+
+sub show_matching_recipes {
+    my ($class, $name_regexps, $ingredient_regexps) = @_;
+
+    my @recipes = sort { $a->name cmp $b->name;
+    } grep {
+	if ($_->isa('Food::Recipe')) {
+	    my $name = $_->name;
+	    my $result = 0;
+	    for my $re (@$name_regexps) {
+		$result = 1, last
+		    if $name =~ /$re/i;
+	    }
+	    my $ingredients = $_->ingredients;
+	    if (! $result && $ingredients
+		&& @$ingredients && @$ingredient_regexps) {
+		for my $ingredient (@$ingredients) {
+		    my $name = $ingredient->item->name;
+		    for my $re (@$ingredient_regexps) {
+			$result = 1, last
+			    if $name =~ /$re/i;
+		    }
+		}
+	    }
+	    $result;
+	}
+    } values(%item_from_name);
+    # warn "total of ", scalar(@recipes), ' recipes';
+    for my $recipe (@recipes) {
+	$recipe->present_summary(1, 1);
+    }
 }
 
 ###================
