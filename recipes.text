@@ -65,6 +65,20 @@ serving size: 105g
 361mg sodium
 0mg cholesterol
 
+[item buttermilk pancake]
+source: USDA: 18390, Pancakes, buttermilk, prepared from recipe
+# guesswork, based on Main Street Bistro in New Paltz NY
+serving size: 77g
+# 1 pancake (6" dia) = 77g
+86 calories
+3g protein
+4g fat
+11g carbohydrate
+# [assumed no fiber.  -- rgr, 7-Jun-15.]
+0g fiber
+198mg sodium
+22mg cholesterol
+
 [item bread crumbs]
 source: USDA: Bread crumbs, dry, grated, plain
 serving size: 1C
@@ -322,6 +336,17 @@ serving size: 33g
 0mg cholesterol
 80mg sodium
 9g carbohydrate
+1g fiber
+5g protein
+
+[item RQ cashews]
+alias: River Queen whole cashews
+serving size: 34g
+190 calories
+16g fat
+0mg cholesterol
+180mg sodium
+10g carbohydrate
 1g fiber
 5g protein
 
@@ -975,6 +1000,7 @@ serving size: 1oz
 2g protein
 
 [item Kettle potato chips]
+alias: Kirkland "kettle cut" potato chips
 serving size: 1oz
 # CHO%42.7
 16g carbohydrate
@@ -1206,6 +1232,19 @@ serving size: 1C
 0g fiber
 3g protein
 
+[item bamboo shoots]
+source: USDA: 11026, Bamboo shoots, raw
+serving size: 151g
+# 151g = 1C 1/2" slices
+serving size: 1C
+41 calories
+0.5g fat
+0mg cholesterol
+6mg sodium
+8g carbohydrate
+0g fiber
+4g protein
+
 [item pumpkin puree]
 source: USDA: Basic Report:  11422, Pumpkin, raw
 serving size: 100ml
@@ -1250,6 +1289,17 @@ serving size: 52g
 1g fiber
 248mg sodium
 0mg cholesterol
+
+[item Honeydew croissant]
+source: http://honeydewdonuts.com/menu/item/Croissant
+# CHO%50.9
+220 calories
+10g fat
+25mg cholesterol
+260mg sodium
+28g carbohydrate
+1g fiber
+5g protein
 
 [item Dunkin' Donuts plain stick]
 source: http://calorielab.com/restaurants/dunkin-donuts/11
@@ -1512,6 +1562,19 @@ serving size: 1C
 20g fiber
 0mg cholesterol
 12mg sodium
+
+[item dry pearl barley]
+source: USDA: 20005, Barley, pearled, raw
+serving size: 1C
+# 1C = 200g
+serving size: 200g
+704 calories
+20g protein
+2g fat
+155g carbohydrate
+31g fiber
+0mg cholesterol
+18mg sodium
 
 [item dried black-eyed peas]
 source: USDA: Basic Report:  11191, Cowpeas (blackeyes), immature seeds, raw
@@ -1937,6 +2000,7 @@ serving size: 11.6T
 
 [item firm tofu]
 serving size: 135g
+# 1 package = 19oz = 4 servings
 120 calories
 7g fat
 0mg cholesterol
@@ -2419,6 +2483,18 @@ serving size: 300g
 3T oil
 60g cornstarch
 
+[recipe stir-fried veggies with fried tofu 4]
+servings: 4
+serving size: 300g
+10oz portabella mushrooms
+5oz broccoli
+12oz carrots
+5 celery stalks
+2T soy sauce
+4 firm tofu (1 package)
+3T oil
+4T cornstarch
+
 [recipe stir-fried veggies 1]
 servings: 4
 serving size: 230g
@@ -2778,6 +2854,7 @@ servings: 4
 14oz tomato sauce
 230g TVP
 1 onion
+2T oil
 12oz white mushrooms
 
 [recipe walnut sauce]
@@ -3026,6 +3103,15 @@ servings: 1
 1tsp sugar
 1tsp oil
 
+[recipe vegetarian "chicken" basil leaves]
+source: as served at Shanghai Village, estimated
+servings: 4
+200g vital wheat gluten
+1/2 onion
+1/2 bell peppers
+2T sugar
+2T oil
+
 [recipe quiche with broccoli]
 source: Vegetarian Times Cookbook, p454, as modified by Jan
 servings: 4
@@ -3091,7 +3177,7 @@ servings: 6
 2tsp oil
 
 [recipe vegetable pad cashew with extra tofu]
-source: guesswork, based on Thai Smile
+source: guesswork, based on Thai Smile in Plymouth NH
 servings: 1
 7oz Vitasoy extra-firm tofu
 1 carrots
@@ -3100,6 +3186,16 @@ servings: 1
 4oz baby corn
 50g Kirkland cashews
 1T oil
+
+[recipe hot basil with tofu]
+source: guesswork, based on Lemongrass in New Paltz NY
+servings: 1
+7oz Vitasoy extra-firm tofu
+1 carrots
+1/2 bell peppers
+1/4 onion
+2oz bamboo shoots
+1.5T oil
 
 [recipe mushroom and sun-dried tomato risotto]
 source: Vegan With A Vengeance, p186, plus Anna
@@ -3207,3 +3303,27 @@ servings: 4
 # 2 cloves garlic
 1/2tsp salt
 4T oil
+
+[recipe mushroom barley soup]
+source: Jan
+servings: 4
+3/4C dry lentils
+1T oil
+2 large onions
+# 4 cloves garlic
+4 celery stalks
+5 (medium) carrots
+12oz white mushrooms
+3/4C dry pearl barley
+
+[recipe chickpea and spinach curry]
+source: Vegan With A Vengeance, p170
+servings: 4
+12oz tomatoes
+3T oil
+1 large onion
+# 4 cloves garlic
+# 2T ginger
+1tsp salt
+10C spinach
+4C cooked chickpeas
