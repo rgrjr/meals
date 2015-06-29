@@ -484,6 +484,7 @@ alias: Royal Dansk cookies
 0mg cholesterol
 452mg sodium
 22g carbohydrate
+5g fiber
 6g protein
 
 [item Trader Joe's Jaipur vegetables]
@@ -706,14 +707,27 @@ serving size: 64g
 2g fiber
 7g protein
 
-[item Market Basket sliced banana nut bread]
+[item MB sliced banana nut bread]
+alias: Market Basket sliced banana nut bread
 serving size: 1.8oz
 # 1 slice = 1.8oz = 51g
 3g protein
 7g fat
 25g carbohydrate
+1g fiber
 170 calories
 20mg cholesterol
+160mg sodium
+
+[item MB sliced "bananas only" bread]
+serving size: 1.8oz
+# 1 slice = 1.8oz = 51g
+3g protein
+6g fat
+26g carbohydrate
+1g fiber
+170 calories
+25mg cholesterol
 160mg sodium
 
 [item shrimp]
@@ -978,6 +992,7 @@ serving size: 1oz
 0mg cholesterol
 95mg sodium
 14g carbohydrate
+1g fiber
 2g protein
 
 [item Ruffles potato chips]
