@@ -671,6 +671,19 @@ serving size: 1T
 0mg cholesterol
 0mg sodium
 
+[item olive]
+source: USDA: 09193, Olives, ripe, canned (small-extra large)
+serving size: 8.4g
+serving size: 1T
+# 1 large = 4.4g
+10 calories
+0g protein
+1g fat
+0.5g carbohydrate
+0.3g fiber
+0mg cholesterol
+62mg sodium
+
 [item Nissin cup noodles with shrimp]
 serving size: 64g
 # CHO%50.7
@@ -702,6 +715,17 @@ serving size: 1.8oz
 170 calories
 20mg cholesterol
 160mg sodium
+
+[item shrimp]
+source: USDA: 15271, Crustaceans, shrimp, untreated, cooked
+serving size: 100g
+99 calories
+24g protein
+0g fat
+0g carbohydrate
+0g fiber
+189mg cholesterol
+111mg sodium
 
 [item Manishevitz matzos]
 source: 
@@ -809,6 +833,17 @@ serving size: 140g
 37g carbohydrate
 4g fiber
 4mg sodium
+0mg cholesterol
+
+[item dry whole wheat pasta]
+source: Barilla whole grain rotini
+serving size: 2oz
+200 calories
+7g protein
+1.5g fat
+41g carbohydrate
+6g fiber
+10mg sodium
 0mg cholesterol
 
 [item Top Ramen]
@@ -1394,6 +1429,16 @@ serving size: 61g
 0mg cholesterol
 280mg sodium
 
+[item Kirkland tomato sauce]
+serving size: 61g
+25 calories
+0g fat
+0mg cholesterol
+290mg sodium
+5g carbohydrate
+1g fiber
+1g protein
+
 [item tomato paste]
 source: Kirkland Signature organic tomato paste
 serving size: 33g
@@ -1686,6 +1731,7 @@ source: USDA: Peas, green, frozen, unprepared
 alias: frozen green peas
 serving size: 1C
 # 1C = 134g
+serving size: 134g
 103 calories
 7g protein
 1g fat
@@ -2008,6 +2054,17 @@ serving size: 135g
 3g carbohydrate
 11g protein
 
+[item House Foods firm tofu]
+serving size: 85g
+# 1 package = 14oz = 4.5 servings
+70 calories
+4g fat
+0mg cholesterol
+10mg sodium
+2g carbohydrate
+1g fiber
+7g protein
+
 [item extra-firm tofu]
 source: USDA
 serving size: 100g
@@ -2128,6 +2185,18 @@ serving size: 57g
 2g fiber
 4g protein
 
+[item puff pastry]
+# This is what Jan uses for spanakopita.
+source: Stop And Shop
+serving size: 125g
+500 calories
+31g fat
+0mg cholesterol
+440mg sodium
+44g carbohydrate
+9g fiber
+8g protein
+
 [item Au Bon Pain clam chowder]
 source: http://aubonpain.com/menu/clam-chowder
 serving size: 480ml
@@ -2226,6 +2295,7 @@ source: Bridgford Foods Corporation
 [item Nature Valley cashew granola bar]
 serving size: 35g
 source: Nature Valley "Sweet & Salty Nut"
+# CHO%57.5
 160 calories
 6g fat
 0mg cholesterol
@@ -2621,6 +2691,14 @@ servings: 6
 3T capers
 2 bell peppers
 1T olive oil
+
+[recipe Punjab aloo gobhi]
+servings: 1
+# serving size: 350g
+5oz potatoes
+1/4 medium cauliflower
+2oz Goya chickpeas
+2T oil
 
 [recipe Jan's aloo gobhi]
 # 275g servings, CHO%42.
@@ -3255,9 +3333,19 @@ servings: 4
 servings: 2
 # makes 882g
 1T apple cider vinegar (really balsamic)
+# garlic
 71g walnuts
 286g cooked pasta
 122g feta cheese
+3T olive oil
+
+[recipe pasta and feta 2]
+servings: 4
+1/2T apple cider vinegar (really balsamic)
+# garlic
+100g walnuts
+375g (1 box) dry whole wheat pasta
+158g feta cheese
 3T olive oil
 
 [recipe stuffed pepper with black beans]
@@ -3327,3 +3415,68 @@ servings: 4
 1tsp salt
 10C spinach
 4C cooked chickpeas
+
+[recipe Jan's spanakopita]
+servings: 6
+2.5lb spinach
+2T oil
+2 large onions
+4 eggs
+2lb feta cheese
+4 svg puff pastry (1 package)
+
+[recipe cold north indian street salad]
+alias: chaat
+source: Vegan Indian Cooking, p136; Jan
+servings: 6
+2C dry lentils
+1 onion
+1C tomatoes
+1C peeled cucumber
+48g lemon juice (one lemon)
+# ginger
+
+[recipe mutter paneer]
+source: Vegan Indian Cooking, p158
+servings: 5
+2T oil
+1 large onion
+# ginger
+# garlic
+3C tomatoes
+3T tomato paste
+# chilis
+# 3C water
+2tsp salt
+1lb frozen peas
+14oz Vitasoy extra-firm tofu
+
+[recipe mutter paneer with carrots and beans]
+alias: leftover mutter paneer with carrots and kidney beans
+source: Vegan Indian Cooking, p158; Jan
+# This is mutter paneer leftovers (1/3 the recipe) plus extras to
+# stretch it.
+servings: 3
+2/3T oil
+1/3 large onion
+# ginger
+# garlic
+1C tomatoes
+1T tomato paste
+# chilis
+# 3C water
+2/3tsp salt
+1/3lb frozen peas
+14/3oz Vitasoy extra-firm tofu
+4 (medium) carrots
+15.5oz (1 can) kidney beans
+
+[recipe tofu ravioli alla putanesca]
+source: wild guess, based on the Gilded Otter, New Paltz
+servings: 1
+1/2C tomatoes
+1C spinach
+45g (1/4 can) sliced ripe olives
+4oz Vitasoy extra-firm tofu
+4oz cooked pasta
+2T olive oil
