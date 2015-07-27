@@ -65,6 +65,52 @@ serving size: 105g
 361mg sodium
 0mg cholesterol
 
+[item Bruegger's cinnamon-raisin bagel]
+source: https://www.brueggers.com/menu/bagels-and-cream-cheese/bagels/cinnamon-raisin
+310 calories
+11g protein
+2g fat
+65g carbohydrate
+4g fiber
+480mg sodium
+0mg cholesterol
+
+[item pumpernickel bagel]
+# also based on "Bagels, cinnamon-raisin".
+source: USDA: 18045, Bread, pumpernickel, toasted
+serving size: 100g
+# medium bagel (3-1/2" to 4" dia)
+288 calories
+10g protein
+3g fat
+52g carbohydrate
+7g fiber
+600mg sodium
+0mg cholesterol
+
+[item marble bagel]
+# mostly based on "Bagels, cinnamon-raisin".
+serving size: 105g
+288 calories
+10g protein
+2g fat
+56g carbohydrate
+4g fiber
+400mg sodium
+0mg cholesterol
+
+[item sourdough bread]
+source: USDA: Bread, french or vienna (includes sourdough)
+# 1 slice = 139g
+serving size: 139g
+378 calories
+15g protein
+3g fat
+72g carbohydrate
+3g fiber
+837mg sodium
+0mg cholesterol
+
 [item buttermilk pancake]
 source: USDA: 18390, Pancakes, buttermilk, prepared from recipe
 # guesswork, based on Main Street Bistro in New Paltz NY
@@ -138,6 +184,19 @@ source: USDA: Basic Report:  20137, Quinoa, cooked
 3g fiber
 3mg sodium
 7mg cholesterol
+
+[item rice noodles]
+alias: cooked rice noodles
+serving size: 176g
+serving size: 1C
+source: USDA: 20134, Rice noodles, cooked
+190 calories
+3g protein
+0g fat
+42g carbohydrate
+2g fiber
+33mg sodium
+0mg cholesterol
 
 [item baby corn]
 serving size: 3oz
@@ -362,6 +421,18 @@ serving size: 3T
 0g fiber
 5g protein
 
+[item peanut]
+source: USDA: 16087, Peanuts, all types, raw
+serving size: 1C
+serving size: 146g
+828 calories
+72g fat
+0mg cholesterol
+1029mg sodium
+24g carbohydrate
+12g fiber
+38g protein
+
 [item almonds]
 source: USDA: Basic Report:  12061, Nuts, almonds
 serving size: 50g
@@ -439,6 +510,7 @@ alias: Kickstand Cafe scone, maple pecan
 alias: Kickstand Cafe scone, vegan raisin
 alias: Kickstand Cafe scone, blackberry oatmeal
 alias: Kickstand Cafe scone, raspberry lemon
+alias: Kickstand Cafe scone, raspberry honey
 alias: Kickstand Cafe scone, pear ginger
 alias: Kickstand Cafe scone, strawberry coconut
 source: USDA: some random Starbucks scone
@@ -1061,6 +1133,17 @@ serving size: 1oz
 0mg cholesterol
 115mg sodium
 
+[item Cape Cod kettle potato chips]
+serving size: 1oz
+# CHO%51.4
+140 calories
+6g fat
+0mg cholesterol
+85mg sodium
+18g carbohydrate
+2g fiber
+2g protein
+
 [item tortilla chips]
 alias: Tostitos original restaurant style tortilla chips
 serving size: 1oz
@@ -1435,6 +1518,17 @@ source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/More/hash_
 2g fiber
 1g protein
 
+[item Friendly's clam strips platter]
+source: http://www.friendlys.com/menu/lunch-dinner/entrees
+# CHO%
+1720 calories
+103g fat
+100mg cholesterol
+3340mg sodium
+171g carbohydrate
+11g fiber
+28g protein
+
 [item tomato sauce]
 serving size: 61g
 5g carbohydrate
@@ -1532,6 +1626,34 @@ serving size: 0.63C
 3g fiber
 12mg sodium
 0mg cholesterol
+
+[item garlic]
+alias: cloves garlic
+alias: clove garlic
+source: USDA: 11215, Garlic, raw
+# 1 clove = 3g
+serving size: 3g
+# 1C chopped = 136g
+serving size: 0.022C
+4.5 calories
+0g protein
+0g fat
+1g carbohydrate
+0g fiber
+0mg cholesterol
+0mg sodium
+
+[item chili garlic sauce]
+source: Lee Kum Kee
+serving size: 18g
+serving size: 1T
+15 calories
+0g protein
+0g fat
+3g carbohydrate
+1g fiber
+0mg cholesterol
+780mg sodium
 
 [item shredded cabbage]
 source: USDA: Cabbage, raw
@@ -2010,7 +2132,8 @@ serving size: 24g
 0mg cholesterol
 0mg sodium
 
-[item ancho chilis]
+[item ancho chili]
+alias: chili
 source: USDA: 11978, Peppers, ancho, dried
 # "one pepper"
 serving size: 17g
@@ -2284,7 +2407,7 @@ source: Nestle
 1g fiber
 0g protein
 
-[item chocolate chip cookies]
+[item chocolate chip cookie]
 serving size: 16g
 # 16g = 1 cookie, medium (2-1/4" dia)
 source: 18378, Cookies, chocolate chip, prepared from recipe, made with butter
@@ -2306,6 +2429,17 @@ source: Bridgford Foods Corporation
 0g carbohydrate
 0g fiber
 6g protein
+
+[item Beretta Milano salami]
+serving size: 2oz
+source: Beretta USA Inc.
+230 calories
+19g fat
+25mg cholesterol
+1240mg sodium
+0g carbohydrate
+0g fiber
+15g protein
 
 [item Nature Valley cashew granola bar]
 serving size: 35g
@@ -2539,6 +2673,13 @@ serving size: 150g
 2T oil
 60g cornstarch
 
+[recipe stir-fried veggies with tofu]
+servings: 4
+4 firm tofu (1 package)
+12oz white mushrooms
+3C broccoli
+1T oil
+
 [recipe stir-fried veggies with fried tofu]
 servings: 4
 serving size: 230g
@@ -2603,6 +2744,14 @@ serving size: 230g
 1.5 bell peppers (2 small)
 3T olive oil
 2T cornstarch
+
+[recipe stir-fried veggies 4]
+servings: 4
+4 firm tofu (1 package)
+1lb broccoli
+1 onion
+2 bell peppers
+3 celery stalks
 
 [recipe oriental baked tofu]
 alias: baked tofu
@@ -2731,11 +2880,18 @@ servings: 6
 15.5oz Goya chickpeas
 0.75C oil
 
+[recipe Jan's aloo gobhi 3]
+# 250g servings
+servings: 4
+16oz potatoes
+1 medium cauliflower
+0.75C oil
+
 [recipe Jan's spinach pesto]
 # makes 275g total
 # 45g servings
 servings: 6
-# 2 cloves garlic
+2 cloves garlic
 1lb spinach
 0.5C olive oil
 3oz feta cheese
@@ -2764,7 +2920,7 @@ servings: 3
 15.5oz kidney beans
 1 onion
 8oz white mushrooms
-# 3 cloves garlic
+3 cloves garlic
 0.33C bread crumbs
 
 [recipe roasted Brussels sprouts]
@@ -2817,7 +2973,7 @@ servings: 8
 source: Veganomicon, p123
 servings: 4
 3T oil
-# 3 cloves garlic
+3 cloves garlic
 # 1/2-inch cube ginger
 1 large onion
 1C dry lentils
@@ -2852,6 +3008,17 @@ servings: 6
 2 bell peppers
 2T tomato paste
 230g TVP
+
+[recipe Jan's chili 2]
+source: Jan
+servings: 5
+# 1 serving = 240g
+2T olive oil
+31oz (2 cans) kidney beans
+1C tomatoes
+3 celery stalks
+1 large onion
+2 bell peppers
 
 [recipe Brooksetta burgers]
 source: The Best Veggie Burgers On The Planet, p77, Jan's variation
@@ -2950,6 +3117,23 @@ servings: 4
 2T oil
 12oz white mushrooms
 
+[recipe Jan's spaghetti sauce 3]
+source: Jan
+servings: 4
+14oz tomato sauce
+230g TVP
+1 onion
+2T oil
+5 carrots
+
+[recipe Jan's spaghetti sauce 4]
+source: Jan
+servings: 4
+14oz tomato sauce
+230g TVP
+1 onion
+12oz white mushrooms
+
 [recipe walnut sauce]
 source: World Vegetarian, p684
 # makes 1C
@@ -2992,7 +3176,7 @@ servings: 5
 1.5C dry kidney beans
 28oz tomato sauce
 1 large onion
-# 4 cloves garlic
+4 cloves garlic
 3T oil
 
 [recipe Jan's Indian soybean wombat]
@@ -3052,13 +3236,23 @@ servings: 4
 400g fresh spinach (40 leaves)
 5T oil
 
-[recipe spinach pakoras]
+[recipe spinach pakoras 2]
 source: Jan
 servings: 4
 1.5C chickpea flour
 1T lemon juice
 1tsp salt
 70g spinach
+5T oil
+
+[recipe spinach pakoras 3]
+# [the batter was stickier, so there were leftover leaves.]
+source: The Art of Indian Vegetarian Cooking, p450, Jan
+servings: 4
+1.5C chickpea flour
+1T lemon juice
+1tsp salt
+300g fresh spinach (40 leaves)
 5T oil
 
 [recipe tamarind sauce]
@@ -3087,7 +3281,7 @@ servings: 4
 1 onion
 1 bell peppers
 2 eggplant
-# 4 cloves garlic
+4 cloves garlic
 28oz tomatoes
 0.5tsp salt
 31oz (2 cans) Goya chickpeas
@@ -3095,8 +3289,9 @@ servings: 4
 [recipe golden "chicken" patties]
 source: Vegetarian Times Cookbook, p266
 servings: 6
-30oz Goya chickpeas
+31oz (2 cans) Goya chickpeas
 1.5C oats
+1 clove garlic
 3T oil
 
 [recipe mushroom gravy]
@@ -3108,6 +3303,16 @@ servings: 8
 4T soy sauce
 1tsp oil
 8oz white mushrooms
+
+[recipe mushroom gravy without mushrooms]
+source: Vegan Vittles, p137
+# doubled recipe, makes 2.5C
+servings: 8
+# 1 svg = 75ml ~= 75g
+6T wheat flour
+# 2C water
+4T soy sauce
+2tsp oil
 
 [recipe tofu saag paneer]
 source: Jan
@@ -3219,7 +3424,7 @@ servings: 4
 2tsp sesame seeds
 # Filling:
 1C onions
-# 1tsp garlic
+1tsp garlic
 3C broccoli
 4 egg whites
 14oz Vitasoy extra-firm tofu
@@ -3298,7 +3503,7 @@ servings: 8
 3T olive oil
 1C shallots
 1/4C sun-dried tomatoes
-# 2 cloves garlic
+2 cloves garlic
 1/2 tsp salt
 1.5C raw white rice
 15.5oz Goya chickpeas
@@ -3368,7 +3573,7 @@ servings: 6
 6 bell peppers
 1/2C raw white rice
 0.5 onion
-# 4 cloves garlic
+4 cloves garlic
 31oz black beans (2 cans)
 1/2lb frozen spinach
 
@@ -3378,7 +3583,7 @@ source: recipes from an ecological kitchen, p312
 # serving size = 1/2C
 servings: 5
 3C cooked chickpeas
-# 3 cloves roasted garlic
+3 cloves (roasted) garlic
 3T sesame seeds
 1T olive oil
 4T lemon juice
@@ -3390,7 +3595,7 @@ source: Vegan With A Vengeance, p121
 # serving size = 1/4C = 4T
 servings: 8
 8T olive oil
-# 3 cloves garlic
+3 cloves garlic
 1/2C tahini
 2tsp apple cider vinegar (really balsamic)
 1/2tsp salt
@@ -3403,7 +3608,7 @@ servings: 4
 1/4C bread crumbs
 2T flour
 0.6 onion
-# 2 cloves garlic
+2 cloves garlic
 1/2tsp salt
 4T oil
 
@@ -3413,7 +3618,7 @@ servings: 4
 3/4C dry lentils
 1T oil
 2 large onions
-# 4 cloves garlic
+4 cloves garlic
 4 celery stalks
 5 (medium) carrots
 12oz white mushrooms
@@ -3425,7 +3630,7 @@ servings: 4
 12oz tomatoes
 3T oil
 1 large onion
-# 4 cloves garlic
+4 cloves garlic
 # 2T ginger
 1tsp salt
 10C spinach
@@ -3495,3 +3700,69 @@ servings: 1
 4oz Vitasoy extra-firm tofu
 4oz cooked pasta
 2T olive oil
+
+[recipe Jan's carrot and cauliflower curry]
+servings: 5
+340g carrots
+453g cauliflower
+1.5C tomatoes
+1C chickpea flour
+
+[recipe Jan's minimal tofu saag]
+servings: 4
+1lb spinach
+1 onion
+2 cloves garlic
+14oz House Foods firm tofu
+
+[recipe Jan's Indian zucchini]
+servings: 5
+1 onion
+31oz (2 cans) Goya chickpeas
+4 zucchini
+2T oil
+
+[recipe rajma masala with cauliflower]
+servings: 4
+source: Quick Vegetarian Recipes p109 (rajma masala), Jan
+1 onion
+# ginger
+4 cloves garlic
+4T oil
+31oz (2 cans) kidney beans
+1tsp salt
+1lb cauliflower
+
+[recipe palak choley]
+servings: 4
+source: Quick Vegetarian Curries p120, Jan
+1 onion
+1 chili
+3T oil
+6 cloves garlic
+1T tomato paste
+31oz (2 cans) Goya chickpeas
+1lb fresh spinach
+1tsp salt
+3/2C tomatoes
+
+[recipe NYAJ Vietnamese salmon]
+servings: 1
+source: wild guesses, based on what was served 14-Jul-15.
+150g salmon
+1oz green beans
+150g rice noodles
+1oz peanuts
+
+[recipe Jan's spicy eggplant slices]
+source: Chinese Vegetarian Cookery, p89 (doubled); Jan
+servings: 4
+1 eggplant
+4T oil
+4 scallions
+# 2T ginger
+1 cloves garlic
+12oz white mushrooms
+2T soy sauce
+2T chili garlic sauce
+4T cornstarch
