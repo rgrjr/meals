@@ -46,14 +46,14 @@ for my $item_name (@show_items) {
     my $ingredients = $item->ingredients;
     next
 	unless $ingredients;
-    for my $ing (sort { $b->n_servings * $b->item->carbohydrate_grams
+    for my $ing (sort { $b->n_servings * $b->item->net_carbohydrate_grams
 			    <=> ($a->n_servings
-				 * $a->item->carbohydrate_grams);
+				 * $a->item->net_carbohydrate_grams);
 		 } @$ingredients) {
 	my $it = $ing->item;
 	my $n_svg = $ing->n_servings;
 	my $calories = $n_svg * $it->calories;
-	my $carbs = $n_svg * $it->carbohydrate_grams;
+	my $carbs = $n_svg * $it->net_carbohydrate_grams;
 	my $fat = $n_svg * $it->fat_grams;
 	my $protein = $n_svg * $it->protein_grams;
 	my $cho_pct = $calories ? 100.0 * (4 * $carbs) / $calories : 0;
@@ -84,7 +84,7 @@ sub produce_day_total {
 # Read the meal files.
 unshift(@ARGV, '-')
     unless @ARGV || @show_items;
-my @slots = qw(carbohydrate_grams fat_grams protein_grams calories);
+my @slots = qw(net_carbohydrate_grams fat_grams protein_grams calories);
 for my $file (@ARGV) {
     my $meals = Food::Meal->parse_meals($file);
     my @totals;
@@ -134,7 +134,7 @@ if ($plot_p) {
 	    my $calories = $day_total->calories;
 	    print $total_calorie_out ("$date\t$calories\n")
 		if $calories;
-	    my $cho_grams = $day_total->carbohydrate_grams;
+	    my $cho_grams = $day_total->net_carbohydrate_grams;
 	    if ($cho_grams) {
 		my $cho_calories = 4 * $cho_grams;
 		print $cho_calorie_out ("$date\t$cho_calories\n");
@@ -153,7 +153,7 @@ if ($plot_p) {
 	print $gnuplot ("set boxwidth 0.8 relative\n");
 	print $gnuplot ("set xdata time\n");
 	print $gnuplot ("set timefmt '%d-%b-%y'\n");
-	print $gnuplot ("plot [] [0:3000] ",
+	print $gnuplot ("plot [] [0:3500] ",
 			"'$total_calorie_file' using 1:2 with boxes ",
 			"title 'Total calories', ",
 			"'$cho_calorie_file' using 1:2 with boxes ",
@@ -366,6 +366,21 @@ BEGIN {
 	   sodium => [ qw(sodium_mg mg) ]);
 }
 
+sub net_carbohydrate_grams {
+    my $self = shift;
+
+    if (@_) {
+	$self->carbohydrate_grams(shift);
+	$self->fiber_grams(0);
+    }
+    else {
+	my $cho_grams = $self->carbohydrate_grams;
+	return
+	    unless defined($cho_grams);
+	return $cho_grams - ($self->fiber_grams || 0);
+    }
+}
+
 sub fetch_item {
     my ($class, $item_name) = @_;
 
@@ -389,7 +404,7 @@ sub ingredients { }
 sub carbohydrate_percent {
     my ($self) = @_;
 
-    my $cho_grams = $self->carbohydrate_grams;
+    my $cho_grams = $self->net_carbohydrate_grams;
     my $calories = $self->calories;
     return
 	unless defined($cho_grams) && defined($calories);
@@ -402,7 +417,7 @@ sub present_summary {
 	unless defined($n_servings);
 
     printf('%-32s', $total_p ? $self->name : '  ' . $self->name);
-    for my $slot (qw(carbohydrate_grams fat_grams
+    for my $slot (qw(net_carbohydrate_grams fat_grams
 		     protein_grams calories)) {
 	my $value = $self->$slot();
 	$value *= $n_servings
@@ -775,7 +790,7 @@ sub present_summary {
     my @totals;
     printf('%-32s', $self->date . ' ' . $self->meal . ':');
     my ($cho_grams, $calories);
-    for my $slot (qw(carbohydrate_grams fat_grams protein_grams calories)) {
+    for my $slot (qw(net_carbohydrate_grams fat_grams protein_grams calories)) {
 	my ($total, $missing_p);
 	for my $ingredient (@$ingredients) {
 	    my $item = $ingredient->item;
@@ -789,11 +804,11 @@ sub present_summary {
 	    else {
 		warn($self->date, ' ', $self->meal, ':  ',
 		     $item->name, " $slot is missing\n")
-		    if $slot eq 'carbohydrate_grams' || $slot eq 'calories';
+		    if $slot eq 'net_carbohydrate_grams' || $slot eq 'calories';
 		$missing_p++;
 	    }
 	}
-	if ($slot eq 'carbohydrate_grams') {
+	if ($slot eq 'net_carbohydrate_grams') {
 	    $cho_grams = $total;
 	}
 	elsif ($slot eq 'calories') {

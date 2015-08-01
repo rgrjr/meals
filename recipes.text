@@ -750,8 +750,9 @@ serving size: 1C
 source: USDA: Basic Report:  44005, Oil, corn, peanut, and olive
 alias: oil
 serving size: 1T
-# 1T = 14g
+serving size: 14g
 0g carbohydrate
+0g fiber
 13g fat
 0g protein
 120 calories
@@ -1100,6 +1101,8 @@ serving size: 1oz
 0mg cholesterol
 160mg sodium
 15g carbohydrate
+# [fiber is a guess.  -- rgr, 27-Jun-15.]
+1g fiber
 2g protein
 
 [item Lay's Classic potato chips]
@@ -1133,6 +1136,8 @@ serving size: 1oz
 0mg cholesterol
 180mg sodium
 15g carbohydrate
+# [fiber is a guess.  -- rgr, 27-Jun-15.]
+1g fiber
 2g protein
 
 [item MB potato chips]
@@ -1144,6 +1149,8 @@ serving size: 1oz
 0mg cholesterol
 180mg sodium
 16g carbohydrate
+# [fiber is a guess.  -- rgr, 27-Jun-15.]
+1g fiber
 2g protein
 
 [item Kettle potato chips]
@@ -1224,6 +1231,7 @@ source: Goya
 serving size: 122g
 serving size: 1/2C
 20g carbohydrate
+7g fiber
 2g fat
 6g protein
 100 calories
@@ -1557,6 +1565,7 @@ source: http://www.friendlys.com/menu/lunch-dinner/entrees
 [item tomato sauce]
 serving size: 61g
 5g carbohydrate
+1g fiber
 0g fat
 0g protein
 20 calories
@@ -1578,6 +1587,7 @@ source: Kirkland Signature organic tomato paste
 serving size: 33g
 serving size: 2T
 7g carbohydrate
+1g fiber
 0g fat
 1g protein
 30 calories
@@ -1837,6 +1847,7 @@ source: Kikkoman
 2g protein
 0g fat
 0g carbohydrate
+0g fiber
 0mg cholesterol
 920mg sodium
 
@@ -2250,6 +2261,8 @@ serving size: 135g
 0mg cholesterol
 20mg sodium
 3g carbohydrate
+# [fiber is a guess.  -- rgr, 27-Jun-15.]
+1g fiber
 11g protein
 
 [item House Foods firm tofu]
@@ -2270,6 +2283,8 @@ serving size: 100g
 10g protein
 8g fat
 2g carbohydrate
+# [fiber is a guess.  -- rgr, 27-Jun-15.]
+1g fiber
 0mg cholesterol
 8mg sodium
 
