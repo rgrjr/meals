@@ -271,9 +271,11 @@ serving size: 1C
 2mg sodium
 0mg cholesterol
 
-[item vital wheat gluten]
-source: USDA: Vital wheat gluten
+[item USDA vital wheat gluten]
+source: USDA: 48052, Vital wheat gluten
 serving size: 100g
+# assume 1/4C = 30g
+serving size: 0.83C
 370 calories
 75g protein
 2g fat
@@ -281,6 +283,18 @@ serving size: 100g
 1g fiber
 29mg sodium
 0mg cholesterol
+
+[item vital wheat gluten]
+alias: Bob's Red Mill vital wheat gluten
+serving size: 1/4C
+serving size: 30g
+120 calories
+0.5g fat
+0mg cholesterol
+0mg sodium
+4g carbohydrate
+1g fiber
+23g protein
 
 [item soy flour]
 source: Bob's Red Mill organic whole grain soy flour
@@ -857,6 +871,17 @@ serving size: 31g
 140 calories
 0mg cholesterol
 230mg sodium
+
+[item Snyder's pretzels]
+source: Snyder's Olde Tyme pretzels
+serving size: 45g
+180 calories
+1.5g fat
+0mg cholesterol
+180mg sodium
+36g carbohydrate
+2g fiber
+4g protein
 
 [item Girl Scout PB cookies]
 alias: Girl Scout peanut butter sandwich cookies
@@ -1559,6 +1584,18 @@ serving size: 2T
 0mg cholesterol
 20mg sodium
 
+[item ketchup]
+source: Nature's Promise organic tomato ketchup
+serving size: 17g
+serving size: 1T
+20 calories
+0g fat
+160mg sodium
+4g carbohydrate
+0g fiber
+0g protein
+0mg cholesterol
+
 [item celery]
 alias: celery stalk
 alias: celery stalks
@@ -1849,6 +1886,17 @@ serving size: 6.7T
 0g fiber
 0mg cholesterol
 5mg sodium
+
+[item apple juice]
+source: Ocean Spray
+serving size: 5.5oz
+70 calories
+0g fat
+5mg sodium
+19g carbohydrate
+0g fiber
+0mg cholesterol
+0g protein
 
 [item snow peas]
 source: USDA: Peas, edible-podded, raw
@@ -2168,6 +2216,18 @@ serving size: 83g
 2g fiber
 0mg cholesterol
 10mg sodium
+
+[item Cantonese blend frozen vegetables]
+source: NORPAC Foods, Inc
+serving size: 74g
+# 1 package = 1776g = 24 svg
+30 calories
+0g fat
+0mg cholesterol
+15mg sodium
+5g carbohydrate
+1g fiber
+1g protein
 
 [item capers]
 source: USDA: Capers, canned
@@ -2753,6 +2813,15 @@ servings: 4
 2 bell peppers
 3 celery stalks
 
+[recipe non-stir-fried veggies with tofu 1]
+servings: 4
+# 400g servings
+4 firm tofu (1 package)
+888g (1/2 package) Cantonese blend frozen vegetables
+2T oil
+2T soy sauce
+2T cornstarch
+
 [recipe oriental baked tofu]
 alias: baked tofu
 source: Recipes From An Ecological Kitchen, p223
@@ -2779,6 +2848,17 @@ servings: 8
 900g potatoes
 6 Helen's Kitchen organic veggie chorizo (1 package)
 78g (0.5C) frozen corn
+
+[recipe black bean burger]
+source: Veganomicon, p98
+servings: 8
+1 (can) black beans
+1/2C vital wheat gluten
+1/2C bread crumbs
+1T tomato paste
+2 cloves garlic
+1/4 large onion
+2T olive oil
 
 [recipe three bean chili burger]
 source: The Best Veggie Burgers On The Planet, p137
