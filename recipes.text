@@ -654,6 +654,7 @@ serving size: 55g
 0mg cholesterol
 320mg sodium
 6g carbohydrate
+2g fiber
 9g protein
 
 [item Boca veggie crumbles]
@@ -663,6 +664,7 @@ serving size: 57g
 0mg cholesterol
 210mg sodium
 6g carbohydrate
+3g fiber
 13g protein
 
 [item TVP]
@@ -681,16 +683,18 @@ serving size: 28g
 0mg cholesterol
 250mg sodium
 7g carbohydrate
+1g fiber
 1g protein
 
 [item Helen's Kitchen organic veggie chorizo]
 serving size: 57g
-# package size: 340g
+# 1 package = 340g = 6 svg
 110 calories
 9g fat
 0mg cholesterol
 360mg sodium
 6g carbohydrate
+4g fiber
 7g protein
 
 [item artichoke hearts]
@@ -867,6 +871,7 @@ serving size: 35g
 [item Wheat Thins]
 serving size: 31g
 22g carbohydrate
+2g fiber
 5g fat
 2g protein
 140 calories
@@ -1441,6 +1446,8 @@ serving size: 56g
 0mg cholesterol
 340mg sodium
 31g carbohydrate
+# [fiber is pro rata based on the "sourdough bread" item.  -- rgr, 8-Aug-15.]
+1g fiber
 5g protein
 
 [item old-fashioned doughnut]
@@ -1831,14 +1838,16 @@ serving size: 6.25C
 38mg sodium
 
 [item mirin]
+source: http://nutritiondata.self.com/facts/custom/590060/2?quantity=2.64
 serving size: 1T
-source: unknown
-0 calories
+serving size: 17g
+25 calories
 0g protein
 0g fat
-0g carbohydrate
+7g carbohydrate
+0g fiber
 0mg cholesterol
-0mg sodium
+130mg sodium
 
 [item soy sauce]
 serving size: 1T
@@ -1882,6 +1891,7 @@ source: Old El Paso
 5g protein
 1g fat
 16g carbohydrate
+4g fiber
 0mg cholesterol
 570mg sodium
 
@@ -2389,13 +2399,14 @@ serving size: 147g
 [item Himalya Fresh mini samosas]
 source: Himalya Fresh
 serving size: 80g
-# 4 samosas
+# 4 samosas = 1 svg
 # CHO%62.5
 192 calories
 6.4g fat
 0mg cholesterol
 516mg sodium
 30g carbohydrate
+2g fiber
 4g protein
 
 [item crispy garlic naan]
