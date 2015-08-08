@@ -2167,6 +2167,18 @@ serving size: 2T
 140mg sodium
 0g protein
 
+[item Lindsay extra large olives]
+serving size: 14g
+# 14g = 3 olives
+# 1 can = 170g = 12.1 svg
+25 calories
+2.5g fat
+1g carbohydrate
+0g fiber
+0mg cholesterol
+110mg sodium
+0g protein
+
 [item tamarind pulp]
 source: USDA: 09322, Tamarinds, raw 
 # "one cup pulp"
@@ -2252,6 +2264,18 @@ serving size: 11.6T
 3g fiber
 0mg cholesterol
 2348mg sodium
+
+[item soft tofu]
+source: Silken
+serving size: 85g
+# 1 package = 12oz = 340g = 4 servings
+45 calories
+2.5g fat
+0mg cholesterol
+0mg sodium
+1g carbohydrate
+0g fiber
+4g protein
 
 [item firm tofu]
 serving size: 135g
@@ -3549,6 +3573,19 @@ servings: 3
 1T oil
 2 ancho chilis
 
+[recipe Spice Box toor dal with carrots]
+source: The Spice Box, p100
+servings: 3
+1C toor dal
+# 3C water
+1tsp salt
+# actually, Jan uses 2T mango powder
+2T lemon juice
+3 carrots
+# bagar:
+1T oil
+2 ancho chilis
+
 [recipe spinach in black sesame dressing]
 source: The Japanese Kitchen, p252
 servings: 4
@@ -3731,6 +3768,20 @@ servings: 4
 10C spinach
 4C cooked chickpeas
 
+[recipe chickpea and spinach curry 2]
+source: Quick Vegetarian Recipes p120 (palak choley), Jan
+servings: 3
+1 large onion
+# 1 inch cube ginger
+1 chili
+3T oil
+8 cloves garlic
+1T tomato paste
+14oz canned chickpeas
+8C spinach
+1tsp salt
+124g tomatoes (2 plum tomatoes)
+
 [recipe Jan's spanakopita]
 servings: 6
 2.5lb spinach
@@ -3861,3 +3912,33 @@ servings: 4
 2T soy sauce
 2T chili garlic sauce
 4T cornstarch
+
+[recipe carrots with fresh cilantro]
+source: World Vegetarian, p159
+servings: 4
+3T oil
+1lb carrots
+1 chili
+1/2 tsp salt
+3/4 tsp lemon juice
+
+[recipe lemon rice]
+alias: neebu chawal
+source: The Spice Box, p131
+# serving size assumed to be 150g
+servings: 6
+# one half recipe, more or less.
+1.5C raw white rice
+1.5T oil
+1 chili
+2T Kirkland cashews
+2T lemon juice
+
+[recipe Jan's vegan pasta alla carbonara]
+servings: 4
+24oz (2 pkg) soft tofu
+2 Tofurkey Italian sausages
+170g (1 can) Lindsay extra large olives
+1 large onion
+2T olive oil
+1T lemon juice
