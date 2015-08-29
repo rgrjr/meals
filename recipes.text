@@ -174,8 +174,23 @@ serving size: 195g
 2mg sodium
 0mg cholesterol
 
+[item uncooked quinoa]
+serving size: 100g
+# 1C = 170g
+serving size: 0.59C
+source: USDA: 20035, Quinoa, uncooked
+368 calories
+14g protein
+6g fat
+64g carbohydrate
+7g fiber
+5mg sodium
+0mg cholesterol
+
 [item cooked quinoa]
 serving size: 100g
+# 1C = 185g
+serving size: 0.54C
 source: USDA: Basic Report:  20137, Quinoa, cooked
 120 calories
 4g protein
@@ -183,7 +198,7 @@ source: USDA: Basic Report:  20137, Quinoa, cooked
 21g carbohydrate
 3g fiber
 3mg sodium
-7mg cholesterol
+0mg cholesterol
 
 [item rice noodles]
 alias: cooked rice noodles
@@ -523,8 +538,10 @@ alias: Kickstand Cafe scone, maple walnut
 alias: Kickstand Cafe scone, maple pecan
 alias: Kickstand Cafe scone, vegan raisin
 alias: Kickstand Cafe scone, blackberry oatmeal
+alias: Kickstand Cafe scone, blueberry oatmeal
 alias: Kickstand Cafe scone, raspberry lemon
 alias: Kickstand Cafe scone, raspberry honey
+alias: Kickstand Cafe scone, raspberry ginger
 alias: Kickstand Cafe scone, pear ginger
 alias: Kickstand Cafe scone, strawberry coconut
 source: USDA: some random Starbucks scone
@@ -583,6 +600,17 @@ serving size: 142g
 10g carbohydrate
 4g fiber
 7g protein
+
+[item Trader Joe's channa masala]
+serving size: 142g
+# 142g = 1/2 package
+180 calories
+9g fat
+5mg cholesterol
+450mg sodium
+20g carbohydrate
+5g fiber
+5g protein
 
 [item Trader Joe's palak paneer]
 serving size: 150g
@@ -728,6 +756,8 @@ source: USDA: Mushrooms, brown, italian, or crimini, raw
 serving size: 87g
 # 1C whole = 87g
 # 1C sliced = 72g
+serving size: 1C
+# 1 piece whole = 20g
 19 calories
 2g protein
 0g fat
@@ -975,8 +1005,10 @@ serving size: 1.5oz
 1g fiber
 5g protein
 
-[item gnocchi]
+[item potato gnocchi]
+alias: gnocchi
 source: Mama Rosie's
+# same as Stop & Shop potato gnocchi
 serving size: 112g
 # 1 package = 411g
 270 calories
@@ -1193,7 +1225,8 @@ serving size: 1oz
 1g fiber
 2g protein
 
-[item flaxseeds]
+[item flaxseed]
+alias: flax seed
 source: USDA: Seeds, flaxseed
 serving size: 1C
 # 1C = 168g
@@ -1569,6 +1602,26 @@ source: http://www.friendlys.com/menu/lunch-dinner/entrees
 11g fiber
 28g protein
 
+[item Bertucci's shrimp scampi]
+source: http://www.bertuccis.com/sites/default/files/April%202015%20Nutritionals.pdf
+# CHO%31
+1250 calories
+70g fat
+1590mg sodium
+102g carbohydrate
+5g fiber
+53g protein
+
+[item Bertucci's dinner roll]
+source: http://www.bertuccis.com/sites/default/files/April%202015%20Nutritionals.pdf
+# CHO%
+140 calories
+1.5g fat
+40mg sodium
+28g carbohydrate
+1g fiber
+4g protein
+
 [item tomato sauce]
 serving size: 61g
 5g carbohydrate
@@ -1896,6 +1949,7 @@ source: Old El Paso
 570mg sodium
 
 [item apple cider vinegar]
+alias: vinegar
 source: USDA: 02048, Vinegar, cider
 serving size: 100g
 # 1T = 14.9g
@@ -2520,7 +2574,7 @@ source: Nestle
 [item chocolate chip cookie]
 serving size: 16g
 # 16g = 1 cookie, medium (2-1/4" dia)
-source: 18378, Cookies, chocolate chip, prepared from recipe, made with butter
+source: USDA: 18378, Cookies, chocolate chip, prepared from recipe, made with butter
 78 calories
 1g protein
 4.5g fat
@@ -2528,6 +2582,30 @@ source: 18378, Cookies, chocolate chip, prepared from recipe, made with butter
 0g fiber
 55mg sodium
 0mg cholesterol
+
+[item chocolate cake without frosting]
+source: USDA: 18101, Cake, chocolate, prepared from recipe without frosting
+serving size: 95g
+# 1 piece (1/12 of 9" dia) = 95g
+352 calories
+5g protein
+14g fat
+51g carbohydrate
+1g fiber
+299mg sodium
+55mg cholesterol
+
+[item cocoa powder]
+serving size: 1C
+serving size: 86g
+source: USDA: 19165, Cocoa, dry powder, unsweetened
+196 calories
+12g fat
+0mg cholesterol
+18mg sodium
+50g carbohydrate
+32g fiber
+17g protein
 
 [item Bridgford pepperoni]
 serving size: 1oz
@@ -2596,6 +2674,18 @@ source: Sun Maid
 23g carbohydrate
 1g fiber
 0g protein
+
+[item banana]
+source: USDA: 09040, Bananas, raw
+serving size: 118g
+# 1 medium (7" to 7-7/8" long) = 118g (edible portion)
+105 calories
+1g protein
+0g fat
+27g carbohydrate
+3g fiber
+1mg sodium
+0mg cholesterol
 
 ### Recipes.
 
@@ -2862,6 +2952,16 @@ servings: 4
 1 onion
 2 bell peppers
 3 celery stalks
+
+[recipe Anna's stir-fried veggies with tofu]
+servings: 4.5
+4 firm tofu (1 package)
+3 carrots
+1.5lb broccoli
+1/2C soy sauce
+1/4C vinegar
+# 3T sriracha
+3T agave nectar
 
 [recipe non-stir-fried veggies with tofu 1]
 servings: 4
@@ -3911,6 +4011,14 @@ source: wild guesses, based on what was served 14-Jul-15.
 150g rice noodles
 1oz peanuts
 
+[recipe NYAJ herbed haddock]
+servings: 1
+# including cole slaw
+source: wild guesses, based on what was served 17-Aug-15
+150g salmon (really haddock)
+2T bread crumbs
+1/2C shredded cabbage
+
 [recipe Jan's spicy eggplant slices]
 source: Chinese Vegetarian Cookery, p89 (doubled); Jan
 servings: 4
@@ -3953,3 +4061,82 @@ servings: 4
 1 large onion
 2T olive oil
 1T lemon juice
+
+[recipe chana gobi masala]
+# via Anna.
+source: https://thefoodsnobuk.wordpress.com/2013/07/26/chana-gobi-chickpea-cauliflower-masala/
+servings: 4
+2T olive oil
+1 large onion
+# 1 thumb-sized piece of ginger
+3 cloves garlic
+1/2tsp salt
+1/2tsp sugar
+400g tomatoes
+# 300ml vegetable stock
+1.3 medium (1 large) cauliflower
+24g lemon juice (1/2 lemon)
+15.5oz (1 can) canned chickpeas
+
+[recipe Anna's broccoli and zucchini]
+servings: 4
+600g broccoli
+4 zucchini
+6 cloves garlic
+1/4C oil
+1C white mushrooms
+
+[recipe chocolate walnut cupcake]
+source: Anna
+servings: 12
+1/4C butter
+1/2C oil
+1C sugar
+3T flax seeds
+3/4C cocoa powder
+1C flour
+1/2C walnuts
+
+[recipe chocolate buttercream frosting]
+# double recipe, plus Anna
+source: Vegan Cupcakes Take Over The World, p144
+# covers 13 normal-size cupcakes.
+servings: 13
+1/2C butter
+1/2C oil
+1C cocoa powder
+5C sugar
+3T almond milk
+# 3tsp vanilla extract
+
+[recipe Anna's broccoli and quinoa]
+servings: 4
+1C uncooked quinoa
+120g brown mushrooms (large, 6 count)
+1.5lb broccoli (1/2 bag)
+15.5oz (1 can) canned chickpeas
+# 1 jar olives (should still be on counter)
+170g (1 can) Lindsay extra large olives
+10 cloves garlic (estimate for 1 head)
+
+[recipe cauliflower samosa]
+source: Jan, Anna
+servings: 20
+# 1 samosa = 1 serving
+15.5oz (1 can) canned chickpeas
+1.3 medium (1 large) cauliflower
+1/2C frozen peas
+2C flour
+4T oil
+
+[recipe zucchini mushroom gnocchi]
+source: Forks Over Knives p 25 (for the sauce), Anna
+servings: 6
+4 zucchini
+12oz white mushrooms
+20oz (1 package) potato gnocchi
+12oz Vitasoy extra-firm tofu
+2 bell peppers (roasted)
+3 cloves garlic
+1tsp salt
+48g lemon juice (1 lemon)
