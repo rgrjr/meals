@@ -15,6 +15,28 @@ use ModGen::Statistics;
 
 use constant SECONDS_PER_DAY => 24 * 60 * 60;
 
+sub five_digits {
+    my ($value) = @_;
+
+    if ($value =~ /^(-?)(\d*)\.(\d+)$/) {
+	my ($sign, $int, $frac) = $value =~ //;
+	my $frac_digits = 5 - length($int);
+	if ($frac_digits <= 0) {
+	    return "$sign$int";
+	}
+	else {
+	    $frac_digits += length($1)+length($int)
+		# Leading zeros don't count.
+		if ! $int && $frac =~ /^(0*)/;
+	    return "$sign$int." . substr($frac, 0, $frac_digits);
+	}
+    }
+    else {
+	# integer or E-notation; punt.
+	return $value;
+    }
+}
+
 my ($calorie_file, $weight_file);
 GetOptions('weight=s' => \$weight_file,
 	   'calories=s' => \$calorie_file);
@@ -46,6 +68,8 @@ my (%calories_from_day, $first_day);
 	$calories_from_day{$day} = $calories;
     }
 }
+die "$0:  No days in --calories file '$calorie_file'??\n"
+    unless $first_day;
 
 # Now read the weights, and compute the deltas.
 my %weight_change_from_day;
@@ -73,19 +97,39 @@ my %weight_change_from_day;
     }
 }
 
-# Produce results.
+# Produce the raw data.
 my $stats = ModGen::Statistics->new();
 my $backward_stats = ModGen::Statistics->new();
-for my $day (sort { $a <=> $b; } keys(%calories_from_day)) {
-    my $calories = $calories_from_day{$day};
-    my $weight_change = $weight_change_from_day{$day};
-    next
-	unless defined($calories) && defined($weight_change);
-    print(join("\t", $calories, $weight_change), "\n");
-    $stats->accumulate($calories, $weight_change);
-    $backward_stats->accumulate($weight_change, $calories);
+my $out_file_name = "scatter-$$.tmp";
+{
+    open(my $out, '>', $out_file_name)
+	or die "$0:  bug:  can't open temp file '$out_file_name':  $!";
+    for my $day (sort { $a <=> $b; } keys(%calories_from_day)) {
+	my $calories = $calories_from_day{$day};
+	my $weight_change = $weight_change_from_day{$day};
+	next
+	    unless defined($calories) && defined($weight_change);
+	print $out (join("\t", $calories, $weight_change), "\n");
+	$stats->accumulate($calories, $weight_change);
+	$backward_stats->accumulate($weight_change, $calories);
+    }
 }
+
+# Produce the plot.
 my ($slope, $intercept) = $stats->linear_regression;
 my ($backward_slope, $backward_intercept) = $backward_stats->linear_regression;
-warn("n=", $stats->n_samples, ", X intercept=$backward_intercept, ",
-     "slope=$slope, Y intercept=$intercept\n");
+my $prefix = "n=" . $stats->n_samples;
+warn("$prefix, X intercept=$backward_intercept (cal), ",
+     "slope=$backward_slope (cal/lb),\n", ' ' x (2+length($prefix)),
+     "Y intercept=$intercept (lb), slope=$slope (lb/cal)\n");
+{
+    open(my $out, '| gnuplot')
+	or die "$0:  Couldn't pipe to gnuplot:  $!";
+    print $out "set term png\n";
+    print $out ("plot [1000:4000] [-2.5:2.5] '$out_file_name',",
+		(map { five_digits($_);
+		 } 'x*', $slope, '+', $intercept, ', (x-',
+		    $backward_intercept, ')/', $backward_slope),
+		"\n");
+}
+unlink($out_file_name);
