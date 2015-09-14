@@ -22,34 +22,3 @@ test-show1:
 	./meals.pl --show "Jan's pancakes" > $@.tmp
 	cmp $@.text $@.tmp
 	rm -f $@.tmp
-
-# "Production" targets.
-all-plots =     2014-Dec-calories.png 2014-Dec-carbs.png \
-		2015-Jan-calories.png 2015-Jan-carbs.png \
-		2015-Feb-calories.png 2015-Feb-carbs.png
-all:	${all-plots}
-2014-Dec-calories.png:	1412-food.text
-	./meals.pl $^ --plot-cal $@
-2014-Dec-carbs.png:	1412-food.text
-	./meals.pl $^ --plot-cho $@
-2015-Jan-calories.png:	1501-food.text
-	./meals.pl $^ --plot-cal $@
-2015-Jan-carbs.png:	1501-food.text
-	./meals.pl $^ --plot-cho $@
-2015-Feb-calories.png:	1502-food.text
-	./meals.pl $^ --plot-cal $@
-2015-Feb-carbs.png:	1502-food.text
-	./meals.pl $^ --plot-cho $@
-# For ephemeral use, not on all-plots.
-recent:	recent-calories.png recent-carbs.png
-recent-food.text:
-	cat 1504-food.text 1505-food.text > $@
-recent-calories.png:	recent-food.text
-	./meals.pl $^ --plot-cal $@
-recent-carbs.png:	recent-food.text
-	./meals.pl $^ --plot-cho $@
-
-clean-recent:
-	rm -f recent-calories.png recent-carbs.png recent-food.text
-clean:	clean-recent
-	rm -f ${all-plots}
