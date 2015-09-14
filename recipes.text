@@ -931,6 +931,17 @@ serving size: 35g
 0g fiber
 2g protein
 
+[item dry brown rice pasta]
+source: Food Directions Inc
+serving size: 60g
+230 calories
+5g protein
+2g fat
+47g carbohydrate
+2g fiber
+0mg sodium
+0mg cholesterol
+
 [item dry pasta]
 alias: shell pasta
 source: USDA: Macaroni, dry, enriched
@@ -1423,6 +1434,32 @@ serving size: 100g
 0mg cholesterol
 239mg sodium
 
+[item canned white beans]
+alias: cannellini beans
+serving size: 130g
+serving size: 1/2C
+# can size 15.5oz
+source: Stop And Shop
+100 calories
+7g protein
+0g fat
+18g carbohydrate
+4g fiber
+0mg cholesterol
+450mg sodium
+
+[item raw adzuki beans]
+serving size: 197g
+serving size: 1C
+source: USDA: 16001, Beans, adzuki, mature seeds, raw
+648 calories
+39g protein
+1g fat
+124g carbohydrate
+25g fiber
+0mg cholesterol
+10mg sodium
+
 [item bean sprouts]
 source: Nature's Wonder
 serving size: 100g
@@ -1742,6 +1779,7 @@ source: USDA: 11215, Garlic, raw
 serving size: 3g
 # 1C chopped = 136g
 serving size: 0.022C
+# 1 head = 60g (net)
 4.5 calories
 0g protein
 0g fat
@@ -2280,7 +2318,7 @@ serving size: 17g
 0mg cholesterol
 7mg sodium
 
-[item bell peppers]
+[item bell pepper]
 source: USDA: Peppers, sweet, green, raw 
 # "one medium"
 serving size: 119g
@@ -2315,6 +2353,18 @@ serving size: 74g
 5g carbohydrate
 1g fiber
 1g protein
+
+[item Market Basket frozen mixed vegetables]
+source: Market Basket
+serving size: 90g
+# 1 package = 24oz
+60 calories
+0.5g fat
+0mg cholesterol
+60mg sodium
+12g carbohydrate
+3g fiber
+3g protein
 
 [item capers]
 source: USDA: Capers, canned
@@ -2880,6 +2930,13 @@ servings: 4
 3C broccoli
 1T oil
 
+[recipe stir-fried veggies with peppers and tofu]
+servings: 4
+4 firm tofu (1 package)
+4 bell peppers
+1 large onion
+1T oil
+
 [recipe stir-fried veggies with fried tofu]
 servings: 4
 serving size: 230g
@@ -2920,6 +2977,17 @@ serving size: 300g
 4 firm tofu (1 package)
 3T oil
 4T cornstarch
+
+[recipe stir-fried veggies with fried tofu 5]
+servings: 4
+serving size: 290g
+3 carrots
+3 celery stalks
+2 bell peppers
+# soy sauce
+28oz House Foods firm tofu (2 packages)
+3T oil
+1T cornstarch
 
 [recipe stir-fried veggies 1]
 servings: 4
@@ -3250,6 +3318,17 @@ servings: 5
 1 large onion
 2 bell peppers
 
+[recipe Jan's chili 3]
+source: Jan
+servings: 4
+# 1 serving = 300g
+31oz (2 cans) kidney beans
+2T oil
+1 large onion
+3 cloves garlic
+14oz tomatoes
+12oz (1/2 bag) Market Basket frozen mixed vegetables
+
 [recipe Brooksetta burgers]
 source: The Best Veggie Burgers On The Planet, p77, Jan's variation
 servings: 6
@@ -3561,6 +3640,29 @@ servings: 4
 18oz tomatoes
 28oz Vitasoy extra-firm tofu
 
+[recipe tofu saag paneer 2]
+# same as tofu saag paneer but with twice as much tomato.
+source: Vegan Indian Cooking p175, Jan
+servings: 5
+# "yield: 10 cups"
+2T oil
+2 onions
+# 1 2-inch piece ginger
+6 cloves garlic
+3.5C tomatoes (1 can)
+2 chilis
+2T tomato paste
+2tsp salt
+1lb spinach
+14oz Vitasoy extra-firm tofu
+
+[recipe Jan's minimal tofu saag]
+servings: 4
+1lb spinach
+1 onion
+2 cloves garlic
+14oz House Foods firm tofu
+
 [recipe fragrant tomato and yogurt gravy]
 source: The Art of Indian Vegetarian Cooking, p423
 # but without the yogurt.
@@ -3811,6 +3913,15 @@ servings: 4
 158g feta cheese
 3T olive oil
 
+[recipe pasta and feta without feta]
+# Lizzie and I made this before realizing that the feta had gone bad.
+servings: 4
+2T apple cider vinegar (really balsamic)
+5 cloves garlic
+171g walnuts
+375g (1 box) dry whole wheat pasta
+3T olive oil
+
 [recipe stuffed pepper with black beans]
 servings: 6
 6 bell peppers
@@ -3964,13 +4075,6 @@ servings: 5
 453g cauliflower
 1.5C tomatoes
 1C chickpea flour
-
-[recipe Jan's minimal tofu saag]
-servings: 4
-1lb spinach
-1 onion
-2 cloves garlic
-14oz House Foods firm tofu
 
 [recipe Jan's Indian zucchini]
 servings: 5
@@ -4140,3 +4244,23 @@ servings: 6
 3 cloves garlic
 1tsp salt
 48g lemon juice (1 lemon)
+
+[recipe white bean and roasted garlic soup]
+servings: 4
+2T olive oil
+2/3 large onion
+1tsp salt
+# black pepper
+# 4C vegetable broth
+3C canned white beans
+24g lemon juice (1/2 lemon)
+120g (2 heads) garlic
+
+[recipe adzuki bean stew with miso]
+source: Forks Over Knives p111, Jan
+servings: 5
+1 large onion
+12oz (1/2 bag) Market Basket frozen mixed vegetables (instead of carrots)
+3 cloves garlic
+2C raw adzuki beans (should have been 2.5C)
+2T miso paste
