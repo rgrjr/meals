@@ -580,6 +580,17 @@ alias: Royal Dansk cookies
 0g fiber
 180 calories
 
+[item commercial chocolate chip cookie]
+source: USDA: 18160, Cookies, chocolate chip, commercially prepared, soft-type
+serving size: 40g
+178 calories
+1.4g protein
+8g fat
+26g carbohydrate
+0.7g fiber
+110mg sodium
+# cholesterol not shown
+
 [item Tasty Bite channa masala]
 # serving size: 1/2 package
 168 calories
@@ -1566,7 +1577,8 @@ source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/bakery/don
 1g fiber
 4g protein
 
-[item Dunkin' Donuts old fashioned cake donut]
+[item DD old fashioned cake donut]
+alias: Dunkin' Donuts old fashioned cake donut
 source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/bakery/donuts/donuts.html?DRP_FLAVOR=Old+Fashioned+Cake+Donut
 # CHO%41.2
 320 calories
@@ -2231,6 +2243,21 @@ serving size: 1.58C
 0mg cholesterol
 16mg sodium
 
+[item summer squash]
+alias: yellow squash
+source: USDA: 11641, Squash, summer, all varieties, raw
+# one medium
+serving size: 196g
+# 1C, sliced = 113g
+serving size: 1.73C
+31 calories
+2g protein
+0g fat
+7g carbohydrate
+2g fiber
+4mg sodium
+0mg cholesterol
+
 [item scallions]
 alias: bunches scallions
 # Jan: "six, skinny, stupid"
@@ -2587,6 +2614,19 @@ serving size: 0.184C
 3186mg sodium
 0mg cholesterol
 
+[item Zhu kung pao eggplant]
+source: wild guessing based on what Zhu served on 15-Sep-15.
+# eggplant, tofu, peppers, peanuts, . . .
+# source: USDA: 36619, Restaurant, Chinese, kung pao chicken
+serving size: 400g
+516 calories
+30g protein
+25g fat
+40g carbohydrate
+6g fiber
+1608mg sodium
+0mg cholesterol
+
 [item baked tuna]
 source: USDA: Fish, tuna, fresh, bluefin, cooked, dry heat
 serving size: 100g
@@ -2709,9 +2749,19 @@ source: Ocean Spray
 0g fat
 0mg cholesterol
 0mg sodium
-# really 31g carbs, 10g fiber.
-21g carbohydrate
-0g fiber
+31g carbohydrate
+10g fiber
+0g protein
+
+[item cherry craisins]
+serving size: 40g
+source: Ocean Spray
+130 calories
+0g fat
+0mg cholesterol
+0mg sodium
+33g carbohydrate
+3g fiber
 0g protein
 
 [item dried mango]
@@ -3020,6 +3070,15 @@ servings: 4
 1 onion
 2 bell peppers
 3 celery stalks
+
+[recipe stir-fried veggies 5]
+servings: 4
+4 firm tofu (1 package)
+3 carrots
+2C snow peas
+3C mung bean sprouts
+2T olive oil
+2T cornstarch
 
 [recipe Anna's stir-fried veggies with tofu]
 servings: 4.5
@@ -3527,6 +3586,15 @@ servings: 6
 3 bell peppers
 5T oil
 
+[recipe eggplant pakora]
+source: The Art of Indian Vegetarian Cooking, p450
+servings: 6
+1.5C chickpea flour
+1T lemon juice
+1tsp salt
+1/2 eggplant (really japanese eggplant)
+5T oil
+
 [recipe onion ring pakoras]
 source: The Art of Indian Vegetarian Cooking, p450
 servings: 6
@@ -3838,6 +3906,18 @@ servings: 1
 1/2 bell peppers
 1/4 onion
 2oz bamboo shoots
+1.5T oil
+
+[recipe Pho basil with tofu]
+source: guesswork, based on Pho#1 in Woburn
+servings: 1
+# serving size: 431g (/ 431 8.0) 53.875
+100g Vitasoy extra-firm tofu
+100g carrots
+50g bell peppers
+50g onion
+50g bamboo shoots
+50g green beans
 1.5T oil
 
 [recipe mushroom and sun-dried tomato risotto]
@@ -4264,3 +4344,15 @@ servings: 5
 3 cloves garlic
 2C raw adzuki beans (should have been 2.5C)
 2T miso paste
+
+[recipe zucchini and capers]
+source: Jan
+servings: 4
+3 zucchini
+2 yellow squash
+15.5oz (1 can) cannellini beans
+1 onion
+3T oil
+2 bell peppers
+2T capers
+2T lemon juice
