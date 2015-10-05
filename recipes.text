@@ -3,7 +3,7 @@
 [item salt]
 source: USDA: Salt, table
 serving size: 1tsp
-# 1tsp = 6g
+serving size: 6g
 0 calories
 0g protein
 0g fat
@@ -2406,6 +2406,18 @@ serving size: 11.6T
 0mg cholesterol
 2348mg sodium
 
+[item tempeh]
+source: USDA: 16174, Tempeh, cooked
+serving size: 100g
+196 calories
+18g protein
+11g fat
+9g carbohydrate
+# The fiber amount does not appear in the table.
+0g fiber
+14mg sodium
+0mg cholesterol
+
 [item soft tofu]
 source: Silken
 serving size: 85g
@@ -2575,6 +2587,19 @@ serving size: 125g
 44g carbohydrate
 9g fiber
 8g protein
+
+[item Cuisine Adventures spanakopita]
+alias: Cuisine Adventures frozen spanakopita
+serving size: 57g
+# 1 serving = 2 pieces
+# CHO%29.3
+150 calories
+9g fat
+25mg cholesterol
+270mg sodium
+12g carbohydrate
+1g fiber
+57g protein
 
 [item Au Bon Pain clam chowder]
 source: http://aubonpain.com/menu/clam-chowder
@@ -3079,6 +3104,13 @@ servings: 4
 3C mung bean sprouts
 2T olive oil
 2T cornstarch
+
+[recipe Dad's stir-fried veggies 1]
+servings: 2
+3 carrots
+400g broccoli (1 small head)
+1 bell pepper
+2T olive oil
 
 [recipe Anna's stir-fried veggies with tofu]
 servings: 4.5
@@ -3993,6 +4025,28 @@ servings: 4
 158g feta cheese
 3T olive oil
 
+[recipe pasta and feta 3]
+servings: 4
+# total weight: 1169g
+# serving size: 292g
+3/2T apple cider vinegar (really balsamic)
+3 cloves garlic
+100g walnuts
+375g (1 box) dry whole wheat pasta
+168g feta cheese
+3T olive oil
+
+[recipe pasta and feta 4]
+servings: 4
+# total weight: 893g
+# serving size: 223g
+3/2T apple cider vinegar (really balsamic)
+3 cloves garlic
+100g walnuts
+280g dry whole wheat pasta
+131g feta cheese
+5T olive oil
+
 [recipe pasta and feta without feta]
 # Lizzie and I made this before realizing that the feta had gone bad.
 servings: 4
@@ -4356,3 +4410,20 @@ servings: 4
 2 bell peppers
 2T capers
 2T lemon juice
+
+[recipe Nepali potatoes]
+source: The Spice Box, p89
+servings: 4
+# serving size: 320g
+# total (+ 288 373 620)1281g (/ 1281 373.0)
+4T oil
+1.5 onions (2 medium)
+800g potatoes (4 medium)
+4 cloves garlic
+
+[recipe Red Lentil special #1]
+# faked based on what was served on 3-Oct-15, and not including the
+# fruit and spinach garnish or the chipotle cashew glaze.
+servings: 1
+200g tempeh
+2 svg Trader Joe's Madras lentils
