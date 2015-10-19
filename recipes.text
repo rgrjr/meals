@@ -897,7 +897,7 @@ serving size: 28g
 0mg sodium
 0mg cholesterol
 
-[item Yehuda matzos]
+[item Yehuda matzo]
 source: Yehuda
 serving size: 35g
 # 1 matzo = 35g
@@ -1232,6 +1232,18 @@ serving size: 1oz
 0mg cholesterol
 85mg sodium
 18g carbohydrate
+2g fiber
+2g protein
+
+[item Abuelita tortilla chips]
+alias: Tostitos original restaurant style tortilla chips
+serving size: 1oz
+# CHO%50.7
+150 calories
+6g fat
+0mg cholesterol
+70mg sodium
+21g carbohydrate
 2g fiber
 2g protein
 
@@ -1729,7 +1741,7 @@ nominal size: 1 medium stalk
 0mg cholesterol
 32mg sodium
 
-[item carrots]
+[item carrot]
 source: USDA: Carrots, raw
 serving size: 61g
 # 1 medium = 61g
@@ -2027,6 +2039,7 @@ serving size: 5.5oz
 source: USDA: Peas, edible-podded, raw
 serving size: 1C
 # 1C (whole) = 63g
+serving size: 63g
 # 1C, chopped = 98g
 26 calories
 2g protein
@@ -2613,6 +2626,18 @@ serving size: 480ml
 1490mg sodium
 60mg cholesterol
 
+[item Au Bon Pain turkey chili]
+source: http://aubonpain.com/menu/turkey-chili
+serving size: 480ml
+# large (16floz)
+450 calories
+12g fat
+26g protein
+58g carbohydrate
+22g fiber
+1090mg sodium
+40mg cholesterol
+
 [item Qdoba veggie burrito]
 source: http://www.qdoba.com/menu-nutrition/burritos-menu-nutrition
 # with flour tortilla, brown rice, salsa verde, guacamole, and fajita
@@ -2685,6 +2710,20 @@ source: Nestle
 9g carbohydrate
 1g fiber
 0g protein
+
+[item oatmeal raisin cookie]
+serving size: 15g
+# 15g = 1 cookie (2-5/8" dia)
+# 1 cookie (4-3/4" dia) = 49g
+source: USDA: 18184, Cookies, oatmeal, prepared from recipe, with raisins
+65 calories
+1g protein
+2.4g fat
+10g carbohydrate
+# fiber is assumed to be zero.
+0g fiber
+81mg sodium
+5mg cholesterol
 
 [item chocolate chip cookie]
 serving size: 16g
@@ -3105,12 +3144,31 @@ servings: 4
 2T olive oil
 2T cornstarch
 
+[recipe stir-fried veggies 6]
+servings: 4
+4 firm tofu (1 package)
+1lb broccoli
+12oz white mushrooms
+2T olive oil
+2T cornstarch
+
 [recipe Dad's stir-fried veggies 1]
 servings: 2
 3 carrots
 400g broccoli (1 small head)
 1 bell pepper
 2T olive oil
+
+[recipe Dad's stir-fried veggies 2]
+servings: 4
+# total ingredient weight = 1087g
+# served weight = 983g
+291g carrots (3 medium)
+321g broccoli (2 small heads without stems)
+1.5 bell pepper (one large)
+210g portabella mushrooms
+3floz olive oil
+# soy sauce
 
 [recipe Anna's stir-fried veggies with tofu]
 servings: 4.5
@@ -3252,6 +3310,27 @@ servings: 1
 1/4 medium cauliflower
 2oz Goya chickpeas
 2T oil
+
+[recipe New Paltz Indian Restaurant aloo mutter gobhi]
+servings: 1
+# serving size: 500g
+6oz potatoes
+1/3 medium cauliflower
+4oz frozen green peas
+2T oil
+
+[recipe Fresh City Thai rice bowl with tofu]
+servings: 1
+1/2 oz brown mushrooms
+1/2 oz snow peas
+1/2 oz carrots
+1 oz broccoli
+1/4oz scallions
+1/4oz cashews
+45g firm tofu
+2T oil
+# thai peanut sauce
+150g brown rice
 
 [recipe Jan's aloo gobhi]
 # 275g servings, CHO%42.
@@ -4046,6 +4125,17 @@ servings: 4
 280g dry whole wheat pasta
 131g feta cheese
 5T olive oil
+
+[recipe pasta and feta 5]
+servings: 4
+# total weight: 1270g
+# serving size: 318g
+3/2T apple cider vinegar (really balsamic)
+15g garlic
+125g walnuts
+1lb dry whole wheat pasta
+210g feta cheese
+1/2C olive oil
 
 [recipe pasta and feta without feta]
 # Lizzie and I made this before realizing that the feta had gone bad.
