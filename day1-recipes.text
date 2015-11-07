@@ -51,7 +51,7 @@ serving size: 105g
 
 [item Kickstand Cafe scone]
 alias: Kickstand Cafe scone, maple walnut
-source: USDA: some random Starbucks scone
+source: some random Starbucks scone
 56g carbohydrate
 2g fiber
 29g fat
@@ -68,7 +68,7 @@ serving size: 12oz
 46 calories
 
 [item olive oil]
-source: USDA: Basic Report:  44005, Oil, corn, peanut, and olive
+source: USDA: 44005, Oil, corn, peanut, and olive
 alias: oil
 serving size: 1T
 # 1T = 14g
