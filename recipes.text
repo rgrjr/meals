@@ -200,6 +200,17 @@ source: USDA: Basic Report:  20137, Quinoa, cooked
 3mg sodium
 0mg cholesterol
 
+[item dried rice noodles]
+serving size: 100g
+source: USDA: 20133, Rice noodles, dry
+364 calories
+6g protein
+0.5g fat
+80g carbohydrate
+2g fiber
+182mg sodium
+0mg cholesterol
+
 [item rice noodles]
 alias: cooked rice noodles
 serving size: 176g
@@ -386,6 +397,30 @@ serving size: 14.2g
 91mg sodium
 31mg cholesterol
 
+[item buttermilk]
+source: USDA: 01230, Milk, buttermilk, fluid, whole
+serving size: 1C
+serving size: 245g
+152 calories
+8g protein
+8g fat
+12g carbohydrate
+0g fiber
+257mg sodium
+27mg cholesterol
+
+[item yogurt]
+source: USDA: 01116, Yogurt, plain, whole milk, 8 grams protein per 8 ounce
+serving size: 1C
+serving size: 245g
+149 calories
+9g protein
+8g fat
+11g carbohydrate
+0g fiber
+113mg sodium
+32mg cholesterol
+
 [item cranberries]
 alias: fresh cranberries
 source: USDA: Cranberries, raw
@@ -466,6 +501,7 @@ serving size: 146g
 source: USDA: Basic Report:  12061, Nuts, almonds
 serving size: 50g
 # 1C whole = 143g
+serving size: 0.35C
 290 calories
 11g protein
 25g fat
@@ -790,6 +826,20 @@ serving size: 1C
 1g fiber
 8mg sodium
 0mg cholesterol
+
+[item baby portabella mushrooms]
+source: Giorgio (brand)
+serving size: 85g
+# 1C diced = 87g
+serving size: 1C
+# 1 piece whole = 84g
+30 calories
+0g fat
+0mg cholesterol
+10mg sodium
+4g carbohydrate
+2g fiber
+3g protein
 
 [item olive oil]
 source: USDA: Basic Report:  44005, Oil, corn, peanut, and olive
@@ -1471,6 +1521,18 @@ source: Stop And Shop
 0mg cholesterol
 450mg sodium
 
+[item raw white beans]
+serving size: 1C
+serving size: 202g
+source: USDA: 16049, Beans, white, mature seeds, raw
+673 calories
+47g protein
+2g fat
+122g carbohydrate
+31g fiber
+32mg sodium
+0mg cholesterol
+
 [item raw adzuki beans]
 serving size: 197g
 serving size: 1C
@@ -1742,6 +1804,7 @@ nominal size: 1 medium stalk
 32mg sodium
 
 [item carrot]
+alias: medium carrot
 source: USDA: Carrots, raw
 serving size: 61g
 # 1 medium = 61g
@@ -1837,9 +1900,11 @@ serving size: 1C
 0mg cholesterol
 13mg sodium
 
-[item leeks]
-source: USDA: Leeks, (bulb and lower leaf-portion), raw
+[item leek]
+source: USDA: 11246, Leeks, (bulb and lower leaf-portion), raw
 serving size: 1lb
+# 1C = 89g
+serving size: 5.1C
 277 calories
 7g protein
 1g fat
@@ -1893,6 +1958,7 @@ serving size: 0.136C
 source: USDA: 11209, Eggplant, raw
 serving size: 458g
 # 1 eggplant, peeled = 458g
+serving size: 5.6C
 # 1C cubes = 82g
 114 calories
 4g protein
@@ -2024,9 +2090,21 @@ serving size: 6.7T
 0mg cholesterol
 5mg sodium
 
+[item apple]
+source: USDA: 09003, Apples, raw, with skin
+serving size: 182g
+# 1 medium (3" dia) = 182g 
+95 calories
+0g protein
+0g fat
+25g carbohydrate
+4g fiber
+2mg sodium
+0mg cholesterol
+
 [item apple juice]
 source: Ocean Spray
-serving size: 5.5oz
+serving size: 5.5floz
 70 calories
 0g fat
 5mg sodium
@@ -2114,6 +2192,7 @@ serving size: 588g
 
 [item large tomatoes]
 source: USDA: 11529, Tomatoes, red, ripe, raw, year round average
+alias: large tomato
 alias: tomatoes
 serving size: 182g
 # 182g == 1 large whole (3" dia)
@@ -2184,6 +2263,7 @@ serving size: 1T
 source: USDA: Potatoes, flesh and skin, raw 
 serving size: 1lb
 # 1C diced = 150g
+serving size: 3C
 # 1 potato medium (2-1/4" to 3-1/4" dia) = 213g
 350 calories
 9g protein
@@ -2406,6 +2486,20 @@ serving size: 90g
 3g fiber
 3g protein
 
+[item Cantonese Blend vegetables]
+alias: Cantonese Blend frozen mixed vegetables
+source: Grande Classics (brand)
+serving size: 74g
+serving size: 3/4C
+# 1 package = 24oz
+30 calories
+0g fat
+0mg cholesterol
+15mg sodium
+5g carbohydrate
+1g fiber
+1g protein
+
 [item capers]
 source: USDA: Capers, canned
 serving size: 100g
@@ -2513,6 +2607,17 @@ serving size: 100g
 63mg cholesterol
 134mg sodium
 
+[item fish and chips]
+source: http://www.caloriecount.com/calories-red-lobster-fish-chips-i338553
+serving size: 100g
+730 calories
+33g fat
+0mg cholesterol
+1980mg sodium
+64g carbohydrate
+0g fiber
+44g protein
+
 [item apple pie]
 source: USDA: Pie, apple, prepared from recipe 
 serving size: 155g
@@ -2525,6 +2630,19 @@ serving size: 155g
 0g fiber
 0mg cholesterol
 327mg sodium
+
+[item pumpkin pie]
+source: USDA: 18327, Pie, pumpkin, prepared from recipe
+serving size: 155g
+# 1 slice (1/8 of 9" dia) = 155g
+316 calories
+7g protein
+14g fat
+41g carbohydrate
+# The fiber amount does not appear in the table.
+0g fiber
+349mg sodium
+65mg cholesterol
 
 [item cherry pie]
 source: USDA: Pie, cherry, prepared from recipe 
@@ -3206,6 +3324,13 @@ servings: 8
 1T olive oil
 1C dry lentils
 
+[recipe potato leek soup with lentils 2]
+servings: 6
+4C potatoes
+4C leeks
+1T olive oil
+1C dry lentils
+
 [recipe chorizo potato soup]
 servings: 8
 0.6 large onion
@@ -3390,6 +3515,16 @@ servings: 3
 8oz white mushrooms
 3 cloves garlic
 0.33C bread crumbs
+
+[recipe mushroom and chickpea sauce]
+# as served on pasta
+source: Jan
+servings: 3
+24oz baby portabella mushrooms
+1C almond milk
+# 12oz dry whole wheat pasta (linguine)
+# garlic powder, salt, pepper
+15.5oz Goya chickpeas (1 can)
 
 [recipe roasted Brussels sprouts]
 source: Jan
@@ -3978,6 +4113,19 @@ servings: 3
 1T oil
 2 ancho chilis
 
+[recipe Spice Box toor dal with peas]
+source: The Spice Box, p100
+servings: 3
+1C toor dal
+1C frozen green peas
+# 3C water
+1tsp salt
+# actually, Jan uses 2T mango powder
+2T lemon juice
+# bagar:
+1T oil
+2 ancho chilis
+
 [recipe spinach in black sesame dressing]
 source: The Japanese Kitchen, p252
 servings: 4
@@ -4213,6 +4361,19 @@ servings: 4
 1tsp salt
 10C spinach
 4C cooked chickpeas
+
+[recipe curried whole chickpeas]
+source: The Spice Box, p104
+servings: 4
+28oz canned chickpeas (2 cans)
+3T oil
+4 large onions
+2 cloves garlic
+# 1tsp ginger
+1tsp salt
+15g tamarind pulp
+28oz tomatoes (1 large can, diced)
+2 chilis
 
 [recipe chickpea and spinach curry 2]
 source: Quick Vegetarian Recipes p120 (palak choley), Jan
@@ -4517,3 +4678,119 @@ servings: 4
 servings: 1
 200g tempeh
 2 svg Trader Joe's Madras lentils
+
+[recipe green beans with almonds]
+source: Jan
+servings: 4
+# serving size: 115g
+1/2C almonds (sliced)
+8 cloves garlic
+2T oil
+12oz green beans
+
+[recipe apple cider donut]
+# these look like the ones served at "Mike's Maze" in Sunderland.  --
+# rgr, 25-Oct-15. 
+source: http://www.foodnetwork.com/recipes/food-network-kitchens/apple-cider-doughnuts-recipe.html
+# makes 12 donuts
+servings: 12
+2 apples
+2.5C apple juice (really cider)
+1tsp salt
+5/3C sugar
+3T oil (actually vegetable shortening)
+1/4C buttermilk
+1/4C (confectioner's) sugar
+3T oil (for frying)
+
+[recipe gobhi musallam]
+# shooting for what was served at India House in Northampton on 25-Oct-15.
+source: http://www.northindiancooking.com/gobi-musallam-cauliflower.html
+# servings is a guess.
+servings: 2
+# Ingredients for marinade:
+1 medium cauliflower (Gobi)
+1C yogurt (thick yogurt preferred)
+1tsp (minced) garlic
+# 1tsp grated ginger
+# 1/2tsp Cumin powder
+# 1/2tsp turmeric powder
+# 1/2tsp red chili powder
+1/2tsp salt
+# 1 tsp tandoori powder (optional)
+# Ingredients for gravy:
+1 large onion
+1tsp (minced) garlic
+# 1tsp grated ginger 
+1 (green) chili (chopped)
+2/3 large tomato (chopped)
+2T yogurt
+# 2tsp coriander powder
+# 1/2tsp red chili powder
+# 1/2tsp turmeric powder
+# 1/2tsp garam masala powder
+30g cashews (broken)
+2T oil
+
+[recipe Tuscan bean stew]
+source: Forks Over Knives p119, Jan
+servings: 4
+3 large onions
+2 celery stalks
+2 medium carrots
+2C shredded cabbage
+600g potatoes (2 large)
+6 cloves garlic
+1C raw white beans
+# 6C vegetable stock
+# 1/2C chopped basil
+# salt and pepper to taste
+
+[recipe black beans and rice]
+source: Forks Over Knives p202, Jan
+servings: 3
+2/3 large onion (one medium)
+1 (red) bell pepper
+# 2 jalapeno peppers
+5 cloves garlic
+31oz black beans (2 cans)
+1T lime juice
+1T oil
+
+[recipe eggplant gnocchi]
+servings: 6
+20oz (1 package) potato gnocchi
+2T oil
+2/3 large onion (one medium)
+1 (green) bell pepper
+8oz white mushrooms
+2C eggplant
+4 cloves garlic
+29oz tomatoes
+1/2tsp salt
+
+[recipe pad thai]
+source: Vegetarian Times (online), Jan
+servings: 4
+12oz dried rice noodles
+2T soy sauce
+2T brown sugar
+# 1tsp chile sauce
+2tsp (peanut) oil
+3 cloves garlic
+# 2tsp ginger
+1 medium carrot
+8 scallions
+2C mung bean sprouts
+# 1 lime
+# cilantro
+
+[recipe asian snow peas]
+source: Jan
+servings: 4
+1/2 large onion
+6oz white mushrooms
+3C snow peas
+1T cornstarch
+1T soy sauce
+1T oil
