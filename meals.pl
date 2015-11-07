@@ -276,6 +276,10 @@ sub parse_units {
 	# Fraction.
 	($amount, $unit_string) = ($1 / $2, $3);
     }
+    elsif ($string =~ m@^\s*(\d+)-(\d+)/(\d+)\s*(.*)@) {
+	# Integer with fraction.
+	($amount, $unit_string) = ($1 + $2/$3, $4);
+    }
     elsif ($string =~ m@^\s*(\.\d+|\d+\.\d*)\s*(.*)@) {
 	# Integer or decimal fraction.
 	($amount, $unit_string) = ($1, $2);
