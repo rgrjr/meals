@@ -723,6 +723,13 @@ sub add_item {
     return $ingredient;
 }
 
+sub n_ingredients {
+    my ($self) = @_;
+
+    my $ingredients = $self->ingredients;
+    return $ingredients ? scalar(@$ingredients) : 0;
+}
+
 sub parse_meals {
     my ($class, $file_name) = @_;
 
@@ -731,13 +738,10 @@ sub parse_meals {
     my ($current_date, $current_meal_name, $current_meal);
     my $meals = [ ];
     my $register_meal = sub {
-	return $current_meal
-	    if ($current_meal && $current_meal->date eq $current_date
-		&& $current_meal->meal eq $current_meal_name);
-	my $meal = $class->new(date => $current_date,
-			       meal => $current_meal_name);
-	push(@$meals, $meal);
-	return $meal;
+	push(@$meals, $current_meal)
+	    if $current_meal && $current_meal->n_ingredients;
+	$current_meal = $class->new(date => $current_date,
+				    meal => $current_meal_name);
     };
 
     while (<$stream>) {
@@ -749,9 +753,11 @@ sub parse_meals {
 	if (/^(\d+-\w+-\d+):/) {
 	    $current_date = $1;
 	    $current_meal_name = 'breakfast';
+	    $register_meal->();
 	}
 	elsif (/(breakfast|lunch|snack|dinner):$/i) {
 	    $current_meal_name = lc($1);
+	    $register_meal->();
 	}
 	elsif ($class->parse_units($_)) {
 	    my ($amount, $units, $unit_class, $name) = $class->parse_units($_);
@@ -761,11 +767,9 @@ sub parse_meals {
 		# Make a fake item to record our uncertainty.
 		$item = Food::Item->new(name => $name);
 	    }
-	    $current_meal = $register_meal->();
 	    $current_meal->add_item($item, $amount, $units);
 	}
 	elsif (my $item = Food::Item->fetch_item($_)) {
-	    $current_meal = $register_meal->();
 	    $current_meal->add_item($item, 1, 'serving');
 	}
 	elsif (/random/i) {
@@ -775,10 +779,10 @@ sub parse_meals {
 	    warn "Can't find '$_' to add it to the current meal.\n";
 	    # Make a fake item to record our uncertainty.
 	    $item = Food::Item->new(name => $_);
-	    $current_meal = $register_meal->();
 	    $current_meal->add_item($item, 1, 'serving');
 	}
     }
+    $register_meal->();
     return $meals;
 }
 
