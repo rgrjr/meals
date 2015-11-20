@@ -751,6 +751,17 @@ serving size: 100g
 32g carbohydrate
 53g protein
 
+[item Bob's Red Mill TVP]
+serving size: 24g
+serving size: 1/4C
+80 calories
+0g fat
+0mg cholesterol
+2mg sodium
+7g carbohydrate
+4g fiber
+12g protein
+
 [item Daiya cheddar style shreds]
 serving size: 28g
 90 calories
@@ -1913,10 +1924,11 @@ serving size: 5.1C
 0mg cholesterol
 91mg sodium
 
-[item beets]
+[item beet]
 source: USDA: Beets, raw
 serving size: 1C
 # 1C = 136g
+serving size: 136g
 # 1 beet (2" dia) = 82g
 # when broiled, they shrink by a factor of 2.5
 58 calories
@@ -2843,6 +2855,16 @@ source: USDA: 18184, Cookies, oatmeal, prepared from recipe, with raisins
 81mg sodium
 5mg cholesterol
 
+[item white chocolate chunk macadamia nut cookie]
+serving size: 1oz
+140 calories
+7g fat
+10mg cholesterol
+105mg sodium
+16g carbohydrate
+0g fiber
+2g protein
+
 [item chocolate chip cookie]
 serving size: 16g
 # 16g = 1 cookie, medium (2-1/4" dia)
@@ -3480,6 +3502,16 @@ servings: 4
 1 medium cauliflower
 0.75C oil
 
+[recipe aloo gobhi 4]
+# 350g servings
+servings: 4
+2lb potatoes
+1.5 medium cauliflower
+15.5oz Goya chickpeas (1 can)
+# 2T ginger
+1.5tsp salt
+0.75C oil
+
 [recipe Jan's spinach pesto]
 # makes 275g total
 # 45g servings
@@ -3495,6 +3527,23 @@ source: recipes from an ecological kitchen, p50
 servings: 8
 0.5C dry kidney beans
 0.5C dry chickpeas
+1T olive oil
+320g (2C chopped) onions
+2 carrots
+2 celery stalks
+10oz white mushrooms
+360g (2C) tomatoes
+52g (0.5C) dry pasta
+4C shredded cabbage
+8oz green beans
+156g (1C) frozen corn
+2tsp salt
+
+[recipe kidney bean minestrone]
+source: recipes from an ecological kitchen p50, Jan
+servings: 8
+# makes 4.2L = 47.2 ladles, with 6 ladles per serving (1 ladlefull =~ 90ml).
+1C dry kidney beans
 1T olive oil
 320g (2C chopped) onions
 2 carrots
@@ -3634,6 +3683,16 @@ servings: 4
 14oz tomatoes
 12oz (1/2 bag) Market Basket frozen mixed vegetables
 
+[recipe Jan's chili 4]
+source: Jan
+servings: 4
+# 1 serving = 300g
+1 large onion
+3 cloves garlic
+1 (green) bell pepper
+31oz (2 cans) black beans
+3T oil
+
 [recipe Brooksetta burgers]
 source: The Best Veggie Burgers On The Planet, p77, Jan's variation
 servings: 6
@@ -3747,6 +3806,14 @@ servings: 4
 230g TVP
 1 onion
 12oz white mushrooms
+
+[recipe Jan's spaghetti sauce 5]
+source: Jan
+servings: 4
+1C Bob's Red Mill TVP
+28oz tomato sauce
+1/2 onion
+10oz portabella mushrooms
 
 [recipe walnut sauce]
 source: World Vegetarian, p684
@@ -4618,6 +4685,24 @@ servings: 20
 2C flour
 4T oil
 
+[recipe Spice Box samosa]
+source: The Spice Box p26, Jan
+servings: 16
+# 1 samosa = 1 serving
+2T oil
+1 onion
+10oz (2/3 can) canned chickpeas
+# 1/2inch piece of ginger
+1tsp salt
+440g potatoes (2 medium)
+1/4C frozen peas
+48g lemon juice (1 lemon)
+2-1/2C flour
+1/2tsp salt
+2T oil
+# plus extra from frying
+2T oil
+
 [recipe zucchini mushroom gnocchi]
 source: Forks Over Knives p 25 (for the sauce), Anna
 servings: 6
@@ -4794,3 +4879,110 @@ servings: 4
 1T cornstarch
 1T soy sauce
 1T oil
+
+[recipe eggplant with fried tofu]
+source: Jan
+servings: 3
+1 eggplant
+14oz Vitasoy extra-firm tofu
+1 (green) bell pepper
+3 cloves garlic
+4T oil
+1T (sesame) oil
+1/3C soy sauce
+
+[item Chipotle flour tortilla]
+source: https://chipotle.com/nutrition-calculator
+serving size: 3.5oz
+300 calories
+10g fat
+0mg cholesterol
+690mg sodium
+46g carbohydrate
+3g fiber
+7g protein
+
+[item Chipotle sofritas]
+source: https://chipotle.com/nutrition-calculator
+serving size: 4oz
+145 calories
+10g fat
+0mg cholesterol
+555mg sodium
+9g carbohydrate
+3.5g fiber
+8g protein
+
+[item Chipotle brown rice]
+source: https://chipotle.com/nutrition-calculator
+serving size: 4oz
+210 calories
+5.5g fat
+0mg cholesterol
+195mg sodium
+36g carbohydrate
+2.5g fiber
+4g protein
+
+[item Chipotle pinto beans]
+source: https://chipotle.com/nutrition-calculator
+serving size: 4oz
+115 calories
+1g fat
+0mg cholesterol
+300mg sodium
+21g carbohydrate
+10g fiber
+6g protein
+
+[item Chipotle green chili salsa]
+source: https://chipotle.com/nutrition-calculator
+serving size: 2oz
+15 calories
+0g fat
+0mg cholesterol
+255mg sodium
+4g carbohydrate
+0g fiber
+0g protein
+
+[item Chipotle guacamole]
+source: https://chipotle.com/nutrition-calculator
+serving size: 4oz
+230 calories
+22g fat
+0mg cholesterol
+375mg sodium
+8g carbohydrate
+6g fiber
+2g protein
+
+[recipe Chipotle sofritas burrito]
+servings: 1
+source: https://chipotle.com/nutrition-calculator
+Chipotle flour tortilla
+Chipotle sofritas (filling)
+Chipotle brown rice
+Chipotle pinto beans
+Chipotle green chili salsa
+Chipotle guacamole
+
+[recipe split pea soup]
+source: Jan
+servings: 4
+3 carrots
+2/3 onion (1 small)
+1C dried green peas
+# 1 piece of ginger
+3 cloves garlic
+1T oil
+
+[recipe banana muffin]
+source: Jan
+# 1 muffin = 1 serving, estd 80g
+servings: 12
+4 bananas
+2/3C sugar
+# 1tsp vanilla
+1C white flour
+# 1tsp baking powder
