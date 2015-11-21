@@ -4,6 +4,7 @@ use strict;
 use warnings;
 
 use Getopt::Long;
+use IO::File;
 
 my $detailed_p = 0;
 my $daily_p = 0;
@@ -440,108 +441,140 @@ sub present_summary {
 }
 
 sub parse_recipes {
-    my ($class, $file_name, $base_file_name) = @_;
+    my ($class, $file_name) = @_;
 
-    my $success_p = open(my $stream, '<', $file_name);
-    if (! $success_p && $base_file_name && $base_file_name =~ m@(.+)/@) {
-	my $local_file_name = "$1/$file_name";
-	$success_p = open($stream, '<', $local_file_name);
-	$file_name = $local_file_name
-	    if $success_p;
-    }
-    die "Can't open '$file_name':  $!"
-	unless $success_p;
+    my $open_file = sub {
+	my ($file_name, $base_file_name) = @_;
 
-    my $current_item;
-    while (<$stream>) {
-	chomp;
-	s/^\s+//;
-	if (! $_ || /^#/) {
-	    # Skip comments and blank lines.
+	my $stream = IO::File->new($file_name, '<');
+	if (! $stream && $base_file_name && $base_file_name =~ m@(.+)/@) {
+	    # Try something relative to $base_file_name.
+	    my $local_file_name = "$1/$file_name";
+	    $stream = IO::File->new($local_file_name, '<');
 	}
-	elsif (/^include (.*)/) {
-	    my $include_file_name = $1;
-	    # warn "include_file_name $include_file_name";
-	    $class->parse_recipes($include_file_name, $file_name);
+	return $stream;
+    };
+
+    my @include_stack;		# [$stream, $name] for where included from.
+    my $warning = sub {
+	# Emit a warning prefixed by the @include_stack contents.
+
+	for my $entry (@include_stack) {
+	    my ($stream, $name) = @$entry;
+	    warn "$0:  From $name line ", $stream->input_line_number, ":\n";
 	}
-	elsif (/^\[(\S+)\s+(.*)\]$/) {
-	    # Heading line.
-	    my ($type, $name) = //;
-	    $current_item->finalize()
-		if $current_item && $current_item->can('finalize');
-	    if ($type eq 'item') {
-		$current_item = Food::Item->new(name => $name);
-		$item_from_name{lc($name)} = $current_item;
+	warn("$0:  ", @_);
+    };
+
+    my $parse_file;
+    $parse_file = sub {
+	my ($file_name, $base_file_name) = @_;
+
+	my $stream = $open_file->($file_name, $base_file_name);
+	if (! $stream) {
+	    $warning->("Can't open '$file_name':  $!");
+	    return;
+	}
+	push(@include_stack, [ $stream, $file_name ]);
+
+	my $current_item;
+	while (<$stream>) {
+	    chomp;
+	    s/^\s+//;
+	    if (! $_ || /^#/) {
+		# Skip comments and blank lines.
 	    }
-	    elsif ($type eq 'recipe') {
-		$current_item = Food::Recipe->new(name => $name);
-		$item_from_name{lc($name)} = $current_item;
+	    elsif (/^include (.*)/) {
+		my $include_file_name = $1;
+		# warn "include_file_name $include_file_name";
+		$current_item->finalize()
+		    if $current_item && $current_item->can('finalize');
+		$parse_file->($include_file_name, $file_name);
 	    }
-	    else {
-		warn "$file_name:$.:  Unknown type '$type'.\n";
-		undef($current_item);
-	    }
-	}
-	elsif (! $current_item) {
-	    # Just ignore orphaned data.
-	}
-	elsif (/^serving size:\s*(.*)/) {
-	    my $size = $1;
-	    my ($amount, $units, $unit_class, $name)
-		= $class->parse_units("$size foo");
-	    if ($unit_class eq 'weight') {
-		my $weight = $class->convert($amount, $units, 1, 'g');
-		$current_item->serving_size_g($weight);
-	    }
-	    elsif ($unit_class eq 'volume') {
-		my $volume = $class->convert($amount, $units, 1, 'ml');
-		$current_item->serving_size_ml($volume);
-	    }
-	    else {
-		warn("$0:  Can't parse serving size '$size', for ",
-		     $current_item->name, "\n.");
-	    }
-	}
-	elsif (/^servings:\s*(.*)/) {
-	    $current_item->n_servings($1);
-	}
-	elsif (/^alias:\s*(.*)/) {
-	    # Aliases are cheap.
-	    $item_from_name{lc($1)} = $current_item;
-	}
-	elsif ($class->parse_units($_)) {
-	    # Data value.
-	    my ($amount, $units, $unit_class, $name) = $class->parse_units($_);
-	    my $mu = $message_and_units_from_name{$name};
-	    if ($mu) {
-		my ($message, $desired_units) = @$mu;
-		if (! $desired_units || $units eq $desired_units) {
-		    $current_item->$message($amount);
+	    elsif (/^\[(\S+)\s+(.*)\]$/) {
+		# Heading line.
+		my ($type, $name) = //;
+		$current_item->finalize()
+		    if $current_item && $current_item->can('finalize');
+		if ($type eq 'item') {
+		    $current_item = Food::Item->new(name => $name);
+		    $item_from_name{lc($name)} = $current_item;
+		}
+		elsif ($type eq 'recipe') {
+		    $current_item = Food::Recipe->new(name => $name);
+		    $item_from_name{lc($name)} = $current_item;
 		}
 		else {
-		    # [we could do better here.  -- rgr, 4-Apr-15.]
-		    die "$0:  Can't convert from $units to $desired_units.\n";
+		    $warning->("Unknown type '$type'.\n");
+		    undef($current_item);
 		}
 	    }
-	    elsif (my $item = $class->fetch_item($name)) {
-		$current_item->add_item($item, $amount, $units);
+	    elsif (! $current_item) {
+		# Just ignore orphaned data.
+	    }
+	    elsif (/^serving size:\s*(.*)/) {
+		my $size = $1;
+		my ($amount, $units, $unit_class, $name)
+		    = $class->parse_units("$size foo");
+		if ($unit_class eq 'weight') {
+		    my $weight = $class->convert($amount, $units, 1, 'g');
+		    $current_item->serving_size_g($weight);
+		}
+		elsif ($unit_class eq 'volume') {
+		    my $volume = $class->convert($amount, $units, 1, 'ml');
+		    $current_item->serving_size_ml($volume);
+		}
+		else {
+		    $warning->("Can't parse serving size '$size', for ",
+			       $current_item->name, "\n.");
+		}
+	    }
+	    elsif (/^servings:\s*(.*)/) {
+		$current_item->n_servings($1);
+	    }
+	    elsif (/^alias:\s*(.*)/) {
+		# Aliases are cheap.
+		$item_from_name{lc($1)} = $current_item;
+	    }
+	    elsif ($class->parse_units($_)) {
+		# Data value.
+		my ($amount, $units, $unit_class, $name)
+		    = $class->parse_units($_);
+		my $mu = $message_and_units_from_name{$name};
+		if ($mu) {
+		    my ($message, $desired_units) = @$mu;
+		    if (! $desired_units || $units eq $desired_units) {
+			$current_item->$message($amount);
+		    }
+		    else {
+			# [we could do better here.  -- rgr, 4-Apr-15.]
+			die("$0:  Can't convert from $units ",
+			    "to $desired_units.\n");
+		    }
+		}
+		elsif (my $item = $class->fetch_item($name)) {
+		    $current_item->add_item($item, $amount, $units);
+		}
+		else {
+		    $warning->("Don't know what to do with '$name'.\n");
+		}
+	    }
+	    elsif (/^(source|nominal size):/) {
+		# Ignore these for now.
+	    }
+	    elsif (my $item = $class->fetch_item($_)) {
+		$current_item->add_item($item, 1, 'serving');
 	    }
 	    else {
-		warn "$file_name:$.:  Don't know what to do with '$name'.\n";
+		$warning->("Don't know what to do with '$_'.\n");
 	    }
 	}
-	elsif (/^(source|nominal size):/) {
-	    # Ignore these for now.
-	}
-	elsif (my $item = $class->fetch_item($_)) {
-	    $current_item->add_item($item, 1, 'serving');
-	}
-	else {
-	    warn "$file_name:$.:  Don't know what to do with '$_'.\n";
-	}
-    }
-    $current_item->finalize()
-	if $current_item && $current_item->can('finalize');
+	$current_item->finalize()
+	    if $current_item && $current_item->can('finalize');
+    };
+
+    # Main code.
+    $parse_file->($file_name);
 }
 
 sub show_matching_recipes {
