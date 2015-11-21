@@ -1,6 +1,7 @@
 ### Recipes.
 
 include basic-ingredients.text
+include commercial-foods.text
 
 [recipe grilled tuna]
 servings: 1
