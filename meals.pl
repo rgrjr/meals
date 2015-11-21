@@ -440,18 +440,31 @@ sub present_summary {
 }
 
 sub parse_recipes {
-    my ($class, $file_name) = @_;
+    my ($class, $file_name, $base_file_name) = @_;
 
-    open(my $stream, '<', $file_name)
-	or die "Can't open '$file_name':  $!";
+    my $success_p = open(my $stream, '<', $file_name);
+    if (! $success_p && $base_file_name && $base_file_name =~ m@(.+)/@) {
+	my $local_file_name = "$1/$file_name";
+	$success_p = open($stream, '<', $local_file_name);
+	$file_name = $local_file_name
+	    if $success_p;
+    }
+    die "Can't open '$file_name':  $!"
+	unless $success_p;
+
     my $current_item;
     while (<$stream>) {
 	chomp;
 	s/^\s+//;
-	next
+	if (! $_ || /^#/) {
 	    # Skip comments and blank lines.
-	    if ! $_ || /^#/;
-	if (/^\[(\S+)\s+(.*)\]$/) {
+	}
+	elsif (/^include (.*)/) {
+	    my $include_file_name = $1;
+	    # warn "include_file_name $include_file_name";
+	    $class->parse_recipes($include_file_name, $file_name);
+	}
+	elsif (/^\[(\S+)\s+(.*)\]$/) {
 	    # Heading line.
 	    my ($type, $name) = //;
 	    $current_item->finalize()

@@ -1,0 +1,2996 @@
+# This file just contains "item" entries for ingredients.
+
+# USDA:  Nutrient Database at http://ndb.nal.usda.gov/ndb/
+
+[item salt]
+source: USDA: Salt, table
+serving size: 1tsp
+serving size: 6g
+0 calories
+0g protein
+0g fat
+0g carbohydrate
+0g fiber
+2325mg sodium
+0mg cholesterol
+
+[item lime juice]
+source: USDA: Lime juice, raw
+serving size: 1T
+# 1T = 0.5floz = 15.4g
+4 calories
+0g protein
+0g fat
+1g carbohydrate
+0g fiber
+0mg sodium
+0mg cholesterol
+
+[item lemon juice]
+source: USDA: 09152 Lemon juice, raw
+serving size: 1C
+# 1C = 244g
+serving size: 244g
+# 1oz = 30.5g
+# 1 lemon = 48g
+54 calories
+1g protein
+1g fat
+17g carbohydrate
+1g fiber
+2mg sodium
+0mg cholesterol
+
+[item tahini]
+source: USDA: 12698, Seeds, sesame butter, tahini, type of kernels unspecified
+serving size: 1T
+# 1T = 15g
+serving size: 15g
+89 calories
+3g protein
+8g fat
+3g carbohydrate
+1g fiber
+1mg sodium
+0mg cholesterol
+
+[item cinnamon-raisin bagel]
+alias: bagel
+source: USDA: Bagels, cinnamon-raisin
+serving size: 105g
+# medium bagel (3-1/2" to 4" dia)
+288 calories
+10g protein
+2g fat
+58g carbohydrate
+2g fiber
+361mg sodium
+0mg cholesterol
+
+[item Bruegger's cinnamon-raisin bagel]
+source: https://www.brueggers.com/menu/bagels-and-cream-cheese/bagels/cinnamon-raisin
+310 calories
+11g protein
+2g fat
+65g carbohydrate
+4g fiber
+480mg sodium
+0mg cholesterol
+
+[item pumpernickel bagel]
+# also based on "Bagels, cinnamon-raisin".
+source: USDA: 18045, Bread, pumpernickel, toasted
+serving size: 100g
+# medium bagel (3-1/2" to 4" dia)
+288 calories
+10g protein
+3g fat
+52g carbohydrate
+7g fiber
+600mg sodium
+0mg cholesterol
+
+[item marble bagel]
+# mostly based on "Bagels, cinnamon-raisin".
+serving size: 105g
+288 calories
+10g protein
+2g fat
+56g carbohydrate
+4g fiber
+400mg sodium
+0mg cholesterol
+
+[item sourdough bread]
+source: USDA: Bread, french or vienna (includes sourdough)
+# 1 slice = 139g
+serving size: 139g
+378 calories
+15g protein
+3g fat
+72g carbohydrate
+3g fiber
+837mg sodium
+0mg cholesterol
+
+[item buttermilk pancake]
+source: USDA: 18390, Pancakes, buttermilk, prepared from recipe
+# guesswork, based on Main Street Bistro in New Paltz NY
+serving size: 77g
+# 1 pancake (6" dia) = 77g
+86 calories
+3g protein
+4g fat
+11g carbohydrate
+# [assumed no fiber.  -- rgr, 7-Jun-15.]
+0g fiber
+198mg sodium
+22mg cholesterol
+
+[item bread crumbs]
+source: USDA: Bread crumbs, dry, grated, plain
+serving size: 1C
+# 1C = 108g
+427 calories
+14g protein
+6g fat
+78g carbohydrate
+5g fiber
+791mg sodium
+0mg cholesterol
+
+[item brown rice]
+serving size: 100g
+# 1C = 190g
+source: USDA: Rice, brown, medium-grain, cooked
+112 calories
+2g protein
+1g fat
+24g carbohydrate
+2g fiber
+1mg sodium
+0mg cholesterol
+
+[item white rice]
+alias: rice
+alias: rice, white basmati
+source: USDA: Rice, white, long-grain, regular, cooked, enriched
+serving size: 100g
+130 calories
+3g protein
+0g fat
+28g carbohydrate
+0g fiber
+1mg sodium
+0mg cholesterol
+
+[item raw white rice]
+source: USDA: 20450, Rice, white, medium-grain, raw, unenriched
+serving size: 1C
+serving size: 195g
+702 calories
+13g protein
+1g fat
+155g carbohydrate
+0g fiber
+2mg sodium
+0mg cholesterol
+
+[item uncooked quinoa]
+serving size: 100g
+# 1C = 170g
+serving size: 0.59C
+source: USDA: 20035, Quinoa, uncooked
+368 calories
+14g protein
+6g fat
+64g carbohydrate
+7g fiber
+5mg sodium
+0mg cholesterol
+
+[item cooked quinoa]
+serving size: 100g
+# 1C = 185g
+serving size: 0.54C
+source: USDA: Basic Report:  20137, Quinoa, cooked
+120 calories
+4g protein
+2g fat
+21g carbohydrate
+3g fiber
+3mg sodium
+0mg cholesterol
+
+[item dried rice noodles]
+serving size: 100g
+source: USDA: 20133, Rice noodles, dry
+364 calories
+6g protein
+0.5g fat
+80g carbohydrate
+2g fiber
+182mg sodium
+0mg cholesterol
+
+[item rice noodles]
+alias: cooked rice noodles
+serving size: 176g
+serving size: 1C
+source: USDA: 20134, Rice noodles, cooked
+190 calories
+3g protein
+0g fat
+42g carbohydrate
+2g fiber
+33mg sodium
+0mg cholesterol
+
+[item baby corn]
+serving size: 3oz
+source: Dynasty cut baby corn [product can]
+20 calories
+1g protein
+0g fat
+3g carbohydrate
+2g fiber
+0mg cholesterol
+190mg sodium
+
+[item frozen corn]
+source: USDA: Corn, sweet, yellow, frozen, kernels cut off cob, unprepared
+serving size: 100g
+88 calories
+3g protein
+1g fat
+21g carbohydrate
+2g fiber
+3mg sodium
+0mg cholesterol
+
+[item cornstarch]
+source: USDA: Cornstarch
+serving size: 100g
+# 1C = 128g
+serving size: 0.781C
+381 calories
+0g protein
+0g fat
+91g carbohydrate
+1g fiber
+9mg sodium
+0mg cholesterol
+
+[item oats]
+source: Stop And Shop Old Fashioned Oats
+serving size: 0.5C
+# 0.5C = 40g dry
+150 calories
+5g protein
+2.5g fat
+27g carbohydrate
+4g fiber
+0mg sodium
+0mg cholesterol
+
+[item flour]
+alias: wheat flour
+source: USDA: Wheat flour, white, all-purpose, enriched, bleached
+serving size: 100g
+# 1C = 125g
+serving size: 0.8C
+364 calories
+10g protein
+1g fat
+76g carbohydrate
+3g fiber
+2mg sodium
+0mg cholesterol
+
+[item whole-wheat flour]
+source: USDA: Basic Report:  20080, Wheat flour, whole-grain
+serving size: 1C
+# 1C = 120g
+408 calories
+16g protein
+3g fat
+86g carbohydrate
+13g fiber
+2mg sodium
+0mg cholesterol
+
+[item USDA vital wheat gluten]
+source: USDA: 48052, Vital wheat gluten
+serving size: 100g
+# assume 1/4C = 30g
+serving size: 0.83C
+370 calories
+75g protein
+2g fat
+14g carbohydrate
+1g fiber
+29mg sodium
+0mg cholesterol
+
+[item vital wheat gluten]
+alias: Bob's Red Mill vital wheat gluten
+serving size: 1/4C
+serving size: 30g
+120 calories
+0.5g fat
+0mg cholesterol
+0mg sodium
+4g carbohydrate
+1g fiber
+23g protein
+
+[item soy flour]
+source: Bob's Red Mill organic whole grain soy flour
+serving size: 0.25C
+# 1C = 125g
+120 calories
+6g fat
+0mg cholesterol
+0mg sodium
+8g carbohydrate
+3g fiber
+10g protein
+
+[item chickpea flour]
+source: USDA: 16157, Chickpea flour (besan)
+serving size: 1C
+# 1C = 92g
+356 calories
+20g protein
+6g fat
+53g carbohydrate
+10g fiber
+59mg sodium
+0mg cholesterol
+
+[item masa harina]
+alias: corn flour
+source: USDA: Corn flour, masa, unenriched, white
+serving size: 100g
+# 1C = 114g
+363 calories
+8g protein
+4g fat
+77g carbohydrate
+6g fiber
+5mg sodium
+0mg cholesterol
+
+[item flour tortillas]
+source: USDA: 18450, Tortillas, ready-to-bake or -fry, flour, without added calcium
+serving size: 32g
+# 1 medium 10" tortilla = 32g
+104 calories
+3g protein
+2g fat
+18g carbohydrate
+1g fiber
+153mg sodium
+0mg cholesterol
+
+[item fried tortillas]
+alias: fried corn tortillas
+source: USDA: Tortillas, ready-to-bake or -fry, corn 
+# with added fat
+serving size: 19g
+# 1C = 114g
+41 calories
+1g protein
+10g fat
+8g carbohydrate
+1g fiber
+9mg sodium
+0mg cholesterol
+
+[item butter]
+source: USDA: Butter, salted
+serving size: 1T
+serving size: 14.2g
+102 calories
+0g protein
+12g fat
+0g carbohydrate
+0g fiber
+91mg sodium
+31mg cholesterol
+
+[item buttermilk]
+source: USDA: 01230, Milk, buttermilk, fluid, whole
+serving size: 1C
+serving size: 245g
+152 calories
+8g protein
+8g fat
+12g carbohydrate
+0g fiber
+257mg sodium
+27mg cholesterol
+
+[item yogurt]
+source: USDA: 01116, Yogurt, plain, whole milk, 8 grams protein per 8 ounce
+serving size: 1C
+serving size: 245g
+149 calories
+9g protein
+8g fat
+11g carbohydrate
+0g fiber
+113mg sodium
+32mg cholesterol
+
+[item cranberries]
+alias: fresh cranberries
+source: USDA: Cranberries, raw
+serving size: 1C
+# 1C chopped = 110g
+# 1C whole = 100g
+51 calories
+0g protein
+0g fat
+13g carbohydrate
+5g fiber
+2mg sodium
+0mg cholesterol
+
+[item walnuts]
+source: USDA: Nuts, walnuts, english
+serving size: 1C
+serving size: 117g
+# 1C ground = 80g
+# 1C chopped = 117g
+# 1C shelled = 100g
+523 calories
+12g protein
+52g fat
+11g carbohydrate
+5g fiber
+2mg sodium
+0mg cholesterol
+
+[item cashews]
+alias: River Queen cashew halves
+alias: cashew halves
+serving size: 33g
+190 calories
+16g fat
+0mg cholesterol
+80mg sodium
+9g carbohydrate
+1g fiber
+5g protein
+
+[item RQ cashews]
+alias: River Queen whole cashews
+serving size: 34g
+190 calories
+16g fat
+0mg cholesterol
+180mg sodium
+10g carbohydrate
+1g fiber
+5g protein
+
+[item Kirkland cashews]
+serving size: 30g
+# 1T ground = 10g
+serving size: 3T
+170 calories
+14g fat
+0mg cholesterol
+120mg sodium
+9g carbohydrate
+0g fiber
+5g protein
+
+[item peanut]
+source: USDA: 16087, Peanuts, all types, raw
+serving size: 1C
+serving size: 146g
+828 calories
+72g fat
+0mg cholesterol
+1029mg sodium
+24g carbohydrate
+12g fiber
+38g protein
+
+[item almonds]
+source: USDA: Basic Report:  12061, Nuts, almonds
+serving size: 50g
+# 1C whole = 143g
+serving size: 0.35C
+290 calories
+11g protein
+25g fat
+11g carbohydrate
+6g fiber
+0mg sodium
+0mg cholesterol
+
+[item pecans]
+serving size: 50g
+# 1C chopped = 109g
+346 calories
+5g protein
+36g fat
+7g carbohydrate
+5g fiber
+0mg sodium
+0mg cholesterol
+
+[item pine nuts]
+source: USDA: Nuts, pine nuts, dried
+serving size: 1C
+# 1C = 135g
+909 calories
+18g protein
+92g fat
+18g carbohydrate
+5g fiber
+3mg sodium
+0mg cholesterol
+
+[item raisins]
+source: USDA: Raisins, seedless
+serving size: 43g
+# 1 small (1.5oz) box = 43g
+# 1 cup, packed = 165g
+109 calories
+1g protein
+0g fat
+34g carbohydrate
+2g fiber
+5mg sodium
+0mg cholesterol
+
+[item avocado]
+source: USDA: Avocados, raw, all commercial varieties
+serving size: 100g
+# 1C = 150g
+160 calories
+2g protein
+15g fat
+9g carbohydrate
+7g fiber
+7mg sodium
+0mg cholesterol
+
+[item medium coffee, double whole milk]
+alias: medium coffee, double whole milk, no sugar
+serving size: 12oz
+2g carbohydrate
+0g fiber
+1g fat
+2g protein
+46 calories
+
+[item Kickstand Cafe scone]
+# [this is wrong, but the best we can do.  -- rgr, 15-Jan-15.]
+alias: Kickstand Cafe scone, mixed berry
+alias: Kickstand Cafe scone, maple walnut
+alias: Kickstand Cafe scone, maple pecan
+alias: Kickstand Cafe scone, vegan raisin
+alias: Kickstand Cafe scone, blackberry oatmeal
+alias: Kickstand Cafe scone, blueberry oatmeal
+alias: Kickstand Cafe scone, raspberry lemon
+alias: Kickstand Cafe scone, raspberry honey
+alias: Kickstand Cafe scone, raspberry ginger
+alias: Kickstand Cafe scone, pear ginger
+alias: Kickstand Cafe scone, strawberry coconut
+source: USDA: some random Starbucks scone
+56g carbohydrate
+2g fiber
+29g fat
+6g protein
+500 calories
+
+[item Starbucks blueberry scone]
+source: Starbucks: http://www.starbucks.com/menu/food/bakery/blueberry-scone
+460 calories
+22g fat
+61g carbohydrate
+2g fiber
+7g protein
+420mg sodium
+75mg cholesterol
+
+[item Panera orange scone]
+source: http://www.caloriecount.com/calories-panera-bread-orange-scone-i63414
+430 calories
+21g fat
+54g carbohydrate
+1g fiber
+9g protein
+310mg sodium
+120mg cholesterol
+
+[item Royal Dansk butter cookies]
+alias: Royal Dansk cookies
+# serving size: 4 cookies
+2g protein
+9g fat
+23g carbohydrate
+0g fiber
+180 calories
+
+[item commercial chocolate chip cookie]
+source: USDA: 18160, Cookies, chocolate chip, commercially prepared, soft-type
+serving size: 40g
+178 calories
+1.4g protein
+8g fat
+26g carbohydrate
+0.7g fiber
+110mg sodium
+# cholesterol not shown
+
+[item Tasty Bite channa masala]
+# serving size: 1/2 package
+168 calories
+6g fat
+0mg cholesterol
+452mg sodium
+22g carbohydrate
+5g fiber
+6g protein
+
+[item Trader Joe's Jaipur vegetables]
+serving size: 142g
+# 142g = 1/2 package
+170 calories
+11g fat
+5mg cholesterol
+370mg sodium
+10g carbohydrate
+4g fiber
+7g protein
+
+[item Trader Joe's channa masala]
+serving size: 142g
+# 142g = 1/2 package
+180 calories
+9g fat
+5mg cholesterol
+450mg sodium
+20g carbohydrate
+5g fiber
+5g protein
+
+[item Trader Joe's palak paneer]
+serving size: 150g
+# 150g = 1/2 package
+160 calories
+12g fat
+15mg cholesterol
+7g carbohydrate
+1g fiber
+6g protein
+
+[item Trader Joe's Madras lentils]
+# serving size: 1/2 package
+130 calories
+5g fat
+5mg cholesterol
+455mg sodium
+14g carbohydrate
+5g fiber
+6g protein
+
+[item Trader Joe's Punjab eggplant]
+# serving size: 1/2 package
+150 calories
+9g fat
+0mg cholesterol
+510mg sodium
+13g carbohydrate
+2g fiber
+4g protein
+
+[item feta cheese]
+source: USDA: Cheese, feta
+serving size: 28g
+# 1C crumbled = 150g
+75 calories
+4g protein
+6g fat
+1g carbohydrate
+0g fiber
+260mg sodium
+25mg cholesterol
+
+[item Tofurkey chicken & apple sausage]
+# serving size: 1 sausage
+26g protein
+12g fat
+260 calories
+13g carbohydrate
+4g fiber
+540mg sodium
+0mg cholesterol
+
+[item Tofurkey Italian sausage]
+# serving size: 1 sausage
+26g protein
+12g fat
+260 calories
+13g carbohydrate
+1g fiber
+620mg sodium
+0mg cholesterol
+
+[item Tofurkey ground beef style]
+alias: meatless ground crumbles
+serving size: 55g
+90 calories
+4g fat
+0mg cholesterol
+320mg sodium
+6g carbohydrate
+2g fiber
+9g protein
+
+[item Boca veggie crumbles]
+serving size: 57g
+70 calories
+0g fat
+0mg cholesterol
+210mg sodium
+6g carbohydrate
+3g fiber
+13g protein
+
+[item TVP]
+serving size: 100g
+290 calories
+1g fat
+0mg cholesterol
+25mg sodium
+32g carbohydrate
+53g protein
+
+[item Bob's Red Mill TVP]
+serving size: 24g
+serving size: 1/4C
+80 calories
+0g fat
+0mg cholesterol
+2mg sodium
+7g carbohydrate
+4g fiber
+12g protein
+
+[item Daiya cheddar style shreds]
+serving size: 28g
+90 calories
+6g fat
+0mg cholesterol
+250mg sodium
+7g carbohydrate
+1g fiber
+1g protein
+
+[item Helen's Kitchen organic veggie chorizo]
+serving size: 57g
+# 1 package = 340g = 6 svg
+110 calories
+9g fat
+0mg cholesterol
+360mg sodium
+6g carbohydrate
+4g fiber
+7g protein
+
+[item artichoke hearts]
+source: USDA: Artichokes, (globe or french), cooked, boiled, drained, with salt
+serving size: 84g
+# 1C hearts = 84g
+43 calories
+2g protein
+0g fat
+10g carbohydrate
+7g fiber
+249mg sodium
+0mg cholesterol
+
+[item white mushrooms]
+source: USDA: 11260, Mushrooms, white, raw
+serving size: 96g
+# 1C pieces or slices = 70g
+# 1C whole = 96g
+serving size: 1C
+21 calories
+3g protein
+0g fat
+3g carbohydrate
+1g fiber
+5mg sodium
+0mg cholesterol
+
+[item brown mushrooms]
+source: USDA: Mushrooms, brown, italian, or crimini, raw
+serving size: 87g
+# 1C whole = 87g
+# 1C sliced = 72g
+serving size: 1C
+# 1 piece whole = 20g
+19 calories
+2g protein
+0g fat
+4g carbohydrate
+0g fiber
+5mg sodium
+0mg cholesterol
+
+[item portabella mushrooms]
+source: USDA: 11265, Mushrooms, portabella, raw
+serving size: 86g
+# 1C diced = 87g
+serving size: 1C
+# 1 piece whole = 84g
+19 calories
+2g protein
+0g fat
+3g carbohydrate
+1g fiber
+8mg sodium
+0mg cholesterol
+
+[item baby portabella mushrooms]
+source: Giorgio (brand)
+serving size: 85g
+# 1C diced = 87g
+serving size: 1C
+# 1 piece whole = 84g
+30 calories
+0g fat
+0mg cholesterol
+10mg sodium
+4g carbohydrate
+2g fiber
+3g protein
+
+[item olive oil]
+source: USDA: Basic Report:  44005, Oil, corn, peanut, and olive
+alias: oil
+serving size: 1T
+serving size: 14g
+0g carbohydrate
+0g fiber
+13g fat
+0g protein
+120 calories
+0mg cholesterol
+0mg sodium
+
+[item olive]
+source: USDA: 09193, Olives, ripe, canned (small-extra large)
+serving size: 8.4g
+serving size: 1T
+# 1 large = 4.4g
+10 calories
+0g protein
+1g fat
+0.5g carbohydrate
+0.3g fiber
+0mg cholesterol
+62mg sodium
+
+[item Nissin cup noodles with shrimp]
+serving size: 64g
+# CHO%50.7
+300 calories
+13g fat
+5mg cholesterol
+1180mg sodium
+38g carbohydrate
+1g fiber
+7g protein
+
+[item Maruchan cup noodles with shrimp]
+serving size: 64g
+# CHO%53.8
+290 calories
+12g fat
+10mg cholesterol
+1120mg sodium
+39g carbohydrate
+2g fiber
+7g protein
+
+[item MB sliced banana nut bread]
+alias: Market Basket sliced banana nut bread
+serving size: 1.8oz
+# 1 slice = 1.8oz = 51g
+3g protein
+7g fat
+25g carbohydrate
+1g fiber
+170 calories
+20mg cholesterol
+160mg sodium
+
+[item MB sliced "bananas only" bread]
+serving size: 1.8oz
+# 1 slice = 1.8oz = 51g
+3g protein
+6g fat
+26g carbohydrate
+1g fiber
+170 calories
+25mg cholesterol
+160mg sodium
+
+[item shrimp]
+source: USDA: 15271, Crustaceans, shrimp, untreated, cooked
+serving size: 100g
+99 calories
+24g protein
+0g fat
+0g carbohydrate
+0g fiber
+189mg cholesterol
+111mg sodium
+
+[item Manishevitz matzos]
+source: 
+serving size: 28g
+# 1 matzo = 28g
+100 calories
+3g protein
+0g fat
+23g carbohydrate
+1g fiber
+0mg sodium
+0mg cholesterol
+
+[item Streit's matzos]
+source: Streit's
+serving size: 28g
+# 1 matzo = 28g
+100 calories
+3g protein
+0g fat
+23g carbohydrate
+1g fiber
+0mg sodium
+0mg cholesterol
+
+[item Yehuda matzo]
+source: Yehuda
+serving size: 35g
+# 1 matzo = 35g
+125 calories
+3g protein
+0g fat
+28g carbohydrate
+1g fiber
+0mg sodium
+0mg cholesterol
+
+[item Wheat Thins]
+serving size: 31g
+22g carbohydrate
+2g fiber
+5g fat
+2g protein
+140 calories
+0mg cholesterol
+230mg sodium
+
+[item Snyder's pretzels]
+source: Snyder's Olde Tyme pretzels
+serving size: 45g
+180 calories
+1.5g fat
+0mg cholesterol
+180mg sodium
+36g carbohydrate
+2g fiber
+4g protein
+
+[item Girl Scout PB cookies]
+alias: Girl Scout peanut butter sandwich cookies
+serving size: 35g
+# 35g = 3 cookies
+160 calories
+6g fat
+0mg cholesterol
+135mg sodium
+26g carbohydrate
+0g fiber
+2g protein
+
+[item dry brown rice pasta]
+source: Food Directions Inc
+serving size: 60g
+230 calories
+5g protein
+2g fat
+47g carbohydrate
+2g fiber
+0mg sodium
+0mg cholesterol
+
+[item dry pasta]
+alias: shell pasta
+source: USDA: Macaroni, dry, enriched
+serving size: 100g
+# 105g = 1C elbow shaped
+# 84g = 1C spiral shaped
+# 93g = 1C small shells
+371 calories
+13g protein
+2g fat
+79g carbohydrate
+3g fiber
+6mg sodium
+0mg cholesterol
+
+[item cooked pasta]
+source: USDA: Macaroni, cooked, enriched
+serving size: 100g
+158 calories
+6g protein
+1g fat
+31g carbohydrate
+2g fiber
+1mg sodium
+0mg cholesterol
+
+[item dry whole wheat pasta]
+source: USDA: Macaroni, whole-wheat, dry
+serving size: 57g
+# 1C elbow shaped = 105g
+198 calories
+8g protein
+1g fat
+43g carbohydrate
+5g fiber
+10mg sodium
+0mg cholesterol
+
+[item cooked whole wheat pasta]
+source: USDA: 20108, Macaroni, whole-wheat, cooked 
+serving size: 1C
+serving size: 140g
+# 1C elbow shaped = 140g
+174 calories
+7g protein
+1g fat
+37g carbohydrate
+4g fiber
+4mg sodium
+0mg cholesterol
+
+[item dry whole wheat pasta]
+source: Barilla whole grain rotini
+serving size: 2oz
+200 calories
+7g protein
+1.5g fat
+41g carbohydrate
+6g fiber
+10mg sodium
+0mg cholesterol
+
+[item Top Ramen]
+source: Nissin
+serving size: 1.5oz
+# 1.5oz = 1/2 package
+190 calories
+7g fat
+0mg cholesterol
+800mg sodium
+26g carbohydrate
+1g fiber
+5g protein
+
+[item potato gnocchi]
+alias: gnocchi
+source: Mama Rosie's
+# same as Stop & Shop potato gnocchi
+serving size: 112g
+# 1 package = 411g
+270 calories
+8g protein
+0.5g fat
+57g carbohydrate
+2g fiber
+190mg sodium
+0mg cholesterol
+
+[item sugar]
+serving size: 1T
+# 1T = 12.6g
+# 1C = 200g
+source: USDA: Sugars, granulated
+49 calories
+0g protein
+0g fat
+12.25g carbohydrate
+0g fiber
+0mg cholesterol
+0mg sodium
+
+[item brown sugar]
+serving size: 1tsp
+# 1tsp packed = 4.6g
+# 1C packed = 220g
+source: USDA: Basic Report:  19334, Sugars, brown
+17 calories
+0g protein
+0g fat
+4.5g carbohydrate
+0g fiber
+0mg cholesterol
+1mg sodium
+
+[item molasses]
+serving size: 1T
+# 1T = 20g
+source: USDA: Molasses
+58 calories
+0g protein
+0g fat
+15g carbohydrate
+0g fiber
+0mg cholesterol
+7mg sodium
+
+[item maple syrup]
+serving size: 1T
+# 1T = 20g
+source: USDA: Syrups, maple
+52 calories
+0g protein
+0g fat
+13g carbohydrate
+0g fiber
+2mg sodium
+0mg cholesterol
+
+[item agave nectar]
+alias: organic blue agave
+alias: agave syrup
+serving size: 1T
+# 1T = 20.7g
+source: Wholesome Sweeteners, Inc
+60 calories
+0g protein
+0g fat
+15g carbohydrate
+0g fiber
+0mg cholesterol
+0mg sodium
+
+[item vanilla extract]
+source: USDA: Vanilla extract
+serving size: 1tsp
+# 1tsp = 4.2g
+12 calories
+0g protein
+0g fat
+1g carbohydrate
+0g fiber
+0mg sodium
+0mg cholesterol
+
+[item unsweetened soy milk]
+serving size: 1C
+source: Whole Foods
+70 calories
+4g fat
+0mg cholesterol
+120mg sodium
+4g carbohydrate
+2g fiber
+7g protein
+
+[item almond milk]
+source: Blue Diamond Almond Breeze
+serving size: 1C
+# 1C = 240ml
+# 1 container = 4C
+30 calories
+2.5g fat
+0mg cholesterol
+180mg sodium
+2g carbohydrate
+1g fiber
+1g protein
+
+[item Utz Ripples potato chips]
+serving size: 1oz
+# CHO%37.3
+150 calories
+10g fat
+0mg cholesterol
+95mg sodium
+14g carbohydrate
+1g fiber
+2g protein
+
+[item Ruffles potato chips]
+serving size: 1oz
+# CHO%37.5
+160 calories
+10g fat
+0mg cholesterol
+160mg sodium
+15g carbohydrate
+# [fiber is a guess.  -- rgr, 27-Jun-15.]
+1g fiber
+2g protein
+
+[item Lay's Classic potato chips]
+# CHO%38.2
+serving size: 78g
+440 calories
+29g fat
+0mg cholesterol
+460mg sodium
+42g carbohydrate
+3g fiber
+5g protein
+
+[item corn chips]
+alias: Fritos
+# CHO%40.0
+serving size: 1oz
+160 calories
+10g fat
+0mg cholesterol
+110mg sodium
+16g carbohydrate
+1g fiber
+2g protein
+
+[item TJ's potato chips]
+serving size: 1oz
+# CHO%40.0
+150 calories
+10g fat
+0mg cholesterol
+180mg sodium
+15g carbohydrate
+# [fiber is a guess.  -- rgr, 27-Jun-15.]
+1g fiber
+2g protein
+
+[item MB potato chips]
+alias: Market Basket classic potato chips
+# CHO%40.0
+serving size: 1oz
+140 calories
+8g fat
+0mg cholesterol
+180mg sodium
+16g carbohydrate
+# [fiber is a guess.  -- rgr, 27-Jun-15.]
+1g fiber
+2g protein
+
+[item Kettle potato chips]
+alias: Kirkland "kettle cut" potato chips
+serving size: 1oz
+# CHO%42.7
+16g carbohydrate
+1g fiber
+9g fat
+2g protein
+150 calories
+0mg cholesterol
+115mg sodium
+
+[item Cape Cod kettle potato chips]
+serving size: 1oz
+# CHO%51.4
+140 calories
+6g fat
+0mg cholesterol
+85mg sodium
+18g carbohydrate
+2g fiber
+2g protein
+
+[item Abuelita tortilla chips]
+alias: Tostitos original restaurant style tortilla chips
+serving size: 1oz
+# CHO%50.7
+150 calories
+6g fat
+0mg cholesterol
+70mg sodium
+21g carbohydrate
+2g fiber
+2g protein
+
+[item tortilla chips]
+alias: Tostitos original restaurant style tortilla chips
+serving size: 1oz
+# CHO%54.3
+140 calories
+7g fat
+0mg cholesterol
+115mg sodium
+19g carbohydrate
+1g fiber
+2g protein
+
+[item flaxseed]
+alias: flax seed
+source: USDA: Seeds, flaxseed
+serving size: 1C
+# 1C = 168g
+897 calories
+31g protein
+71g fat
+49g carbohydrate
+46g fiber
+50mg sodium
+0mg cholesterol
+
+[item sesame seeds]
+alias: black sesame seeds
+source: USDA: 12023, Seeds, sesame seeds, whole, dried
+serving size: 1C
+# 1C = 144g
+825 calories
+26g protein
+72g fat
+34g carbohydrate
+17g fiber
+16mg sodium
+0mg cholesterol
+
+[item coconut]
+source: USDA: 
+serving size: 100g
+660 calories
+7g protein
+65g fat
+24g carbohydrate
+16g fiber
+4mg sodium
+0mg cholesterol
+
+[item Goya chickpeas]
+alias: canned chickpeas
+alias: cooked chickpeas
+source: Goya
+serving size: 122g
+serving size: 1/2C
+20g carbohydrate
+7g fiber
+2g fat
+6g protein
+100 calories
+0mg cholesterol
+360mg sodium
+
+[item dry chickpeas]
+alias: dried kala channa
+source: USDA: Chickpeas (garbanzo beans, bengal gram), mature seeds, raw
+serving size: 1C
+# 1C = 200g
+756 calories
+41g protein
+12g fat
+126g carbohydrate
+24g fiber
+0mg cholesterol
+48mg sodium
+
+[item hummus]
+source: USDA: 16137, Hummus, home prepared
+serving size: 1C
+serving size: 246g
+435 calories
+12g protein
+21g fat
+50g carbohydrate
+10g fiber
+0mg cholesterol
+595mg sodium
+
+[item generic falafel]
+source: USDA: 16138, Falafel, home-prepared
+serving size: 17g
+# one patty (approx 2-1/4" dia) = 17g 
+57 calories
+2g protein
+3g fat
+5g carbohydrate
+1g fiber
+0mg cholesterol
+50mg sodium
+
+[item pita bread]
+source: USDA: 18041, Bread, pita, white, enriched 
+serving size: 60g
+# 1 large (6-1/2" dia) = 60g
+165 calories
+5g protein
+1g fat
+33g carbohydrate
+10g fiber
+0mg cholesterol
+322mg sodium
+
+[item black beans]
+source: Goya
+serving size: 122g
+# 122g = 1/2C
+# 15.5oz = 439g = 1 can
+90 calories
+1g fat
+0mg cholesterol
+460mg sodium
+19g carbohydrate
+6g fiber
+7g protein
+
+[item dry black beans]
+source: USDA: Beans, black, mature seeds, raw 
+serving size: 1C
+# 1C = 194g
+662 calories
+42g protein
+3g fat
+121g carbohydrate
+30g fiber
+0mg cholesterol
+10mg sodium
+
+[item cooked black soy beans]
+source: USDA: Soybeans, mature cooked, boiled, without salt 
+serving size: 1C
+# 1C = 172g
+298 calories
+29g protein
+15g fat
+17g carbohydrate
+10g fiber
+0mg cholesterol
+2mg sodium
+
+[item dry black soy beans]
+source: USDA: 16108, Soybeans, mature seeds, raw
+serving size: 1C
+# 1C = 186g
+830 calories
+68g protein
+37g fat
+56g carbohydrate
+17g fiber
+0mg cholesterol
+4mg sodium
+
+[item toor dal]
+source: USDA: Pigeonpeas, immature seeds, raw
+serving size: 1C
+# 1C = 154g
+209 calories
+11g protein
+2.5g fat
+37g carbohydrate
+8g fiber
+8mg sodium
+0mg cholesterol
+
+[item kidney beans]
+serving size: 130g
+# can size 15.5oz
+source: Stop And Shop
+110 calories
+7g protein
+0g fat
+19g carbohydrate
+8g fiber
+0mg cholesterol
+360mg sodium
+
+[item dry kidney beans]
+source: USDA: Beans, kidney, red, mature seeds, raw
+serving size: 1C
+# 1C = 184g
+620 calories
+41g protein
+2g fat
+112g carbohydrate
+28g fiber
+0mg cholesterol
+22mg sodium
+
+[item pinto beans]
+# This is not right.  -- rgr, 15-Jan-15.
+alias: dried pinto beans
+source: USDA: Beans, pinto, canned, drained solids 
+serving size: 100g
+114 calories
+7g protein
+1g fat
+20g carbohydrate
+6g fiber
+0mg cholesterol
+239mg sodium
+
+[item canned white beans]
+alias: cannellini beans
+serving size: 130g
+serving size: 1/2C
+# can size 15.5oz
+source: Stop And Shop
+100 calories
+7g protein
+0g fat
+18g carbohydrate
+4g fiber
+0mg cholesterol
+450mg sodium
+
+[item raw white beans]
+serving size: 1C
+serving size: 202g
+source: USDA: 16049, Beans, white, mature seeds, raw
+673 calories
+47g protein
+2g fat
+122g carbohydrate
+31g fiber
+32mg sodium
+0mg cholesterol
+
+[item raw adzuki beans]
+serving size: 197g
+serving size: 1C
+source: USDA: 16001, Beans, adzuki, mature seeds, raw
+648 calories
+39g protein
+1g fat
+124g carbohydrate
+25g fiber
+0mg cholesterol
+10mg sodium
+
+[item bean sprouts]
+source: Nature's Wonder
+serving size: 100g
+# 100g = 1C
+serving size: 1C
+30 calories
+0.5g fat
+0mg cholesterol
+10mg sodium
+4g carbohydrate
+0g fiber
+3g protein
+
+[item bamboo shoots]
+source: USDA: 11026, Bamboo shoots, raw
+serving size: 151g
+# 151g = 1C 1/2" slices
+serving size: 1C
+41 calories
+0.5g fat
+0mg cholesterol
+6mg sodium
+8g carbohydrate
+0g fiber
+4g protein
+
+[item pumpkin puree]
+source: USDA: Basic Report:  11422, Pumpkin, raw
+serving size: 100ml
+# assuming 100ml = 100g
+26 calories
+1g protein
+0g fat
+7g carbohydrate
+1g fiber
+1mg sodium
+0mg cholesterol
+
+[item butternut squash]
+source: USDA: Squash, winter, butternut, raw 
+serving size: 70g
+31 calories
+1g protein
+0g fat
+8g carbohydrate
+1g fiber
+0mg cholesterol
+3mg sodium
+
+[item one half Boudin sourdough roll]
+serving size: 56g
+150 calories
+0g fat
+0mg cholesterol
+340mg sodium
+31g carbohydrate
+# [fiber is pro rata based on the "sourdough bread" item.  -- rgr, 8-Aug-15.]
+1g fiber
+5g protein
+
+[item old-fashioned doughnut]
+source: USDA: Doughnuts, cake-type, plain (includes unsugared, old-fashioned)
+serving size: 52g
+# from "doughnut, long type (twist) (4-1/2" long) 52g"
+# CHO%42.5
+226 calories
+3g protein
+13g fat
+24g carbohydrate
+1g fiber
+248mg sodium
+0mg cholesterol
+
+[item Honeydew croissant]
+source: http://honeydewdonuts.com/menu/item/Croissant
+# CHO%50.9
+220 calories
+10g fat
+25mg cholesterol
+260mg sodium
+28g carbohydrate
+1g fiber
+5g protein
+
+[item Dunkin' Donuts plain stick]
+source: http://calorielab.com/restaurants/dunkin-donuts/11
+# CHO%33.3, but has trans fat.
+420 calories
+29g fat
+36mg cholesterol
+310mg sodium
+35g carbohydrate
+1g fiber
+4g protein
+
+[item Dunkin' Donuts plain cake stick]
+source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/bakery/donuts/donuts.html?DRP_FLAVOR=Plain+Cake+Stick
+# CHO%43.0
+330 calories
+18g fat
+36mg cholesterol
+420mg sodium
+36g carbohydrate
+1g fiber
+4g protein
+
+[item DD old fashioned cake donut]
+alias: Dunkin' Donuts old fashioned cake donut
+source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/bakery/donuts/donuts.html?DRP_FLAVOR=Old+Fashioned+Cake+Donut
+# CHO%41.2
+320 calories
+22g fat
+25mg cholesterol
+300mg sodium
+33g carbohydrate
+1g fiber
+3g protein
+
+[item DD sausage egg & cheese on croissant]
+alias: DD sausage egg and cheese on croissant
+alias: Dunkin' Donuts sausage egg and cheese sandwich on croissant
+source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/sandwiches/breakfastsandwiches/sausage_egg_and_cheese.html?DRP_EGG=Egg&DRP_CARRIER=Croissant&DRP_MEAT=Sausage
+source: USDA: 01253, Cheese, pasteurized process, American, without added vitamin D 
+# CHO%25.2
+650 calories
+43g fat
+115mg cholesterol
+1250mg sodium
+41g carbohydrate
+2g fiber
+24g protein
+
+[item DD sausage & egg on croissant]
+alias: DD sausage & egg on croissant, no cheese
+# created by subtracting an american cheese slice from the DD info.
+source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/sandwiches/breakfastsandwiches/sausage_egg_and_cheese.html?DRP_EGG=Egg&DRP_CARRIER=Croissant&DRP_MEAT=Sausage
+# CHO%25.2
+546 calories
+34g fat
+94mg cholesterol
+782mg sodium
+40g carbohydrate
+2g fiber
+19g protein
+
+[item american cheese slice]
+source: USDA: 01253, Cheese, pasteurized process, American, without added vitamin D 
+serving size: 1oz
+# 1 slice = 1oz
+104 calories
+5g protein
+9g fat
+1g carbohydrate
+0g fiber
+468mg sodium
+21mg cholesterol
+
+[item DD hash browns, 6 count]
+source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/More/hash_browns.html
+# size=6
+# CHO%
+130 calories
+7g fat
+0mg cholesterol
+480mg sodium
+15g carbohydrate
+2g fiber
+1g protein
+
+[item Friendly's clam strips platter]
+source: http://www.friendlys.com/menu/lunch-dinner/entrees
+# CHO%
+1720 calories
+103g fat
+100mg cholesterol
+3340mg sodium
+171g carbohydrate
+11g fiber
+28g protein
+
+[item Bertucci's shrimp scampi]
+source: http://www.bertuccis.com/sites/default/files/April%202015%20Nutritionals.pdf
+# CHO%31
+1250 calories
+70g fat
+1590mg sodium
+102g carbohydrate
+5g fiber
+53g protein
+
+[item Bertucci's dinner roll]
+source: http://www.bertuccis.com/sites/default/files/April%202015%20Nutritionals.pdf
+# CHO%
+140 calories
+1.5g fat
+40mg sodium
+28g carbohydrate
+1g fiber
+4g protein
+
+[item tomato sauce]
+serving size: 61g
+5g carbohydrate
+1g fiber
+0g fat
+0g protein
+20 calories
+0mg cholesterol
+280mg sodium
+
+[item Kirkland tomato sauce]
+serving size: 61g
+25 calories
+0g fat
+0mg cholesterol
+290mg sodium
+5g carbohydrate
+1g fiber
+1g protein
+
+[item tomato paste]
+source: Kirkland Signature organic tomato paste
+serving size: 33g
+serving size: 2T
+7g carbohydrate
+1g fiber
+0g fat
+1g protein
+30 calories
+0mg cholesterol
+20mg sodium
+
+[item ketchup]
+source: Nature's Promise organic tomato ketchup
+serving size: 17g
+serving size: 1T
+20 calories
+0g fat
+160mg sodium
+4g carbohydrate
+0g fiber
+0g protein
+0mg cholesterol
+
+[item celery]
+alias: celery stalk
+alias: celery stalks
+source: USDA: Celery, raw
+serving size: 40g
+nominal size: 1 medium stalk
+6 calories
+0g protein
+0g fat
+1g carbohydrate
+0.6g fiber
+0mg cholesterol
+32mg sodium
+
+[item carrot]
+alias: medium carrot
+source: USDA: Carrots, raw
+serving size: 61g
+# 1 medium = 61g
+25 calories
+1g protein
+0g fat
+6g carbohydrate
+2g fiber
+0mg cholesterol
+42mg sodium
+
+[item peeled cucumber]
+source: USDA: 11206, Cucumber, peeled, raw
+serving size: 1C
+# 1 cup, sliced = 119g
+serving size: 119g
+14 calories
+1g protein
+0g fat
+3g carbohydrate
+1g fiber
+0mg cholesterol
+2mg sodium
+
+[item onion]
+alias: large onion
+alias: onions
+source: USDA: Onions, raw
+serving size: 150g
+# 1 large = 150g
+# 1C chopped = 160g
+serving size: 0.94C
+60 calories
+2g protein
+0g fat
+14g carbohydrate
+3g fiber
+0mg cholesterol
+6mg sodium
+
+[item shallots]
+source: USDA: 11677, Shallots, raw
+serving size: 100g
+# 1T chopped = 10g
+serving size: 0.63C
+72 calories
+3g protein
+0g fat
+17g carbohydrate
+3g fiber
+12mg sodium
+0mg cholesterol
+
+[item garlic]
+alias: cloves garlic
+alias: clove garlic
+source: USDA: 11215, Garlic, raw
+# 1 clove = 3g
+serving size: 3g
+# 1C chopped = 136g
+serving size: 0.022C
+# 1 head = 60g (net)
+4.5 calories
+0g protein
+0g fat
+1g carbohydrate
+0g fiber
+0mg cholesterol
+0mg sodium
+
+[item chili garlic sauce]
+source: Lee Kum Kee
+serving size: 18g
+serving size: 1T
+15 calories
+0g protein
+0g fat
+3g carbohydrate
+1g fiber
+0mg cholesterol
+780mg sodium
+
+[item shredded cabbage]
+source: USDA: Cabbage, raw
+serving size: 1C
+# 1C shredded = 70g
+# 1 head, medium (about 5-3/4" dia) = 908g
+18 calories
+1g protein
+0g fat
+4g carbohydrate
+2g fiber
+0mg cholesterol
+13mg sodium
+
+[item leek]
+source: USDA: 11246, Leeks, (bulb and lower leaf-portion), raw
+serving size: 1lb
+# 1C = 89g
+serving size: 5.1C
+277 calories
+7g protein
+1g fat
+64g carbohydrate
+8g fiber
+0mg cholesterol
+91mg sodium
+
+[item beet]
+source: USDA: Beets, raw
+serving size: 1C
+# 1C = 136g
+serving size: 136g
+# 1 beet (2" dia) = 82g
+# when broiled, they shrink by a factor of 2.5
+58 calories
+2g protein
+0g fat
+13g carbohydrate
+4g fiber
+106mg sodium
+0mg cholesterol
+
+[item egg]
+alias: eggs
+source: USDA: 01123, Egg, whole, raw, fresh
+serving size: 50g
+# 1 large egg = 50g
+72 calories
+6g protein
+5g fat
+0g carbohydrate
+0g fiber
+71mg sodium
+186mg cholesterol
+
+[item egg whites]
+source: USDA:  01124, Egg, white, raw, fresh
+serving size: 33g
+# 1 large egg = 33g
+# 1C = 243g
+serving size: 0.136C
+17 calories
+4g protein
+0g fat
+0g carbohydrate
+0g fiber
+55mg sodium
+0mg cholesterol
+
+[item eggplant]
+source: USDA: 11209, Eggplant, raw
+serving size: 458g
+# 1 eggplant, peeled = 458g
+serving size: 5.6C
+# 1C cubes = 82g
+114 calories
+4g protein
+1g fat
+27g carbohydrate
+14g fiber
+0mg cholesterol
+9mg sodium
+
+[item dry lentils]
+source: USDA: Lentils, raw
+serving size: 1C
+# 1C = 192g
+676 calories
+47g protein
+2g fat
+121g carbohydrate
+20g fiber
+0mg cholesterol
+12mg sodium
+
+[item dry pearl barley]
+source: USDA: 20005, Barley, pearled, raw
+serving size: 1C
+# 1C = 200g
+serving size: 200g
+704 calories
+20g protein
+2g fat
+155g carbohydrate
+31g fiber
+0mg cholesterol
+18mg sodium
+
+[item dried black-eyed peas]
+source: USDA: Basic Report:  11191, Cowpeas (blackeyes), immature seeds, raw
+serving size: 1C
+# 1C = 145g
+130 calories
+4g protein
+1g fat
+27g carbohydrate
+7g fiber
+0mg cholesterol
+6mg sodium
+
+[item fresh kale]
+source: USDA: kale, raw
+serving size: 100g
+# 1 cup 1" pieces, loosely packed = 16g
+serving size: 6.25C
+49 calories
+4g protein
+1g fat
+9g carbohydrate
+4g fiber
+0mg cholesterol
+38mg sodium
+
+[item mirin]
+source: http://nutritiondata.self.com/facts/custom/590060/2?quantity=2.64
+serving size: 1T
+serving size: 17g
+25 calories
+0g protein
+0g fat
+7g carbohydrate
+0g fiber
+0mg cholesterol
+130mg sodium
+
+[item soy sauce]
+serving size: 1T
+source: Kikkoman
+10 calories
+2g protein
+0g fat
+0g carbohydrate
+0g fiber
+0mg cholesterol
+920mg sodium
+
+[item miso paste]
+serving size: 1T
+# 1T = 17g
+source: USDA: Miso
+34 calories
+2g protein
+1g fat
+5g carbohydrate
+1g fiber
+0mg cholesterol
+634mg sodium
+
+[item water chestnuts]
+serving size: 100g
+source: USDA: Basic Report:  12093, Nuts, chestnuts, chinese, raw
+224 calories
+4g protein
+1g fat
+49g carbohydrate
+# [the fiber value is not actually shown.]
+0g fiber
+0mg cholesterol
+3mg sodium
+
+[item refried beans]
+serving size: 118g
+source: Old El Paso
+90 calories
+5g protein
+1g fat
+16g carbohydrate
+4g fiber
+0mg cholesterol
+570mg sodium
+
+[item apple cider vinegar]
+alias: vinegar
+source: USDA: 02048, Vinegar, cider
+serving size: 100g
+# 1T = 14.9g
+serving size: 6.7T
+21 calories
+0g protein
+0g fat
+1g carbohydrate
+0g fiber
+0mg cholesterol
+5mg sodium
+
+[item apple]
+source: USDA: 09003, Apples, raw, with skin
+serving size: 182g
+# 1 medium (3" dia) = 182g 
+95 calories
+0g protein
+0g fat
+25g carbohydrate
+4g fiber
+2mg sodium
+0mg cholesterol
+
+[item apple juice]
+source: Ocean Spray
+serving size: 5.5floz
+70 calories
+0g fat
+5mg sodium
+19g carbohydrate
+0g fiber
+0mg cholesterol
+0g protein
+
+[item snow peas]
+source: USDA: Peas, edible-podded, raw
+serving size: 1C
+# 1C (whole) = 63g
+serving size: 63g
+# 1C, chopped = 98g
+26 calories
+2g protein
+0g fat
+5g carbohydrate
+2g fiber
+3mg sodium
+0mg cholesterol
+
+[item frozen peas]
+source: USDA: Peas, green, frozen, unprepared
+alias: frozen green peas
+serving size: 1C
+# 1C = 134g
+serving size: 134g
+103 calories
+7g protein
+1g fat
+18g carbohydrate
+6g fiber
+0mg cholesterol
+145mg sodium
+
+[item dried green peas]
+source: USDA: Peas, green, split, mature seeds, raw
+serving size: 1lb
+# 1C = 197g
+serving size: 2.3C
+1597 calories
+108g protein
+5g fat
+289g carbohydrate
+116g fiber
+0mg cholesterol
+68mg sodium
+
+[item green beans]
+source: USDA: Beans, snap, green, raw 
+serving size: 100g
+# 100g == 1C 1/2" pieces
+31 calories
+2g protein
+0g fat
+7g carbohydrate
+3g fiber
+0mg cholesterol
+6mg sodium
+
+[item frozen cauliflower]
+alias: cauliflower
+source: USDA: Cauliflower, frozen, unprepared
+serving size: 100g
+# 1C (1" pieces) = 66g
+24 calories
+2g protein
+0g fat
+5g carbohydrate
+2g fiber
+0mg cholesterol
+24mg sodium
+
+[item medium cauliflower]
+alias: fresh cauliflower
+source: USDA: Cauliflower, raw
+serving size: 588g
+# one medium head, 5-6" diameter = 588g
+147 calories
+11g protein
+2g fat
+30g carbohydrate
+12g fiber
+0mg cholesterol
+176mg sodium
+
+[item large tomatoes]
+source: USDA: 11529, Tomatoes, red, ripe, raw, year round average
+alias: large tomato
+alias: tomatoes
+serving size: 182g
+# 182g == 1 large whole (3" dia)
+# 180g == 1C chopped or sliced
+# 1 plum tomato = 62g
+serving size: 1.01C
+33 calories
+2g protein
+0g fat
+7g carbohydrate
+2.2g fiber
+0mg cholesterol
+9mg sodium
+
+[item sun-dried tomatoes]
+source: USDA: 11955, Tomatoes, sun-dried
+serving size: 1C
+serving size: 54g
+139 calories
+8g protein
+2g fat
+30g carbohydrate
+7g fiber
+0mg cholesterol
+133mg sodium
+
+[item fresh spinach]
+alias: spinach
+source: USDA: 11457, Spinach, raw
+serving size: 100g
+# 1 leaf = 10g
+# 1C = 30g
+# but I don't believe that.
+serving size: 1.5C
+23 calories
+3g protein
+0g fat
+4g carbohydrate
+2g fiber
+0mg cholesterol
+79mg sodium
+
+[item frozen spinach]
+source: USDA: 11463, Spinach, frozen, chopped or leaf, unprepared
+serving size: 1C
+serving size: 156g
+45 calories
+6g protein
+1g fat
+7g carbohydrate
+5g fiber
+0mg cholesterol
+115mg sodium
+
+[item creamy tofu italian dressing]
+source: Tofu Cookery, p39
+serving size: 1T
+21 calories
+1g protein
+2g fat
+0g carbohydrate
+0g fiber
+0mg cholesterol
+# estimate.
+116mg sodium
+
+[item potatoes]
+source: USDA: Potatoes, flesh and skin, raw 
+serving size: 1lb
+# 1C diced = 150g
+serving size: 3C
+# 1 potato medium (2-1/4" to 3-1/4" dia) = 213g
+350 calories
+9g protein
+0g fat
+79g carbohydrate
+10g fiber
+0mg cholesterol
+27mg sodium
+
+[item medium sweet potatoes]
+source: USDA: Sweet potato, raw, unprepared
+# 1 potato 5" long = 130g
+serving size: 130g
+112 calories
+2g protein
+0g fat
+26g carbohydrate
+4g fiber
+0mg cholesterol
+72mg sodium
+
+[item broccoli]
+source: USDA: Broccoli, raw
+serving size: 1C
+# 1C chopped = 91g
+serving size: 91g
+# 1 bunch = 608g
+30 calories
+2g protein
+0g fat
+6g carbohydrate
+2g fiber
+0mg cholesterol
+29mg sodium
+
+[item steamed broccoli]
+source: USDA: Broccoli, cooked, boiled, drained, without salt 
+serving size: 100g
+# 1C chopped = 160g
+35 calories
+2g protein
+0g fat
+7g carbohydrate
+3g fiber
+0mg cholesterol
+41mg sodium
+
+[item Brussels sprouts]
+source: USDA: Brussels sprouts, raw
+serving size: 100g
+43 calories
+3g protein
+0g fat
+9g carbohydrate
+4g fiber
+25mg sodium
+0mg cholesterol
+
+[item zucchini]
+source: USDA: 11477, Squash, summer, zucchini, includes skin, raw
+# one medium
+serving size: 196g
+# 1C, chopped = 124g
+serving size: 1.58C
+33 calories
+2g protein
+0g fat
+6g carbohydrate
+2g fiber
+0mg cholesterol
+16mg sodium
+
+[item summer squash]
+alias: yellow squash
+source: USDA: 11641, Squash, summer, all varieties, raw
+# one medium
+serving size: 196g
+# 1C, sliced = 113g
+serving size: 1.73C
+31 calories
+2g protein
+0g fat
+7g carbohydrate
+2g fiber
+4mg sodium
+0mg cholesterol
+
+[item scallions]
+alias: bunches scallions
+# Jan: "six, skinny, stupid"
+source: USDA: 11291, Onions, spring or scallions (includes tops and bulb), raw
+serving size: 90g
+serving size: 0.9C
+29 calories
+2g protein
+0g fat
+7g carbohydrate
+2g fiber
+0mg cholesterol
+14mg sodium
+
+[item mung bean sprouts]
+source: USDA: 11043, Mung beans, mature seeds, sprouted, raw
+serving size: 104g
+serving size: 1C
+31 calories
+3g protein
+0g fat
+6g carbohydrate
+2g fiber
+0mg cholesterol
+6mg sodium
+
+[item sliced ripe olives]
+source: Pastene
+serving size: 16g
+serving size: 2T
+30 calories
+2.5g fat
+0g carbohydrate
+0g fiber
+0mg cholesterol
+140mg sodium
+0g protein
+
+[item Lindsay extra large olives]
+serving size: 14g
+# 14g = 3 olives
+# 1 can = 170g = 12.1 svg
+25 calories
+2.5g fat
+1g carbohydrate
+0g fiber
+0mg cholesterol
+110mg sodium
+0g protein
+
+[item tamarind pulp]
+source: USDA: 09322, Tamarinds, raw 
+# "one cup pulp"
+serving size: 120g
+287 calories
+3g protein
+1g fat
+75g carbohydrate
+6g fiber
+0mg cholesterol
+34mg sodium
+
+[item dates]
+source: USDA:  09421, Dates, medjool 
+# "one date, pitted"
+serving size: 24g
+66 calories
+0g protein
+0g fat
+18g carbohydrate
+2g fiber
+0mg cholesterol
+0mg sodium
+
+[item ancho chili]
+alias: chili
+source: USDA: 11978, Peppers, ancho, dried
+# "one pepper"
+serving size: 17g
+48 calories
+2g protein
+1g fat
+9g carbohydrate
+4g fiber
+0mg cholesterol
+7mg sodium
+
+[item bell pepper]
+source: USDA: Peppers, sweet, green, raw 
+# "one medium"
+serving size: 119g
+24 calories
+1g protein
+0g fat
+6g carbohydrate
+2g fiber
+0mg cholesterol
+4mg sodium
+
+[item Market Basket frozen bell pepper strips]
+source: Market Basket
+serving size: 83g
+# 1 package = 227g = 2.73 svg
+20 calories
+0g protein
+0g fat
+4g carbohydrate
+2g fiber
+0mg cholesterol
+10mg sodium
+
+[item Cantonese blend frozen vegetables]
+source: NORPAC Foods, Inc
+serving size: 74g
+# 1 package = 1776g = 24 svg
+30 calories
+0g fat
+0mg cholesterol
+15mg sodium
+5g carbohydrate
+1g fiber
+1g protein
+
+[item Market Basket frozen mixed vegetables]
+source: Market Basket
+serving size: 90g
+# 1 package = 24oz
+60 calories
+0.5g fat
+0mg cholesterol
+60mg sodium
+12g carbohydrate
+3g fiber
+3g protein
+
+[item Cantonese Blend vegetables]
+alias: Cantonese Blend frozen mixed vegetables
+source: Grande Classics (brand)
+serving size: 74g
+serving size: 3/4C
+# 1 package = 24oz
+30 calories
+0g fat
+0mg cholesterol
+15mg sodium
+5g carbohydrate
+1g fiber
+1g protein
+
+[item capers]
+source: USDA: Capers, canned
+serving size: 100g
+# 1T drained = 8.6g
+serving size: 11.6T
+23 calories
+2g protein
+1g fat
+5g carbohydrate
+3g fiber
+0mg cholesterol
+2348mg sodium
+
+[item tempeh]
+source: USDA: 16174, Tempeh, cooked
+serving size: 100g
+196 calories
+18g protein
+11g fat
+9g carbohydrate
+# The fiber amount does not appear in the table.
+0g fiber
+14mg sodium
+0mg cholesterol
+
+[item soft tofu]
+source: Silken
+serving size: 85g
+# 1 package = 12oz = 340g = 4 servings
+45 calories
+2.5g fat
+0mg cholesterol
+0mg sodium
+1g carbohydrate
+0g fiber
+4g protein
+
+[item firm tofu]
+serving size: 135g
+# 1 package = 19oz = 4 servings
+120 calories
+7g fat
+0mg cholesterol
+20mg sodium
+3g carbohydrate
+# [fiber is a guess.  -- rgr, 27-Jun-15.]
+1g fiber
+11g protein
+
+[item House Foods firm tofu]
+serving size: 85g
+# 1 package = 14oz = 4.5 servings
+70 calories
+4g fat
+0mg cholesterol
+10mg sodium
+2g carbohydrate
+1g fiber
+7g protein
+
+[item extra-firm tofu]
+source: USDA
+serving size: 100g
+91 calories
+10g protein
+8g fat
+2g carbohydrate
+# [fiber is a guess.  -- rgr, 27-Jun-15.]
+1g fiber
+0mg cholesterol
+8mg sodium
+
+[item Vitasoy extra-firm tofu]
+source: Vitasoy
+serving size: 85g
+# package size: 397g
+90 calories
+9g protein
+5g fat
+3g carbohydrate
+1g fiber
+0mg cholesterol
+10mg sodium
+
+[item Trident Alaskan salmon burger]
+source: USDA: Fish, salmon, sockeye, cooked, dry heat
+serving size: 113g
+# 113g = 4oz = 1 burger
+170 calories
+9g fat
+60mg cholesterol
+330mg sodium
+2g carbohydrate
+0g fiber
+20g protein
+
+[item salmon]
+source: USDA: Fish, salmon, sockeye, cooked, dry heat
+serving size: 100g
+169 calories
+25g protein
+7g fat
+0g carbohydrate
+0g fiber
+63mg cholesterol
+134mg sodium
+
+[item fish and chips]
+source: http://www.caloriecount.com/calories-red-lobster-fish-chips-i338553
+serving size: 100g
+730 calories
+33g fat
+0mg cholesterol
+1980mg sodium
+64g carbohydrate
+0g fiber
+44g protein
+
+[item apple pie]
+source: USDA: Pie, apple, prepared from recipe 
+serving size: 155g
+# 1 slice (1/8 of 9" dia) = 155g
+411 calories
+4g protein
+19g fat
+57g carbohydrate
+# The fiber amount does not appear in the table.
+0g fiber
+0mg cholesterol
+327mg sodium
+
+[item pumpkin pie]
+source: USDA: 18327, Pie, pumpkin, prepared from recipe
+serving size: 155g
+# 1 slice (1/8 of 9" dia) = 155g
+316 calories
+7g protein
+14g fat
+41g carbohydrate
+# The fiber amount does not appear in the table.
+0g fiber
+349mg sodium
+65mg cholesterol
+
+[item cherry pie]
+source: USDA: Pie, cherry, prepared from recipe 
+serving size: 155g
+# 1 slice (1/8 of 9" dia) = 180g
+486 calories
+5g protein
+22g fat
+69g carbohydrate
+# The fiber amount does not appear in the table.
+0g fiber
+344mg sodium
+0mg cholesterol
+
+[item blueberry pie]
+source: USDA: 18306, Pie, blueberry, prepared from recipe 
+serving size: 147g
+# 1 slice (1/8 of 9" dia) = 147g
+360 calories
+4g protein
+17g fat
+49g carbohydrate
+# The fiber amount does not appear in the table.
+0g fiber
+272mg sodium
+0mg cholesterol
+
+[item Himalya Fresh mini samosas]
+source: Himalya Fresh
+serving size: 80g
+# 4 samosas = 1 svg
+# CHO%62.5
+192 calories
+6.4g fat
+0mg cholesterol
+516mg sodium
+30g carbohydrate
+2g fiber
+4g protein
+
+[item crispy garlic naan]
+source: TWI Foods
+serving size: 50g
+# 1 naan = 100g
+120 calories
+1.5g fat
+0mg cholesterol
+200mg sodium
+23g carbohydrate
+1g fiber
+4g protein
+
+[item roti]
+source: Rotiland (Circle Foods)
+serving size: 57g
+# 1 roti
+160 calories
+4.5g fat
+0mg cholesterol
+130mg sodium
+26g carbohydrate
+2g fiber
+4g protein
+
+[item puff pastry]
+# This is what Jan uses for spanakopita.
+source: Stop And Shop
+serving size: 125g
+500 calories
+31g fat
+0mg cholesterol
+440mg sodium
+44g carbohydrate
+9g fiber
+8g protein
+
+[item Cuisine Adventures spanakopita]
+alias: Cuisine Adventures frozen spanakopita
+serving size: 57g
+# 1 serving = 2 pieces
+# CHO%29.3
+150 calories
+9g fat
+25mg cholesterol
+270mg sodium
+12g carbohydrate
+1g fiber
+57g protein
+
+[item Au Bon Pain clam chowder]
+source: http://aubonpain.com/menu/clam-chowder
+serving size: 480ml
+# large (16floz)
+430 calories
+25g fat
+14g protein
+38g carbohydrate
+2g fiber
+1490mg sodium
+60mg cholesterol
+
+[item Au Bon Pain turkey chili]
+source: http://aubonpain.com/menu/turkey-chili
+serving size: 480ml
+# large (16floz)
+450 calories
+12g fat
+26g protein
+58g carbohydrate
+22g fiber
+1090mg sodium
+40mg cholesterol
+
+[item Qdoba veggie burrito]
+source: http://www.qdoba.com/menu-nutrition/burritos-menu-nutrition
+# with flour tortilla, brown rice, salsa verde, guacamole, and fajita
+# vegetables.
+655 calories
+19g fat
+15g protein
+102g carbohydrate
+12g fiber
+1665mg sodium
+0mg cholesterol
+
+[item vegetable lo mein]
+source: USDA: 36625, Restaurant, Chinese, vegetable lo mein, without meat
+serving size: 741g
+# 1 order = 741g
+serving size: 0.184C
+# 1C = 136g
+897 calories
+35g protein
+17g fat
+150g carbohydrate
+10g fiber
+3186mg sodium
+0mg cholesterol
+
+[item Zhu kung pao eggplant]
+source: wild guessing based on what Zhu served on 15-Sep-15.
+# eggplant, tofu, peppers, peanuts, . . .
+# source: USDA: 36619, Restaurant, Chinese, kung pao chicken
+serving size: 400g
+516 calories
+30g protein
+25g fat
+40g carbohydrate
+6g fiber
+1608mg sodium
+0mg cholesterol
+
+[item baked tuna]
+source: USDA: Fish, tuna, fresh, bluefin, cooked, dry heat
+serving size: 100g
+184 calories
+30g protein
+6g fat
+0g carbohydrate
+0g fiber
+50mg sodium
+49mg cholesterol
+
+[item french fries]
+source: USDA: Potatoes, french fried, all types, salt added in processing, frozen, home-prepared, oven heated
+serving size: 100g
+158 calories
+3g protein
+5g fat
+26g carbohydrate
+2g fiber
+324mg sodium
+0mg cholesterol
+
+[item chocolate chips]
+serving size: 14g
+# 1g = 2 chips
+source: Nestle
+70 calories
+4g fat
+0mg cholesterol
+0mg sodium
+9g carbohydrate
+1g fiber
+0g protein
+
+[item oatmeal raisin cookie]
+serving size: 15g
+# 15g = 1 cookie (2-5/8" dia)
+# 1 cookie (4-3/4" dia) = 49g
+source: USDA: 18184, Cookies, oatmeal, prepared from recipe, with raisins
+65 calories
+1g protein
+2.4g fat
+10g carbohydrate
+# fiber is assumed to be zero.
+0g fiber
+81mg sodium
+5mg cholesterol
+
+[item white chocolate chunk macadamia nut cookie]
+serving size: 1oz
+140 calories
+7g fat
+10mg cholesterol
+105mg sodium
+16g carbohydrate
+0g fiber
+2g protein
+
+[item chocolate chip cookie]
+serving size: 16g
+# 16g = 1 cookie, medium (2-1/4" dia)
+source: USDA: 18378, Cookies, chocolate chip, prepared from recipe, made with butter
+78 calories
+1g protein
+4.5g fat
+9g carbohydrate
+0g fiber
+55mg sodium
+0mg cholesterol
+
+[item chocolate cake without frosting]
+source: USDA: 18101, Cake, chocolate, prepared from recipe without frosting
+serving size: 95g
+# 1 piece (1/12 of 9" dia) = 95g
+352 calories
+5g protein
+14g fat
+51g carbohydrate
+1g fiber
+299mg sodium
+55mg cholesterol
+
+[item cocoa powder]
+serving size: 1C
+serving size: 86g
+source: USDA: 19165, Cocoa, dry powder, unsweetened
+196 calories
+12g fat
+0mg cholesterol
+18mg sodium
+50g carbohydrate
+32g fiber
+17g protein
+
+[item Bridgford pepperoni]
+serving size: 1oz
+source: Bridgford Foods Corporation
+130 calories
+12g fat
+25mg cholesterol
+500mg sodium
+0g carbohydrate
+0g fiber
+6g protein
+
+[item Beretta Milano salami]
+serving size: 2oz
+source: Beretta USA Inc.
+230 calories
+19g fat
+25mg cholesterol
+1240mg sodium
+0g carbohydrate
+0g fiber
+15g protein
+
+[item Nature Valley cashew granola bar]
+serving size: 35g
+source: Nature Valley "Sweet & Salty Nut"
+# CHO%57.5
+160 calories
+6g fat
+0mg cholesterol
+140mg sodium
+23g carbohydrate
+1g fiber
+2g protein
+
+[item random mixed vegetable curry]
+serving size: 125g
+source: http://www.caloriecount.com/calories-kitchens-india-mixed-vegetable-curry-i116829
+170 calories
+11g fat
+15mg cholesterol
+400mg sodium
+17g carbohydrate
+2g fiber
+3g protein
+
+[item reduced sugar craisins]
+serving size: 40g
+source: Ocean Spray
+100 calories
+0g fat
+0mg cholesterol
+0mg sodium
+31g carbohydrate
+10g fiber
+0g protein
+
+[item cherry craisins]
+serving size: 40g
+source: Ocean Spray
+130 calories
+0g fat
+0mg cholesterol
+0mg sodium
+33g carbohydrate
+3g fiber
+0g protein
+
+[item dried mango]
+serving size: 1oz
+source: Sun Maid
+90 calories
+0g fat
+0mg cholesterol
+55mg sodium
+23g carbohydrate
+1g fiber
+0g protein
+
+[item banana]
+source: USDA: 09040, Bananas, raw
+serving size: 118g
+# 1 medium (7" to 7-7/8" long) = 118g (edible portion)
+105 calories
+1g protein
+0g fat
+27g carbohydrate
+3g fiber
+1mg sodium
+0mg cholesterol
