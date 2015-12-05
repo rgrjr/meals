@@ -266,6 +266,17 @@ serving size: 300g
 1/4C cornstarch
 1/4C oil
 
+[recipe stir-fried veggies with fried tofu 7]
+servings: 4
+serving size: 300g
+4 bell peppers
+1 large onion
+12oz portabella mushrooms
+# soy sauce
+19oz House Foods firm tofu (1 package)
+1/4C cornstarch
+1/4C oil
+
 [recipe stir-fried veggies 1]
 servings: 4
 serving size: 230g
@@ -968,6 +979,15 @@ servings: 4
 300g fresh spinach (40 leaves)
 5T oil
 
+[recipe spinach pakoras 4]
+source: The Art of Indian Vegetarian Cooking, p456
+servings: 4
+1-1/4C chickpea flour
+# 1-1/2tsp ajwain seeds
+1tsp salt
+230g fresh spinach (25-30 leaves)
+1/2C oil
+
 [recipe tamarind sauce]
 source: The Art of Indian Vegetarian Cooking, p426
 servings: 10
@@ -1327,7 +1347,7 @@ servings: 4
 servings: 2
 # makes 882g
 1T apple cider vinegar (really balsamic)
-# garlic
+15g garlic
 71g walnuts
 286g cooked pasta
 122g feta cheese
@@ -1374,6 +1394,17 @@ servings: 4
 1lb dry whole wheat pasta
 210g feta cheese
 1/2C olive oil
+
+[recipe pasta and feta 6]
+# serving size: 245g
+servings: 3
+# makes 735g
+1T apple cider vinegar (really balsamic)
+15g garlic
+75g walnuts
+458g cooked pasta (from 191g dry pasta)
+122g feta cheese
+4T olive oil
 
 [recipe pasta and feta without feta]
 # Lizzie and I made this before realizing that the feta had gone bad.
@@ -1439,6 +1470,18 @@ servings: 4
 5 (medium) carrots
 12oz white mushrooms
 3/4C dry pearl barley
+
+[recipe 7-minute mushroom barley soup]
+source: Recipes from an Ecological Kitchen p31, Jan
+servings: 5
+1C dry lentils
+1T oil
+2 large onions
+4 cloves garlic
+4 celery stalks
+5 (medium) carrots
+1lb white mushrooms
+3/4C dry pearl barley (barley flakes)
 
 [recipe chickpea and spinach curry]
 source: Vegan With A Vengeance, p170
@@ -2009,3 +2052,71 @@ servings: 12
 # 1tsp vanilla
 1C wheat flour
 # 1tsp baking powder
+
+[recipe Jan's steamed eggplant]
+servings: 3
+source: Jan, Chinese Vegetarian Cookery, p120
+1lb eggplant
+2T oil
+2/3 onion (one small)
+1T tahini
+# 1/4C vegetable stock
+1T agave nectar
+1tsp (rice) vinegar
+1tsp (chili) oil
+1T (green) oil
+
+[recipe Jan's herb-seasoned stuffing]
+servings: 10
+# serving size ~200g
+1lb Pepperidge Farm herb-seasoned stuffing
+1 onion
+4 celery stalks
+12oz portabella mushrooms
+6T butter
+
+[recipe Anna's sweet potato casserole]
+servings: 10
+# serving size ~200g
+3.5lb medium sweet potatoes
+1/2C maple syrup
+1 egg white
+# 2tsp cinnamon
+# 1/2tsp nutmeg
+# 1/4tsp ginger
+# salt
+1T brown sugar
+2/3C pecans
+
+[recipe steamed cranberry pudding]
+servings: 6
+# serving size ~200g
+3/4C whole wheat flour
+1/2C white flour
+2C fresh cranberries
+1/2C walnuts
+1/2C orange juice
+1/2C maple syrup
+
+[recipe butternut squash and black beans]
+servings: 10
+# serving size ~100g
+4C butternut squash
+15.5oz (1 can) black beans
+3T oil
+
+[recipe mincemeat pie]
+servings: 8
+29oz Robertson's mincemeat (1 jar)
+2 pie crusts
+
+[recipe North Indian curried black chickpeas]
+source: Vegan Indian Cooking, p139; Jan
+servings: 3
+2T oil
+75g onion
+# 1-inch ginger
+4 cloves garlic
+2 large tomatoes
+2 chilis
+4C cooked black soy beans

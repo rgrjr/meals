@@ -41,6 +41,19 @@ serving size: 244g
 2mg sodium
 0mg cholesterol
 
+[item orange juice]
+source: USDA: 09206, Orange juice, raw
+serving size: 1C
+# 1C = 248g
+serving size: 248g
+112 calories
+2g protein
+0g fat
+26g carbohydrate
+0.5g fiber
+2mg sodium
+0mg cholesterol
+
 [item tahini]
 source: USDA: 12698, Seeds, sesame butter, tahini, type of kernels unspecified
 serving size: 1T
@@ -201,6 +214,7 @@ serving size: 0.5C
 0mg cholesterol
 
 [item flour]
+alias: white flour
 alias: wheat flour
 source: USDA: Wheat flour, white, all-purpose, enriched, bleached
 serving size: 100g
@@ -215,6 +229,7 @@ serving size: 0.8C
 0mg cholesterol
 
 [item whole-wheat flour]
+alias: whole wheat flour
 source: USDA: Basic Report:  20080, Wheat flour, whole-grain
 serving size: 1C
 # 1C = 120g
@@ -428,6 +443,7 @@ serving size: 0.35C
 [item pecans]
 serving size: 50g
 # 1C chopped = 109g
+serving size: 0.46C
 346 calories
 5g protein
 36g fat
@@ -1059,8 +1075,10 @@ serving size: 100ml
 0mg cholesterol
 
 [item butternut squash]
-source: USDA: Squash, winter, butternut, raw 
+source: USDA: 11485, Squash, winter, butternut, raw
 serving size: 70g
+# 1 cup, cubes = 140g
+serving size: 1/2C
 31 calories
 1g protein
 0g fat
@@ -1265,7 +1283,7 @@ serving size: 50g
 71mg sodium
 186mg cholesterol
 
-[item egg whites]
+[item egg white]
 source: USDA:  01124, Egg, white, raw, fresh
 serving size: 33g
 # 1 large egg = 33g
