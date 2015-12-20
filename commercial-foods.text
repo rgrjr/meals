@@ -109,6 +109,7 @@ alias: Kickstand Cafe scone, raspberry honey
 alias: Kickstand Cafe scone, raspberry ginger
 alias: Kickstand Cafe scone, pear ginger
 alias: Kickstand Cafe scone, strawberry coconut
+alias: Kickstand Cafe scone, cranberry orange
 source: USDA: some random Starbucks scone
 56g carbohydrate
 2g fiber
@@ -144,6 +145,16 @@ alias: Royal Dansk cookies
 23g carbohydrate
 0g fiber
 180 calories
+
+[item sugar cookie]
+source: USDA: 18204, Cookies, sugar, commercially prepared, regular (includes vanilla)
+serving size: 17g
+79 calories
+1g protein
+3g fat
+11g carbohydrate
+0g fiber
+65mg sodium
 
 [item commercial chocolate chip cookie]
 source: USDA: 18160, Cookies, chocolate chip, commercially prepared, soft-type
@@ -479,6 +490,18 @@ serving size: 1oz
 0mg cholesterol
 115mg sodium
 
+[item multigrain tortilla chips]
+source: Food Should Taste Good, Inc.
+serving size: 1oz
+# CHO%45.7
+140 calories
+7g fat
+0mg cholesterol
+80mg sodium
+18g carbohydrate
+2g fiber
+2g protein
+
 [item Cape Cod kettle potato chips]
 serving size: 1oz
 # CHO%51.4
@@ -538,14 +561,14 @@ serving size: 17g
 0mg cholesterol
 50mg sodium
 
-[item one half Boudin sourdough roll]
+[item Boudin sourdough roll]
+alias: one half Boudin sourdough roll
 serving size: 56g
 150 calories
-0g fat
+0.5g fat
 0mg cholesterol
 340mg sodium
 31g carbohydrate
-# [fiber is pro rata based on the "sourdough bread" item.  -- rgr, 8-Aug-15.]
 1g fiber
 5g protein
 
