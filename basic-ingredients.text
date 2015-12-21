@@ -14,46 +14,6 @@ serving size: 6g
 2325mg sodium
 0mg cholesterol
 
-[item lime juice]
-source: USDA: Lime juice, raw
-serving size: 1T
-# 1T = 0.5floz = 15.4g
-4 calories
-0g protein
-0g fat
-1g carbohydrate
-0g fiber
-0mg sodium
-0mg cholesterol
-
-[item lemon juice]
-source: USDA: 09152 Lemon juice, raw
-serving size: 1C
-# 1C = 244g
-serving size: 244g
-# 1oz = 30.5g
-# 1 lemon = 48g
-54 calories
-1g protein
-1g fat
-17g carbohydrate
-1g fiber
-2mg sodium
-0mg cholesterol
-
-[item orange juice]
-source: USDA: 09206, Orange juice, raw
-serving size: 1C
-# 1C = 248g
-serving size: 248g
-112 calories
-2g protein
-0g fat
-26g carbohydrate
-0.5g fiber
-2mg sodium
-0mg cholesterol
-
 [item tahini]
 source: USDA: 12698, Seeds, sesame butter, tahini, type of kernels unspecified
 serving size: 1T
@@ -351,20 +311,6 @@ serving size: 245g
 113mg sodium
 32mg cholesterol
 
-[item cranberries]
-alias: fresh cranberries
-source: USDA: Cranberries, raw
-serving size: 1C
-# 1C chopped = 110g
-# 1C whole = 100g
-51 calories
-0g protein
-0g fat
-13g carbohydrate
-5g fiber
-2mg sodium
-0mg cholesterol
-
 [item walnuts]
 source: USDA: Nuts, walnuts, english
 serving size: 1C
@@ -462,31 +408,6 @@ serving size: 1C
 18g carbohydrate
 5g fiber
 3mg sodium
-0mg cholesterol
-
-[item raisins]
-source: USDA: Raisins, seedless
-serving size: 43g
-# 1 small (1.5oz) box = 43g
-# 1 cup, packed = 165g
-109 calories
-1g protein
-0g fat
-34g carbohydrate
-2g fiber
-5mg sodium
-0mg cholesterol
-
-[item avocado]
-source: USDA: Avocados, raw, all commercial varieties
-serving size: 100g
-# 1C = 150g
-160 calories
-2g protein
-15g fat
-9g carbohydrate
-7g fiber
-7mg sodium
 0mg cholesterol
 
 [item feta cheese]
@@ -1097,28 +1018,6 @@ serving size: 61g
 0mg cholesterol
 280mg sodium
 
-[item Kirkland tomato sauce]
-serving size: 61g
-25 calories
-0g fat
-0mg cholesterol
-290mg sodium
-5g carbohydrate
-1g fiber
-1g protein
-
-[item tomato paste]
-source: Kirkland Signature organic tomato paste
-serving size: 33g
-serving size: 2T
-7g carbohydrate
-1g fiber
-0g fat
-1g protein
-30 calories
-0mg cholesterol
-20mg sodium
-
 [item ketchup]
 source: Nature's Promise organic tomato ketchup
 serving size: 17g
@@ -1433,29 +1332,6 @@ serving size: 6.7T
 0mg cholesterol
 5mg sodium
 
-[item apple]
-source: USDA: 09003, Apples, raw, with skin
-serving size: 182g
-# 1 medium (3" dia) = 182g 
-95 calories
-0g protein
-0g fat
-25g carbohydrate
-4g fiber
-2mg sodium
-0mg cholesterol
-
-[item apple juice]
-source: Ocean Spray
-serving size: 5.5floz
-70 calories
-0g fat
-5mg sodium
-19g carbohydrate
-0g fiber
-0mg cholesterol
-0g protein
-
 [item snow peas]
 source: USDA: Peas, edible-podded, raw
 serving size: 1C
@@ -1534,35 +1410,6 @@ serving size: 588g
 12g fiber
 0mg cholesterol
 176mg sodium
-
-[item large tomatoes]
-source: USDA: 11529, Tomatoes, red, ripe, raw, year round average
-alias: large tomato
-alias: tomatoes
-serving size: 182g
-# 182g == 1 large whole (3" dia)
-# 180g == 1C chopped or sliced
-# 1 plum tomato = 62g
-serving size: 1.01C
-33 calories
-2g protein
-0g fat
-7g carbohydrate
-2.2g fiber
-0mg cholesterol
-9mg sodium
-
-[item sun-dried tomatoes]
-source: USDA: 11955, Tomatoes, sun-dried
-serving size: 1C
-serving size: 54g
-139 calories
-8g protein
-2g fat
-30g carbohydrate
-7g fiber
-0mg cholesterol
-133mg sodium
 
 [item fresh spinach]
 alias: spinach
@@ -1709,54 +1556,6 @@ serving size: 1C
 2g fiber
 0mg cholesterol
 6mg sodium
-
-[item sliced ripe olives]
-source: Pastene
-serving size: 16g
-serving size: 2T
-30 calories
-2.5g fat
-0g carbohydrate
-0g fiber
-0mg cholesterol
-140mg sodium
-0g protein
-
-[item Lindsay extra large olives]
-serving size: 14g
-# 14g = 3 olives
-# 1 can = 170g = 12.1 svg
-25 calories
-2.5g fat
-1g carbohydrate
-0g fiber
-0mg cholesterol
-110mg sodium
-0g protein
-
-[item tamarind pulp]
-source: USDA: 09322, Tamarinds, raw 
-# "one cup pulp"
-serving size: 120g
-287 calories
-3g protein
-1g fat
-75g carbohydrate
-6g fiber
-0mg cholesterol
-34mg sodium
-
-[item dates]
-source: USDA:  09421, Dates, medjool 
-# "one date, pitted"
-serving size: 24g
-66 calories
-0g protein
-0g fat
-18g carbohydrate
-2g fiber
-0mg cholesterol
-0mg sodium
 
 [item ancho chili]
 alias: chili
@@ -1924,38 +1723,54 @@ source: USDA: 19165, Cocoa, dry powder, unsweetened
 32g fiber
 17g protein
 
-[item reduced sugar craisins]
-serving size: 40g
-source: Ocean Spray
-100 calories
+[item potato salad]
+source: USDA: 21140, Side dishes, potato salad
+serving size: 95g
+serving size: 1/3C
+108 calories
+1g protein
+6g fat
+13g carbohydrate
+0g fiber
+312mg sodium
+57mg cholesterol
+
+### Fruit, dried fruit, fruit juices, etc.
+
+[item apple]
+source: USDA: 09003, Apples, raw, with skin
+serving size: 182g
+# 1 medium (3" dia) = 182g 
+95 calories
+0g protein
 0g fat
+25g carbohydrate
+4g fiber
+2mg sodium
 0mg cholesterol
-0mg sodium
-31g carbohydrate
-10g fiber
+
+[item apple juice]
+source: Ocean Spray
+serving size: 5.5floz
+70 calories
+0g fat
+5mg sodium
+19g carbohydrate
+0g fiber
+0mg cholesterol
 0g protein
 
-[item cherry craisins]
-serving size: 40g
-source: Ocean Spray
-130 calories
-0g fat
+[item avocado]
+source: USDA: Avocados, raw, all commercial varieties
+serving size: 100g
+# 1C = 150g
+160 calories
+2g protein
+15g fat
+9g carbohydrate
+7g fiber
+7mg sodium
 0mg cholesterol
-0mg sodium
-33g carbohydrate
-3g fiber
-0g protein
-
-[item dried mango]
-serving size: 1oz
-source: Sun Maid
-90 calories
-0g fat
-0mg cholesterol
-55mg sodium
-23g carbohydrate
-1g fiber
-0g protein
 
 [item banana]
 source: USDA: 09040, Bananas, raw
@@ -1968,3 +1783,241 @@ serving size: 118g
 3g fiber
 1mg sodium
 0mg cholesterol
+
+[item cantaloupe]
+source: USDA: 09181, Melons, cantaloupe, raw 
+serving size: 160g
+serving size: 1C
+# 1C cubes = 160g
+54 calories
+1g protein
+0g fat
+13g carbohydrate
+1g fiber
+26mg sodium
+0mg cholesterol
+
+[item cherry craisins]
+serving size: 40g
+source: Ocean Spray
+130 calories
+0g fat
+0mg cholesterol
+0mg sodium
+33g carbohydrate
+3g fiber
+0g protein
+
+[item cranberries]
+alias: fresh cranberries
+source: USDA: Cranberries, raw
+serving size: 1C
+# 1C chopped = 110g
+# 1C whole = 100g
+51 calories
+0g protein
+0g fat
+13g carbohydrate
+5g fiber
+2mg sodium
+0mg cholesterol
+
+[item dates]
+source: USDA:  09421, Dates, medjool 
+# "one date, pitted"
+serving size: 24g
+66 calories
+0g protein
+0g fat
+18g carbohydrate
+2g fiber
+0mg cholesterol
+0mg sodium
+
+[item dried mango]
+serving size: 1oz
+source: Sun Maid
+90 calories
+0g fat
+0mg cholesterol
+55mg sodium
+23g carbohydrate
+1g fiber
+0g protein
+
+[item honeydew melon]
+source: USDA: 09184, Melons, honeydew, raw
+serving size: 170g
+serving size: 1C
+# 1C diced = 170g
+61 calories
+1g protein
+0g fat
+16g carbohydrate
+1g fiber
+31mg sodium
+0mg cholesterol
+
+[item Kirkland tomato sauce]
+serving size: 61g
+25 calories
+0g fat
+0mg cholesterol
+290mg sodium
+5g carbohydrate
+1g fiber
+1g protein
+
+[item large tomatoes]
+source: USDA: 11529, Tomatoes, red, ripe, raw, year round average
+alias: large tomato
+alias: tomatoes
+serving size: 182g
+# 182g == 1 large whole (3" dia)
+# 180g == 1C chopped or sliced
+# 1 plum tomato = 62g
+serving size: 1.01C
+33 calories
+2g protein
+0g fat
+7g carbohydrate
+2.2g fiber
+0mg cholesterol
+9mg sodium
+
+[item lemon juice]
+source: USDA: 09152 Lemon juice, raw
+serving size: 1C
+# 1C = 244g
+serving size: 244g
+# 1oz = 30.5g
+# 1 lemon = 48g
+54 calories
+1g protein
+1g fat
+17g carbohydrate
+1g fiber
+2mg sodium
+0mg cholesterol
+
+[item lime juice]
+source: USDA: Lime juice, raw
+serving size: 1T
+# 1T = 0.5floz = 15.4g
+4 calories
+0g protein
+0g fat
+1g carbohydrate
+0g fiber
+0mg sodium
+0mg cholesterol
+
+[item Lindsay extra large olives]
+serving size: 14g
+# 14g = 3 olives
+# 1 can = 170g = 12.1 svg
+25 calories
+2.5g fat
+1g carbohydrate
+0g fiber
+0mg cholesterol
+110mg sodium
+0g protein
+
+[item orange juice]
+source: USDA: 09206, Orange juice, raw
+serving size: 1C
+# 1C = 248g
+serving size: 248g
+112 calories
+2g protein
+0g fat
+26g carbohydrate
+0.5g fiber
+2mg sodium
+0mg cholesterol
+
+[item pineapple]
+source: USDA: 09266, Pineapple, raw, all varieties
+serving size: 165g
+serving size: 1C
+# 1C chunks = 165g
+82 calories
+1g protein
+0g fat
+22g carbohydrate
+2g fiber
+2mg sodium
+0mg cholesterol
+
+[item raisins]
+source: USDA: Raisins, seedless
+serving size: 43g
+# 1 small (1.5oz) box = 43g
+# 1 cup, packed = 165g
+109 calories
+1g protein
+0g fat
+34g carbohydrate
+2g fiber
+5mg sodium
+0mg cholesterol
+
+[item reduced sugar craisins]
+serving size: 40g
+source: Ocean Spray
+100 calories
+0g fat
+0mg cholesterol
+0mg sodium
+31g carbohydrate
+10g fiber
+0g protein
+
+[item sliced ripe olives]
+source: Pastene
+serving size: 16g
+serving size: 2T
+30 calories
+2.5g fat
+0g carbohydrate
+0g fiber
+0mg cholesterol
+140mg sodium
+0g protein
+
+[item sun-dried tomatoes]
+source: USDA: 11955, Tomatoes, sun-dried
+serving size: 1C
+serving size: 54g
+139 calories
+8g protein
+2g fat
+30g carbohydrate
+7g fiber
+0mg cholesterol
+133mg sodium
+
+[item tamarind pulp]
+source: USDA: 09322, Tamarinds, raw 
+# "one cup pulp"
+serving size: 120g
+287 calories
+3g protein
+1g fat
+75g carbohydrate
+6g fiber
+0mg cholesterol
+34mg sodium
+
+[item tomato paste]
+source: Kirkland Signature organic tomato paste
+serving size: 33g
+serving size: 2T
+7g carbohydrate
+1g fiber
+0g fat
+1g protein
+30 calories
+0mg cholesterol
+20mg sodium
