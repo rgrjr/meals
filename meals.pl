@@ -40,7 +40,6 @@ for my $item_name (@show_items) {
 	warn "$0:  Can't find '$item_name' in our database.\n";
 	next;
     }
-    # use Data::Dumper; warn Dumper($item);
 
     $item->present_summary(1);
     my $total_weight = 0;
@@ -345,9 +344,7 @@ package Food::Item;
 # weight, or both), and specific nutritional values per
 # serving.  It can be a pure food item (e.g. an apple), a processed item with
 # its nutritional values from the package, or (as a Food::Recipe) a collection
-# of other food items with the sum of their nutritional values.  A Food::Item
-# is the categorical object of which a Food::Serving is an instance for a
-# particular meal.
+# of other food items with the sum of their nutritional values.
 
 use base qw(Food::Base);
 
@@ -603,7 +600,6 @@ sub show_matching_recipes {
 	    $result;
 	}
     } values(%item_from_name);
-    # warn "total of ", scalar(@recipes), ' recipes';
     for my $recipe (@recipes) {
 	$recipe->present_summary(1, 1);
     }
@@ -707,13 +703,6 @@ sub finalize {
 
     my $n_servings = $self->n_servings;
     if (! $n_servings) {
-	# [hack: try to compute total weight.  -- rgr, 1-Jan-15.]
-	my $total_weight = 0;
-	for my $ingredient (@$ingredients) {
-	    my $item = $ingredient->item;
-	}
-    }
-    if (! $n_servings) {
 	warn($self->name,
 	     ":  Don't know how many servings we are; assuming 6.\n");
 	$n_servings = 6;
@@ -753,8 +742,7 @@ package Food::Meal;
 use base qw(Food::Base);
 
 BEGIN {
-    Food::Meal->define_class_slots
-	(qw(date meal ingredients indeterminate_p));
+    Food::Meal->define_class_slots(qw(date meal ingredients));
 }
 
 sub add_item {
