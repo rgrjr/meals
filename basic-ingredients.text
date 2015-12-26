@@ -93,7 +93,7 @@ source: USDA: 20035, Quinoa, uncooked
 serving size: 100g
 # 1C = 185g
 serving size: 0.54C
-source: USDA: Basic Report:  20137, Quinoa, cooked
+source: USDA: 20137, Quinoa, cooked
 120 calories
 4g protein
 2g fat
@@ -298,6 +298,18 @@ serving size: 245g
 0g fiber
 257mg sodium
 27mg cholesterol
+
+[item 2% milk]
+source: USDA: 01079, Milk, reduced fat, fluid, 2% milkfat, ...
+serving size: 1C
+serving size: 244g
+122 calories
+8g protein
+5g fat
+12g carbohydrate
+0g fiber
+115mg sodium
+20mg cholesterol
 
 [item yogurt]
 source: USDA: 01116, Yogurt, plain, whole milk, 8 grams protein per 8 ounce
@@ -686,6 +698,7 @@ source: USDA: Molasses
 [item maple syrup]
 serving size: 1T
 # 1T = 20g
+serving size: 20g
 source: USDA: Syrups, maple
 52 calories
 0g protein
@@ -1085,6 +1098,33 @@ serving size: 0.94C
 3g fiber
 0mg cholesterol
 6mg sodium
+
+[item turnip]
+source: USDA: 11564, Turnips, raw
+serving size: 122g
+# 1 medium = 122g
+serving size: 0.938C
+# 1C cubes = 130g
+34 calories
+1g protein
+0g fat
+8g carbohydrate
+2g fiber
+82mg sodium
+0mg cholesterol
+
+[item parsnip]
+source: USDA: 11298, Parsnips, raw
+serving size: 133g
+serving size: 1C
+# 1C slices = 133g
+100 calories
+2g protein
+0g fat
+24g carbohydrate
+7g fiber
+13mg sodium
+0mg cholesterol
 
 [item shallots]
 source: USDA: 11677, Shallots, raw
@@ -1735,6 +1775,18 @@ serving size: 1/3C
 312mg sodium
 57mg cholesterol
 
+[item cooked bacon]
+source: USDA: 10862, Pork, cured, bacon, pre-sliced, cooked, pan-fried
+serving size: 23g
+# 23g = 2 slices
+108 calories
+8g protein
+8g fat
+0g carbohydrate
+0g fiber
+387mg sodium
+23mg cholesterol
+
 ### Fruit, dried fruit, fruit juices, etc.
 
 [item apple]
@@ -1819,6 +1871,19 @@ serving size: 1C
 0g fat
 13g carbohydrate
 5g fiber
+2mg sodium
+0mg cholesterol
+
+[item frozen blueberries]
+source: USDA: 09054, Blueberries, frozen, unsweetened
+serving size: 1C
+# 1C unthawed = 155g
+serving size: 155g
+79 calories
+1g protein
+1g fat
+19g carbohydrate
+4g fiber
 2mg sodium
 0mg cholesterol
 

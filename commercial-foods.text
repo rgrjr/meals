@@ -156,6 +156,17 @@ serving size: 17g
 0g fiber
 65mg sodium
 
+[item MB christmas cookie]
+source: guess
+serving size: 30g
+# serving size: 2 cookies
+140 calories
+2g protein
+8g fat
+14g carbohydrate
+0g fiber
+65mg sodium
+
 [item commercial chocolate chip cookie]
 source: USDA: 18160, Cookies, chocolate chip, commercially prepared, soft-type
 serving size: 40g
@@ -1100,3 +1111,48 @@ serving size: 180g
 3g fiber
 976mg sodium
 0mg cholesterol
+
+[item restaurant navratan korma]
+source: http://www.caloriecount.com/calories-kitchens-india-mixed-vegetable-curry-i116829
+serving size: 125g
+170 calories
+11g fat
+15mg cholesterol
+900mg sodium
+17g carbohydrate
+2g fiber
+3g protein
+
+[item restaurant baingan bharta]
+source: http://www.caloriecount.com/baingan-bharta-recipe-r67966
+serving size: 244g
+102 calories
+5g fat
+0mg cholesterol
+10mg sodium
+13g carbohydrate
+5g fiber
+3g protein
+
+[item Kirkland medium salsa]
+source: Kirkland
+serving size: 30g
+serving size: 2T
+10 calories
+0g fat
+0mg cholesterol
+220mg sodium
+2.5g carbohydrate
+0g fiber
+0g protein
+
+[item peanut butter fudge]
+source: USDA: 19102, Candies, fudge, peanut butter, prepared-from-recipe
+serving size: 1oz
+108 calories
+1g protein
+2g fat
+22g carbohydrate
+0g fiber
+33mg sodium
+1mg cholesterol
