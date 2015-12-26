@@ -41,7 +41,7 @@ for my $item_name (@show_items) {
 	next;
     }
 
-    $item->present_summary(1);
+    $item->present_summary(display_cho_p => 1);
     my $total_weight = 0;
     my $ingredients = $item->ingredients;
     next
@@ -77,7 +77,8 @@ sub produce_day_total {
 	unless $day_total;
     push(@day_totals, $day_total)
 	if $plot_p;
-    $day_total->present_summary(1, 1, 1)
+    $day_total->present_summary(detailed_p => $detailed_p,
+				display_cho_p => 1)
 	if $detailed_p || $daily_p;
 }
 
@@ -97,7 +98,10 @@ for my $file (@ARGV) {
 	    $day_total = Food::Item->new(name => $meal->date . ' total:');
 	    $current_day = $meal->date;
 	}
-	my @meal_totals = $meal->present_summary($detailed_p);
+	my @meal_totals = $meal->present_summary
+	    (detailed_p => $detailed_p,
+	     colon_p => 1,
+	     display_cho_p => 1);
 	for my $i (0 .. 3) {
 	    next
 		unless defined($meal_totals[$i]);
@@ -112,7 +116,8 @@ for my $file (@ARGV) {
 	}
     }
     produce_day_total($day_total);
-    $file_total->present_summary(1, 1, 1)
+    $file_total->present_summary(detailed_p => $detailed_p,
+				 display_cho_p => 1)
 	unless $daily_p;
 }
 
@@ -415,11 +420,15 @@ sub carbohydrate_percent {
 }
 
 sub present_summary {
-    my ($self, $detailed_p, $n_servings, $total_p) = @_;
-    $n_servings = 1
-	unless defined($n_servings);
+    my ($self, %keys) = @_;
+    my $n_servings = $keys{n_servings} || 1;
 
-    printf('%-32s', $total_p ? $self->name : '  ' . $self->name);
+    my $name = $self->name;
+    $name .= ':'
+	if $keys{colon_p};
+    $name = "  $name"
+	if $keys{indent_name_p};
+    printf('%-32s', $name);
     for my $slot (qw(net_carbohydrate_grams fat_grams
 		     protein_grams calories)) {
 	my $value = $self->$slot();
@@ -427,12 +436,13 @@ sub present_summary {
 	    if defined($value);
 	print $self->show_total($value, ! defined($value));
     }
-    printf "\t%3.2fsvg", $n_servings
-	if $n_servings != 1;
-    if ($detailed_p) {
+    if ($keys{display_cho_p}) {
 	my $cho_percent = $self->carbohydrate_percent;
 	printf(" CHO%%%.1f", $cho_percent)
 	    if defined($cho_percent);
+    }
+    elsif ($n_servings != 1) {
+	printf "\t%3.2fsvg", $n_servings;
     }
     print "\n";
 }
@@ -601,7 +611,7 @@ sub show_matching_recipes {
 	}
     } values(%item_from_name);
     for my $recipe (@recipes) {
-	$recipe->present_summary(1, 1);
+	$recipe->present_summary();
     }
 }
 
@@ -825,7 +835,8 @@ sub parse_meals {
 
 sub present_summary {
     # [ . . . though if it's detailed, it's not a summary.  -- rgr, 28-Dec-14.]
-    my ($self, $detailed_p) = @_;
+    my ($self, %keys) = @_;
+    my $detailed_p = $keys{detailed_p};
 
     my $verbose_p = 0; # $self->meal eq 'snack';
     my $ingredients = $self->ingredients || [ ];
@@ -871,7 +882,9 @@ sub present_summary {
 	for my $ingredient (@$ingredients) {
 	    my $item = $ingredient->item;
 	    my $n_servings = $ingredient->n_servings;
-	    $ingredient->item->present_summary(0, $ingredient->n_servings);
+	    $ingredient->item->present_summary
+		(indent_name_p => 1,
+		 n_servings => $ingredient->n_servings);
 	}
     }
     return @totals;
