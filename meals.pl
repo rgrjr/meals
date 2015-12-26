@@ -400,7 +400,7 @@ sub fetch_item {
         if $clean_name =~ s/s$//;
 }
 
-sub add_item {
+sub add_ingredient {
     my ($self, $item, $amount, $units) = @_;
 
     warn($self->name, " is an item, not a recipe; can't add ",
@@ -560,7 +560,7 @@ sub parse_recipes {
 		    }
 		}
 		elsif (my $item = $class->fetch_item($name)) {
-		    $current_item->add_item($item, $amount, $units);
+		    $current_item->add_ingredient($item, $amount, $units);
 		}
 		else {
 		    $warning->("Don't know what to do with '$name'.\n");
@@ -570,7 +570,7 @@ sub parse_recipes {
 		# Ignore these for now.
 	    }
 	    elsif (my $item = $class->fetch_item($_)) {
-		$current_item->add_item($item, 1, 'serving');
+		$current_item->add_ingredient($item, 1, 'serving');
 	    }
 	    else {
 		$warning->("Don't know what to do with '$_'.\n");
@@ -669,19 +669,47 @@ sub new {
 }
 
 ###================
+package Food::HasIngredients;
+
+# Base class for recipes and meals, both of which have ingredients.
+
+use base qw(Food::Item);
+
+BEGIN {
+    Food::HasIngredients->define_class_slots(qw(ingredients));
+}
+
+sub n_ingredients {
+    my ($self) = @_;
+
+    my $ingredients = $self->ingredients;
+    return $ingredients ? scalar(@$ingredients) : 0;
+}
+
+sub add_ingredient {
+    my ($self, $item, $amount, $units) = @_;
+
+    my $ingredient = Food::Ingredient->new(item => $item,
+					   amount => $amount,
+					   units => $units);
+    push(@{$self->{_ingredients}}, $ingredient);
+    return $ingredient;
+}
+
+###================
 package Food::Recipe;
 
 # A recipe is a food item that is itself made from one or more ingredients,
 # which refer to other recipes or food items.  The food values are stated per
 # serving, and are computed once from the ingredient food values.
 
-use base qw(Food::Item);
+use base qw(Food::HasIngredients);
 
 my $slot_pairs;
 
 BEGIN {
     Food::Recipe->define_class_slots
-	(qw(ingredients n_servings),
+	(qw(n_servings),
 	 qw(protein_complete_p fiber_complete_p
 	    fat_complete_p carbohydrate_complete_p
 	    calories_complete_p cholesterol_complete_p sodium_complete_p));
@@ -693,16 +721,6 @@ BEGIN {
 	    [ qw(calories_complete_p calories) ],
 	    [ qw(cholesterol_complete_p cholesterol_mg) ],
 	    [ qw(sodium_complete_p sodium_mg) ] ];
-}
-
-sub add_item {
-    my ($self, $item, $amount, $units) = @_;
-
-    my $ingredient = Food::Ingredient->new(item => $item,
-					   amount => $amount,
-					   units => $units);
-    push(@{$self->{_ingredients}}, $ingredient);
-    return $ingredient;
 }
 
 sub finalize {
@@ -752,29 +770,10 @@ package Food::Meal;
 # A meal is a collection of ingredients eaten together (loosely) on a
 # particular date.
 
-use base qw(Food::Base);
+use base qw(Food::HasIngredients);
 
 BEGIN {
-    Food::Meal->define_class_slots(qw(date meal ingredients));
-}
-
-sub add_item {
-    my ($self, $item, $amount, $units) = @_;
-
-    warn "adding ", $item->name, " in amount '$amount', units '$units'\n"
-	if 0 && $item->name =~ /cauliflower dish/;
-    my $ingredient = Food::Ingredient->new(item => $item,
-					   amount => $amount,
-					   units => $units);
-    push(@{$self->{_ingredients}}, $ingredient);
-    return $ingredient;
-}
-
-sub n_ingredients {
-    my ($self) = @_;
-
-    my $ingredients = $self->ingredients;
-    return $ingredients ? scalar(@$ingredients) : 0;
+    Food::Meal->define_class_slots(qw(date meal));
 }
 
 sub parse_meals {
@@ -814,10 +813,10 @@ sub parse_meals {
 		# Make a fake item to record our uncertainty.
 		$item = Food::Item->new(name => $name);
 	    }
-	    $current_meal->add_item($item, $amount, $units);
+	    $current_meal->add_ingredient($item, $amount, $units);
 	}
 	elsif (my $item = Food::Item->fetch_item($_)) {
-	    $current_meal->add_item($item, 1, 'serving');
+	    $current_meal->add_ingredient($item, 1, 'serving');
 	}
 	elsif (/random/i) {
 	    # Don't bother with these.
@@ -826,7 +825,7 @@ sub parse_meals {
 	    warn "Can't find '$_' to add it to the current meal.\n";
 	    # Make a fake item to record our uncertainty.
 	    $item = Food::Item->new(name => $_);
-	    $current_meal->add_item($item, 1, 'serving');
+	    $current_meal->add_ingredient($item, 1, 'serving');
 	}
     }
     $register_meal->();
