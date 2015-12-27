@@ -672,11 +672,13 @@ my $slot_pairs;
 BEGIN {
     Food::Recipe->define_class_slots
 	(qw(ingredients n_servings),
-	 qw(protein_complete_p fat_complete_p carbohydrate_complete_p
+	 qw(protein_complete_p fiber_complete_p
+	    fat_complete_p carbohydrate_complete_p
 	    calories_complete_p cholesterol_complete_p sodium_complete_p));
     $slot_pairs
 	= [ [ qw(carbohydrate_complete_p carbohydrate_grams) ],
 	    [ qw(fat_complete_p fat_grams) ],
+	    [ qw(fiber_complete_p fiber_grams) ],
 	    [ qw(protein_complete_p protein_grams) ],
 	    [ qw(calories_complete_p calories) ],
 	    [ qw(cholesterol_complete_p cholesterol_mg) ],
@@ -723,7 +725,8 @@ sub finalize {
 	    }
 	    else {
 		warn($self->name, ":  ", $item->name,
-		     " $value_slot is missing");
+		     " $value_slot is missing")
+		    unless $value_slot eq 'fiber_grams';
 		$missing_p++;
 	    }
 	}
