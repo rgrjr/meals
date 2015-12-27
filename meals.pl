@@ -98,21 +98,21 @@ for my $file (@ARGV) {
 	    $day_total = Food::Item->new(name => $meal->date . ' total:');
 	    $current_day = $meal->date;
 	}
-	my @meal_totals = $meal->present_summary
-	    (detailed_p => $detailed_p,
-	     colon_p => 1,
-	     display_cho_p => 1);
-	for my $i (0 .. 3) {
+	$meal->present_summary(detailed_p => $detailed_p,
+			       colon_p => 1,
+			       display_cho_p => 1);
+	my $i = 0;
+	for my $slot (@slots) {
+	    my $value = $meal->$slot();
 	    next
-		unless defined($meal_totals[$i]);
-	    $totals[$i] += $meal_totals[$i];
-	    my $slot = $slots[$i];
+		unless defined($value);
+	    $totals[$i++] += $value;
 	    my $slot_value = $file_total->$slot() || 0;
-	    $file_total->$slot($slot_value + $meal_totals[$i]);
+	    $file_total->$slot($slot_value + $value);
 	    next
 		unless $day_total;
 	    $slot_value = $day_total->$slot() || 0;
-	    $day_total->$slot($slot_value + $meal_totals[$i]);
+	    $day_total->$slot($slot_value + $value);
 	}
     }
     produce_day_total($day_total);
@@ -445,6 +445,15 @@ sub present_summary {
 	printf "\t%3.2fsvg", $n_servings;
     }
     print "\n";
+    if ($keys{detailed_p} && $self->can('ingredients') && $self->ingredients) {
+	for my $ingredient (@{$self->ingredients}) {
+	    my $item = $ingredient->item;
+	    my $n_servings = $ingredient->n_servings;
+	    $ingredient->item->present_summary
+		(n_servings => $ingredient->n_servings,
+		 indent_name_p => 1);
+	}
+    }
 }
 
 sub parse_recipes {
@@ -675,8 +684,19 @@ package Food::HasIngredients;
 
 use base qw(Food::Item);
 
+my $slot_pairs;
 BEGIN {
-    Food::HasIngredients->define_class_slots(qw(ingredients));
+    Food::HasIngredients->define_class_slots
+	(qw(ingredients),
+	 qw(protein_complete_p fat_complete_p carbohydrate_complete_p
+	    calories_complete_p cholesterol_complete_p sodium_complete_p));
+    $slot_pairs
+	= [ [ qw(carbohydrate_complete_p net_carbohydrate_grams) ],
+	    [ qw(fat_complete_p fat_grams) ],
+	    [ qw(protein_complete_p protein_grams) ],
+	    [ qw(calories_complete_p calories) ],
+	    [ qw(cholesterol_complete_p cholesterol_mg) ],
+	    [ qw(sodium_complete_p sodium_mg) ] ];
 }
 
 sub n_ingredients {
@@ -694,33 +714,6 @@ sub add_ingredient {
 					   units => $units);
     push(@{$self->{_ingredients}}, $ingredient);
     return $ingredient;
-}
-
-###================
-package Food::Recipe;
-
-# A recipe is a food item that is itself made from one or more ingredients,
-# which refer to other recipes or food items.  The food values are stated per
-# serving, and are computed once from the ingredient food values.
-
-use base qw(Food::HasIngredients);
-
-my $slot_pairs;
-
-BEGIN {
-    Food::Recipe->define_class_slots
-	(qw(n_servings),
-	 qw(protein_complete_p fiber_complete_p
-	    fat_complete_p carbohydrate_complete_p
-	    calories_complete_p cholesterol_complete_p sodium_complete_p));
-    $slot_pairs
-	= [ [ qw(carbohydrate_complete_p carbohydrate_grams) ],
-	    [ qw(fat_complete_p fat_grams) ],
-	    [ qw(fiber_complete_p fiber_grams) ],
-	    [ qw(protein_complete_p protein_grams) ],
-	    [ qw(calories_complete_p calories) ],
-	    [ qw(cholesterol_complete_p cholesterol_mg) ],
-	    [ qw(sodium_complete_p sodium_mg) ] ];
 }
 
 sub finalize {
@@ -754,7 +747,7 @@ sub finalize {
 	    else {
 		warn($self->name, ":  ", $item->name,
 		     " $value_slot is missing")
-		    unless $value_slot eq 'fiber_grams';
+		    if $verbose_p;
 		$missing_p++;
 	    }
 	}
@@ -762,6 +755,19 @@ sub finalize {
 	$self->$complete_slot(! $missing_p);
     }
     return $self;
+}
+
+###================
+package Food::Recipe;
+
+# A recipe is a food item that is itself made from one or more ingredients,
+# which refer to other recipes or food items.  The food values are stated per
+# serving, and are computed once from the ingredient food values.
+
+use base qw(Food::HasIngredients);
+
+BEGIN {
+    Food::Recipe->define_class_slots(qw(n_servings));
 }
 
 ###================
@@ -776,6 +782,14 @@ BEGIN {
     Food::Meal->define_class_slots(qw(date meal));
 }
 
+sub n_servings { 1; }
+
+sub name {
+    my ($self) = @_;
+
+    return join(' ', $self->date, $self->meal);
+}
+
 sub parse_meals {
     my ($class, $file_name) = @_;
 
@@ -784,8 +798,10 @@ sub parse_meals {
     my ($current_date, $current_meal_name, $current_meal);
     my $meals = [ ];
     my $register_meal = sub {
-	push(@$meals, $current_meal)
-	    if $current_meal && $current_meal->n_ingredients;
+	if ($current_meal && $current_meal->n_ingredients) {
+	    $current_meal->finalize();
+	    push(@$meals, $current_meal);
+	}
 	$current_meal = $class->new(date => $current_date,
 				    meal => $current_meal_name);
     };
@@ -830,61 +846,4 @@ sub parse_meals {
     }
     $register_meal->();
     return $meals;
-}
-
-sub present_summary {
-    # [ . . . though if it's detailed, it's not a summary.  -- rgr, 28-Dec-14.]
-    my ($self, %keys) = @_;
-    my $detailed_p = $keys{detailed_p};
-
-    my $verbose_p = 0; # $self->meal eq 'snack';
-    my $ingredients = $self->ingredients || [ ];
-    for my $ingredient (@$ingredients) {
-	my $item = $ingredient->item;
-    }
-
-    my @totals;
-    printf('%-32s', $self->date . ' ' . $self->meal . ':');
-    my ($cho_grams, $calories);
-    for my $slot (qw(net_carbohydrate_grams fat_grams protein_grams calories)) {
-	my ($total, $missing_p);
-	for my $ingredient (@$ingredients) {
-	    my $item = $ingredient->item;
-	    my $value = $item->$slot();
-	    if (defined($value)) {
-		warn($item->name, " $slot value $value, servings ",
-		     $ingredient->n_servings)
-		    if $verbose_p;
-		$total += $ingredient->n_servings * $value;
-	    }
-	    else {
-		warn($self->date, ' ', $self->meal, ':  ',
-		     $item->name, " $slot is missing\n")
-		    if $slot eq 'net_carbohydrate_grams' || $slot eq 'calories';
-		$missing_p++;
-	    }
-	}
-	if ($slot eq 'net_carbohydrate_grams') {
-	    $cho_grams = $total;
-	}
-	elsif ($slot eq 'calories') {
-	    $calories = $total;
-	}
-	push(@totals, $total);
-	print $self->show_total($total, $missing_p);
-    }
-    printf(" CHO%%%.1f", 100.0 * (4 * $cho_grams) / $calories)
-	if defined($cho_grams) && defined($calories);
-    print("\n");
-
-    if ($detailed_p) {
-	for my $ingredient (@$ingredients) {
-	    my $item = $ingredient->item;
-	    my $n_servings = $ingredient->n_servings;
-	    $ingredient->item->present_summary
-		(indent_name_p => 1,
-		 n_servings => $ingredient->n_servings);
-	}
-    }
-    return @totals;
 }
