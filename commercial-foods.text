@@ -836,8 +836,10 @@ serving size: 155g
 
 [item cherry pie]
 source: USDA: Pie, cherry, prepared from recipe 
-serving size: 155g
-# 1 slice (1/8 of 9" dia) = 180g
+# 1 slice (1/8 of 9" dia) = 180g (according to USDA)
+serving size: 180g
+# 1 whole 9.5" pie (made by Anna and Jan) = 1800g
+# 1/8 of same = 225g
 486 calories
 5g protein
 22g fat

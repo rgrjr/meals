@@ -1130,6 +1130,14 @@ servings: 4
 2 cloves garlic
 14oz House Foods firm tofu
 
+[recipe saag "bean-eer"]
+source: Jan, Anna
+servings: 4.5
+2 onions
+1lb spinach
+18oz tomatoes
+31oz (2 cans) kidney beans
+
 [recipe fragrant tomato and yogurt gravy]
 source: The Art of Indian Vegetarian Cooking, p423
 # but without the yogurt.
@@ -1550,6 +1558,19 @@ servings: 4
 15g tamarind pulp
 28oz tomatoes (1 large can, diced)
 2 chilis
+
+[recipe curried chickpeas and potatoes]
+source: The Spice Box, p37
+servings: 4
+28oz canned chickpeas (2 cans)
+2T oil
+6 cloves garlic
+# 1tsp ginger
+1tsp salt
+14oz tomatoes (1/2 large can, diced)
+14oz canned chickpeas
+30g tamarind pulp
+16oz potatoes (guess)
 
 [recipe chickpea and spinach curry 2]
 source: Quick Vegetarian Recipes p120 (palak choley), Jan
@@ -2225,3 +2246,15 @@ servings: 8
 1/2lb carrots
 1/2lb parsnips
 2T oil
+
+[recipe rustic white beans and mushrooms]
+source: Veganomicon p120, Jan
+servings: 6
+2C raw white beans
+1 large onion
+2 celery stalks
+2 carrots
+1/4C olive oil
+2 cloves garlic
+1/2lb white mushrooms
+1-1/2tsp salt
