@@ -292,6 +292,17 @@ serving size: 57g
 4g fiber
 7g protein
 
+[item Trader Joe's soy chorizo]
+serving size: 71g
+# 1 package = 340g = 5 svg
+160 calories
+10g fat
+0mg cholesterol
+730mg sodium
+9g carbohydrate
+2g fiber
+11g protein
+
 [item Nissin cup noodles with shrimp]
 serving size: 64g
 # CHO%50.7
@@ -318,6 +329,7 @@ serving size: 64g
 alias: Market Basket sliced banana nut bread
 serving size: 1.8oz
 # 1 slice = 1.8oz = 51g
+# CHO%56.5
 3g protein
 7g fat
 25g carbohydrate
@@ -329,6 +341,7 @@ serving size: 1.8oz
 [item MB sliced "bananas only" bread]
 serving size: 1.8oz
 # 1 slice = 1.8oz = 51g
+# CHO%58.8
 3g protein
 6g fat
 26g carbohydrate
@@ -476,19 +489,6 @@ serving size: 1oz
 1g fiber
 2g protein
 
-[item MB potato chips]
-alias: Market Basket classic potato chips
-# CHO%40.0
-serving size: 1oz
-140 calories
-8g fat
-0mg cholesterol
-180mg sodium
-16g carbohydrate
-# [fiber is a guess.  -- rgr, 27-Jun-15.]
-1g fiber
-2g protein
-
 [item Kettle potato chips]
 alias: Kirkland "kettle cut" potato chips
 serving size: 1oz
@@ -500,6 +500,19 @@ serving size: 1oz
 150 calories
 0mg cholesterol
 115mg sodium
+
+[item MB potato chips]
+alias: Market Basket classic potato chips
+alias: Market Basket ripple potato chips
+# CHO%42.9
+serving size: 1oz
+140 calories
+8g fat
+0mg cholesterol
+180mg sodium
+16g carbohydrate
+1g fiber
+2g protein
 
 [item multigrain tortilla chips]
 source: Food Should Taste Good, Inc.
@@ -546,6 +559,17 @@ serving size: 1oz
 115mg sodium
 19g carbohydrate
 1g fiber
+2g protein
+
+[item Trader Jose's salted tortilla chips]
+serving size: 1oz
+# CHO%63.3
+120 calories
+4.5g fat
+0mg cholesterol
+50mg sodium
+21g carbohydrate
+2g fiber
 2g protein
 
 [item hummus]
@@ -1147,6 +1171,19 @@ serving size: 2T
 2.5g carbohydrate
 0g fiber
 0g protein
+
+[item Kirkland creamy peanut butter]
+alias: peanut butter
+source: Kirkland
+serving size: 32g
+serving size: 2T
+200 calories
+15g fat
+0mg cholesterol
+40mg sodium
+7g carbohydrate
+3g fiber
+8g protein
 
 [item peanut butter fudge]
 source: USDA: 19102, Candies, fudge, peanut butter, prepared-from-recipe

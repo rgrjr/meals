@@ -311,6 +311,30 @@ serving size: 244g
 115mg sodium
 20mg cholesterol
 
+[item half-and-half]
+source: USDA: 01049, Cream, fluid, half and half
+serving size: 1C
+serving size: 242g
+298 calories
+8g protein
+25g fat
+11g carbohydrate
+0g fiber
+148mg sodium
+85mg cholesterol
+
+[item heavy cream]
+source: USDA: 01053, Cream, fluid, heavy whipping
+serving size: 1C
+serving size: 238g
+809 calories
+7g protein
+86g fat
+7g carbohydrate
+0g fiber
+64mg sodium
+269mg cholesterol
+
 [item yogurt]
 source: USDA: 01116, Yogurt, plain, whole milk, 8 grams protein per 8 ounce
 serving size: 1C
@@ -656,6 +680,18 @@ serving size: 112g
 2g fiber
 190mg sodium
 0mg cholesterol
+
+[item cooked couscous]
+source: USDA: 20029, Couscous, cooked
+serving size: 157g
+serving size: 1C
+176 calories
+6g protein
+0g fat
+36g carbohydrate
+2g fiber
+0mg cholesterol
+8mg sodium
 
 [item sugar]
 serving size: 1T
@@ -1480,6 +1516,7 @@ serving size: 156g
 115mg sodium
 
 [item potatoes]
+alias: potato
 source: USDA: Potatoes, flesh and skin, raw 
 serving size: 1lb
 # 1C diced = 150g
@@ -1494,6 +1531,7 @@ serving size: 3C
 27mg sodium
 
 [item medium sweet potatoes]
+alias: sweet potatoes
 source: USDA: Sweet potato, raw, unprepared
 # 1 potato 5" long = 130g
 serving size: 130g
