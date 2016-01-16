@@ -1,13 +1,9 @@
 #!/usr/bin/perl
 #
 # Produce a scatterplot of weight change as a function of calorie intake.
-#
-# $Id$
 
 use strict;
 use warnings;
-
-use lib '/shared.local/mgi/modest';
 
 use Getopt::Long;
 use Date::Parse;
