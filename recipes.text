@@ -100,9 +100,10 @@ servings: 6
 [recipe black beans in chipotle adobo sauce]
 source: Veganomicon, p122
 servings: 4
-2 (cans) black beans
+31oz (2 cans) black beans
 1 large onion
 3T olive oil
+4 cloves garlic
 
 [recipe kale and black bean enchiladas]
 source: Veganomicon, p162
@@ -148,7 +149,7 @@ source: Veganomicon, p162
 # spinach for kale, in the "potato and kale enchiladas" recipe.  each
 # serving is one enchilada (~120g).
 servings: 14
-2 (cans) black beans
+31oz (2 cans) black beans
 1lb fresh spinach
 0.25C pine nuts
 3T olive oil
@@ -557,6 +558,33 @@ servings: 4
 1.5tsp salt
 0.75C oil
 
+[recipe aloo palak]
+alias: palak aloo
+source: http://www.caloriecount.com/aloo-palak-recipe-r819126
+servings: 4
+2 potatoes
+4C spinach
+1.5 large onions
+1T olive oil
+
+[recipe malai kofta]
+source: http://www.caloriecount.com/malai-kofta-recipe-r42263
+servings: 4
+2 potatoes
+1/2C frozen green peas
+1.5tsp salt
+1/4C Kirkland cashews
+10g raisins
+3/4C chickpea flour
+1T oil
+16g cashews
+1 cloves garlic
+2T butter
+1 large onion
+1T salt
+1C half-and-half
+1/2C heavy cream
+
 [recipe Jan's spinach pesto]
 # makes 275g total
 # 45g servings
@@ -583,6 +611,17 @@ servings: 8
 8oz green beans
 156g (1C) frozen corn
 2tsp salt
+
+[recipe green split-pea soup with carrots]
+alias: split pea soup
+source: Recipes From An Ecological Kitchen p48, Jan
+servings: 5
+1T oil
+1 large onion
+2 cloves garlic
+# 2T grated ginger
+2C dried green peas
+4 carrots
 
 [recipe kidney bean minestrone]
 source: recipes from an ecological kitchen p50, Jan
@@ -983,6 +1022,20 @@ servings: 6
 1T lemon juice
 1tsp salt
 1/2 eggplant (really japanese eggplant)
+5T oil
+
+[recipe vegetable pakora]
+source: wild guesses
+# 1 pakora = 1 serving
+servings: 20
+1.5C chickpea flour
+1T lemon juice
+1tsp salt
+250g fresh spinach
+1 onion
+1/2 medium cauliflower
+1 bell pepper
+1 potato
 5T oil
 
 [recipe onion ring pakoras]
@@ -2097,16 +2150,6 @@ Chipotle pinto beans
 Chipotle green chili salsa
 Chipotle guacamole
 
-[recipe split pea soup]
-source: Jan
-servings: 4
-3 carrots
-2/3 onion (1 small)
-1C dried green peas
-# 1 piece of ginger
-3 cloves garlic
-1T oil
-
 [recipe banana muffin]
 source: Jan
 # 1 muffin = 1 serving, estd 80g
@@ -2258,3 +2301,43 @@ servings: 6
 2 cloves garlic
 1/2lb white mushrooms
 1-1/2tsp salt
+
+[recipe chorizo chili]
+source: Jan and Anna
+servings: 5
+12oz (1 package) Trader Joe's soy chorizo
+15.5oz (1 can) black beans
+1 large onion
+6 cloves garlic
+
+[recipe Thai black bean/tofu/potato patties]
+alias: Thai-inspired Black Bean Tofu and Potato Patties
+source: The Best Veggie Burgers On The Planet, p38
+servings: 10
+# 1 burger = 1 serving
+1-1/4lb potatoes
+12oz Vitasoy extra-firm tofu
+15.5oz (1 can) black beans
+1/4C peanut butter
+1/2C scallions
+30g garlic
+# salt and pepper
+
+[recipe Thai peanut sauce]
+source: The Best Veggie Burgers On The Planet, p193
+servings: 10
+# 1 serving = 35g
+1/2C peanut butter
+1/2C oil
+1/3C scallions
+2T soy sauce
+# 1tsp dried red pepper flakes
+
+[recipe chickpeas and zucchini with couscous]
+source: World Vegetarian, p501
+servings: 3
+3T olive oil
+1/2 large onion
+14oz tomatoes (1/2 large can, diced)
+15.5oz (1 can) canned chickpeas
+3 (big) zucchini
