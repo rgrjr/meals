@@ -450,6 +450,7 @@ serving size: 1C
 source: USDA: Cheese, feta
 serving size: 28g
 # 1C crumbled = 150g
+serving size: 0.187C
 75 calories
 4g protein
 6g fat
@@ -457,6 +458,19 @@ serving size: 28g
 0g fiber
 260mg sodium
 25mg cholesterol
+
+[item paneer]
+source: USDA: 01228, Cheese, fresh, queso fresco
+serving size: 122g
+# 1C crumbled = 122g
+serving size: 1C
+365 calories
+22g protein
+29g fat
+4g carbohydrate
+0g fiber
+916mg sodium
+84mg cholesterol
 
 [item Boca veggie crumbles]
 serving size: 57g
@@ -1191,18 +1205,6 @@ serving size: 0.022C
 0g fiber
 0mg cholesterol
 0mg sodium
-
-[item chili garlic sauce]
-source: Lee Kum Kee
-serving size: 18g
-serving size: 1T
-15 calories
-0g protein
-0g fat
-3g carbohydrate
-1g fiber
-0mg cholesterol
-780mg sodium
 
 [item shredded cabbage]
 source: USDA: Cabbage, raw

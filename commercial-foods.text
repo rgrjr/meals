@@ -935,6 +935,18 @@ serving size: 125g
 9g fiber
 8g protein
 
+[item paratha]
+source: USDA: 28286, Bread, paratha, whole wheat, commercially prepared, frozen
+# 1 piece = 79g
+serving size: 79g
+258 calories
+5g protein
+10g fat
+36g carbohydrate
+8g fiber
+357mg sodium
+1mg cholesterol
+
 [item Cuisine Adventures spanakopita]
 alias: Cuisine Adventures frozen spanakopita
 serving size: 57g
@@ -983,6 +995,30 @@ source: http://www.qdoba.com/menu-nutrition/burritos-menu-nutrition
 12g fiber
 1665mg sodium
 0mg cholesterol
+
+[item chili garlic sauce]
+source: Lee Kum Kee
+serving size: 18g
+serving size: 1T
+15 calories
+0g protein
+0g fat
+3g carbohydrate
+1g fiber
+0mg cholesterol
+780mg sodium
+
+[item yu shiang sauce]
+source: http://www.myfitnesspal.com/food/calories/lee-kum-kee-yu-hsiang-sauce-194024166
+serving size: 18g
+serving size: 1T
+25 calories
+0g protein
+1g fat
+4g carbohydrate
+1g fiber
+0mg cholesterol
+690mg sodium
 
 [item vegetable lo mein]
 source: USDA: 36625, Restaurant, Chinese, vegetable lo mein, without meat

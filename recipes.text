@@ -1270,6 +1270,18 @@ servings: 4
 2T sugar
 2T oil
 
+[recipe yu shiang tofu and broccoli]
+source: as served at Shanghai Village, estimated
+servings: 4
+# serving size ~200g
+150g extra-firm tofu
+150g broccoli
+1/4 onion
+75g snow peas
+4T yu shiang sauce
+2T sugar
+2T oil
+
 [recipe quiche with broccoli]
 source: Vegetarian Times Cookbook, p454, as modified by Jan
 servings: 4
@@ -2247,6 +2259,20 @@ servings: 4
 4T soy sauce
 2tsp cornstarch
 
+[recipe spicy aubergine slices]
+source: Jan, Chinese Vegetarian Cookery, p89
+# Jan doubles the recipe.
+servings: 5
+1lb eggplant
+1/4C oil
+1/2 large onion
+8oz white mushrooms
+2T soy sauce
+2tsp agave nectar
+# 4tsp chili sauce
+4tsp cornstarch
+# pepper
+
 [recipe zucchini in lemon sauce]
 source: Jan
 servings: 4
@@ -2341,3 +2367,26 @@ servings: 3
 14oz tomatoes (1/2 large can, diced)
 15.5oz (1 can) canned chickpeas
 3 (big) zucchini
+
+[recipe methi paneer]
+source: http://foodviva.com/curry-recipes/methi-paneer-recipe/
+servings: 2
+1/2C paneer
+1/2 large onion
+1/2 large tomatoes (1 small)
+6 cloves garlic
+2T Kirkland cashews
+3T oil
+
+[recipe kalestrone]
+source: Jan
+# 1 serving = 3 ladles full ~= 350g
+servings: 6
+1T oil
+2 celery stalks
+2 onions
+3 cloves garlic
+31oz (2 cans) kidney beans
+28oz tomatoes (1 large can, diced)
+200g fresh kale
+4 carrots
