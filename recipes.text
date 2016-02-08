@@ -84,6 +84,7 @@ servings: 5
 1C frozen peas
 
 [recipe Anna's Boudin sourdough garlic bread]
+alias: Boudin sourdough garlic bread
 servings: 1
 source: Anna
 one half Boudin sourdough roll
@@ -1038,7 +1039,7 @@ servings: 20
 1 potato
 5T oil
 
-[recipe onion ring pakoras]
+[recipe onion ring pakora]
 source: The Art of Indian Vegetarian Cooking, p450
 servings: 6
 1.5C chickpea flour
@@ -1047,7 +1048,7 @@ servings: 6
 1 large onion
 5T oil
 
-[recipe spinach pakoras]
+[recipe spinach pakora]
 source: The Art of Indian Vegetarian Cooking, p450
 servings: 4
 1.5C chickpea flour
@@ -1082,6 +1083,15 @@ servings: 4
 # 1-1/2tsp ajwain seeds
 1tsp salt
 230g fresh spinach (25-30 leaves)
+1/2C oil
+
+[recipe Spice Box spinach pakora]
+source: The Spice Box, p29
+servings: 16
+2C chickpea flour
+# 1 chili
+1 large onion
+1lb fresh spinach
 1/2C oil
 
 [recipe tamarind sauce]
@@ -1381,6 +1391,19 @@ servings: 1
 1/4 onion
 4oz baby corn
 50g Kirkland cashews
+1T oil
+
+[recipe vegetable pad basil]
+source: guesswork, based on Thai Smile in Plymouth NH
+servings: 1
+7oz Vitasoy extra-firm tofu
+1/2 carrots
+1/4 onion
+100g broccoli
+50g baby corn
+50g snow peas
+50g white mushrooms
+# 1/4 serrano chili
 1T oil
 
 [recipe hot basil with tofu]
@@ -1740,6 +1763,17 @@ source: Quick Vegetarian Recipes p109 (rajma masala), Jan
 31oz (2 cans) kidney beans
 1tsp salt
 1lb cauliflower
+
+[recipe rajma masala with spinach]
+servings: 4
+source: Quick Vegetarian Recipes p109 (rajma masala), Jan
+1 onion
+# ginger
+4 cloves garlic
+4T oil
+31oz (2 cans) kidney beans
+1tsp salt
+1/2lb spinach
 
 [recipe palak choley]
 servings: 4
@@ -2390,3 +2424,58 @@ servings: 6
 28oz tomatoes (1 large can, diced)
 200g fresh kale
 4 carrots
+
+[recipe Sunday afternoon griller]
+source: The Best Veggie Burgers On The Planet, p98
+servings: 9
+# 1 burger = 1 serving =~ 100g
+2T oil
+100g TVP
+8oz white mushrooms
+1 large onion
+2 cloves garlic
+1C vital wheat gluten
+1/4C soy sauce
+1C scallions
+# oil for frying
+4T oil
+
+[recipe snickerdoodle]
+servings: 30
+# 1 cookie = 1 serving
+1-3/4C white flour
+1C butter
+2C sugar
+2 svg egg replacer
+1/4C 2% milk
+3T sugar
+
+[recipe vegetarian jambalaya]
+source: Jan
+servings: 4
+1 large onion
+3 cloves garlic
+28oz tomatoes (1 large can, diced)
+12oz (1 package) Wegman's frozen artichoke hearts
+227g (1 package) Market Basket frozen bell pepper strips
+2.5 Tofurkey artisan Italian sausages
+3/4C raw white rice
+
+[recipe tofu pot pie]
+source: Vegetarian Times Cookbook, p240, as modified by Jan
+servings: 6
+14oz Vitasoy extra-firm tofu
+1C onions
+1C celery
+2/3C carrots
+1C bell peppers
+2/3C green beans
+1/3C frozen peas
+1/3C whole wheat flour
+1C 2% milk
+1tsp salt
+# crust (p446)
+1-3/4C whole wheat flour
+2T butter
+3/4C 2% milk
+2tsp agave nectar

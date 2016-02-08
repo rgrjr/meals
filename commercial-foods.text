@@ -260,6 +260,16 @@ serving size: 150g
 620mg sodium
 0mg cholesterol
 
+[item Tofurkey artisan Italian sausage]
+# serving size: 1 sausage
+280 calories
+14g fat
+0mg cholesterol
+620mg sodium
+8g carbohydrate
+1g fiber
+30g protein
+
 [item Tofurkey ground beef style]
 alias: meatless ground crumbles
 serving size: 55g
@@ -492,7 +502,7 @@ serving size: 1oz
 [item Kettle potato chips]
 alias: Kirkland "kettle cut" potato chips
 serving size: 1oz
-# CHO%42.7
+# CHO%40.0
 16g carbohydrate
 1g fiber
 9g fat
@@ -500,6 +510,17 @@ serving size: 1oz
 150 calories
 0mg cholesterol
 115mg sodium
+
+[item TJ's ridge cut potato chips]
+serving size: 1oz
+# CHO%42.7
+150 calories
+8g fat
+0mg cholesterol
+105mg sodium
+17g carbohydrate
+1g fiber
+2g protein
 
 [item MB potato chips]
 alias: Market Basket classic potato chips
@@ -762,6 +783,7 @@ serving size: 1T
 [item Market Basket frozen bell pepper strips]
 source: Market Basket
 serving size: 83g
+serving size: 3/4C
 # 1 package = 227g = 2.73 svg
 20 calories
 0g protein
@@ -1231,3 +1253,25 @@ serving size: 1oz
 0g fiber
 33mg sodium
 1mg cholesterol
+
+[item egg replacer]
+serving size: 4g
+serving size: 1-1/2tsp
+15 calories
+0g fat
+0mg cholesterol
+4g carbohydrate
+0g fiber
+5mg sodium
+0g protein
+
+[item Wegman's frozen artichoke hearts]
+serving size: 3oz
+# bag size: 12oz
+40 calories
+0.5g fat
+0mg cholesterol
+55mg sodium
+7g carbohydrate
+5g fiber
+2g protein
