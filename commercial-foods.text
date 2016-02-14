@@ -1006,6 +1006,18 @@ serving size: 480ml
 1090mg sodium
 40mg cholesterol
 
+[item Au Bon Pain tomato basil bisque]
+source: http://aubonpain.com/menu/tomato-basil-bisque
+serving size: 480ml
+# large (16floz)
+320 calories
+14g fat
+50mg cholesterol
+40g carbohydrate
+3g fiber
+500mg sodium
+9g protein
+
 [item Qdoba veggie burrito]
 source: http://www.qdoba.com/menu-nutrition/burritos-menu-nutrition
 # with flour tortilla, brown rice, salsa verde, guacamole, and fajita
@@ -1275,3 +1287,27 @@ serving size: 3oz
 7g carbohydrate
 5g fiber
 2g protein
+
+[item Flatbread Co. sausage and feta pizza]
+source: USDA: 21226, Pizza, meat and vegetable topping, regular crust, frozen, cooked
+serving size: 10.9oz
+977 calories
+40g protein
+51g fat
+89g carbohydrate
+8g fiber
+1965mg sodium
+57mg cholesterol
+
+[item chili with beans]
+source: USDA: 16059, Chili with beans, canned 
+# note: this is not vegetarian
+serving size: 1C
+serving size: 256g
+264 calories
+16g protein
+10g fat
+34g carbohydrate
+8g fiber
+1083mg sodium
+44mg cholesterol

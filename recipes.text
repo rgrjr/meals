@@ -279,6 +279,16 @@ serving size: 300g
 1/4C cornstarch
 1/4C oil
 
+[recipe stir-fried veggies with fried tofu 8]
+servings: 4
+serving size: 230g
+4 firm tofu (1 package)
+1 large onion
+3C broccoli
+2 bell peppers
+2T oil
+60g cornstarch
+
 [recipe stir-fried veggies 1]
 servings: 4
 serving size: 230g
@@ -706,6 +716,16 @@ servings: 8
 2T agave nectar
 1tsp vanilla extract
 
+[recipe pancake]
+servings: 12
+# one serving = one pancake
+2C whole wheat flour
+2T sugar
+1/2tsp salt
+2C 2% milk
+1/2C egg whites
+4T oil
+
 [recipe blueberry pancakes 1]
 source: Jan and Anna's variation on Pancakes And Waffles, p14
 # doubled recipe
@@ -931,6 +951,14 @@ servings: 4
 28oz tomato sauce
 1/2 onion
 170g Lindsay extra large olives (1 can)
+
+[recipe random spaghetti sauce]
+source: guesswork based on 6-Feb-16.
+servings: 4
+28oz tomato sauce
+1/2 onion
+170g Lindsay extra large olives (1 can)
+1/2lb brown mushrooms
 
 [recipe walnut sauce]
 source: World Vegetarian, p684
@@ -2479,3 +2507,16 @@ servings: 6
 2T butter
 3/4C 2% milk
 2tsp agave nectar
+
+[recipe Thai chili lime tofu]
+source: estimated from what Sweet Chili served on 13-Feb-16.
+servings: 2
+# serving size: 300g
+40g brown mushrooms
+75g green beans
+75g carrots
+110g bell peppers
+110g onion
+190g extra-firm tofu
+1T cornstarch (on the tofu)
+2T oil
