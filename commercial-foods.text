@@ -475,7 +475,8 @@ serving size: 78g
 3g fiber
 5g protein
 
-[item corn chips]
+[item Fritos corn chips]
+alias: corn chips
 alias: Fritos
 # CHO%40.0
 serving size: 1oz

@@ -338,6 +338,13 @@ servings: 4
 2T olive oil
 2T cornstarch
 
+[recipe stir-fried veggies 7]
+servings: 4
+1lb broccoli
+1 large onion
+3 carrots
+3 celery stalks
+
 [recipe Dad's stir-fried veggies 1]
 servings: 2
 3 carrots
@@ -632,6 +639,17 @@ servings: 5
 2 cloves garlic
 # 2T grated ginger
 2C dried green peas
+4 carrots
+
+[recipe split mung bean soup with carrots]
+# green split-pea soup with mung beans by accident.
+source: Recipes From An Ecological Kitchen p48, Jan
+servings: 4
+1T oil
+1 large onion
+2 cloves garlic
+# 2T grated ginger
+2C dried mung beans (split)
 4 carrots
 
 [recipe kidney bean minestrone]
@@ -951,6 +969,15 @@ servings: 4
 28oz tomato sauce
 1/2 onion
 170g Lindsay extra large olives (1 can)
+
+[recipe Jan's spaghetti sauce 7]
+source: Jan
+servings: 4
+1C Bob's Red Mill TVP
+32oz tomato sauce
+1 onion
+2T oil
+12oz white mushrooms
 
 [recipe random spaghetti sauce]
 source: guesswork based on 6-Feb-16.
@@ -1362,6 +1389,7 @@ servings: 3
 2T lemon juice
 # bagar:
 1T oil
+4 cloves garlic
 2 ancho chilis
 
 [recipe Spice Box toor dal with carrots]
@@ -1432,6 +1460,14 @@ servings: 1
 50g snow peas
 50g white mushrooms
 # 1/4 serrano chili
+1T oil
+
+[recipe vegetable pad garlic]
+source: guesswork, based on Thai Smile in Plymouth NH
+servings: 1
+150g Vitasoy extra-firm tofu
+150g broccoli
+6 cloves garlic
 1T oil
 
 [recipe hot basil with tofu]
@@ -2520,3 +2556,102 @@ servings: 2
 190g extra-firm tofu
 1T cornstarch (on the tofu)
 2T oil
+
+[recipe green beans and mushrooms]
+servings: 3
+# serving size: 120g
+2C green beans
+1.5C white mushrooms
+3T almonds
+3T oil
+6 cloves garlic
+
+[recipe enchilada verde]
+source: estimated from what Ixtapa served on 21-Feb-16.
+servings: 1
+# serving size: 800g; they're huge.
+75g onion
+200g bell pepper
+200g black beans
+200g white rice
+75g cauliflower
+1.5 flour tortillas (actually 1 large)
+# no clue about the verde sauce
+
+[recipe eggplant with garlic sauce]
+source: From The Earth p122, Jan
+# Jan doubled the recipe.
+servings: 4
+# serving size: 300g
+2T soy sauce
+1tsp (hot) oil
+1tsp agave nectar
+2tsp vinegar
+1/2tsp salt
+1T cornstarch
+4T oil
+2lb eggplant
+4tsp garlic
+
+[recipe beignets de courgette]
+alias: zucchini fritters
+source: http://easy-french-food.com
+servings: 5
+1lb zucchini
+2 eggs
+2 cloves garlic
+1/2C flour
+1/2tsp salt
+4T oil (used in frying)
+
+[recipe lentil chard stew]
+source: Jan
+servings: 4
+1T olive oil
+2 carrots
+2 celery stalks
+2C dry lentils
+2 cloves garlic
+1lb chard
+
+[recipe chickpea caponata]
+source: Forks Over Knives p216, Jan
+servings: 4
+1 onion
+3 celery stalks
+2lb eggplant
+14oz tomatoes (1/2 large can, diced)
+15.5oz (1 can) canned chickpeas
+170g (1 can) Lindsay extra large olives
+3T capers
+1T vinegar
+1/4C pine nuts
+
+[recipe ghobi aur khumbi bhaaji]
+source: Indian Vegetarian Cooking p104, Jan
+# Jan doubled the recipe, approximately
+servings: 6
+1lb cauliflower
+10oz white mushrooms
+5T butter
+1/4 large onion
+# 1T ginger
+1 chili
+28oz tomatoes (1 large can, diced)
+
+[recipe channa masala]
+source: estimated, based on Shalimar in North Conway on 5-Mar-16.
+servings: 1
+1 large onion
+10oz cooked chickpeas
+
+[recipe spaghetti sauce with greens, beans, and tomatoes]
+source: The Complete Vegetarian Cookbook p127, Jan
+servings: 4
+5T olive oil
+8 cloves garlic
+1 onion
+1lb fresh spinach
+12oz tomatoes
+15.5oz (1 can) kidney beans
+170g (1 can) Lindsay extra large olives
