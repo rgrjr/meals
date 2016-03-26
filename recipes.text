@@ -289,6 +289,15 @@ serving size: 230g
 2T oil
 60g cornstarch
 
+[recipe stir-fried broccoli with fried tofu]
+servings: 4
+# assuming 200g servings
+4 firm tofu (1 package)
+60g cornstarch
+1lb broccoli
+1/4C soy sauce
+4T oil
+
 [recipe stir-fried veggies 1]
 servings: 4
 serving size: 230g
@@ -344,6 +353,16 @@ servings: 4
 1 large onion
 3 carrots
 3 celery stalks
+
+[recipe stir-fried veggies with baked seitan]
+servings: 6
+12oz baked seitan
+5 carrots
+10 celery stalks
+1 bell pepper
+8oz white mushrooms
+4C mung bean sprouts
+3T oil
 
 [recipe Dad's stir-fried veggies 1]
 servings: 2
@@ -839,6 +858,17 @@ servings: 4
 15.5oz (1 can) kidney beans
 14oz tomatoes
 1T oil
+
+[recipe Jan's chili 6]
+source: Jan
+servings: 4
+# 1 serving = 300g
+1 large onion
+3 cloves garlic
+12 celery stalks
+12oz tomatoes
+31oz (2 cans) kidney beans
+3T oil
 
 [recipe Brooksetta burgers]
 source: The Best Veggie Burgers On The Planet, p77, Jan's variation
@@ -1379,6 +1409,17 @@ servings: 5
 1tsp salt
 2T lemon juice
 
+[recipe Spice Box curried spinach]
+source: The Spice Box p95, Jan
+servings: 3
+1lb spinach
+# 3/4C water
+2T oil
+1 cloves garlic
+# actually, Jan uses 1tsp mango powder
+1tsp lemon juice
+31oz (2 cans) kidney beans
+
 [recipe Spice Box toor dal]
 source: The Spice Box, p100
 servings: 3
@@ -1880,6 +1921,20 @@ servings: 4
 2T soy sauce
 2T chili garlic sauce
 4T cornstarch
+
+[recipe Internet Szechuan eggplant]
+source: Internet, Jan
+servings: 4
+# assuming 450g servings.
+2 eggplants
+2 bell peppers
+6T soy sauce
+1T agave nectar
+4T (rice) vinegar
+2 cloves garlic
+2T egg replacer
+6T oil
+2T sesame seeds
 
 [recipe carrots with fresh cilantro]
 source: World Vegetarian, p159
@@ -2655,3 +2710,32 @@ servings: 4
 12oz tomatoes
 15.5oz (1 can) kidney beans
 170g (1 can) Lindsay extra large olives
+
+[recipe marinara sauce]
+source: Veganomicon p205
+servings: 4
+1T olive oil
+2 cloves garlic
+28oz tomatoes (1 large can, diced)
+1/2tsp salt
+12oz white mushrooms
+
+[recipe beanballs]
+source: spaghetti and beanballs, Veganomicon p189, Jan
+# 1 beanball = 1 serving
+servings: 12
+# Jan increased the beans by 50%.
+31oz (2 cans) kidney beans
+2T soy sauce
+2T tomato paste
+4T olive oil
+2 cloves garlic
+1/2C bread crumbs
+1/4C vital wheat gluten
+
+[recipe red lentil sauce]
+source: Jan
+servings: 4
+2 onions
+4 cloves garlic
+1C dry (red) lentils
