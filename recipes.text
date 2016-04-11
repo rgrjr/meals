@@ -299,6 +299,17 @@ servings: 4
 1/4C soy sauce
 4T oil
 
+[recipe stir-fried broccoli with fried tofu 2]
+servings: 4
+# assuming 200g servings
+8 firm tofu (2 packages)
+120g cornstarch
+1 large onion
+1lb broccoli
+5 carrots
+1/4C soy sauce
+4T oil
+
 [recipe stir-fried veggies 1]
 servings: 4
 serving size: 230g
@@ -422,6 +433,14 @@ servings: 4
 2T oil
 1T sesame seeds
 
+[recipe potato leek soup]
+source: Jan
+servings: 8
+1lb leeks ("three large leeks")
+10 celery stalks
+6 carrots
+2.5lb potatoes
+
 [recipe potato leek soup with lentils]
 servings: 8
 3lb potatoes
@@ -458,6 +477,17 @@ servings: 8
 1/4 large onion
 2T olive oil
 
+[recipe ATC black bean burger]
+source: America's Test Kitchen: The Complete Vegetarian Cookbook p.374, Jan
+servings: 6
+# 1 serving = 1 burger
+serving size: 125g
+1 (can) black beans
+3 egg whites
+5T olive oil
+3/4C bread crumbs
+1 (red) bell pepper
+
 [recipe three bean chili burger]
 source: The Best Veggie Burgers On The Planet, p137
 servings: 8
@@ -484,6 +514,14 @@ servings: 6
 [recipe sweet potato fries]
 servings: 4
 4 medium sweet potatoes
+4T olive oil
+
+[recipe ATC sweet potato fries]
+source: America's Test Kitchen: The Complete Vegetarian Cookbook p.317, Jan
+servings: 4
+serving size: 150g
+4 medium sweet potatoes
+3T cornstarch
 4T olive oil
 
 [recipe Jan's feta pizza]
@@ -580,7 +618,7 @@ servings: 6
 0.75C oil
 
 [recipe Jan's aloo gobhi 3]
-# 250g servings
+serving size: 250g
 servings: 4
 16oz potatoes
 1 medium cauliflower
@@ -871,6 +909,31 @@ servings: 4
 31oz (2 cans) kidney beans
 3T oil
 
+[recipe Jan's sweet potato chili]
+source: Jan
+servings: 4
+# 1 serving = 300g
+2 medium sweet potatoes
+1 large onion (actually 2 red)
+31oz (2 cans) black beans
+3 cloves garlic (?)
+12oz tomatoes
+1T lime juice
+5T oil
+
+[recipe Jan's beet and potato chili]
+source: Jan, Internet
+servings: 5
+serving size: 350g
+4C (diced) beets
+3C (diced) potatoes
+2 bell peppers
+1 large onion (actually 2 red)
+2 cloves garlic
+14oz tomatoes
+14oz kidney beans
+1T oil
+
 [recipe Brooksetta burgers]
 source: The Best Veggie Burgers On The Planet, p77, Jan's variation
 servings: 6
@@ -996,6 +1059,7 @@ servings: 4
 [recipe Jan's spaghetti sauce 6]
 source: Jan
 servings: 4
+serving size: 300g
 1C Bob's Red Mill TVP
 28oz tomato sauce
 1/2 onion
@@ -1174,6 +1238,7 @@ servings: 4
 [recipe Spice Box spinach pakora]
 source: The Spice Box, p29
 servings: 16
+serving size: 40g
 2C chickpea flour
 # 1 chili
 1 large onion
@@ -1369,7 +1434,7 @@ servings: 4
 [recipe yu shiang tofu and broccoli]
 source: as served at Shanghai Village, estimated
 servings: 4
-# serving size ~200g
+serving size: 200g
 150g extra-firm tofu
 150g broccoli
 1/4 onion
