@@ -192,7 +192,7 @@ serving size: 0.8C
 alias: whole wheat flour
 source: USDA: Basic Report:  20080, Wheat flour, whole-grain
 serving size: 1C
-# 1C = 120g
+serving size: 120g
 408 calories
 16g protein
 3g fat
@@ -1140,6 +1140,7 @@ serving size: 1/2C
 42mg sodium
 
 [item peeled cucumber]
+alias: cucumber
 source: USDA: 11206, Cucumber, peeled, raw
 serving size: 1C
 # 1 cup, sliced = 119g
@@ -1154,8 +1155,10 @@ serving size: 119g
 
 [item onion]
 alias: large onion
-alias: onions
+alias: onion
+alias: red onion
 source: USDA: Onions, raw
+# the red onions from Gurda Gardens (NY) are identical.
 serving size: 150g
 # 1 large = 150g
 # 1C chopped = 160g
@@ -1241,7 +1244,7 @@ serving size: 1C
 [item leek]
 source: USDA: 11246, Leeks, (bulb and lower leaf-portion), raw
 serving size: 1lb
-# 1C = 89g
+# 1 leek = 1C = 89g
 serving size: 5.1C
 277 calories
 7g protein
