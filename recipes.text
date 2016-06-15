@@ -325,6 +325,19 @@ serving size: 300g
 6T oil
 1T cornstarch
 
+[recipe stir-fried veggies with fried tofu 11]
+servings: 5
+serving size: 300g
+14oz House Foods firm tofu (1 package)
+1 large onion
+1/2lb broccoli
+5 celery stalks
+2C shredded cabbage
+12oz white mushrooms
+# soy sauce
+6T oil
+1T cornstarch
+
 [recipe stir-fried broccoli with fried tofu]
 servings: 4
 # assuming 200g servings
@@ -595,6 +608,16 @@ servings: 2
 0.5C walnuts
 3C broccoli
 
+[recipe chick-pea-walnut cream 2]
+source: The Bold Vegetarian, p188; Jan, Anna
+servings: 5
+2T olive oil
+1 large onion
+15.5oz Goya chickpeas (1 can)
+1/2C walnuts
+1lb broccoli
+12oz tomatoes
+
 [recipe pea soup with red peppers]
 alias: double pea soup with roasted red peppers
 source: Veganomicon, p140
@@ -659,24 +682,48 @@ servings: 6
 16oz potatoes
 1 medium cauliflower
 15.5oz Goya chickpeas
-0.75C oil
+3/4C oil
 
 [recipe Jan's aloo gobhi 3]
 serving size: 250g
 servings: 4
 16oz potatoes
 1 medium cauliflower
-0.75C oil
+3/4C oil
 
 [recipe aloo gobhi 4]
-# 350g servings
 servings: 4
+serving size: 350g
 2lb potatoes
 1.5 medium cauliflower
 15.5oz Goya chickpeas (1 can)
 # 2T ginger
 1.5tsp salt
-0.75C oil
+3/4C oil
+
+[recipe aloo gobhi 5]
+source: Jan, Anna
+servings: 8
+serving size: 350g
+3lb potatoes
+2 medium cauliflower
+15.5oz Goya chickpeas (1 can)
+# 2T ginger
+1.5tsp salt
+1/4C oil
+
+[recipe aloo gobhi 6]
+source: The Art of Indian Vegetarian Cooking, p180
+servings: 6
+serving size: 350g
+2 chilis
+# 2T ginger
+4T oil
+1lb potatoes
+1 medium cauliflower
+24oz tomatoes
+1tsp agave nectar
+1-1/4tsp salt
 
 [recipe aloo palak]
 alias: palak aloo
@@ -793,6 +840,7 @@ servings: 3
 [recipe roasted Brussels sprouts]
 source: Jan
 servings: 9
+serving size: 100g
 2lb Brussels sprouts
 # garlic
 2tsp salt
@@ -952,6 +1000,17 @@ servings: 4
 12oz tomatoes
 31oz (2 cans) kidney beans
 3T oil
+
+[recipe Jan's chili 7]
+source: Jan
+servings: 4
+# 1 serving = 280g
+1 large onion
+2C (chopped) carrots
+2C (chopped) celery
+31oz (2 cans) black beans
+4T tomato paste
+170g Lindsay extra large olives (1 can)
 
 [recipe Jan's sweet potato chili]
 source: Jan
@@ -1371,6 +1430,7 @@ servings: 8
 [recipe tofu saag paneer]
 source: Jan
 servings: 4
+serving size: 350g
 2 onions
 1lb spinach
 18oz tomatoes
@@ -1779,6 +1839,26 @@ servings: 3
 458g cooked pasta (from 191g dry pasta)
 122g feta cheese
 4T olive oil
+
+[recipe pasta and feta 7]
+serving size: 232g
+servings: 3
+2T apple cider vinegar (really balsamic)
+15g garlic
+125g walnuts
+225g dry pasta
+125g feta cheese
+4T olive oil
+
+[recipe pasta and feta 8]
+serving size: 302g
+servings: 4
+2T apple cider vinegar (really balsamic)
+15g garlic
+90g walnuts
+375g dry whole wheat pasta
+143g feta cheese
+6T olive oil
 
 [recipe pasta and feta without feta]
 # Lizzie and I made this before realizing that the feta had gone bad.
@@ -2911,3 +2991,19 @@ servings: 12
 serving size: 18-1/3g
 1/4C vinegar
 3/4C olive oil
+
+[recipe Jan's tofu and feta quiche]
+servings: 6
+1 onion
+1lb spinach
+11oz extra-firm tofu
+1/3C almond milk
+12oz white mushrooms
+3 cloves garlic
+2oz feta cheese
+# vegetable oil crust, Joy of Cooking p 867
+1-1/3C flour
+1/2 tsp salt
+1/3C oil
+1T oil
+1/4C almond milk
