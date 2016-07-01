@@ -338,6 +338,15 @@ serving size: 300g
 6T oil
 1T cornstarch
 
+[recipe stir-fried veggies with fried tofu 12]
+servings: 4
+serving size: 325g
+14oz House Foods firm tofu (1 package)
+900g Kirkland frozen stir-fry vegetable blend
+# soy sauce
+6T oil
+1T cornstarch
+
 [recipe stir-fried broccoli with fried tofu]
 servings: 4
 # assuming 200g servings
@@ -1177,6 +1186,15 @@ servings: 4
 2T oil
 12oz white mushrooms
 
+[recipe Jan's spaghetti sauce 8]
+source: Jan
+servings: 4
+1C Bob's Red Mill TVP
+12oz tomato sauce
+1 onion
+2T oil
+12oz white mushrooms
+
 [recipe random spaghetti sauce]
 source: guesswork based on 6-Feb-16.
 servings: 4
@@ -1400,6 +1418,7 @@ servings: 4
 31oz (2 cans) Goya chickpeas
 
 [recipe golden "chicken" patties]
+alias: golden "chicken" patty
 source: Vegetarian Times Cookbook, p266
 servings: 6
 31oz (2 cans) Goya chickpeas
@@ -1411,6 +1430,8 @@ servings: 6
 source: Vegan Vittles, p137
 # doubled recipe, makes 2.5C
 servings: 8
+serving size: 0.4C
+serving size: 95g
 6T wheat flour
 # 2C water
 4T soy sauce
@@ -2104,6 +2125,18 @@ source: Quick Vegetarian Curries p120, Jan
 1tsp salt
 3/2C tomatoes
 
+[recipe palak choley 2]
+servings: 3
+serving size: 320g
+source: Internet, Jan
+31oz (2 cans) Goya chickpeas
+1lb fresh spinach
+12oz tomatoes
+# 1/2 piece ginger
+1 chili
+3T oil
+1tsp salt
+
 [recipe NYAJ Vietnamese salmon]
 servings: 1
 source: wild guesses, based on what was served 14-Jul-15.
@@ -2146,6 +2179,23 @@ servings: 4
 2T egg replacer
 6T oil
 2T sesame seeds
+
+[recipe Szechuan eggplant with tofu]
+source: Internet, Jan; double recipe
+servings: 4
+# assuming 450g servings.
+24oz Vitasoy extra-firm tofu (2 packages)
+2lb eggplant
+# both are covered in cornstarch and fried.
+1C oil
+1/2C cornstarch
+4T soy sauce
+4 cloves garlic
+# 2T ginger
+2T (sesame) oil
+1T lemon juice
+4T (rice) vinegar
+4T soy sauce
 
 [recipe carrots with fresh cilantro]
 source: World Vegetarian, p159
@@ -3007,3 +3057,13 @@ servings: 6
 1/3C oil
 1T oil
 1/4C almond milk
+
+[recipe sausage, kale, and sun-dried tomatoes]
+source: Internet, Jan
+servings: 3
+1/2lb fresh kale
+1T olive oil
+3 Tofurkey artisan Italian sausages
+1 clove garlic
+# 2T fennel seeds
+1/4C sun-dried tomatoes

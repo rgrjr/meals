@@ -335,6 +335,17 @@ serving size: 64g
 2g fiber
 7g protein
 
+[item Market Basket banana chips]
+serving size: 30g
+# CHO%40.0
+1g protein
+10g fat
+18g carbohydrate
+2g fiber
+160 calories
+0mg cholesterol
+0mg sodium
+
 [item MB sliced banana nut bread]
 alias: Market Basket sliced banana nut bread
 serving size: 1.8oz
@@ -828,6 +839,18 @@ serving size: 90g
 12g carbohydrate
 3g fiber
 3g protein
+
+[item Kirkland frozen stir-fry vegetable blend]
+serving size: 91g
+serving size: 1C
+# 1 package = 2.49kg
+35 calories
+0g fat
+0mg cholesterol
+20mg sodium
+7g carbohydrate
+2g fiber
+1g protein
 
 [item Cantonese Blend vegetables]
 alias: Cantonese Blend frozen mixed vegetables
