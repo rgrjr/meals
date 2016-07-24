@@ -489,6 +489,17 @@ servings: 4
 2T oil
 2T cornstarch
 
+[recipe steamed veggies with tofu 3]
+servings: 5
+2 bell peppers
+4 carrots
+1kg broccoli
+2C snow peas
+8oz white mushrooms
+2T soy sauce
+1T oil
+14oz House Foods firm tofu (1 package)
+
 [recipe oriental baked tofu]
 alias: baked tofu
 source: Recipes From An Ecological Kitchen, p223
@@ -607,6 +618,15 @@ servings: 8
 # this is supposed to be 1C.
 200g TVP
 15g tomato paste (1T)
+
+[recipe taco filling 2]
+source: Jan
+servings: 8
+serving size: 50g
+1 large onion
+1C Bob's Red Mill TVP
+2T tomato paste
+15.5oz (1 can) black beans
 
 [recipe chick-pea-walnut cream]
 source: The Bold Vegetarian, p188
@@ -733,6 +753,14 @@ serving size: 350g
 24oz tomatoes
 1tsp agave nectar
 1-1/4tsp salt
+
+[recipe Jan's aloo gobhi 7]
+# using the deep fryer, no chickpeas
+serving size: 250g
+servings: 8
+2.5lb potatoes
+2 medium cauliflowers
+1C oil
 
 [recipe aloo palak]
 alias: palak aloo
@@ -1020,6 +1048,18 @@ servings: 4
 31oz (2 cans) black beans
 4T tomato paste
 170g Lindsay extra large olives (1 can)
+
+[recipe Jan's chili 8]
+source: Jan
+servings: 5
+# 1 serving = 300g
+1C Bob's Red Mill TVP
+4T tomato paste
+31oz (2 cans) kidney beans
+4 celery stalks
+4 carrots
+1/2 large onion
+3 cloves garlic
 
 [recipe Jan's sweet potato chili]
 source: Jan
@@ -1588,6 +1628,33 @@ serving size: 200g
 2T sugar
 2T oil
 
+[recipe yu shiang broccoli and pea pods]
+source: as served at Shanghai Village, estimated
+servings: 4
+serving size: 200g
+200g broccoli
+1/4 onion
+150g snow peas
+4T yu shiang sauce
+2T sugar
+2T oil
+
+[recipe vegetarian eight treasures]
+source: as served at Shanghai Village, estimated
+servings: 4
+serving size: 200g
+150g broccoli
+1/2 onion
+150g snow peas
+4 firm tofu (1 package)
+5oz baby corn
+5oz brown mushrooms
+5oz water chestnuts
+2T cornstarch
+4T yu shiang sauce
+2T sugar
+2T oil
+
 [recipe quiche with broccoli]
 source: Vegetarian Times Cookbook, p454, as modified by Jan
 servings: 4
@@ -1778,6 +1845,17 @@ servings: 1
 100g potatoes
 1/2T oil
 
+[recipe Huckleberry Frolic, no cheese]
+alias: Huckleberry Frolic
+source: http://mountainharbordeli.weebly.com/menu.html
+servings: 1
+2 eggs
+1oz avocado
+2tsp oil (actually pesto)
+1oz tomatoes
+1/2oz spinach
+1.5oz whole wheat flour (for the wrap)
+
 [recipe Bacchus sauteed veggie burrito]
 source: http://www.bacchusnewpaltz.com/menus/bacchus-menu-dinner.pdf, guesswork
 servings: 1
@@ -1933,6 +2011,28 @@ servings: 4
 2 cloves garlic
 1/2tsp salt
 4T oil
+
+[recipe falafel 2]
+source: But I Could Never Go Vegan!, p60
+# 1 serving = 3 falafel
+servings: 5
+serving size: 100g
+1.5C cooked chickpeas
+# 1/2C cilantro
+1/2 large onion
+3 cloves garlic
+24g lemon juice (one half lemon)
+5T chickpea flour
+
+[recipe sriracha-tahini sauce]
+source: But I Could Never Go Vegan!, p60
+servings: 8
+serving size: 30g
+1/4C tahini
+2T sriracha sauce
+1T capers
+48g lemon juice (one lemon)
+1 clove garlic
 
 [recipe mushroom barley soup]
 source: Jan
@@ -2196,6 +2296,21 @@ servings: 4
 1T lemon juice
 4T (rice) vinegar
 4T soy sauce
+
+[recipe Szechuan eggplant with tofu 2]
+source: Jan
+servings: 5
+# assuming 350g servings.
+2lb eggplant
+2tsp agave nectar
+10T oil
+1T soy sauce
+2T sriracha sauce
+12 cloves (1 head) garlic
+# 2T ginger
+2T cornstarch
+6 scallions
+14oz Vitasoy extra-firm tofu
 
 [recipe carrots with fresh cilantro]
 source: World Vegetarian, p159
@@ -2638,6 +2753,15 @@ servings: 10
 15.5oz (1 can) black beans
 3T oil
 
+[recipe strawberry rhubarb pie]
+source: Joy of Cooking p876
+servings: 8
+serving size: 220g
+2.5C rhubarb stalks
+2.5C strawberries
+1-1/2C sugar
+2 pie crusts
+
 [recipe mincemeat pie]
 servings: 8
 29oz Robertson's mincemeat (1 jar)
@@ -3067,3 +3191,22 @@ servings: 3
 1 clove garlic
 # 2T fennel seeds
 1/4C sun-dried tomatoes
+
+[recipe brown sugar pecan cookie]
+source: http://www.thereciperebel.com/brown-sugar-pecan-cookies/
+servings: 36
+serving size: 60g
+1C butter
+1/2C sugar
+1/2C brown sugar
+1 egg
+# 1 tsp vanilla
+2C flour
+1/4 tsp salt
+1/2C (finely chopped) pecans
+# 36 pecan halves
+# Frosting:
+1C brown sugar
+1/2C milk
+1T butter
+1-1/2C sugar

@@ -137,7 +137,8 @@ source: Dynasty cut baby corn [product can]
 0mg cholesterol
 190mg sodium
 
-[item frozen corn]
+[item corn]
+alias: frozen corn
 source: USDA: Corn, sweet, yellow, frozen, kernels cut off cob, unprepared
 serving size: 100g
 88 calories
@@ -275,6 +276,18 @@ serving size: 32g
 153mg sodium
 0mg cholesterol
 
+[item corn tortilla]
+source: USDA: 18363, Tortillas, ready-to-bake or -fry, corn
+serving size: 24g
+# 1 tortilla = 24g
+52 calories
+1g protein
+1g fat
+11g carbohydrate
+1.5g fiber
+11mg sodium
+0mg cholesterol
+
 [item butter]
 source: USDA: Butter, salted
 serving size: 1T
@@ -300,6 +313,7 @@ serving size: 245g
 27mg cholesterol
 
 [item 2% milk]
+alias: milk
 source: USDA: 01079, Milk, reduced fat, fluid, 2% milkfat, ...
 serving size: 1C
 serving size: 244g
@@ -883,6 +897,18 @@ serving size: 60g
 10g fiber
 0mg cholesterol
 322mg sodium
+
+[item whole wheat pita bread]
+source: USDA: 18042, Bread, pita, whole-wheat
+serving size: 64g
+# 1 large (6-1/2" dia) = 64g
+168 calories
+6g protein
+1g fat
+36g carbohydrate
+4g fiber
+337mg sodium
+0mg cholesterol
 
 [item black beans]
 source: Goya
@@ -2021,6 +2047,32 @@ source: Sun Maid
 1g fiber
 0g protein
 
+[item rhubarb stalks]
+source: USDA: 09307, Rhubarb, raw
+serving size: 122g
+serving size: 1C
+# 1C diced = 170g
+26 calories
+1g protein
+0g fat
+6g carbohydrate
+2g fiber
+5mg sodium
+0mg cholesterol
+
+[item strawberries]
+source: USDA: 09316, Strawberries, raw
+serving size: 166g
+serving size: 1C
+# 1C sliced = 166g
+53 calories
+1g protein
+0g fat
+13g carbohydrate
+3g fiber
+2mg sodium
+0mg cholesterol
+
 [item honeydew melon]
 source: USDA: 09184, Melons, honeydew, raw
 serving size: 170g
@@ -2047,6 +2099,7 @@ serving size: 61g
 [item large tomatoes]
 source: USDA: 11529, Tomatoes, red, ripe, raw, year round average
 alias: large tomato
+alias: tomato
 alias: tomatoes
 serving size: 182g
 # 182g == 1 large whole (3" dia)

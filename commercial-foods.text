@@ -1077,6 +1077,18 @@ serving size: 1T
 0mg cholesterol
 780mg sodium
 
+[item sriracha sauce]
+source: Lee Kum Kee
+serving size: 5g
+serving size: 1tsp
+5 calories
+0g protein
+0g fat
+1g carbohydrate
+0g fiber
+0mg cholesterol
+80mg sodium
+
 [item yu shiang sauce]
 source: http://www.myfitnesspal.com/food/calories/lee-kum-kee-yu-hsiang-sauce-194024166
 serving size: 18g
@@ -1099,6 +1111,20 @@ serving size: 0.184C
 35g protein
 17g fat
 150g carbohydrate
+10g fiber
+3186mg sodium
+0mg cholesterol
+
+[item seitan lo mein]
+source: based on vegetable lo mein, as served at Zhu Restaraunt
+serving size: 741g
+# 1 order = 741g
+serving size: 0.184C
+# 1C = 136g
+897 calories
+50g protein
+17g fat
+135g carbohydrate
 10g fiber
 3186mg sodium
 0mg cholesterol
@@ -1347,6 +1373,18 @@ serving size: 256g
 1083mg sodium
 44mg cholesterol
 
+[item baked beans]
+source: USDA: 16005, Beans, baked, home prepared
+serving size: 1C
+serving size: 253g
+392 calories
+14g protein
+13g fat
+55g carbohydrate
+14g fiber
+1068mg sodium
+13mg cholesterol
+
 [item baked seitan]
 serving size: 4oz
 # 1 container = 12oz
@@ -1369,3 +1407,15 @@ serving size: 1T
 2.5g carbohydrate
 0g fiber
 0g protein
+
+[item vanilla ice cream]
+source: USDA: 19095, Ice creams, vanilla
+serving size: 1/2C
+serving size: 66g
+137 calories
+2g protein
+7g fat
+16g carbohydrate
+0.5g fiber
+53mg sodium
+29mg cholesterol
