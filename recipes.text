@@ -347,6 +347,30 @@ serving size: 325g
 6T oil
 1T cornstarch
 
+[recipe stir-fried veggies with fried tofu 13]
+servings: 4
+serving size: 300g
+14oz House Foods firm tofu (1 package)
+1-1/2lb broccoli
+2 bell peppers
+# soy sauce
+6T oil
+1T cornstarch
+
+[recipe stir-fried veggies with fried tofu 14]
+servings: 4
+serving size: 300g
+4 carrots
+2 bell peppers
+5oz water chestnuts (1 can)
+8oz baby corn (1 can)
+# soy sauce
+1 large onion
+2 celery stalks
+28oz House Foods firm tofu (2 packages)
+1/4C cornstarch
+1/4C oil
+
 [recipe stir-fried broccoli with fried tofu]
 servings: 4
 # assuming 200g servings
@@ -469,6 +493,23 @@ servings: 4.5
 1/4C vinegar
 # 3T sriracha
 3T agave nectar
+
+[recipe stir-fried veggies for ramen]
+source: Jan
+servings: 3
+5 celery stalks
+12oz brown mushrooms
+150g broccoli (1 small head)
+1/2 onion
+2 bell peppers
+2T oil
+# soy sauce
+
+[recipe ramen with bean curd]
+source: Jan
+servings: 3
+70g bean curd thread stick
+4 svg (2 packages) Top Ramen
 
 [recipe steamed veggies with tofu 1]
 alias: non-stir-fried veggies with tofu 1
@@ -762,6 +803,18 @@ servings: 8
 2 medium cauliflowers
 1C oil
 
+[recipe aloo gobhi 8]
+source: World Vegetarian p163, Jan
+# double recipe, deep fried
+servings: 6
+serving size: 350g
+2lb potatoes
+2 medium cauliflowers
+31oz Goya chickpeas (2 cans)
+# 1T ginger
+1tsp salt
+3/4C oil
+
 [recipe aloo palak]
 alias: palak aloo
 source: http://www.caloriecount.com/aloo-palak-recipe-r819126
@@ -795,6 +848,16 @@ servings: 6
 serving size: 45g
 2 cloves garlic
 1lb spinach
+0.5C olive oil
+3oz feta cheese
+0.25C walnuts (chopped)
+
+[recipe Jan's pesto]
+# makes 275g total
+servings: 6
+serving size: 45g
+2 cloves garlic
+# 1lb basil leaves
 0.5C olive oil
 3oz feta cheese
 0.25C walnuts (chopped)
@@ -943,6 +1006,17 @@ servings: 11
 1/2C egg whites
 4T oil
 1-1/2C frozen blueberries
+
+[recipe blueberry maple syrup pie]
+# as made by Anna to celebrate her birthday early, 5-Aug-16.
+source: Anna
+servings: 8
+serving size: 147g
+6C frozen blueberries (actually fresh)
+3/4C maple syrup
+2T lemon juice
+8T cornstarch
+2 pie crusts
 
 [recipe tamarind lentils]
 source: Veganomicon, p123
@@ -1255,6 +1329,16 @@ servings: 4
 2C oats
 1/4C (dry) onions
 
+[recipe spaghetti sauce with tofu sausage 2]
+source: Jan
+servings: 4
+4 Tofurkey artisan Italian sausages
+1 large onion
+12oz tomatoes
+12oz tomato sauce
+12oz white mushrooms
+2T oil
+
 [recipe Jan's spaghetti sauce with tofu sausage]
 source: Jan
 servings: 4
@@ -1262,6 +1346,16 @@ servings: 4
 1.5 onion ("giant red")
 24oz tomato sauce
 4T oil
+
+[recipe spaghetti sauce with kale and tofu sausage]
+source: Jan, Anna
+servings: 4
+serving size: 250g
+5 Tofurkey artisan Italian sausages
+1lb fresh kale
+3/4C sun-dried tomatoes in olive oil
+2T oil
+3T garlic
 
 [recipe walnut sauce]
 source: World Vegetarian, p684
@@ -1628,6 +1722,20 @@ serving size: 200g
 2T sugar
 2T oil
 
+[recipe Jan's yu shiang tofu and broccoli]
+source: Jan
+servings: 4
+serving size: 260g
+14oz extra-firm tofu
+5C broccoli
+3T soy sauce
+3T vinegar
+2T sesame seeds
+3 cloves garlic
+# 2T ginger
+2T oil
+2T agave nectar
+
 [recipe yu shiang broccoli and pea pods]
 source: as served at Shanghai Village, estimated
 servings: 4
@@ -1757,6 +1865,16 @@ servings: 6
 28oz tomatoes
 2tsp oil
 
+[recipe Indian vegetable medley]
+source: Dakshin: Vegetarian Cuisine From South India, p58
+# Jan more or less doubled the recipe.
+servings: 4
+5 carrots
+1 cucumbers
+2 tomatoes
+2 chilis
+2T lemon juice
+
 [recipe vegetable pad cashew with extra tofu]
 source: guesswork, based on Thai Smile in Plymouth NH
 servings: 1
@@ -1835,6 +1953,24 @@ servings: 1
 # home fries
 150g potatoes
 1T oil
+
+[recipe three egg omelette with home fries 2]
+source: http://mainstreetbistro.com/Breakfast.html, plus guesswork
+servings: 1
+3 eggs
+2oz broccoli
+2oz white mushrooms
+1oz feta cheese
+1/2T butter
+# home fries
+150g potatoes
+1T oil
+
+[recipe rye toast with butter]
+alias: slices rye toast with butter
+servings: 1
+1 slice rye bread
+10g butter
 
 [recipe Hangover Helper]
 source: http://mountainharbordeli.weebly.com/menu.html
@@ -2365,6 +2501,19 @@ servings: 4
 6 cloves garlic
 1/4C oil
 1C white mushrooms
+
+[recipe chocolate chip cookie with walnuts]
+source: Best-Ever Cookies p8, Anna.
+servings: 20
+serving size: 50g
+2-1/4C flour
+1/2C butter
+1/2C oil
+3/4C sugar
+3/4C brown sugar
+2 eggs
+9oz chocolate chips (really 1-1/2C)
+1C walnuts
 
 [recipe chocolate walnut cupcake]
 source: Anna
@@ -2997,6 +3146,18 @@ servings: 2
 1T cornstarch (on the tofu)
 2T oil
 
+[recipe Thai hot basil eggplant]
+source: estimated from what Lemongrass served on 19-Aug-16.
+servings: 1
+2oz brown mushrooms
+2oz bamboo shoots
+1oz carrots
+2oz bell peppers
+2oz onion
+4oz eggplant
+1T cornstarch (on the eggplant)
+2T oil
+
 [recipe green beans and mushrooms]
 servings: 3
 # serving size: 120g
@@ -3053,6 +3214,16 @@ servings: 4
 2C dry lentils
 2 cloves garlic
 1lb chard
+
+[recipe swiss chard and kidney beans]
+source: Jan
+servings: 3
+15.5oz (1 can) kidney beans
+3T capers
+3T lemon juice
+5 cloves garlic
+1lb swiss chard
+2T oil
 
 [recipe chickpea caponata]
 source: Forks Over Knives p216, Jan
@@ -3210,3 +3381,53 @@ serving size: 60g
 1/2C milk
 1T butter
 1-1/2C sugar
+
+[recipe mushroom and pea sabji]
+source: Vegan Indian Cooking, p187; Jan
+servings: 4
+# serving size determined by weighing the completed dish.
+serving size: 300g
+1T oil
+2 cloves garlic
+1/2 onion
+1C frozen peas
+6C brown mushrooms
+15.5oz (1 can) canned chickpeas
+1tsp salt
+
+[recipe kung pao eggplant]
+source: http://blog.foodnetwork.com/healthyeats/2016/07/13/kung-pao-eggplant/
+# plus guesstimation, based on what Zhu Restaurant served on 8-Aug-16.
+servings: 2
+1 (large) eggplant
+4T (coconut) oil
+# 6 dried red chiles, cut in half
+1 bell pepper
+1/3C peanuts
+2 scallions
+# For the marinade:
+1T mirin (rice wine)
+1T soy sauce
+1T cornstarch
+# For the sauce:
+2T vinegar
+2T soy sauce
+1-1/2T sugar
+# 1tsp fresh grated ginger
+1 clove garlic
+1tsp cornstarch
+
+[recipe spanish-style spinach with chickpeas]
+source: World Vegetarian, p228
+servings: 4
+15.5oz (1 can) canned chickpeas
+1/4C oil
+10 cloves garlic
+2lb fresh spinach
+
+[recipe fried haddock]
+source: based on Plain Jane's Diner on 4-Sep-16.
+servings: 1
+150g haddock
+1T oil
+10g bread crumbs

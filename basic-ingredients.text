@@ -30,7 +30,7 @@ serving size: 15g
 [item bread crumbs]
 source: USDA: Bread crumbs, dry, grated, plain
 serving size: 1C
-# 1C = 108g
+serving size: 108g
 427 calories
 14g protein
 6g fat
@@ -451,7 +451,7 @@ serving size: 0.46C
 [item pine nuts]
 source: USDA: Nuts, pine nuts, dried
 serving size: 1C
-# 1C = 135g
+serving size: 135g
 909 calories
 18g protein
 92g fat
@@ -910,6 +910,19 @@ serving size: 64g
 337mg sodium
 0mg cholesterol
 
+[item rye bread]
+alias: slice rye bread
+source: USDA: 18061, Bread, rye, toasted
+serving size: 29g
+# 1 slice large = 29g
+82 calories
+3g protein
+1g fat
+15g carbohydrate
+2g fiber
+193mg sodium
+0mg cholesterol
+
 [item black beans]
 source: Goya
 serving size: 122g
@@ -1266,6 +1279,17 @@ serving size: 1C
 2g fiber
 0mg cholesterol
 13mg sodium
+
+[item cole slaw]
+source: USDA: 36035, Restaurant, family style, coleslaw
+serving size: 108g
+172 calories
+1g protein
+13g fat
+13g carbohydrate
+2g fiber
+239mg sodium
+9mg cholesterol
 
 [item leek]
 source: USDA: 11246, Leeks, (bulb and lower leaf-portion), raw
@@ -1819,6 +1843,30 @@ serving size: 85g
 1g fiber
 0mg cholesterol
 10mg sodium
+
+[item bean curd thread stick]
+source: Yu Yee Brand
+serving size: 35g
+# package size: 400g
+115 calories
+3g protein
+0g fat
+22g carbohydrate
+2g fiber
+0mg cholesterol
+0mg sodium
+
+[item haddock]
+source: USDA: 15034, Fish, haddock, cooked, dry heat
+serving size: 150g
+# 1 fillet = 150g
+135 calories
+30g protein
+1g fat
+0g carbohydrate
+0g fiber
+99mg cholesterol
+392mg sodium
 
 [item salmon]
 source: USDA: Fish, salmon, sockeye, cooked, dry heat

@@ -59,6 +59,19 @@ serving size: 139g
 837mg sodium
 0mg cholesterol
 
+[item wheat bread]
+alias: wheat bread slices
+source: USDA: 18064, Bread, wheat
+# 1 slice = 29g
+serving size: 29g
+79 calories
+3g protein
+1g fat
+14g carbohydrate
+1g fiber
+137mg sodium
+0mg cholesterol
+
 [item buttermilk pancake]
 source: USDA: 18390, Pancakes, buttermilk, prepared from recipe
 # guesswork, based on Main Street Bistro in New Paltz NY
@@ -581,6 +594,18 @@ serving size: 1oz
 2g fiber
 2g protein
 
+[item home-made potato salad]
+source: USDA: 11414, Potato salad, home-prepared
+serving size: 1C
+serving size: 250g
+358 calories
+7g protein
+21g fat
+28g carbohydrate
+3g fiber
+1322mg sodium
+170mg cholesterol
+
 [item Abuelita tortilla chips]
 alias: Tostitos original restaurant style tortilla chips
 serving size: 1oz
@@ -878,6 +903,29 @@ serving size: 113g
 0g fiber
 20g protein
 
+[item veggie burger]
+source: USDA: 16147, Veggie burgers or soyburgers, unprepared
+serving size: 70g
+124 calories
+11g protein
+4g fat
+10g carbohydrate
+3g fiber
+398mg sodium
+4mg cholesterol
+
+[item dill pickle]
+source: USDA: 11937, Pickles, cucumber, dill or kosher dill
+# 1 large (4" long) = 135g
+serving size: 135g
+16 calories
+1g protein
+0g fat
+3g carbohydrate
+1g fiber
+1092mg sodium
+0mg cholesterol
+
 [item fish and chips]
 source: http://www.caloriecount.com/calories-red-lobster-fish-chips-i338553
 serving size: 100g
@@ -1040,6 +1088,18 @@ serving size: 480ml
 22g fiber
 1090mg sodium
 40mg cholesterol
+
+[item sun-dried tomatoes in olive oil]
+source: Bella Sun Luci
+serving size: 19g
+serving size: 2/3floz
+70 calories
+5g fat
+6g carbohydrate
+1g fiber
+0mg cholesterol
+10mg sodium
+1g protein
 
 [item Au Bon Pain tomato basil bisque]
 source: http://aubonpain.com/menu/tomato-basil-bisque
