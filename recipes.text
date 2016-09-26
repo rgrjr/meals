@@ -484,6 +484,14 @@ servings: 4
 3floz olive oil
 # soy sauce
 
+[recipe Dad's stir-fried veggies 3]
+servings: 2
+157g broccoli (prechopped florets)
+136g carrots (3 small)
+186g celery (4 stalks)
+2floz olive oil
+2T soy sauce
+
 [recipe Anna's stir-fried veggies with tofu]
 servings: 4.5
 4 firm tofu (1 package)
@@ -503,6 +511,16 @@ servings: 3
 1/2 onion
 2 bell peppers
 2T oil
+# soy sauce
+
+[recipe Dad's stir-fried veggies for ramen]
+source: Dad
+servings: 2
+serving size: 183g
+124g carrots
+150g celery stalks (5?)
+159g broccoli (prechopped)
+1/4C oil
 # soy sauce
 
 [recipe ramen with bean curd]
@@ -814,6 +832,17 @@ serving size: 350g
 # 1T ginger
 1tsp salt
 3/4C oil
+
+[recipe aloo gobhi 9]
+source: World Vegetarian p163, Bob
+# single recipe, less cauliflower
+servings: 2
+serving size: 400g
+383g potatoes
+37g cauliflower
+# 1T ginger
+1tsp salt
+1/2C oil
 
 [recipe aloo palak]
 alias: palak aloo
@@ -1338,6 +1367,19 @@ servings: 4
 12oz tomato sauce
 12oz white mushrooms
 2T oil
+
+[recipe Dad's spaghetti sauce w/tofu sausage]
+alias: Dad's spaghetti sauce with tofu sausage
+source: Dad
+servings: 3
+serving size: 360g
+3 Tofurkey artisan Italian sausages
+1 large onion
+12oz tomatoes
+12oz tomato sauce
+2C white mushrooms
+5 cloves garlic
+3T oil
 
 [recipe Jan's spaghetti sauce with tofu sausage]
 source: Jan
@@ -2056,13 +2098,23 @@ servings: 4
 [recipe pasta and feta 5]
 servings: 4
 # total weight: 1270g
-# serving size: 318g
+serving size: 318g
 3/2T apple cider vinegar (really balsamic)
 15g garlic
 125g walnuts
 1lb dry whole wheat pasta
 210g feta cheese
 1/2C olive oil
+
+[recipe pasta and feta 5.1]
+servings: 4
+serving size: 318g
+3/2T apple cider vinegar (really balsamic)
+15g garlic
+125g walnuts
+1lb dry whole wheat pasta
+175g feta cheese
+3/8C olive oil
 
 [recipe pasta and feta 6]
 # serving size: 245g
@@ -2446,6 +2498,22 @@ servings: 5
 # 2T ginger
 2T cornstarch
 6 scallions
+14oz Vitasoy extra-firm tofu
+
+[recipe Szechuan eggplant with tofu 3]
+source: World Vegetarian p188, Jan
+servings: 4
+serving size: 350g
+# double recipe.
+2lb eggplant
+2T oil
+4 scallions
+# 2T ginger
+6 cloves garlic
+4T soy sauce
+2T chili garlic sauce
+4tsp agave nectar
+4tsp (rice) vinegar
 14oz Vitasoy extra-firm tofu
 
 [recipe carrots with fresh cilantro]
@@ -3362,6 +3430,20 @@ servings: 3
 1 clove garlic
 # 2T fennel seeds
 1/4C sun-dried tomatoes
+
+[recipe black rice peanut kale bowl]
+source: Healthy Happy Vegan Kitchen p192
+# double recipe, with slightly extra tofu
+servings: 3
+# tofu
+14oz Vitasoy extra-firm tofu
+4tsp maple syrup
+2tsp soy sauce
+# dressing
+2T lime juice
+2T peanut butter
+4tsp maple syrup
+1lb fresh kale
 
 [recipe brown sugar pecan cookie]
 source: http://www.thereciperebel.com/brown-sugar-pecan-cookies/

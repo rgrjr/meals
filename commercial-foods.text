@@ -13,6 +13,19 @@ serving size: 105g
 361mg sodium
 0mg cholesterol
 
+[item whole-wheat bagel]
+alias: wheat bagel
+source: USDA: 18968, Bagels, wheat
+serving size: 98g
+# 1 bagel = 98g
+245 calories
+10g protein
+1.5g fat
+48g carbohydrate
+4g fiber
+430mg sodium
+0mg cholesterol
+
 [item Bruegger's cinnamon-raisin bagel]
 source: https://www.brueggers.com/menu/bagels-and-cream-cheese/bagels/cinnamon-raisin
 310 calories
@@ -701,6 +714,8 @@ source: http://honeydewdonuts.com/menu/item/Croissant
 5g protein
 
 [item Dunkin' Donuts plain stick]
+alias: plain stick
+alias: DD plain stick
 source: http://calorielab.com/restaurants/dunkin-donuts/11
 # CHO%33.3, but has trans fat.
 420 calories
