@@ -39,16 +39,30 @@ serving size: 108g
 791mg sodium
 0mg cholesterol
 
-[item brown rice]
+[item medium-grain brown rice]
+alias: brown rice
 serving size: 100g
 # 1C = 190g
-source: USDA: Rice, brown, medium-grain, cooked
+source: USDA: 20041, Rice, brown, medium-grain, cooked
 112 calories
 2g protein
 1g fat
 24g carbohydrate
 2g fiber
 1mg sodium
+0mg cholesterol
+
+[item long-grain brown rice]
+source: USDA: 20037, Rice, brown, long-grain, cooked
+serving size: 100g
+# 1C = 1202g
+serving size: 1/2C
+123 calories
+3g protein
+1g fat
+26g carbohydrate
+2g fiber
+4mg sodium
 0mg cholesterol
 
 [item white rice]
@@ -63,6 +77,19 @@ serving size: 100g
 0g fiber
 1mg sodium
 0mg cholesterol
+
+[item Nature's Earthly Choice black rice]
+alias: black rice
+source: http://www.vitacost.com/natures-earthly-choice-all-natural-black-rice-gluten-free
+# 1 serving = 1/4C dry = 43g
+serving size: 1/4C
+160 calories
+1.5g fat
+0mg cholesterol
+0mg sodium
+34g carbohydrate
+2g fiber
+5g protein
 
 [item raw white rice]
 source: USDA: 20450, Rice, white, medium-grain, raw, unenriched
@@ -1986,7 +2013,9 @@ serving size: 182g
 2mg sodium
 0mg cholesterol
 
-[item apple juice]
+[item Ocean Spray apple juice]
+alias: apple juice
+alias: Ocean Spray cranberry cocktail
 source: Ocean Spray
 serving size: 5.5floz
 70 calories
