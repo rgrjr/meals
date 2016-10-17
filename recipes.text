@@ -309,7 +309,7 @@ serving size: 300g
 3 carrots
 3 celery stalks
 2 bell peppers
-# soy sauce
+6T soy sauce
 28oz House Foods firm tofu (2 packages)
 3T oil
 1T cornstarch
@@ -321,7 +321,7 @@ serving size: 300g
 12oz carrots
 1lb broccoli
 4oz bell peppers
-# soy sauce
+6T soy sauce
 6T oil
 1T cornstarch
 
@@ -334,7 +334,7 @@ serving size: 300g
 5 celery stalks
 2C shredded cabbage
 12oz white mushrooms
-# soy sauce
+6T soy sauce
 6T oil
 1T cornstarch
 
@@ -346,6 +346,17 @@ serving size: 325g
 # soy sauce
 6T oil
 1T cornstarch
+
+[recipe stir-fried veggies with fried tofu 13]
+servings: 4
+serving size: 300g
+14oz House Foods firm tofu (1 package)
+1 large onion
+1/2lb broccoli
+3 carrots
+4T soy sauce
+2T cornstarch
+4T oil
 
 [recipe stir-fried veggies with fried tofu 13]
 servings: 4
@@ -1389,6 +1400,16 @@ servings: 4
 24oz tomato sauce
 4T oil
 
+[recipe Jan's spaghetti sauce with tofu sausage 2]
+source: Jan
+servings: 2
+serving size: 350g
+2 Tofurkey artisan Italian sausages
+0.5 onion
+12oz tomato sauce
+8oz white mushrooms
+2T oil
+
 [recipe spaghetti sauce with kale and tofu sausage]
 source: Jan, Anna
 servings: 4
@@ -1836,6 +1857,23 @@ servings: 5
 6C fresh kale
 1tsp salt
 2T lemon juice
+
+[recipe lentil stew with tofu sausage]
+source: Jan
+# (* (expt (* 2.54 4.25) 2) (* 2.54 3) 3.14) 2788.23845577
+# (* 32 29.57) 946.24
+# (* 6 946) 5676
+# (/ 2788.23845577 5676) 0.4912329907980973
+serving size: 380g
+servings: 10
+2 Tofurkey artisan Italian sausages
+3 celery stalks
+16floz dry lentils
+24oz tomatoes (2 containers)
+1 large onion
+1T garlic
+3 carrots
+8oz dry whole wheat pasta
 
 [recipe Spice Box curried spinach]
 source: The Spice Box p95, Jan
@@ -3513,3 +3551,82 @@ servings: 1
 150g haddock
 1T oil
 10g bread crumbs
+
+[recipe Sri Lankan sweet potatoes]
+source: World Vegetarian p285, Jan
+# doubled recipe, sorta
+servings: 6
+serving size: 400g
+2.5lb sweet potatoes
+8T oil
+2lb onions
+31oz (2 cans) black beans
+
+[recipe Greek lentil soup]
+source: Internet, Jan
+servings: 4
+# random guess
+serving size: 300g
+1C dry lentils
+6 cloves garlic
+4 carrots
+4T oil
+1 onion
+2T ketchup
+
+[recipe vegetarian pot pie]
+source: Vegetarian Times Complete Cookbook p240, p446, Jan
+servings: 8
+serving size: 250g
+1C celery
+2/3C carrots
+1C bell peppers
+1/3C whole wheat flour
+1C milk
+4T oil
+19oz extra-firm tofu
+# biscuit crust, double recipe
+2.5C whole wheat flour
+2T oil
+3/4C milk
+2tsp agave nectar
+
+[recipe sweet and sour veggies 1]
+source: Jan
+servings: 4
+2T corn starch
+2T vinegar
+3T hoisin sauce
+2 cloves garlic
+2T soy sauce
+3T oil
+# 1tsp fresh grated ginger
+1 large onion
+19oz extra-firm tofu
+1lb broccoli
+
+[recipe black beans with rice]
+alias: spotted rooster
+source: World Vegetarian p14, Jan
+servings: 4
+1/2C olive oil
+1 onion
+2 carrots
+# 8T chopped cilantro
+31oz (2 cans) black beans
+1C raw white rice
+
+[recipe thumbprint cookie]
+# as made by Lizzie
+servings: 15
+source: http://www.foodnetwork.com/recipes/food-network-kitchens/butter-and-jam-thumbprints-recipe2.html
+1-3/4C flour
+# 1/2tsp baking powder
+1/2tsp salt
+3/4C butter (1-1/2 sticks, softened)
+2/3C sugar (plus more for rolling)
+1 egg
+# 1/2 vanilla bean, seeds scraped from pod,
+# or 1/8 teaspoon vanilla bean paste,
+# or 1 teaspoon pure vanilla extract
+1/3C strawberry jam

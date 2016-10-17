@@ -204,6 +204,18 @@ serving size: 40g
 110mg sodium
 # cholesterol not shown
 
+[item strawberry jam]
+source: Trader Joe's
+serving size: 1T
+serving size: 20g
+50 calories
+0g fat
+0mg cholesterol
+0mg sodium
+13g carbohydrate
+0g fiber
+0g protein
+
 [item Tasty Bite channa masala]
 # serving size: 1/2 package
 168 calories
@@ -338,6 +350,19 @@ serving size: 71g
 9g carbohydrate
 2g fiber
 11g protein
+
+[item rice noodles]
+source: Jack Hua Company Limited
+# estimate of cooked weight
+serving size: 150g
+# CHO%91.4
+210 calories
+0g fat
+0mg cholesterol
+25mg sodium
+48g carbohydrate
+0g fiber
+0g protein
 
 [item Nissin cup noodles with shrimp]
 serving size: 64g
@@ -1494,3 +1519,13 @@ serving size: 66g
 0.5g fiber
 53mg sodium
 29mg cholesterol
+
+[item Denny's fish and chips]
+source: https://www.dennys.com/food/dinner-entrees/fish-chips/
+1050 calories
+75g fat
+100mg cholesterol
+1940mg sodium
+131g carbohydrate
+11g fiber
+39g protein
