@@ -402,6 +402,18 @@ servings: 4
 1/4C soy sauce
 4T oil
 
+[recipe stir-fried broccoli with fried tofu 3]
+servings: 4
+# assuming 200g servings
+19oz extra-firm tofu
+120g cornstarch
+1 large onion
+1lb broccoli
+12oz white mushrooms
+8 cloves garlic
+1/4C soy sauce
+4T oil
+
 [recipe stir-fried veggies 1]
 servings: 4
 serving size: 230g
@@ -1348,6 +1360,15 @@ servings: 4
 1 onion
 2T oil
 12oz white mushrooms
+
+[recipe Jan's spaghetti sauce 9]
+source: Jan
+servings: 2
+serving size: 400g
+3/4C Bob's Red Mill TVP
+12oz tomato sauce
+1 onion
+12oz portabella mushrooms
 
 [recipe random spaghetti sauce]
 source: guesswork based on 6-Feb-16.
@@ -3459,6 +3480,18 @@ servings: 6
 1T oil
 1/4C almond milk
 
+[recipe Jan's feta and mushroom quiche]
+servings: 8
+serving size: 200g
+1 pie crust
+4 eggs
+3oz feta cheese
+1/2 onion
+3/4lb spinach
+8oz white mushrooms
+3/4C almond milk
+2T oil
+
 [recipe sausage, kale, and sun-dried tomatoes]
 source: Internet, Jan
 servings: 3
@@ -3630,3 +3663,11 @@ source: http://www.foodnetwork.com/recipes/food-network-kitchens/butter-and-jam-
 # or 1/8 teaspoon vanilla bean paste,
 # or 1 teaspoon pure vanilla extract
 1/3C strawberry jam
+
+[recipe tofu & broccoli w/garlic lemon sauce]
+# as served at Bela Restauraunt in Northampton on 22-Oct-16.
+servings: 1
+200g broccoli
+150g extra-firm tofu
+6 cloves garlic
+2T olive oil
