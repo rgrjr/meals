@@ -602,6 +602,7 @@ sub parse_recipes {
 	}
 	$current_item->finalize()
 	    if $current_item && $current_item->can('finalize');
+	pop(@include_stack);
     };
 
     # Main code.
