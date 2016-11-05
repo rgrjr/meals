@@ -536,6 +536,15 @@ servings: 3
 2T oil
 # soy sauce
 
+[recipe stir-fried veggies for ramen 2]
+source: Jan
+servings: 2
+2C broccoli
+1/2 onion
+2 carrots
+2T oil
+2T soy sauce
+
 [recipe Dad's stir-fried veggies for ramen]
 source: Dad
 servings: 2
@@ -867,6 +876,18 @@ serving size: 400g
 1tsp salt
 1/2C oil
 
+[recipe aloo gobhi 10]
+source: World Vegetarian p163, Jan
+# double recipe, extra potatoes, baked
+servings: 10
+serving size: 400g
+2 medium cauliflowers
+4lb potatoes
+31oz Goya chickpeas (2 cans)
+# 2T ginger
+1tsp salt
+1/2C oil
+
 [recipe aloo palak]
 alias: palak aloo
 source: http://www.caloriecount.com/aloo-palak-recipe-r819126
@@ -1145,7 +1166,7 @@ servings: 4
 [recipe Jan's chili 5]
 source: Jan, Anna
 servings: 4
-# 1 serving = 300g
+serving size: 300g
 1 large onion
 1 (green) bell pepper
 15.5oz (1 can) black beans
@@ -1397,6 +1418,15 @@ servings: 4
 1 large onion
 12oz tomatoes
 12oz tomato sauce
+12oz white mushrooms
+2T oil
+
+[recipe spaghetti sauce with tofu sausage 3]
+source: Jan
+servings: 4
+3 Tofurkey artisan Italian sausages
+2 zucchini
+50g garlic (1 head)
 12oz white mushrooms
 2T oil
 

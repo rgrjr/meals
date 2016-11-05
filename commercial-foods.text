@@ -375,6 +375,17 @@ serving size: 64g
 1g fiber
 7g protein
 
+[item Nissin new cup noodles with shrimp]
+serving size: 64g
+# CHO%53.8
+290 calories
+11g fat
+5mg cholesterol
+1060mg sodium
+41g carbohydrate
+2g fiber
+7g protein
+
 [item Maruchan cup noodles with shrimp]
 serving size: 64g
 # CHO%53.8
@@ -773,6 +784,17 @@ source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/bakery/don
 33g carbohydrate
 1g fiber
 3g protein
+
+[item DD pumpkin munchkin]
+source: https://www.dunkindonuts.com/dunkindonuts/en/menu/food/bakery/munchkins/munchkins.html?DRP_FLAVOR=Pumpkin
+# CHO%60.0
+60 calories
+2.5g fat
+5mg cholesterol
+75mg sodium
+9g carbohydrate
+0g fiber
+1g protein
 
 [item DD sausage egg & cheese on croissant]
 alias: DD sausage egg and cheese on croissant
