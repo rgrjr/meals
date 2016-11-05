@@ -482,6 +482,21 @@ sub parse_recipes {
 	warn("$0:  ", @_);
     };
 
+    my $store_item = sub {
+	# Put the item in the %item_from_name hash under $name, warning about
+	# any conflicts.
+	my ($name, $item) = @_;
+
+	my $lc_name = lc($name);
+	my $existing_item = $item_from_name{$lc_name};
+	if ($existing_item) {
+	    $warning->("Conflict for '$name'.\n");
+	}
+	else {
+	    $item_from_name{$lc_name} = $item;
+	}
+    };
+
     my $parse_file;
     $parse_file = sub {
 	my ($file_name, $base_file_name) = @_;
@@ -514,11 +529,11 @@ sub parse_recipes {
 		    if $current_item && $current_item->can('finalize');
 		if ($type eq 'item') {
 		    $current_item = Food::Item->new(name => $name);
-		    $item_from_name{lc($name)} = $current_item;
+		    $store_item->($name, $current_item);
 		}
 		elsif ($type eq 'recipe') {
 		    $current_item = Food::Recipe->new(name => $name);
-		    $item_from_name{lc($name)} = $current_item;
+		    $store_item->($name, $current_item);
 		}
 		else {
 		    $warning->("Unknown type '$type'.\n");
@@ -550,7 +565,7 @@ sub parse_recipes {
 	    }
 	    elsif (/^alias:\s*(.*)/) {
 		# Aliases are cheap.
-		$item_from_name{lc($1)} = $current_item;
+		$store_item->($1, $current_item);
 	    }
 	    elsif ($class->parse_units($_)) {
 		# Data value.
