@@ -1686,7 +1686,7 @@ source: USDA: Broccoli, raw
 serving size: 1C
 # 1C chopped = 91g
 serving size: 91g
-# 1 bunch = 608g
+# 1 bunch = 608g = 6.7C
 30 calories
 2g protein
 0g fat
@@ -1953,6 +1953,18 @@ serving size: 100g
 0g fiber
 49mg sodium
 50mg cholesterol
+
+[item flounder]
+source: USDA: 15029, Fish, flatfish (flounder and sole species), cooked, dry heat
+serving size: 100g
+# 1 fillet = 163g
+86 calories
+15g protein
+2g fat
+0g carbohydrate
+0g fiber
+363mg sodium
+56mg cholesterol
 
 [item baked tuna]
 source: USDA: Fish, tuna, fresh, bluefin, cooked, dry heat

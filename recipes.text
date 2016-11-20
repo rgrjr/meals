@@ -382,6 +382,18 @@ serving size: 300g
 1/4C cornstarch
 1/4C oil
 
+[recipe stir-fried veggies with fried tofu 15]
+servings: 3
+serving size: 300g
+1 carrot
+1 bell pepper
+8oz white mushrooms
+3C broccoli
+# soy sauce
+14oz House Foods firm tofu
+1/8C cornstarch
+1/8C oil
+
 [recipe stir-fried broccoli with fried tofu]
 servings: 4
 # assuming 200g servings
@@ -515,6 +527,15 @@ servings: 2
 2floz olive oil
 2T soy sauce
 
+[recipe Dad's stir-fried veggies 4]
+servings: 2
+serving size: 350g
+225g bell pepper (1 large red)
+267g carrots (3 med)
+205g broccoli (153g florets plus 52g stems)
+14g oil
+2T soy sauce
+
 [recipe Anna's stir-fried veggies with tofu]
 servings: 4.5
 4 firm tofu (1 package)
@@ -552,6 +573,16 @@ serving size: 183g
 124g carrots
 150g celery stalks (5?)
 159g broccoli (prechopped)
+1/4C oil
+# soy sauce
+
+[recipe Dad's stir-fried veggies for ramen 2]
+source: Dad
+servings: 2
+serving size: 215g
+246g broccoli (stems plus florettes)
+187g carrots
+86g onion
 1/4C oil
 # soy sauce
 
@@ -1206,6 +1237,17 @@ servings: 5
 4 celery stalks
 4 carrots
 1/2 large onion
+3 cloves garlic
+
+[recipe Jan's chili 9]
+source: Jan
+servings: 4
+serving size: 350g
+31oz (2 cans) kidney beans
+1 large onion
+14oz tomato sauce
+1C Bob's Red Mill TVP
+3T oil
 3 cloves garlic
 
 [recipe Jan's sweet potato chili]
@@ -2235,6 +2277,16 @@ servings: 4
 375g dry whole wheat pasta
 143g feta cheese
 6T olive oil
+
+[recipe pasta and feta 9]
+servings: 4
+serving size: 380g
+2T apple cider vinegar (really balsamic)
+15g garlic
+152g walnuts
+1lb dry pasta
+284g feta cheese
+1/2C olive oil
 
 [recipe pasta and feta without feta]
 # Lizzie and I made this before realizing that the feta had gone bad.

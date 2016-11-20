@@ -204,6 +204,18 @@ serving size: 40g
 110mg sodium
 # cholesterol not shown
 
+[item Ritz cracker]
+source: USDA: 18621, NABISCO, NABISCO RITZ Crackers
+# one cracker
+serving size: 3.3g
+16 calories
+0g protein
+1g fat
+2g carbohydrate
+0.1g fiber
+882mg sodium
+# cholesterol not shown
+
 [item strawberry jam]
 source: Trader Joe's
 serving size: 1T
@@ -277,6 +289,16 @@ serving size: 150g
 13g carbohydrate
 2g fiber
 4g protein
+
+[item Trader Joe's matar paneer]
+# serving size: 1/2 package
+260 calories
+10g fat
+0mg cholesterol
+620mg sodium
+35g carbohydrate
+10g fiber
+10g protein
 
 [item Tofurkey chicken & apple sausage]
 # serving size: 1 sausage
@@ -409,6 +431,7 @@ serving size: 30g
 0mg sodium
 
 [item MB sliced banana nut bread]
+alias: MB banana nut bread
 alias: Market Basket sliced banana nut bread
 serving size: 1.8oz
 # 1 slice = 1.8oz = 51g
@@ -736,6 +759,17 @@ serving size: 52g
 1g fiber
 248mg sodium
 0mg cholesterol
+
+[item MB apple cider donut]
+source: Market Basket
+serving size: 3.7oz
+370 calories
+16g fat
+20mg cholesterol
+590mg sodium
+50g carbohydrate
+2g fiber
+6g protein
 
 [item Honeydew croissant]
 source: http://honeydewdonuts.com/menu/item/Croissant
