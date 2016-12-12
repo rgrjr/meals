@@ -300,6 +300,16 @@ serving size: 150g
 10g fiber
 10g protein
 
+[item Trader Joe's dal makhani]
+# serving size: 1/2 package
+190 calories
+6g fat
+10mg cholesterol
+510mg sodium
+24g carbohydrate
+9g fiber
+10g protein
+
 [item Tofurkey chicken & apple sausage]
 # serving size: 1 sausage
 26g protein
@@ -1032,6 +1042,19 @@ serving size: 100g
 0g fiber
 44g protein
 
+[item MB apple pie]
+source: Market Basket
+serving size: 4.6oz
+# 1 slice = 1 serving = 1/12 of 11" dia pie
+350 calories
+18g fat
+0mg cholesterol
+47g carbohydrate
+# The fiber amount does not appear in the table.
+2g fiber
+2g protein
+300mg sodium
+
 [item apple pie]
 source: USDA: Pie, apple, prepared from recipe 
 serving size: 155g
@@ -1514,6 +1537,17 @@ serving size: 10.9oz
 8g fiber
 1965mg sodium
 57mg cholesterol
+
+[item dinner roll]
+source: USDA: 18342, Rolls, dinner, plain, commercially prepared
+serving size: 1oz
+87 calories
+3g protein
+1.8g fat
+15g carbohydrate
+0.6g fiber
+131mg sodium
+1mg cholesterol
 
 [item chili with beans]
 source: USDA: 16059, Chili with beans, canned 

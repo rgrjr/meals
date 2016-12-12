@@ -396,7 +396,7 @@ serving size: 300g
 
 [recipe stir-fried broccoli with fried tofu]
 servings: 4
-# assuming 200g servings
+# assuming 275g servings
 4 firm tofu (1 package)
 60g cornstarch
 1lb broccoli
@@ -404,8 +404,9 @@ servings: 4
 4T oil
 
 [recipe stir-fried broccoli with fried tofu 2]
-servings: 4
-# assuming 200g servings
+servings: 6
+# serving size based on version 4 measurement.
+serving size: 275g
 8 firm tofu (2 packages)
 120g cornstarch
 1 large onion
@@ -416,13 +417,26 @@ servings: 4
 
 [recipe stir-fried broccoli with fried tofu 3]
 servings: 4
-# assuming 200g servings
+# serving size based on version 4 measurement.
+serving size: 300g
 19oz extra-firm tofu
 120g cornstarch
 1 large onion
 1lb broccoli
 12oz white mushrooms
 8 cloves garlic
+1/4C soy sauce
+4T oil
+
+[recipe stir-fried broccoli with fried tofu 4]
+servings: 4
+# total cooked weight: 1100g
+serving size: 275g
+14oz extra-firm tofu
+120g cornstarch
+1 large onion
+1lb broccoli
+5 carrots
 1/4C soy sauce
 4T oil
 
@@ -993,6 +1007,18 @@ servings: 5
 # 2T grated ginger
 2C dried green peas
 4 carrots
+
+[recipe green split-pea soup with carrots 2]
+source: Recipes From An Ecological Kitchen p48, Jan
+servings: 5
+4T oil
+1 large onion
+2 cloves garlic
+# 2T grated ginger
+2C dried green peas
+4 carrots
+4 celery stalks
+3 Tofurkey artisan Italian sausages
 
 [recipe split mung bean soup with carrots]
 # green split-pea soup with mung beans by accident.
@@ -2466,7 +2492,7 @@ servings: 5
 2T oil
 1 large onion
 # ginger
-# garlic
+8 cloves garlic
 3C tomatoes
 3T tomato paste
 # chilis
@@ -2474,6 +2500,23 @@ servings: 5
 2tsp salt
 1lb frozen peas
 14oz Vitasoy extra-firm tofu
+
+[recipe mutter paneer 2]
+# same recipe with twice the tofu
+source: Vegan Indian Cooking, p158
+servings: 6
+serving size: 270g
+2T oil
+1 large onion
+# ginger
+8 cloves garlic
+3C tomatoes
+3T tomato paste
+# chilis
+# 3C water
+2tsp salt
+1lb frozen peas
+28oz Vitasoy extra-firm tofu
 
 [recipe mutter paneer with carrots and beans]
 alias: leftover mutter paneer with carrots and kidney beans
@@ -2656,6 +2699,15 @@ serving size: 350g
 4tsp agave nectar
 4tsp (rice) vinegar
 14oz Vitasoy extra-firm tofu
+
+[recipe Szechuan eggplant with tofu 4]
+source: Jan
+servings: 6
+serving size: 350g
+2lb eggplant
+28oz Vitasoy extra-firm tofu
+1 large onion
+1C oil
 
 [recipe carrots with fresh cilantro]
 source: World Vegetarian, p159
@@ -3074,7 +3126,7 @@ source: Jan, Chinese Vegetarian Cookery, p120
 
 [recipe Jan's herb-seasoned stuffing]
 servings: 10
-# serving size ~200g
+serving size: 200g
 1lb Pepperidge Farm herb-seasoned stuffing
 1 onion
 4 celery stalks
@@ -3106,7 +3158,7 @@ servings: 6
 
 [recipe butternut squash and black beans]
 servings: 10
-# serving size ~100g
+serving size: 100g
 4C butternut squash
 15.5oz (1 can) black beans
 3T oil
@@ -3122,6 +3174,7 @@ serving size: 220g
 
 [recipe mincemeat pie]
 servings: 8
+serving size: 200g
 29oz Robertson's mincemeat (1 jar)
 2 pie crusts
 
@@ -3753,3 +3806,15 @@ servings: 1
 150g extra-firm tofu
 6 cloves garlic
 2T olive oil
+
+[recipe spinach frittata]
+# the recipe in the book is called Frittata with Swiss Chard.
+source: World Vegetarian p540, Jan
+servings: 4
+# estimated serving size
+serving size: 180g
+3/4lb spinach
+5T olive oil
+1 cloves garlic
+1/2tsp salt
+6 eggs
