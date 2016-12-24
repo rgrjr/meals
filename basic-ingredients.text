@@ -862,6 +862,18 @@ serving size: 1C
 1g fiber
 1g protein
 
+[item ginger]
+source: USDA: 11216, Ginger root, raw
+serving size: 1T
+serving size: 6g
+5 calories
+0g protein
+0g fat
+1g carbohydrate
+0g fiber
+1mg sodium
+0mg cholesterol
+
 [item flaxseed]
 alias: flax seed
 source: USDA: Seeds, flaxseed
@@ -1152,6 +1164,8 @@ serving size: 1/2C
 
 [item tomato sauce]
 serving size: 61g
+# [estimated.  -- rgr, 21-Dec-16.]
+serving size: 2floz
 5g carbohydrate
 1g fiber
 0g fat
@@ -1560,8 +1574,23 @@ serving size: 134g
 0mg cholesterol
 145mg sodium
 
+[item fresh peas]
+source: USDA: 11304, Peas, green, raw
+alias: fresh green peas
+alias: peas
+serving size: 1C
+serving size: 145g
+117 calories
+8g protein
+1g fat
+21g carbohydrate
+8g fiber
+0mg cholesterol
+7mg sodium
+
 [item dried green peas]
 source: USDA: Peas, green, split, mature seeds, raw
+# CHO%43.3
 serving size: 1lb
 # 1C = 197g
 serving size: 2.3C
@@ -2317,10 +2346,11 @@ serving size: 1C
 0mg cholesterol
 
 [item raisins]
-source: USDA: Raisins, seedless
+source: USDA: 09298, Raisins, seedless
 serving size: 43g
 # 1 small (1.5oz) box = 43g
 # 1 cup, packed = 165g
+serving size: 0.26C
 109 calories
 1g protein
 0g fat

@@ -1187,6 +1187,7 @@ serving size: 57g
 source: http://aubonpain.com/menu/clam-chowder
 serving size: 480ml
 # large (16floz)
+# CHO%33.5
 430 calories
 25g fat
 14g protein
@@ -1206,6 +1207,30 @@ serving size: 480ml
 22g fiber
 1090mg sodium
 40mg cholesterol
+
+[item Au Bon Pain 12 veggie soup]
+source: http://aubonpain.com/menu/12-veggie
+serving size: 8floz
+# large (16floz)
+120 calories
+4g fat
+3g protein
+18g carbohydrate
+2g fiber
+600mg sodium
+0mg cholesterol
+
+[item Coca Cola "classic"]
+alias: coke
+source: USDA: 45130947, Coca-Cola 20 fluid ounce (US) Non-Refillable Plastic other Bottle Contour, PREPARED, GTIN: 00049000000443
+serving size: 20floz
+240 calories
+0g fat
+0g protein
+60g carbohydrate
+0g fiber
+74mg sodium
+0mg cholesterol
 
 [item sun-dried tomatoes in olive oil]
 source: Bella Sun Luci
@@ -1355,6 +1380,18 @@ source: USDA: 18378, Cookies, chocolate chip, prepared from recipe, made with bu
 0g fiber
 55mg sodium
 0mg cholesterol
+
+[item Hershey's kisses]
+serving size: 41g
+# 41g = 9 kisses
+source: Hershey
+200 calories
+12g fat
+10mg cholesterol
+35mg sodium
+25g carbohydrate
+1g fiber
+3g protein
 
 [item chocolate cake without frosting]
 source: USDA: 18101, Cake, chocolate, prepared from recipe without frosting

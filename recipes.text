@@ -394,6 +394,18 @@ serving size: 300g
 1/8C cornstarch
 1/8C oil
 
+[recipe stir-fried veggies with fried tofu 16]
+servings: 4
+serving size: 300g
+4 carrots
+12oz white mushrooms
+1lb broccoli
+# soy sauce
+14oz House Foods firm tofu
+1 large onion
+1/8C cornstarch
+1/8C oil
+
 [recipe stir-fried broccoli with fried tofu]
 servings: 4
 # assuming 275g servings
@@ -933,6 +945,17 @@ serving size: 400g
 1tsp salt
 1/2C oil
 
+[recipe aloo gobhi 11]
+source: World Vegetarian p163, Jan
+# double recipe, oven fried
+servings: 6
+serving size: 350g
+2 medium cauliflowers
+2lb potatoes
+15.5oz kidney beans
+3T ginger
+1/4C oil
+
 [recipe aloo palak]
 alias: palak aloo
 source: http://www.caloriecount.com/aloo-palak-recipe-r819126
@@ -1073,6 +1096,14 @@ servings: 9
 serving size: 100g
 2lb Brussels sprouts
 # garlic
+2tsp salt
+4T oil
+
+[recipe roasted potatoes]
+source: Jan
+servings: 4
+serving size: 220g
+2lb potatoes
 2tsp salt
 4T oil
 
@@ -1765,12 +1796,15 @@ servings: 8
 2tsp oil
 
 [recipe tofu saag paneer]
-source: Jan
+source: Vegan Indian Cooking p175
 servings: 4
 serving size: 350g
+2T oil
 2 onions
+6 cloves garlic
 1lb spinach
 18oz tomatoes
+2 chilis
 14oz Vitasoy extra-firm tofu
 
 [recipe double tofu saag paneer]
@@ -3818,3 +3852,72 @@ serving size: 180g
 1 cloves garlic
 1/2tsp salt
 6 eggs
+
+[recipe aloo matar]
+# plus estimation based on Rang Indian Bistro
+source: http://allrecipes.com/recipe/52232/aloo-matar/
+servings: 4.38
+# estimated serving size, based on a reported 487 calories
+serving size: 165g
+1/4C (vegetable) oil
+1.5 onions (2 medium)
+1/2T ginger
+1/2T garlic
+# 1 bay leaf
+4 potatoes
+1C frozen peas
+1/2C tomato sauce (puree)
+# 1 1/2 teaspoons garam masala
+# 1 1/2 teaspoons paprika
+1tsp sugar
+1tsp salt
+# 2T cilantro
+
+[recipe saag paneer]
+# plus estimation based on Rang Indian Bistro
+source: http://allrecipes.com/recipe/228957/authentic-saag-paneer/
+servings: 5.4
+# estimated serving size, based on a reported 299 calories
+serving size: 107g
+1lb ("2 bunches") spinach
+# 1 bunch fenugreek leaves, roughly chopped
+3T oil
+1/2lb paneer
+# 1tsp cumin seeds
+1 onion
+1tsp ginger
+3 cloves garlic
+# 1 tomato [probably not]
+# 2tsp garam masala
+# 1/2tsp ground turmeric
+# 1/2tsp cayenne pepper
+1/2C heavy cream
+# salt to taste 
+
+[recipe navratan korma]
+# plus estimation based on Rang Indian Bistro
+source: http://allrecipes.com/recipe/86602/navratan-korma/
+servings: 4.48
+# estimated serving size, based on a reported 378 calories
+serving size: 100g
+3T oil
+1/3C Kirkland cashews (actually, mixed nuts incl. pistachios & almonds)
+3/4 large onion (1 medium)
+1/2tsp garlic
+1/2tsp ginger
+8floz tomato sauce
+# 1tsp cayenne pepper
+# 1/2tsp ground turmeric
+# 2tsp ground coriander
+# 1tsp garam masala
+# 1C water
+1/4C raisins
+1/2C (chopped) carrots
+1/2C (chopped) bell pepper
+1/2C (chopped) green beans
+1/2C fresh green peas
+1C (chopped) potatoes
+4oz paneer
+1/4C milk
+1/4C heavy cream
+# salt to taste
