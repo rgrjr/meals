@@ -129,6 +129,7 @@ alias: Kickstand Cafe scone, maple walnut
 alias: Kickstand Cafe scone, maple pecan
 alias: Kickstand Cafe scone, vegan raisin
 alias: Kickstand Cafe scone, blackberry oatmeal
+alias: Kickstand Cafe scone, blackberry ginger
 alias: Kickstand Cafe scone, blueberry oatmeal
 alias: Kickstand Cafe scone, raspberry lemon
 alias: Kickstand Cafe scone, raspberry honey
@@ -996,6 +997,18 @@ serving size: 3/4C
 1g fiber
 1g protein
 
+[item Kirkland stir fry vegetable blend]
+source: Kirkland
+serving size: 93g
+serving size: 1C
+35 calories
+0g fat
+0mg cholesterol
+20mg sodium
+7g carbohydrate
+2g fiber
+1g protein
+
 [item Trident Alaskan salmon burger]
 source: USDA: Fish, salmon, sockeye, cooked, dry heat
 serving size: 113g
@@ -1404,6 +1417,18 @@ serving size: 95g
 1g fiber
 299mg sodium
 55mg cholesterol
+
+[item chocolate frosting]
+source: USDA: 19226, Frostings, chocolate, creamy, ready-to-eat
+serving size: 2T
+serving size: 41g
+163 calories
+0g protein
+7g fat
+26g carbohydrate
+0g fiber
+75mg sodium
+0mg cholesterol
 
 [item Bridgford pepperoni]
 serving size: 1oz

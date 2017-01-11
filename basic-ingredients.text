@@ -242,6 +242,18 @@ serving size: 120g
 2mg sodium
 0mg cholesterol
 
+[item buckwheat flour]
+source: USDA:  20011, Buckwheat flour, whole-groat
+serving size: 1C
+serving size: 120g
+402 calories
+15g protein
+4g fat
+85g carbohydrate
+12g fiber
+13mg sodium
+0mg cholesterol
+
 [item USDA vital wheat gluten]
 source: USDA: 48052, Vital wheat gluten
 serving size: 100g
@@ -400,6 +412,20 @@ serving size: 245g
 0g fiber
 113mg sodium
 32mg cholesterol
+
+[item Chivas Regal]
+alias: Scotch whiskey
+alias: 80 proof whiskey]
+source: USDA: 14037, Alcoholic beverage, distilled, all, 80 proof
+serving size: 1oz
+serving size: 27.8g
+64 calories
+0g protein
+0g fat
+0g carbohydrate
+0g fiber
+0mg sodium
+0mg cholesterol
 
 [item walnuts]
 source: USDA: Nuts, walnuts, english
@@ -910,6 +936,18 @@ serving size: 100g
 16g fiber
 4mg sodium
 0mg cholesterol
+
+[item Goya light coconut milk]
+source: Goya
+serving size: 59g
+serving size: 2floz
+65 calories
+6g fat
+0mg cholesterol
+20mg sodium
+2g carbohydrate
+0g fiber
+1g protein
 
 [item Goya chickpeas]
 alias: canned chickpeas
@@ -2308,6 +2346,8 @@ serving size: 1T
 0mg cholesterol
 
 [item Lindsay extra large olives]
+# Trader Joe's green olives are nearly identical (except for sodium).
+alias: green olives
 serving size: 14g
 # 14g = 3 olives
 # 1 can = 170g = 12.1 svg
@@ -2417,3 +2457,14 @@ serving size: 2T
 30 calories
 0mg cholesterol
 20mg sodium
+
+[item roasted chicken breast]
+source: USDA: 05064, Chicken, broilers or fryers, breast, meat only, cooked, roasted
+serving size: 86g
+142 calories
+27g protein
+3g fat
+0g carbohydrate
+0g fiber
+64mg sodium
+73mg cholesterol

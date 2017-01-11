@@ -508,6 +508,21 @@ servings: 4
 3 carrots
 3 celery stalks
 
+[recipe stir-fried veggies 8]
+servings: 6
+2lb Kirkland stir fry vegetable blend
+14oz House Foods firm tofu (1 package)
+5T oil (1T sesame oil)
+2T soy sauce
+
+[recipe stir-fried veggies 9]
+servings: 4
+serving size: 250g
+2 bell peppers
+1 large onion
+1/2lb broccoli
+12oz Goya chickpeas
+
 [recipe stir-fried veggies with baked seitan]
 servings: 6
 12oz baked seitan
@@ -956,6 +971,18 @@ serving size: 350g
 3T ginger
 1/4C oil
 
+[recipe aloo gobhi 12]
+source: World Vegetarian p163, Jan
+# double recipe, chickpeas, baked
+servings: 6
+serving size: 250g
+2 medium cauliflowers
+1.4kg potatoes
+2.5C cooked chickpeas
+2T ginger
+1tsp salt
+1/2C oil
+
 [recipe aloo palak]
 alias: palak aloo
 source: http://www.caloriecount.com/aloo-palak-recipe-r819126
@@ -1095,9 +1122,20 @@ source: Jan
 servings: 9
 serving size: 100g
 2lb Brussels sprouts
-# garlic
+3 cloves garlic
 2tsp salt
 4T oil
+
+[recipe roasted BS with chickpeas]
+alias: roasted Brussels sprouts with chickpeas
+source: Jan, internet
+servings: 4
+serving size: 250g
+2lb Brussels sprouts
+3 cloves garlic
+1/4C olive oil
+6oz (1 can) green olives
+2C canned chickpeas
 
 [recipe roasted potatoes]
 source: Jan
@@ -1166,6 +1204,20 @@ servings: 11
 2C 2% milk
 1/2C egg whites
 4T oil
+1-1/2C frozen blueberries
+
+[recipe blueberry buckwheat pancakes 2]
+source: Laurel's Kitchen p119, Anna
+# doubled recipe
+servings: 30
+# one serving = one pancake
+2C buckwheat flour
+2C whole wheat flour
+1tsp salt
+2T brown sugar
+2T oil
+4 eggs
+4C almond milk
 1-1/2C frozen blueberries
 
 [recipe blueberry maple syrup pie]
@@ -3921,3 +3973,25 @@ serving size: 100g
 1/4C milk
 1/4C heavy cream
 # salt to taste
+
+[recipe Thai yellow curry]
+source: Real Vegetarian Thai p.200, Jan, Anna
+servings: 6
+3 carrots
+12oz white mushrooms
+1lb broccoli
+1 onion
+14oz Vitasoy extra-firm tofu
+800ml (2 cans) Goya light coconut milk
+
+[recipe spicy punjabi red kidney bean stew]
+source: World Vegetarian p47, Jan
+servings: 4
+31oz (2 cans) kidney beans
+2tsp salt
+2T oil
+8 scallions (should have been 1C chopped onions)
+1T garlic
+1T ginger
+12oz tomatoes
+2T lemon juice
