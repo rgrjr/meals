@@ -8,6 +8,7 @@ use IO::File;
 
 my $detailed_p = 0;
 my $daily_p = 0;
+my $tail_length = 0;
 my $recipe_file_name = 'recipes.text';
 my $calorie_plot_file = '';
 my $cho_pct_plot_file = '';
@@ -17,6 +18,7 @@ GetOptions('detailed!' => \$detailed_p,
 	   'recipe-file=s' => \$recipe_file_name,
 	   'plot-cho-percent=s' => \$cho_pct_plot_file,
 	   'show-item=s' => \@show_items,
+	   'tail=i' => \$tail_length,
 	   'recipes-matching=s' => \@recipes_matching,
 	   'ingredients-matching=s' => \@ingredients_matching,
 	   'plot-calories=s' => \$calorie_plot_file);
@@ -87,7 +89,27 @@ unshift(@ARGV, '-')
     unless @ARGV || @show_items;
 my @slots = qw(net_carbohydrate_grams fat_grams protein_grams calories);
 for my $file (@ARGV) {
+    # Find meals, and maybe ellipsize.
     my $meals = Food::Meal->parse_meals($file);
+    if ($tail_length) {
+	# $tail_length is in terms of days.
+	my $tail_meals = [ ];
+	my $current_date = '';
+	my $day_count = 0;
+	for my $meal (reverse(@$meals)) {
+	    my $date = $meal->date;
+	    if ($date ne $current_date) {
+		$day_count++;
+		last
+		    if $day_count > $tail_length;
+		$current_date = $date;
+	    }
+	    unshift(@$tail_meals, $meal);
+	}
+	$meals = $tail_meals;
+    }
+
+    # Generate output.
     my @totals;
     my $file_total = Food::Item->new(name => "$file total:");
     my ($day_total, $current_day);
