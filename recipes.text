@@ -681,6 +681,16 @@ servings: 8
 6 carrots
 2.5lb potatoes
 
+[recipe potato leek soup 2]
+source: Jan
+servings: 6
+1C leeks ("two leeks")
+4 carrots
+800g potatoes ("4 medium")
+4 Tofurkey artisan Italian sausages
+3T oil
+# 8C water
+
 [recipe potato leek soup with lentils]
 servings: 8
 3lb potatoes
@@ -790,6 +800,13 @@ serving size: 50g
 1C Bob's Red Mill TVP
 2T tomato paste
 15.5oz (1 can) black beans
+3T oil
+
+[recipe fried corn tortilla]
+servings: 1
+serving size: 19g
+1/2 svg World Menu corn tortilla (1 count)
+1tsp oil
 
 [recipe chick-pea-walnut cream]
 source: The Bold Vegetarian, p188
@@ -977,11 +994,27 @@ source: World Vegetarian p163, Jan
 servings: 6
 serving size: 250g
 2 medium cauliflowers
-1.4kg potatoes
+1.2kg potatoes
 2.5C cooked chickpeas
 2T ginger
 1tsp salt
 1/2C oil
+
+[recipe Indian eggplant stew]
+# recipe is called "Spicy Eggplant Stew with Potatoes, Mushrooms, and
+# Chickpeas."
+source: World Vegetarian p196, Jan
+# double recipe, potatoes roasted in oil
+servings: 5
+serving size: 350g
+3/4C oil
+4 cloves garlic
+1.5lb potatoes
+1.5lb eggplant (really japanese eggplant)
+12oz white mushrooms
+12oz tomatoes
+4.5tsp salt
+5C cooked chickpeas
 
 [recipe aloo palak]
 alias: palak aloo
@@ -1542,6 +1575,18 @@ serving size: 400g
 1 onion
 12oz portabella mushrooms
 
+[recipe Jan's spaghetti sauce 10]
+source: Jan
+servings: 4
+serving size: 300g
+1C Bob's Red Mill TVP
+12oz tomatoes
+12oz tomato sauce
+1 onion
+12oz portabella mushrooms
+4 cloves garlic
+3T oil
+
 [recipe random spaghetti sauce]
 source: guesswork based on 6-Feb-16.
 servings: 4
@@ -1785,6 +1830,17 @@ serving size: 40g
 1lb fresh spinach
 1/2C oil
 
+[recipe tofu pakora]
+source: Vegan Indian Cooking p103
+servings: 16
+# 1 serving = 1 pakora
+serving size: 35g
+14oz Vitasoy extra-firm tofu
+2C chickpea flour
+# 1 1-inch piece ginger
+1tsp salt
+1/2C oil
+
 [recipe tamarind sauce]
 source: The Art of Indian Vegetarian Cooking, p426
 servings: 10
@@ -1815,6 +1871,16 @@ servings: 4
 28oz tomatoes
 0.5tsp salt
 31oz (2 cans) Goya chickpeas
+
+[recipe failed quinoa patties]
+source: Jan
+servings: 6
+3/4C cooked quinoa
+2 onions
+1C white mushrooms (diced)
+15.5oz (1 can) black beans
+1C beets (grated)
+1/2C walnuts
 
 [recipe golden "chicken" patties]
 alias: golden "chicken" patty
@@ -3905,6 +3971,16 @@ serving size: 180g
 1/2tsp salt
 6 eggs
 
+[recipe spinach frittata 2]
+source: Jan
+servings: 4
+serving size: 150g
+3/4lb spinach
+4 scallions
+1/2tsp salt
+5 eggs
+2T olive oil
+
 [recipe aloo matar]
 # plus estimation based on Rang Indian Bistro
 source: http://allrecipes.com/recipe/52232/aloo-matar/
@@ -3995,3 +4071,42 @@ servings: 4
 1T ginger
 12oz tomatoes
 2T lemon juice
+
+[recipe stuffed pepper]
+servings: 8
+# 1 pepper = 1 serving
+serving size: 350g
+source: Jan, Anna
+8 bell peppers
+1C raw white rice
+1C tomatoes
+4 cloves garlic
+2C white mushrooms
+1 onion
+2T oil
+15.5oz (1 can) kidney beans
+15.5oz (1 can) black beans
+1tsp salt
+
+[recipe Chickpeas Cooked in a Moghlai-Style]
+source: World Vegetarian, p32
+servings: 4
+2.5C dry chickpeas
+5T oil
+2 onions
+# ginger
+4 cloves garlic
+6oz extra-firm tofu
+5T (pureed) tomatoes
+1-1/2 tsp lemon juice
+
+[recipe methi-palak aloo]
+alias: fenugreek-spinach potatoes
+source: Vegan Indian Cooking p177
+servings: 4
+serving size: 300g
+2T oil
+1lb spinach
+# 1oz fenugreek leaves
+4C potatoes
+2C cooked chickpeas
