@@ -374,6 +374,18 @@ serving size: 150g
 3g fiber
 5g protein
 
+[item MTR muttar paneer]
+alias: MTR mutter paneer
+# serving size: 1/2 package
+# CHO%17.8
+202 calories
+14g fat
+0mg cholesterol
+464mg sodium
+11g carbohydrate
+2g fiber
+8g protein
+
 [item MTR navratan kurma]
 # serving size: 1/2 package
 # CHO%28.0
@@ -406,6 +418,40 @@ serving size: 150g
 4g carbohydrate
 0.7g fiber
 7g protein
+
+[item MTR paneer makhani]
+# serving size: 1/2 package
+# CHO%10.5
+287 calories
+22.5g fat
+0mg cholesterol
+780mg sodium
+13.5g carbohydrate
+6g fiber
+7.5g protein
+
+[item MTR shahi paneer]
+# serving size: 1/2 package
+# CHO%30.2
+212 calories
+12g fat
+0mg cholesterol
+762mg sodium
+18g carbohydrate
+2g fiber
+8g protein
+
+[item paneer shahi korma]
+source: http://www.myfitnesspal.com/food/calories/indian-shahi-paneer-korma-216979503
+serving size: 200g
+# 
+256 calories
+19g fat
+57mg cholesterol
+810mg sodium
+18g carbohydrate
+3g fiber
+8g protein
 
 [item Tofurkey chicken & apple sausage]
 # serving size: 1 sausage
@@ -450,10 +496,22 @@ serving size: 55g
 
 [item Daiya cheddar style shreds]
 serving size: 28g
+serving size: 1/4C
 90 calories
 6g fat
 0mg cholesterol
 250mg sodium
+7g carbohydrate
+1g fiber
+1g protein
+
+[item Daiya mozzarella style shreds]
+serving size: 28g
+serving size: 1/4C
+90 calories
+6g fat
+0mg cholesterol
+280mg sodium
 7g carbohydrate
 1g fiber
 1g protein
@@ -935,6 +993,18 @@ source: https://www.dunkindonuts.com/dunkindonuts/en/menu/food/bakery/munchkins/
 9g carbohydrate
 0g fiber
 1g protein
+
+[item DD chocolate frosted cake donut]
+source: https://www.dunkindonuts.com/dunkindonuts/en/menu/food/bakery/donuts/donuts.html?DRP_FLAVOR=Chocolate+Frosted+Cake+Donut
+# CHO%44.6
+serving size: 77g
+350 calories
+19g fat
+25mg cholesterol
+340mg sodium
+40g carbohydrate
+1g fiber
+4g protein
 
 [item DD sausage egg & cheese on croissant]
 alias: DD sausage egg and cheese on croissant

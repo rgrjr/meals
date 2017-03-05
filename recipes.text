@@ -406,6 +406,18 @@ serving size: 300g
 1/8C cornstarch
 1/8C oil
 
+[recipe stir-fried veggies with fried tofu 17]
+servings: 4
+serving size: 350g
+4 carrots
+3 celery stalks
+2 bell peppers
+1/2lb broccoli
+2T soy sauce
+14oz House Foods firm tofu
+2T cornstarch
+4T oil
+
 [recipe stir-fried broccoli with fried tofu]
 servings: 4
 # assuming 275g servings
@@ -451,6 +463,17 @@ serving size: 275g
 5 carrots
 1/4C soy sauce
 4T oil
+
+[recipe stir-fried broccoli with fried tofu 5]
+source: Jan
+servings: 4
+serving size: 350g
+28oz extra-firm tofu (2 packages)
+120g cornstarch
+1lb broccoli
+5 carrots
+1/4C soy sauce
+6T oil
 
 [recipe stir-fried veggies 1]
 servings: 4
@@ -522,6 +545,16 @@ serving size: 250g
 1 large onion
 1/2lb broccoli
 12oz Goya chickpeas
+
+[recipe stir-fried veggies 10]
+servings: 3
+serving size: 250g
+2 bell peppers
+1 large onion
+3/4lb broccoli (florets)
+2T oil
+2T soy sauce
+2T corn starch
 
 [recipe stir-fried veggies with baked seitan]
 servings: 6
@@ -960,6 +993,7 @@ source: World Vegetarian p163, Bob
 servings: 2
 serving size: 400g
 383g potatoes
+# [this is a typo?  -- rgr, 18-Feb-17.]
 37g cauliflower
 # 1T ginger
 1tsp salt
@@ -992,7 +1026,7 @@ serving size: 350g
 source: World Vegetarian p163, Jan
 # double recipe, chickpeas, baked
 servings: 6
-serving size: 250g
+serving size: 350g
 2 medium cauliflowers
 1.2kg potatoes
 2.5C cooked chickpeas
@@ -1392,6 +1426,16 @@ serving size: 350g
 3T oil
 3 cloves garlic
 
+[recipe Jan's chili 10]
+source: Jan
+servings: 4
+serving size: 350g
+31oz (2 cans) kidney beans
+1 large onion
+1C Bob's Red Mill TVP
+2 bell peppers
+3T oil
+
 [recipe Jan's sweet potato chili]
 source: Jan
 servings: 4
@@ -1657,6 +1701,18 @@ serving size: 350g
 8oz white mushrooms
 2T oil
 
+[recipe Jan's pasta sauce with tofu sausage 3]
+source: Jan
+servings: 4
+serving size: 350g
+4 Tofurkey artisan Italian sausages
+1 onion
+2 cloves garlic
+170g Lindsay extra large olives (1 can)
+2C tomato sauce
+12oz white mushrooms
+3T oil
+
 [recipe spaghetti sauce with kale and tofu sausage]
 source: Jan, Anna
 servings: 4
@@ -1666,6 +1722,14 @@ serving size: 250g
 3/4C sun-dried tomatoes in olive oil
 2T oil
 3T garlic
+
+[recipe pasta sauce with tofu sausage]
+source: Jan
+servings: 3
+24oz white mushrooms
+100g garlic (2 heads)
+4 Tofurkey artisan Italian sausages
+1/4C olive oil
 
 [recipe walnut sauce]
 source: World Vegetarian, p684
@@ -2861,6 +2925,24 @@ serving size: 350g
 1 large onion
 1C oil
 
+[recipe Szechuan eggplant with tofu 5]
+source: Internet, Jan
+servings: 4
+serving size: 300g
+# double recipe.
+1-3/4lb eggplant
+1tsp sugar
+4 scallions
+1T oil
+4T soy sauce
+6 cloves garlic
+1T sriracha sauce
+1T cornstarch
+2 cloves garlic
+1T ginger
+# 4tsp (rice) vinegar
+14oz Vitasoy extra-firm tofu
+
 [recipe carrots with fresh cilantro]
 source: World Vegetarian, p159
 servings: 4
@@ -2927,6 +3009,21 @@ serving size: 50g
 2 eggs
 9oz chocolate chips (really 1-1/2C)
 1C walnuts
+
+[recipe vegan oatmeal raisin cookie]
+source: Vegan Cupcakes Take Over The World, p75
+# the recipe says 2 dozen, but not the way Jan and Lizzie make them.
+servings: 18
+serving size: 30g
+1/3C unsweetened soy milk
+2T flax seeds
+2/3C brown sugar
+1/3C oil
+# vanilla extract
+3/4C flour
+1/4tsp salt
+1-1/2C oats
+1/2C raisins
 
 [recipe chocolate walnut cupcake]
 source: Anna
@@ -3807,6 +3904,7 @@ servings: 3
 source: http://www.thereciperebel.com/brown-sugar-pecan-cookies/
 servings: 36
 serving size: 60g
+# CHO%61.0
 1C butter
 1/2C sugar
 1/2C brown sugar
@@ -3816,6 +3914,26 @@ serving size: 60g
 1/4 tsp salt
 1/2C (finely chopped) pecans
 # 36 pecan halves
+# Frosting:
+1C brown sugar
+1/2C milk
+1T butter
+1-1/2C sugar
+
+[recipe brown sugar walnut cookie]
+# Because Lizzie didn't have pecans.
+source: http://www.thereciperebel.com/brown-sugar-walnut-cookies/
+servings: 36
+serving size: 60g
+# CHO%62.2
+1C butter
+1/2C sugar
+1/2C brown sugar
+1 egg
+# 1 tsp vanilla
+2C flour
+1/4 tsp salt
+1/2C (finely chopped) walnuts
 # Frosting:
 1C brown sugar
 1/2C milk
@@ -3833,6 +3951,18 @@ serving size: 300g
 1C frozen peas
 6C brown mushrooms
 15.5oz (1 can) canned chickpeas
+1tsp salt
+
+[recipe mushroom and pea sabji with tofu]
+source: Vegan Indian Cooking, p187; Anna
+servings: 4
+serving size: 250g
+1T oil
+2 cloves garlic
+1/2 onion
+1C frozen peas
+6C brown mushrooms
+14oz Vitasoy extra-firm tofu
 1tsp salt
 
 [recipe kung pao eggplant]
@@ -4110,3 +4240,51 @@ serving size: 300g
 # 1oz fenugreek leaves
 4C potatoes
 2C cooked chickpeas
+
+[recipe eggplant dosa]
+# [trying to recreate, albeit poorly, what was served at the Dosa Factory
+# on Newbury Street this evening.   -- rgr, 23-Feb-17.]
+source: https://outofthegarden.wordpress.com/2006/08/13/pan-roasted-eggplant-dosa-my-jfi-redemption/
+servings: 1
+2C eggplant
+5 cloves garlic
+1 chili
+1T oil
+1/2C flour (atta)
+1/2C rice flour
+
+[recipe spinach and tofu lasagne]
+source: Jan
+servings: 8
+serving size: 350g
+24oz tomato sauce
+14oz extra-firm tofu
+1.25lb spinach
+3/4lb cooked pasta
+4oz Daiya mozzarella style shreds
+1/4C milk
+2T lemon juice
+
+[recipe masala zucchini]
+source: Internet, Jan
+servings: 4
+4 zucchini
+3T oil
+# 2 chilis
+1tsp salt
+1tsp sugar
+2tsp lemon juice
+
+[recipe spinach, potato, & feta gratin]
+source: Jan
+servings: 8
+serving size: 300g
+27oz potatoes
+8oz feta cheese
+1lb spinach
+1 onion
+2 cloves garlic
+1C 2% milk
+6oz soft tofu
+2T oil
+1T lemon juice
