@@ -241,7 +241,7 @@ sub cleanup {
     return lc($string);
 }
 
-my (%weight_in_grams, %volume_in_ml);
+my (%weight_in_grams, %volume_in_ml, %unit_alias);
 BEGIN {
     %weight_in_grams
 	= ('g' => 1,
@@ -257,17 +257,40 @@ BEGIN {
 	   'C' => 236.6,
 	   'floz' => 29.57,
 	   'tsp' => 5);
+    %unit_alias
+	= (cup => 'C',
+	   ounce => 'oz',
+	   pound => 'lb',
+	   tablespoon => 'T',
+	   tbsp => 'T');
+}
+
+sub _canonicalize_units {
+    # The word is left unchanged if not a unit.
+    my ($units) = @_;
+
+    if ($units =~ /s$/i) {
+	my $nonplural_alias = $unit_alias{substr(lc($units), 0, -1)};
+	$units = $nonplural_alias
+	    if $nonplural_alias;
+    }
+    elsif ($unit_alias{$units}) {
+	$units = $unit_alias{$units};
+    }
+    return $units;
 }
 
 sub weight_units_p {
     my ($class, $units) = @_;
 
+    $units = _canonicalize_units($units);
     return $weight_in_grams{$units};
 }
 
 sub volume_units_p {
     my ($class, $units) = @_;
 
+    $units = _canonicalize_units($units);
     return $volume_in_ml{$units};
 }
 
@@ -323,6 +346,7 @@ sub parse_units {
     if ($unit_string =~ m@^\s*([a-zA-Z]+)\s+(.+)@) {
 	my ($units, $name) = ($1, $2);
 	my $unit_class;
+	$units = _canonicalize_units($units);
 	if ($units =~ /(svg|serving)s?$/i) {
 	    $unit_class = $units = 'serving';
 	}
