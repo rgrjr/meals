@@ -317,9 +317,11 @@ serving size: 1C
 
 [item masa harina]
 alias: corn flour
+alias: cornmeal
 source: USDA: Corn flour, masa, unenriched, white
 serving size: 100g
 # 1C = 114g
+serving size: 0.877 cup
 363 calories
 8g protein
 4g fat
@@ -399,6 +401,18 @@ serving size: 244g
 0g fiber
 115mg sodium
 20mg cholesterol
+
+[item skim milk]
+source: USDA: 01086, Milk, nonfat, fluid, ... (fat free or skim)
+serving size: 1C
+serving size: 245g
+91 calories
+9g protein
+0.6g fat
+12g carbohydrate
+0g fiber
+130mg sodium
+5mg cholesterol
 
 [item half-and-half]
 source: USDA: 01049, Cream, fluid, half and half
@@ -783,6 +797,19 @@ serving size: 2oz
 6g fiber
 10mg sodium
 0mg cholesterol
+
+[item uncooked pastina]
+source: Barilla
+serving size: 2oz
+# based on 1/2C is approx 100g
+serving size: 1/4C
+200 calories
+1g fat
+0mg cholesterol
+0mg sodium
+42g carbohydrate
+2g fiber
+7g protein
 
 [item potato gnocchi]
 alias: gnocchi
@@ -1898,6 +1925,20 @@ serving size: 17g
 4g fiber
 0mg cholesterol
 7mg sodium
+
+[item green chile]
+alias: green chili
+source: Old El Paso chopped green chiles
+serving size: 30g
+serving size: 2 tablespoons
+# 1 can = 4.5oz
+10 calories
+0g protein
+0g fat
+2.5g carbohydrate
+0g fiber
+0mg cholesterol
+120mg sodium
 
 [item bell pepper]
 source: USDA: 11333, Peppers, sweet, green, raw

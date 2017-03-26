@@ -26,6 +26,21 @@ serving size: 98g
 430mg sodium
 0mg cholesterol
 
+[item plain bagel]
+source: USDA: 18408, Bagels, plain, unenriched, without calcium propionate
+alias: onion bagel
+alias: sesame bagel
+alias: poppyseed bagel
+serving size: 131g
+# 1 large bagel = 131g
+360 calories
+14g protein
+2g fat
+70g carbohydrate
+3g fiber
+700mg sodium
+0mg cholesterol
+
 [item Bruegger's cinnamon-raisin bagel]
 source: https://www.brueggers.com/menu/bagels-and-cream-cheese/bagels/cinnamon-raisin
 310 calories
@@ -241,6 +256,7 @@ serving size: 20g
 
 [item Trader Joe's Jaipur vegetables]
 serving size: 142g
+# CHO%14.1
 # 142g = 1/2 package
 170 calories
 11g fat
@@ -282,6 +298,7 @@ serving size: 150g
 6g protein
 
 [item Trader Joe's Punjab eggplant]
+# CHO%29.3
 # serving size: 1/2 package
 150 calories
 9g fat
