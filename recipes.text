@@ -197,6 +197,21 @@ servings: 4
 3C broccoli
 1T oil
 
+[recipe stir-fried veggies with tofu 2]
+source: Jan
+servings: 4
+serving size: 350g
+14oz firm tofu (1 package)
+3 bell peppers
+1lb broccoli
+1 large onion
+4 cloves garlic
+1T ginger
+1T cornstarch
+3T oil
+1T vinegar
+2T soy sauce
+
 [recipe stir-fried veggies with peppers and tofu]
 servings: 4
 4 firm tofu (1 package)
@@ -556,6 +571,20 @@ serving size: 250g
 2T soy sauce
 2T corn starch
 
+[recipe stir-fried veggies 11]
+servings: 6
+serving size: 300g
+1lb broccoli (florets)
+1lb carrots
+1/2 large onion
+1T ginger
+3 cloves garlic
+4 celery stalks
+14oz House Foods firm tofu (1 package)
+8oz white mushrooms
+2T oil
+2T soy sauce
+
 [recipe stir-fried veggies with baked seitan]
 servings: 6
 12oz baked seitan
@@ -821,8 +850,7 @@ servings: 16
 servings: 8
 1 (can) black beans
 15.5oz kidney beans
-# this is supposed to be 1C.
-200g TVP
+1C Bob's Red Mill TVP
 15g tomato paste (1T)
 
 [recipe taco filling 2]
@@ -834,6 +862,20 @@ serving size: 50g
 2T tomato paste
 15.5oz (1 can) black beans
 3T oil
+
+[recipe quick spinach enchiladas]
+source: Jan
+# using up old taco filling.
+servings: 12
+4 servings taco filling 2
+1lb fresh spinach
+12 fried tortillas
+# sauce recipe
+18floz (3 cans) tomato paste
+5T olive oil
+3T white flour
+28oz tomatoes
+4oz Daiya cheddar style shreds
 
 [recipe fried corn tortilla]
 servings: 1
@@ -1148,6 +1190,19 @@ servings: 4
 2C dried mung beans (split)
 4 carrots
 
+[recipe Jan's use-up-veggies soup 1]
+servings: 8
+serving size: 350g
+1/2lb carrots
+24oz tomatoes
+31oz (2 cans) kidney beans
+5 celery stalks
+1 large onion
+3 cloves garlic
+1/2lb broccoli (florets)
+1/2C uncooked pastina
+2T oil
+
 [recipe kidney bean minestrone]
 source: recipes from an ecological kitchen p50, Jan
 servings: 8
@@ -1187,6 +1242,7 @@ servings: 3
 [recipe roasted Brussels sprouts]
 source: Jan
 servings: 9
+# [should probably be smaller.  -- rgr, 20-Mar-17.]
 serving size: 100g
 2lb Brussels sprouts
 3 cloves garlic
@@ -2530,6 +2586,28 @@ serving size: 380g
 284g feta cheese
 1/2C olive oil
 
+[recipe pasta and feta 10]
+# double recipe, more or less.
+servings: 8
+serving size: 300g
+2T apple cider vinegar (really balsamic)
+15g garlic
+126g walnuts
+2lb dry pasta
+168g feta cheese
+1/2C olive oil
+
+[recipe pasta and feta 11]
+servings: 4
+# based on 1300g total weight.
+serving size: 325g
+1T apple cider vinegar (really balsamic)
+6g garlic
+137g walnuts
+1lb dry pasta
+135g feta cheese
+1/4C olive oil
+
 [recipe pasta and feta without feta]
 # Lizzie and I made this before realizing that the feta had gone bad.
 servings: 4
@@ -3424,6 +3502,7 @@ serving size: 220g
 [recipe mincemeat pie]
 servings: 8
 serving size: 200g
+# CHO%61.6
 29oz Robertson's mincemeat (1 jar)
 2 pie crusts
 
@@ -4288,3 +4367,39 @@ serving size: 300g
 6oz soft tofu
 2T oil
 1T lemon juice
+
+[recipe carrot and mushroom ragout]
+source: Jan
+servings: 5
+serving size: 250g
+2-1/2 cups cooked chickpeas
+24oz white mushrooms
+1 onion
+2 cloves garlic
+8 carrots
+4T olive oil
+1-1/2T cornstarch
+
+[recipe lazy vegan chile relleno casserole]
+source: But My Family Would Never Eat Vegan! p109, Jan
+servings: 6
+serving size: 125g
+13.5oz (3 cans) green chiles
+1 corn tortilla
+14oz extra-firm tofu
+1/4C skim milk
+1T olive oil
+1/3C flour
+2T cornmeal
+1/2 tsp salt
+2oz Daiya cheddar style shreds
+
+[recipe asparagus and chickpeas with quinoa]
+source: Anna
+servings: 6
+serving size: 300g
+1-1/2 cup uncooked quinoa
+2lb asparagus
+4T oil
+1 onion
+2-1/2 cup cooked chickpeas
