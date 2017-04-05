@@ -330,11 +330,11 @@ sub parse_units {
 	# Integer with fraction.
 	($amount, $unit_string) = ($1 + $2/$3, $4);
     }
-    elsif ($string =~ m@^\s*(\.\d+|\d+\.\d*)\s*(.*)@) {
+    elsif ($string =~ m@^\s*(-?\.\d+|-?\d+\.\d*)\s*(.*)@) {
 	# Integer or decimal fraction.
 	($amount, $unit_string) = ($1, $2);
     }
-    elsif ($string =~ m@^\s*(\d+)\s*(.*)@) {
+    elsif ($string =~ m@^\s*(-?\d+)\s*(.*)@) {
 	# Integer.
 	($amount, $unit_string) = ($1, $2);
     }

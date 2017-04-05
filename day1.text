@@ -12,6 +12,7 @@ lunch:
 snack:
    1 bagel (115g)
    1T butter
+   -1 tsp butter (test negative values)
 dinner:
    1 Tofurkey chicken & apple sausage
    1-1/2tsp olive oil
