@@ -43,6 +43,7 @@ serving size: 108g
 alias: brown rice
 serving size: 100g
 # 1C = 190g
+serving size: 0.526C
 source: USDA: 20041, Rice, brown, medium-grain, cooked
 112 calories
 2g protein
@@ -1412,6 +1413,7 @@ serving size: 0.022C
 source: USDA: Cabbage, raw
 serving size: 1C
 # 1C shredded = 70g
+serving size: 70g
 # 1 head, medium (about 5-3/4" dia) = 908g
 18 calories
 1g protein
