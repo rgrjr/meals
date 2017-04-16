@@ -433,6 +433,19 @@ serving size: 350g
 2T cornstarch
 4T oil
 
+[recipe stir-fried veggies with fried tofu 18]
+servings: 4
+serving size: 350g
+12oz broccoli
+12oz carrots
+12oz white mushrooms
+2T ginger
+6 cloves garlic
+2T soy sauce
+14oz House Foods firm tofu
+2T cornstarch
+6T oil
+
 [recipe stir-fried broccoli with fried tofu]
 servings: 4
 # assuming 275g servings
@@ -1769,6 +1782,17 @@ serving size: 350g
 12oz white mushrooms
 3T oil
 
+[recipe Jan's pasta sauce with tofu sausage 4]
+source: Jan
+servings: 4
+serving size: 350g
+4 Tofurkey artisan Italian sausages
+1 onion
+4 cloves garlic
+12oz white mushrooms
+24oz tomato sauce
+3T oil
+
 [recipe spaghetti sauce with kale and tofu sausage]
 source: Jan, Anna
 servings: 4
@@ -1964,7 +1988,8 @@ serving size: 35g
 [recipe tamarind sauce]
 source: The Art of Indian Vegetarian Cooking, p426
 servings: 10
-# 1 svg = 22g (estimated)
+# estimated
+serving size: 22g
 50g tamarind pulp
 2 ancho chilis
 1T oil
@@ -3021,6 +3046,23 @@ serving size: 300g
 # 4tsp (rice) vinegar
 14oz Vitasoy extra-firm tofu
 
+[recipe Szechuan stir-fried veggies with tofu]
+source: Jan
+servings: 5
+serving size: 350g
+28oz Vitasoy extra-firm tofu
+1/2 large onion
+4 carrots
+4 celery stalks
+1lb broccoli (florets)
+4 cloves garlic
+2T ginger
+2.5T oil
+1.5T cornstarch
+1/8 cup soy sauce
+1/8 cup vinegar
+2T sriracha sauce
+
 [recipe carrots with fresh cilantro]
 source: World Vegetarian, p159
 servings: 4
@@ -3147,6 +3189,7 @@ servings: 20
 4T oil
 
 [recipe Spice Box samosa]
+alias: pea and potato samosa
 source: The Spice Box p26, Jan
 servings: 16
 # 1 samosa = 1 serving
@@ -4403,3 +4446,53 @@ serving size: 300g
 4T oil
 1 onion
 2-1/2 cup cooked chickpeas
+
+[recipe unstuffed cabbage rolls]
+# actually, more of a casserole.
+source: But My Family Would Never Eat Vegan! p135, Jan
+servings: 6
+900g shredded cabbage (1 large)
+1tsp olive oil
+1/2 large onion
+2 cloves garlic
+1 bell pepper
+31oz (2 cans) black beans
+12oz tomatoes
+2T tomato paste
+# 2T liquid aminos
+1-1/2 cups brown rice
+2T lemon juice
+
+[recipe broccoli in walnut sauce]
+source: World Vegetarian p684, Jan
+servings: 4
+1.5lb broccoli
+15.5oz (1 can) kidney beans
+8oz dried rice noodles
+# walnut sauce (double recipe)
+1C walnuts
+10T olive oil
+3T lemon juice
+1tsp salt
+# 1/2 vegetable stock
+
+[recipe curried potatoes, peas, and carrots]
+source: Internet, Jan
+servings: 8
+serving size: 300g
+5 carrots
+8oz frozen peas
+3lb potatoes
+1 onion
+5T oil
+14oz extra-firm tofu
+
+[recipe carrots with ginger and tofu]
+source: World Vegetarian p157, Jan
+servings: 3
+serving size: 170g
+14oz extra-firm tofu
+1lb carrots
+4T (2 in) ginger
+2T lime juice
+3T oil
