@@ -42,13 +42,25 @@ serving size: 131g
 0mg cholesterol
 
 [item Bruegger's cinnamon-raisin bagel]
-source: https://www.brueggers.com/menu/bagels-and-cream-cheese/bagels/cinnamon-raisin
+source: https://www.brueggers.com/menu/bagels-and-cream-cheese/bagels/
+serving size: 116g
 310 calories
 11g protein
 2g fat
 65g carbohydrate
 4g fiber
 480mg sodium
+0mg cholesterol
+
+[item Bruegger's pumpernickel bagel]
+source: https://www.brueggers.com/menu/bagels-and-cream-cheese/bagels/
+serving size: 116g
+300 calories
+2g fat
+62g carbohydrate
+4g fiber
+560mg sodium
+11g protein
 0mg cholesterol
 
 [item pumpernickel bagel]
@@ -330,6 +342,7 @@ serving size: 150g
 
 [item Haldiram's Dilli style choley]
 # serving size: 1/2 package
+# CHO%31.0
 310 calories
 19g fat
 10mg cholesterol
@@ -340,6 +353,7 @@ serving size: 150g
 
 [item Haldiram's Dilli style rajma raseela]
 # serving size: 1/2 package
+# CHO%28.3
 240 calories
 15g fat
 15mg cholesterol
@@ -348,8 +362,20 @@ serving size: 150g
 3g fiber
 7g protein
 
+[item Haldiram's dum aloo]
+# serving size: 1/2 package
+# 
+340 calories
+24g fat
+10mg cholesterol
+550mg sodium
+27g carbohydrate
+2g fiber
+4g protein
+
 [item Haldiram's navrattan mixed vegetables]
 # serving size: 1/2 package
+# CHO%20.0
 220 calories
 17g fat
 10mg cholesterol
@@ -379,6 +405,17 @@ serving size: 150g
 5g carbohydrate
 1g fiber
 6g protein
+
+[item MTR aloo palak]
+# serving size: 1/2 package
+# CHO%9.4
+148.5 calories
+10.5g fat
+1mg cholesterol
+712mg sodium
+10.5g carbohydrate
+7g fiber
+3g protein
 
 [item MTR mixed vegetable curry]
 # serving size: 1/2 package
@@ -1504,8 +1541,6 @@ serving size: 1T
 source: USDA: 36625, Restaurant, Chinese, vegetable lo mein, without meat
 serving size: 741g
 # 1 order = 741g
-serving size: 0.184C
-# 1C = 136g
 897 calories
 35g protein
 17g fat
