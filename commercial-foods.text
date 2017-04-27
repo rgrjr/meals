@@ -3,6 +3,7 @@
 [item cinnamon-raisin bagel]
 alias: bagel
 source: USDA: Bagels, cinnamon-raisin
+# CHO%77.8
 serving size: 105g
 # medium bagel (3-1/2" to 4" dia)
 288 calories
@@ -55,6 +56,7 @@ serving size: 116g
 [item Bruegger's pumpernickel bagel]
 source: https://www.brueggers.com/menu/bagels-and-cream-cheese/bagels/
 serving size: 116g
+# CHO%77.3
 300 calories
 2g fat
 62g carbohydrate
@@ -66,14 +68,15 @@ serving size: 116g
 [item pumpernickel bagel]
 # also based on "Bagels, cinnamon-raisin".
 source: USDA: 18045, Bread, pumpernickel, toasted
+# CHO%76.7
 serving size: 100g
 # medium bagel (3-1/2" to 4" dia)
-288 calories
-10g protein
+287 calories
 3g fat
-52g carbohydrate
+62g carbohydrate
 7g fiber
 600mg sodium
+10g protein
 0mg cholesterol
 
 [item marble bagel]
