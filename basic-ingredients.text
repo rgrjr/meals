@@ -39,6 +39,18 @@ serving size: 108g
 791mg sodium
 0mg cholesterol
 
+[item white bread]
+source: USDA: 18069, Bread, white, commercially prepared
+# 1 slice = 1oz
+serving size: 1oz
+75 calories
+2.5g protein
+1g fat
+14g carbohydrate
+1g fiber
+139mg sodium
+0mg cholesterol
+
 [item medium-grain brown rice]
 alias: brown rice
 serving size: 100g
@@ -589,6 +601,17 @@ serving size: 1C
 0g fiber
 916mg sodium
 84mg cholesterol
+
+[item Derie Farms paneer]
+serving size: 1oz
+# 1 container = 12oz
+75 calories
+6g fat
+25mg cholesterol
+30mg sodium
+0g carbohydrate
+0g fiber
+6g protein
 
 [item Boca veggie crumbles]
 serving size: 57g
@@ -1514,6 +1537,18 @@ serving size: 1C
 20g fiber
 0mg cholesterol
 12mg sodium
+
+[item cooked lentils]
+source: USDA: 16070, Lentils, mature seeds, cooked, boiled, without salt
+serving size: 1C
+serving size: 198g
+230 calories
+18g protein
+1g fat
+40g carbohydrate
+16g fiber
+0mg cholesterol
+4mg sodium
 
 [item dry pearl barley]
 source: USDA: 20005, Barley, pearled, raw
