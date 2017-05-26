@@ -42,6 +42,17 @@ serving size: 131g
 700mg sodium
 0mg cholesterol
 
+[item multigrain bagel]
+source: https://www.eatthismuch.com/food/view/multigrain-bagel,168376/
+serving size: 121g
+300 calories
+15g protein
+3g fat
+50g carbohydrate
+6g fiber
+490mg sodium
+0mg cholesterol
+
 [item Bruegger's cinnamon-raisin bagel]
 source: https://www.brueggers.com/menu/bagels-and-cream-cheese/bagels/
 serving size: 116g
@@ -420,6 +431,17 @@ serving size: 150g
 7g fiber
 3g protein
 
+[item MTR kadhi pakora]
+# serving size: 1/2 package
+# CHO%28.8
+125 calories
+5g fat
+0mg cholesterol
+790mg sodium
+14g carbohydrate
+5g fiber
+6g protein
+
 [item MTR mixed vegetable curry]
 # serving size: 1/2 package
 # CHO%23.5
@@ -595,6 +617,18 @@ serving size: 71g
 2g fiber
 11g protein
 
+[item Trader Joe's tofu edamame nuggets]
+serving size: 100g
+# 100g = 4 pieces
+# 1 package = 350g
+220 calories
+16g fat
+0mg cholesterol
+340mg sodium
+10g carbohydrate
+3g fiber
+11g protein
+
 [item Jack Hua cooked rice noodles]
 source: Jack Hua Company Limited
 # estimate of cooked weight
@@ -607,6 +641,16 @@ serving size: 150g
 48g carbohydrate
 0g fiber
 0g protein
+
+[item udon]
+serving size: 140g
+190 calories
+0g fat
+0mg cholesterol
+220mg sodium
+44g carbohydrate
+4g fiber
+4g protein
 
 [item Nissin cup noodles with shrimp]
 serving size: 64g
@@ -1063,6 +1107,18 @@ serving size: 77g
 1g fiber
 4g protein
 
+[item DD glazed donut]
+source: https://www.dunkindonuts.com/en/food-drinks/donuts/donuts
+# CHO%46.2
+serving size: 77g
+260 calories
+14g fat
+0mg cholesterol
+330mg sodium
+31g carbohydrate
+1g fiber
+3g protein
+
 [item DD sausage egg & cheese on croissant]
 alias: DD sausage egg and cheese on croissant
 alias: Dunkin' Donuts sausage egg and cheese sandwich on croissant
@@ -1295,6 +1351,7 @@ serving size: 4.6oz
 source: USDA: Pie, apple, prepared from recipe 
 serving size: 155g
 # 1 slice (1/8 of 9" dia) = 155g
+# CHO%55.5
 411 calories
 4g protein
 19g fat
@@ -1323,6 +1380,7 @@ source: USDA: Pie, cherry, prepared from recipe
 serving size: 180g
 # 1 whole 9.5" pie (made by Anna and Jan) = 1800g
 # 1/8 of same = 225g
+# CHO%56.8
 486 calories
 5g protein
 22g fat
@@ -1336,6 +1394,7 @@ serving size: 180g
 source: USDA: 18306, Pie, blueberry, prepared from recipe 
 serving size: 147g
 # 1 slice (1/8 of 9" dia) = 147g
+# CHO%54.4
 360 calories
 4g protein
 17g fat
@@ -1515,6 +1574,19 @@ serving size: 1T
 1g fiber
 0mg cholesterol
 780mg sodium
+
+[item chipotle in adobo]
+source: San Marcos
+# 1 can = 7.5oz
+serving size: 30g
+serving size: 1T
+20 calories
+1g fat
+0mg cholesterol
+200mg sodium
+3g carbohydrate
+1g fiber
+0g protein
 
 [item sriracha sauce]
 source: Lee Kum Kee
@@ -1901,3 +1973,14 @@ source: https://www.dennys.com/food/dinner-entrees/fish-chips/
 131g carbohydrate
 11g fiber
 39g protein
+
+[item Darcy's onion rings]
+source: USDA: 36036, Restaurant, family style, onion rings
+serving size: 259g
+922 calories
+13g protein
+50g fat
+105g carbohydrate
+7g fiber
+1792mg sodium
+0mg cholesterol
