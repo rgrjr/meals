@@ -655,6 +655,19 @@ serving size: 84g
 249mg sodium
 0mg cholesterol
 
+[item Trader Joe's artichoke hearts]
+source: Trader Joe's
+serving size: 85g
+serving size: 3/4C
+# 1 package = 12oz
+25 calories
+0g fat
+0mg cholesterol
+50mg sodium
+5g carbohydrate
+4g fiber
+2g protein
+
 [item white mushrooms]
 source: USDA: 11260, Mushrooms, white, raw
 serving size: 96g
@@ -711,6 +724,18 @@ serving size: 1C
 4g carbohydrate
 2g fiber
 3g protein
+
+[item shiitake mushrooms]
+source: USDA: 11238, Mushrooms, shiitake, raw
+serving size: 100g
+# 1 piece whole = 19g
+34 calories
+0g fat
+0mg cholesterol
+9mg sodium
+7g carbohydrate
+2g fiber
+2g protein
 
 [item olive oil]
 source: USDA: Basic Report:  44005, Oil, corn, peanut, and olive

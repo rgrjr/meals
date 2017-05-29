@@ -212,6 +212,20 @@ serving size: 350g
 1T vinegar
 2T soy sauce
 
+[recipe stir-fried veggies with tofu 3]
+source: Jan
+servings: 4
+serving size: 350g
+4 carrots (actually 3 large)
+14oz firm tofu (1 package)
+2 bell peppers
+3/4lb broccoli
+2T cornstarch
+1/8 cup soy sauce
+6 cloves garlic
+4T ginger
+3T oil
+
 [recipe stir-fried veggies with peppers and tofu]
 servings: 4
 4 firm tofu (1 package)
@@ -598,6 +612,16 @@ serving size: 300g
 2T oil
 2T soy sauce
 
+[recipe stir-fried veggies 12]
+servings: 4
+serving size: 300g
+10oz shiitake mushrooms
+10oz bell pepper
+1lb broccoli (florets)
+4 scallions
+1T soy sauce
+1T oil
+
 [recipe stir-fried veggies with baked seitan]
 servings: 6
 12oz baked seitan
@@ -741,7 +765,7 @@ servings: 5
 [recipe oriental baked tofu]
 alias: baked tofu
 source: Recipes From An Ecological Kitchen, p223
-# serving size: 110g
+serving size: 110g
 servings: 4
 14oz (1 package) Vitasoy extra-firm tofu
 2T soy sauce
@@ -2095,6 +2119,23 @@ servings: 5
 1lb spinach
 14oz Vitasoy extra-firm tofu
 
+[recipe Jan's saag paneer]
+# same as tofu saag paneer but with paneer instead of tofu
+source: Vegan Indian Cooking p175, Jan
+servings: 5
+# "yield: 10 cups"
+serving size: 300g
+2T oil
+2 onions
+# 1 2-inch piece ginger
+6 cloves garlic
+18oz tomatoes
+2 chilis
+2T tomato paste
+2tsp salt
+1-1/4lb spinach
+12oz Derie Farms paneer
+
 [recipe Jan's minimal tofu saag]
 servings: 4
 1lb spinach
@@ -3019,6 +3060,22 @@ serving size: 350g
 4tsp (rice) vinegar
 14oz Vitasoy extra-firm tofu
 
+[recipe Szechuan eggplant with tofu 3.5]
+source: World Vegetarian p188, Jan
+servings: 4
+serving size: 350g
+# double recipe, but less agave nectar.
+2lb eggplant
+2T oil
+4 scallions
+# 2T ginger
+6 cloves garlic
+2T soy sauce
+2T chili garlic sauce
+1tsp agave nectar
+4tsp (rice) vinegar
+14oz Vitasoy extra-firm tofu
+
 [recipe Szechuan eggplant with tofu 4]
 source: Jan
 servings: 6
@@ -3045,6 +3102,22 @@ serving size: 300g
 1T ginger
 # 4tsp (rice) vinegar
 14oz Vitasoy extra-firm tofu
+
+[recipe Szechuan eggplant with tofu 6]
+source: World Vegetarian p188, Jan
+servings: 4
+serving size: 350g
+# double recipe, but less agave nectar.
+2lb eggplant
+4T oil
+4 scallions
+# 2T ginger
+6 cloves garlic
+10tsp soy sauce
+2T sriracha sauce
+2tsp agave nectar
+4tsp (rice) vinegar
+19oz Vitasoy extra-firm tofu
 
 [recipe Szechuan stir-fried veggies with tofu]
 source: Jan
@@ -3800,6 +3873,15 @@ servings: 3
 3T oil
 6 cloves garlic
 
+[recipe green beans and mushrooms 2]
+source: Jan
+servings: 4
+serving size: 150g
+1lb green beans
+1 onion
+8oz portabella mushrooms
+1tsp (garlic) salt
+
 [recipe enchilada verde]
 source: estimated from what Ixtapa served on 21-Feb-16.
 servings: 1
@@ -3963,6 +4045,16 @@ servings: 4
 24oz brown mushrooms
 24oz tomatoes
 
+[recipe lentil bolognaise 2]
+source: Jan
+servings: 4
+24oz tomato sauce
+2C cooked lentils
+16oz portabella mushrooms
+1 large onion
+4 cloves garlic
+3T olive oil
+
 [recipe oil and vinegar salad dressing]
 source: Jan
 servings: 12
@@ -3996,6 +4088,19 @@ serving size: 200g
 3/4lb spinach
 8oz white mushrooms
 3/4C almond milk
+2T oil
+
+[recipe feta and mushroom quiche 2]
+source: Jan, Anna
+servings: 6.28
+# serving size: 1 radian
+serving size: 210g
+1 pie crust
+3 eggs
+2.5C broccoli
+2C portabella mushrooms
+5oz feta cheese
+1C onions
 2T oil
 
 [recipe sausage, kale, and sun-dried tomatoes]
@@ -4447,6 +4552,17 @@ serving size: 300g
 1 onion
 2-1/2 cup cooked chickpeas
 
+[recipe asparagus and chickpeas with quinoa 2]
+source: Anna
+servings: 6
+serving size: 300g
+1-1/2 cup uncooked quinoa
+1lb asparagus
+4T oil
+1 onion
+2-1/2 cup cooked chickpeas
+1C carrots
+
 [recipe unstuffed cabbage rolls]
 # actually, more of a casserole.
 source: But My Family Would Never Eat Vegan! p135, Jan
@@ -4496,3 +4612,103 @@ serving size: 170g
 4T (2 in) ginger
 2T lime juice
 3T oil
+
+[recipe roasted garlic hummus]
+# part of roasted garlic hummus & broccoli bowl
+source: But I Could Never Go Vegan!, p244
+servings: 3
+serving size: 30g
+60g garlic (1 head)
+15.5oz (1 can) canned chickpeas
+2T tahini
+2T lemon juice
+
+[recipe roasted broccoli]
+# part of roasted garlic hummus & broccoli bowl
+source: But I Could Never Go Vegan!, p244
+servings: 3
+serving size: 30g
+3/4lb broccoli
+1 (red) onion
+1/8C oil
+
+[recipe curried peanut sauce]
+source: Vegan For Everybody p167, Jan
+servings: 3
+serving size: 80g
+1T oil
+3 cloves garlic
+1T ginger
+1/2C peanut butter
+3T vinegar
+2T soy sauce
+1T agave nectar
+
+[recipe curried broccoli and potatoes]
+source: Jan
+servings: 4
+serving size: 400g
+1kg (5 medium) potatoes
+5 medium (3 large) carrots
+3C broccoli
+15.5oz (1 can) kidney beans
+1/2 cup oil
+
+[recipe Jan's kale and apple tofu sausage]
+source: Jan
+servings: 4
+serving size: 300g
+# CHO%18.1
+1lb fresh kale
+1 onion
+3 cloves garlic
+4 Tofurkey chicken & apple sausages
+1/2C sun-dried tomatoes in olive oil
+1/4C pine nuts
+3T oil
+
+[recipe Red Lentil vegan stew]
+source: guesswork based on Red Lentil on 11-May-17.
+servings: 1
+2oz corn
+2oz peas
+2oz black beans
+4oz baked seitan
+4oz portabella mushrooms
+1T oil
+
+[recipe Jan's artichoke and gnocchi wombat]
+servings: 4
+serving size: 350g
+source: Jan
+12oz (1 package) Trader Joe's artichoke hearts
+14.5oz (1 package) potato gnocchi
+12oz soft tofu
+3T olive oil
+1T lemon juice
+2C (frozen) bell pepper
+
+[recipe butternut squash chili]
+servings: 4
+serving size: 350g
+1 onion
+2 cloves garlic
+1C bell pepper
+20oz (1 bag frozen) butternut squash
+3oz chipotle in adobo
+31oz (2 cans) black beans
+2T lime juice
+2T tomato paste
+3T oil
+
+[recipe stir-fry with tofu edamame nuggets]
+servings: 4
+serving size: 300g
+350g Trader Joe's tofu edamame nuggets
+10oz (1 bag frozen green) bell pepper
+3/4 lb broccoli
+1lb carrots
+4 svg udon (rice noodles)
+4T oil (for both noodles and stir-fry)
+1T cornstarch
+1T ginger
