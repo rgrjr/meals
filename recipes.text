@@ -460,6 +460,16 @@ serving size: 350g
 2T cornstarch
 6T oil
 
+[recipe stir-fried veggies with fried tofu 19]
+servings: 4
+serving size: 300g
+14oz House Foods firm tofu (1 package)
+1lb broccoli
+1lb carrots
+4T soy sauce
+2T cornstarch
+4T oil
+
 [recipe stir-fried broccoli with fried tofu]
 servings: 4
 # assuming 275g servings
@@ -621,6 +631,14 @@ serving size: 300g
 4 scallions
 1T soy sauce
 1T oil
+
+[recipe stir-fried veggies 13]
+servings: 4
+serving size: 300g
+2C carrots
+1lb broccoli (florets)
+1T soy sauce
+3T oil
 
 [recipe stir-fried veggies with baked seitan]
 servings: 6
@@ -900,6 +918,17 @@ serving size: 50g
 15.5oz (1 can) black beans
 3T oil
 
+[recipe Anna's taco filling]
+servings: 10
+serving size: 90g
+1 large onion
+2 bell peppers
+15.5oz (1 can) black beans
+15.5oz kidney beans
+1-1/4C Bob's Red Mill TVP
+5 cloves garlic
+2T oil
+
 [recipe quick spinach enchiladas]
 source: Jan
 # using up old taco filling.
@@ -959,6 +988,17 @@ servings: 6
 3T capers
 2 bell peppers
 1T olive oil
+
+[recipe Sri-Lankan cabbage curry]
+# guesswork based on Suvaai in N. Cambridge on 3-Jun-17.
+servings: 1
+# serving size: 350g
+5oz potatoes
+1/4 medium cauliflower
+1/2T ginger
+1/4 large onion
+1.5 cloves garlic
+2T oil
 
 [recipe Punjab aloo gobhi]
 servings: 1
@@ -1296,6 +1336,17 @@ serving size: 250g
 1/4C olive oil
 6oz (1 can) green olives
 2C canned chickpeas
+
+[recipe roasted B-sprouts, carrots, & sausage]
+source: Jan, Anna
+servings: 4
+serving size: 300g
+2lb Brussels sprouts
+1lb carrots
+4 Tofurkey artisan Italian sausages
+3 cloves garlic
+2tsp salt
+4T oil
 
 [recipe roasted potatoes]
 source: Jan
@@ -1747,6 +1798,7 @@ servings: 4
 [recipe spaghetti sauce with tofu sausage 2]
 source: Jan
 servings: 4
+serving size: 300g
 4 Tofurkey artisan Italian sausages
 1 large onion
 12oz tomatoes
@@ -1816,6 +1868,17 @@ serving size: 350g
 12oz white mushrooms
 24oz tomato sauce
 3T oil
+
+[recipe Bob's pasta sauce with tofu sausage]
+servings: 4
+# makes 1250g total
+serving size: 312g
+3 Tofurkey artisan Italian sausages
+190g onion
+8g garlic (4 long cloves)
+25oz (1 jar) Trader Giotto's organic tomato basil marinara
+272g white mushrooms
+2T oil
 
 [recipe spaghetti sauce with kale and tofu sausage]
 source: Jan, Anna
@@ -2346,6 +2409,7 @@ servings: 3
 [recipe Spice Box toor dal]
 source: The Spice Box, p100
 servings: 3
+serving size: 350g
 1C toor dal
 # 3C water
 1tsp salt
@@ -3011,6 +3075,22 @@ servings: 4
 2T egg replacer
 6T oil
 2T sesame seeds
+
+[recipe Internet Szechuan tofu]
+source: Internet, Jan
+servings: 4
+serving size: 200g
+14oz Vitasoy extra-firm tofu
+6T soy sauce
+1tsp chili garlic sauce
+3T (sesame) oil
+5T maple syrup
+6T cornstarch
+2 cloves garlic
+1T ginger
+1/2 onion
+4 chilis
+1/4C oil
 
 [recipe Szechuan eggplant with tofu]
 source: Internet, Jan; double recipe
@@ -4358,6 +4438,24 @@ serving size: 165g
 1tsp salt
 # 2T cilantro
 
+[recipe mushroom matar makhani]
+source: Anna, http://www.vegrecipesofindia.com/mushroom-matar-makhani-recipe/
+servings: 4
+serving size: 300g
+250g brown mushrooms
+1C frozen peas
+14oz Vitasoy extra-firm tofu
+1/4C (vegetable) oil
+2 large tomatoes
+2/3 large onion (1 medium)
+40g cashews
+1T ginger
+4 cloves garlic
+1 chili
+3T oil
+1tsp agave nectar
+1tsp salt
+
 [recipe saag paneer]
 # plus estimation based on Rang Indian Bistro
 source: http://allrecipes.com/recipe/228957/authentic-saag-paneer/
@@ -4644,6 +4742,20 @@ serving size: 80g
 2T soy sauce
 1T agave nectar
 
+[recipe pasta sauce w/greens, beans, & tom]
+alias: spaghetti sauce with greens, beans, and tomatoes 2
+source: Vegan For Everybody p194, Jan
+servings: 5
+serving size: 250g
+1/4 cup oil
+8 cloves garlic
+1 onion
+1-1/4 lb spinach
+1T soy sauce
+3 tomatoes
+15.5oz (1 can) cannellini beans
+4.5T (3 heaping T) capers
+
 [recipe curried broccoli and potatoes]
 source: Jan
 servings: 4
@@ -4712,3 +4824,23 @@ serving size: 300g
 4T oil (for both noodles and stir-fry)
 1T cornstarch
 1T ginger
+
+[recipe broccoli & bell pepper zunka]
+source: Anna, http://www.veganricha.com/2016/07/broccoli-zunka-recipe.html
+servings: 5
+serving size: 100g
+1/2 cup chickpea flour
+1 tsp oil
+# 1/3 tsp cumin seeds
+1/2 cup onion
+3 cloves garlic
+1 green chile
+1 bell pepper
+1.5 cups broccoli (chopped, small pieces)
+1/2 tsp salt
+# 1/2 tsp turmeric powder
+# 1/4 tsp cayenne (red chili powder)
+# 2 tsp coriander powder
+# 1/4 tsp fennel seeds
+1tsp lemon juice
+# chopped cilantro for garnish

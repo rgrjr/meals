@@ -92,6 +92,7 @@ serving size: 100g
 
 [item marble bagel]
 # mostly based on "Bagels, cinnamon-raisin".
+# close to http://www.myfitnesspal.com/food/calories/brueggers-marble-rye-bagel-74526022
 serving size: 105g
 288 calories
 10g protein
@@ -323,6 +324,17 @@ serving size: 150g
 5g fiber
 6g protein
 
+[item Trader Joe's Punjab choley]
+# CHO%40.0
+# serving size: 1/2 package
+210 calories
+8g fat
+0mg cholesterol
+610mg sodium
+27g carbohydrate
+6g fiber
+7g protein
+
 [item Trader Joe's Punjab eggplant]
 # CHO%29.3
 # serving size: 1/2 package
@@ -487,6 +499,18 @@ alias: MTR mutter paneer
 3g fiber
 7.5g protein
 
+[item MTR palak paneer 2]
+# new package, now in English and French.  -- rgr, 7-Jun-17.
+# serving size: 1/2 package
+# CHO%8.5
+213 calories
+17g fat
+14mg cholesterol
+790mg sodium
+7.5g carbohydrate
+3g fiber
+7.5g protein
+
 [item MTR paneer butter masala]
 # serving size: 1/2 package
 # CHO%7.8
@@ -616,6 +640,17 @@ serving size: 71g
 9g carbohydrate
 2g fiber
 11g protein
+
+[item Trader Giotto's organic tomato basil marinara]
+serving size: 113g
+serving size: 1/2 cup
+55 calories
+2.5g fat
+0mg cholesterol
+440mg sodium
+8g carbohydrate
+1g fiber
+1g protein
 
 [item Trader Joe's tofu edamame nuggets]
 serving size: 100g
@@ -1046,6 +1081,19 @@ source: http://honeydewdonuts.com/menu/item/Croissant
 260mg sodium
 28g carbohydrate
 1g fiber
+5g protein
+
+[item butter croissant]
+source: USDA: 18239, Croissants, butter
+# 1 medium croissant = 57g
+serving size: 57g
+# CHO%42.4
+231 calories
+12g fat
+38mg cholesterol
+266mg sodium
+26g carbohydrate
+1.5g fiber
 5g protein
 
 [item Dunkin' Donuts plain stick]
