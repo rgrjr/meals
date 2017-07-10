@@ -812,6 +812,7 @@ serving size: 100g
 0mg cholesterol
 
 [item dry whole wheat pasta]
+alias: dry whole-wheat pasta
 source: USDA: Macaroni, whole-wheat, dry
 serving size: 57g
 # 1C elbow shaped = 105g
@@ -824,6 +825,7 @@ serving size: 57g
 0mg cholesterol
 
 [item cooked whole wheat pasta]
+alias: cooked whole-wheat pasta
 source: USDA: 20108, Macaroni, whole-wheat, cooked 
 serving size: 1C
 serving size: 140g
