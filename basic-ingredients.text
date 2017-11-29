@@ -492,9 +492,9 @@ serving size: 117g
 2mg sodium
 0mg cholesterol
 
-[item cashews]
+[item cashew halves]
 alias: River Queen cashew halves
-alias: cashew halves
+alias: cashews
 serving size: 33g
 190 calories
 16g fat
@@ -1198,6 +1198,18 @@ serving size: 1C
 28g fiber
 0mg cholesterol
 22mg sodium
+
+[item cooked kidney beans]
+source: 16033, Beans, kidney, red, mature seeds, cooked, boiled, without salt
+serving size: 1C
+serving size: 177g
+225 calories
+15g protein
+1g fat
+40g carbohydrate
+13g fiber
+0mg cholesterol
+4mg sodium
 
 [item pinto beans]
 # This is not right.  -- rgr, 15-Jan-15.
