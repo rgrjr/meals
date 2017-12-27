@@ -127,6 +127,18 @@ serving size: 29g
 137mg sodium
 0mg cholesterol
 
+[item cornbread]
+alias: corn bread
+source: USDA: 18022, Bread, cornbread, dry mix, enriched
+serving size: 100g
+418 calories
+7g protein
+12g fat
+70g carbohydrate
+6g fiber
+817mg sodium
+2mg cholesterol
+
 [item buttermilk pancake]
 source: USDA: 18390, Pancakes, buttermilk, prepared from recipe
 # guesswork, based on Main Street Bistro in New Paltz NY
@@ -355,6 +367,16 @@ serving size: 150g
 35g carbohydrate
 10g fiber
 10g protein
+
+[item Trader Joe's paneer tikka masala]
+# serving size: 1 package (frozen, comes with rice)
+430 calories
+23g fat
+40mg cholesterol
+730mg sodium
+40g carbohydrate
+2g fiber
+14g protein
 
 [item Trader Joe's dal makhani]
 # serving size: 1/2 package

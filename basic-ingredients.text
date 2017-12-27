@@ -179,8 +179,10 @@ source: Dynasty cut baby corn [product can]
 
 [item corn]
 alias: frozen corn
-source: USDA: Corn, sweet, yellow, frozen, kernels cut off cob, unprepared
+source: USDA: 11178, Corn, sweet, yellow, frozen, kernels cut off cob, unprep.
 serving size: 100g
+# 1C = 136g
+serving size: 0.735C
 88 calories
 3g protein
 1g fat
