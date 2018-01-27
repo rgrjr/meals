@@ -499,6 +499,17 @@ alias: MTR mutter paneer
 2g fiber
 8g protein
 
+[item MTR paneer tikka masala]
+# serving size: 1/2 package
+# CHO%40.4
+183 calories
+8.4g fat
+0mg cholesterol
+495mg sodium
+19.5g carbohydrate
+1g fiber
+7.5g protein
+
 [item MTR navratan kurma]
 # serving size: 1/2 package
 # CHO%28.0
@@ -1320,6 +1331,19 @@ serving size: 90g
 3g fiber
 3g protein
 
+[item Market Basket frozen mixed vegetables 2]
+source: Market Basket
+serving size: 90g
+# 1 package = 32oz
+serving size: 2/3C
+65 calories
+0.5g fat
+0mg cholesterol
+60mg sodium
+12g carbohydrate
+3g fiber
+3g protein
+
 [item Kirkland frozen stir-fry vegetable blend]
 serving size: 91g
 serving size: 1C
@@ -1350,6 +1374,7 @@ serving size: 3/4C
 source: Kirkland
 serving size: 93g
 serving size: 1C
+# 1 package = 2.49kg
 35 calories
 0g fat
 0mg cholesterol
@@ -1357,6 +1382,50 @@ serving size: 1C
 7g carbohydrate
 2g fiber
 1g protein
+
+[item salmon maki]
+source: http://www.sparkpeople.com/calories-in.asp?food=sushi+salmon+roll
+# for each piece
+20 calories
+0.4g fat
+3mg cholesterol
+12mg sodium
+3g carbohydrate
+0g fiber
+1.3g protein
+
+[item tuna maki]
+source: https://www.sushifaq.com/sushi-health/calories-in-sushi/
+# for the whole roll
+184 calories
+3g fat
+24mg cholesterol
+20mg sodium
+37g carbohydrate
+2g fiber
+15g protein
+
+[item yellowtail maki]
+source: https://www.sushifaq.com/sushi-health/calories-in-sushi/
+# for the whole roll
+245 calories
+3g fat
+24mg cholesterol
+20mg sodium
+37g carbohydrate
+2g fiber
+15g protein
+
+[item yellowtail nigiri sushi]
+source: https://www.sushifaq.com/sushi-health/calories-in-sushi/
+# per piece
+51 calories
+1g fat
+3mg cholesterol
+20mg sodium
+8g carbohydrate
+0g fiber
+4g protein
 
 [item Trident Alaskan salmon burger]
 source: USDA: Fish, salmon, sockeye, cooked, dry heat
@@ -1392,17 +1461,6 @@ serving size: 135g
 1g fiber
 1092mg sodium
 0mg cholesterol
-
-[item fish and chips]
-source: http://www.caloriecount.com/calories-red-lobster-fish-chips-i338553
-serving size: 100g
-730 calories
-33g fat
-0mg cholesterol
-1980mg sodium
-64g carbohydrate
-0g fiber
-44g protein
 
 [item MB apple pie]
 source: Market Basket
@@ -2022,6 +2080,17 @@ serving size: 1T
 0g fiber
 0g protein
 
+[item chipotle taco sauce]
+serving size: 16g
+serving size: 1T
+0 calories
+0g fat
+0mg cholesterol
+20mg sodium
+0g carbohydrate
+0g fiber
+0g protein
+
 [item vanilla ice cream]
 source: USDA: 19095, Ice creams, vanilla
 serving size: 1/2C
@@ -2033,6 +2102,17 @@ serving size: 66g
 0.5g fiber
 53mg sodium
 29mg cholesterol
+
+[item fish and chips]
+source: http://www.caloriecount.com/calories-red-lobster-fish-chips-i338553
+serving size: 100g
+730 calories
+33g fat
+0mg cholesterol
+1980mg sodium
+64g carbohydrate
+0g fiber
+44g protein
 
 [item Denny's fish and chips]
 source: https://www.dennys.com/food/dinner-entrees/fish-chips/

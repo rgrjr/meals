@@ -80,6 +80,7 @@ serving size: 1/2C
 
 [item white rice]
 alias: rice
+alias: cooked rice
 alias: rice, white basmati
 source: USDA: Rice, white, long-grain, regular, cooked, enriched
 serving size: 100g
@@ -330,6 +331,30 @@ serving size: 1C
 59mg sodium
 0mg cholesterol
 
+[item oat flour]
+source: USDA: 20132, Oat flour, partially debranned
+serving size: 1C
+serving size: 104g
+420 calories
+15g protein
+9g fat
+68g carbohydrate
+7g fiber
+20mg sodium
+0mg cholesterol
+
+[item oat bran]
+source: USDA: 20033, Oat bran, raw
+serving size: 1C
+serving size: 94g
+231 calories
+16g protein
+7g fat
+62g carbohydrate
+14g fiber
+4mg sodium
+0mg cholesterol
+
 [item masa harina]
 alias: corn flour
 alias: cornmeal
@@ -529,6 +554,19 @@ serving size: 3T
 0g fiber
 5g protein
 
+[item oil-roasted salted cashews]
+source: USDA: 12586, Nuts, cashew nuts, oil roasted, with salt added
+serving size: 30g
+# 1C whole = 129g
+serving size: 0.233C
+174 calories
+5g protein
+14g fat
+9g carbohydrate
+92mg sodium
+1g fiber
+0mg cholesterol
+
 [item peanut]
 source: USDA: 16087, Peanuts, all types, raw
 serving size: 1C
@@ -577,6 +615,18 @@ serving size: 135g
 5g fiber
 3mg sodium
 0mg cholesterol
+
+[item vegetable broth]
+source: USDA: 06700, Soup, vegetable broth, ready to serve
+serving size: 1C
+serving size: 221g
+11 calories
+0.5g protein
+0g fat
+2g carbohydrate
+0g fiber
+654mg sodium
+25mg cholesterol
 
 [item feta cheese]
 source: USDA: Cheese, feta
@@ -764,6 +814,18 @@ serving size: 1T
 0.3g fiber
 0mg cholesterol
 62mg sodium
+
+[item kalamata olive]
+source: Pastene
+# five olives
+serving size: 15g
+45 calories
+0g protein
+4.5g fat
+1g carbohydrate
+0g fiber
+0mg cholesterol
+130mg sodium
 
 [item shrimp]
 source: USDA: 15271, Crustaceans, shrimp, untreated, cooked
@@ -1179,6 +1241,7 @@ serving size: 1C
 
 [item kidney beans]
 serving size: 130g
+serving size: 1/2C
 # can size 15.5oz
 source: Stop And Shop
 110 calories
@@ -1865,9 +1928,11 @@ serving size: 100g
 [item medium sweet potatoes]
 alias: sweet potato
 alias: sweet potatoes
-source: USDA: Sweet potato, raw, unprepared
+source: USDA: 11507, Sweet potato, raw, unprepared
 # 1 potato 5" long = 130g
 serving size: 130g
+# 1C cubes = 133g
+serving size: 1C
 112 calories
 2g protein
 0g fat

@@ -226,6 +226,25 @@ serving size: 350g
 4T ginger
 3T oil
 
+[recipe stir-fried veggies with tofu 4]
+source: Jan
+servings: 4
+serving size: 350g
+1lb Kirkland stir fry vegetable blend
+14oz firm tofu (1 package)
+1/8 cup soy sauce
+3T oil
+
+[recipe stir-fried veggies with tofu 5]
+source: Jan
+servings: 4
+serving size: 250g
+600g Kirkland stir fry vegetable blend
+14oz firm tofu (1 package)
+1/8 cup soy sauce
+2T oil
+1T cornstarch
+
 [recipe stir-fried veggies with peppers and tofu]
 servings: 4
 4 firm tofu (1 package)
@@ -891,6 +910,19 @@ servings: 8
 114g (1C) masa harina (flour)
 5.5T (1/3C) olive oil
 
+[recipe spicy chili bean burger]
+source: Healthy Happy Vegan Kitchen p125
+servings: 4
+serving size: 150g
+1.5C kidney beans
+1.5C brown rice
+1/2C spinach
+1/4C onion
+2 cloves garlic
+2tsp oat bran
+1tsp vinegar
+1/4tsp salt
+
 [recipe quick and simple BBQ sauce]
 alias: barbecue sauce
 source: The Best Veggie Burgers On The Planet, p183
@@ -924,6 +956,24 @@ servings: 16
 216g white mushrooms
 1 large onion
 12oz artichoke hearts
+
+[recipe Jan's feta pizza 2]
+servings: 8
+1-1/2C flour
+1/2T agave syrup
+8oz tomato sauce
+3oz feta cheese
+3oz white mushrooms
+170g Lindsay extra large olives (1 can)
+
+[recipe Jan's Daiya pizza]
+servings: 8
+1-1/2C flour
+1/2T agave syrup
+8oz tomato sauce
+8oz Daiya mozzarella style shreds
+1oz white mushrooms
+30g kalamata olives (about ten count)
 
 [recipe taco filling]
 servings: 8
@@ -1353,6 +1403,50 @@ servings: 3
 # 12oz dry whole wheat pasta (linguine)
 # garlic powder, salt, pepper
 15.5oz Goya chickpeas (1 can)
+
+[recipe soul-soothing african peanut stew]
+source: The Oh She Glows Cookbook p129, Jan
+servings: 6
+serving size: 350g
+2T oil
+1/2 large onion
+3 cloves garlic
+1 bell pepper
+# 1 jalapeno
+1 sweet potato
+24oz tomatoes
+1/2C peanut butter
+4C vegetable broth
+15.5oz Goya chickpeas (1 can)
+12oz spinach
+
+[recipe luxurious tomato-basil pasta sauce]
+# as served on pasta
+source: The Oh She Glows Cookbook p181, Jan
+servings: 5
+serving size: 300g
+1/2C oil-roasted salted cashews (Kirkland)
+1/2C almond milk
+1tsp oil
+1/2 large onion
+2 cloves garlic
+1-1/2C tomatoes
+12oz (1 bag) Trader Joe's artichoke hearts
+8oz white mushrooms
+1C bell pepper
+15.5oz Goya chickpeas (1 can)
+3T tomato paste
+
+[recipe zucchini and cashew pasta sauce]
+source: Internet, Jan
+servings: 5
+3 zucchini
+15.5oz Goya chickpeas (1 can)
+1 large onion
+24oz tomato sauce
+1/2C oil-roasted salted cashews (Kirkland)
+2tsp oil
+2 cloves garlic
 
 [recipe roasted Brussels sprouts]
 source: Jan
@@ -3544,6 +3638,7 @@ alias: pea and potato samosa
 source: The Spice Box p26, Jan
 servings: 16
 # 1 samosa = 1 serving
+serving size: 25g
 2T oil
 1 onion
 10oz (2/3 can) canned chickpeas
@@ -3727,6 +3822,7 @@ servings: 4
 
 [recipe pad thai 2]
 source: Jan
+# [probably really only 4.  -- rgr, 1-Jan-18.]
 servings: 6
 serving size: 300g
 16oz dried rice noodles
@@ -3742,6 +3838,25 @@ serving size: 300g
 6 scallions
 1 bell pepper
 3 medium carrots
+
+[recipe pad thai 3]
+source: Jan
+servings: 4
+serving size: 300g
+16oz dried rice noodles
+3T oil
+2T soy sauce
+8 cloves garlic (really 4 giant ones)
+5 eggs
+8T soy sauce
+6T peanut butter
+2T lime juice
+1T agave nectar
+2T sriracha sauce
+6 scallions
+1 bell pepper
+3 medium carrots
+75g peanuts
 
 [recipe asian snow peas]
 source: Jan
@@ -4548,6 +4663,15 @@ serving size: 300g
 1 onion
 2T ketchup
 
+[recipe lentil soup]
+source: Internet, Jan
+servings: 4
+# random guess
+serving size: 300g
+1C dry lentils
+8 cloves garlic
+2T oil
+
 [recipe vegetarian pot pie]
 source: Vegetarian Times Complete Cookbook p240, p446, Jan
 servings: 8
@@ -4882,6 +5006,29 @@ serving size: 125g
 1/2 tsp salt
 2oz Daiya cheddar style shreds
 
+[recipe chickpea & dumplin' soup]
+source: But My Family Would Never Eat Vegan! p131, Jan
+servings: 4
+serving size: 225g
+2T oil
+1/2 large onion
+4 celery stalks
+3 carrots
+2 cloves garlic
+8oz brown mushrooms
+
+[recipe chickpea & dumplin' soup dumpling]
+source: But My Family Would Never Eat Vegan! p131, Jan
+# makes 9 rather large dumplings
+servings: 9
+4T butter
+1/4C oat flour
+3C cooked chickpeas
+# 1 quart vegetable broth
+1-1/4C flour
+1/2C cornmeal
+1/4C almond milk
+
 [recipe asparagus and chickpeas with quinoa]
 source: Anna
 servings: 6
@@ -5086,3 +5233,49 @@ serving size: 100g
 # 1/4 tsp fennel seeds
 1tsp lemon juice
 # chopped cilantro for garnish
+
+[recipe one-pot chickpea biryani]
+source: Thug Kitchen 101 p95, Jan
+servings: 5
+serving size: 300g
+5T oil (total)
+1 large onion
+2C Market Basket frozen mixed vegetables 2
+1-1/2C cooked chickpeas
+2 cloves garlic
+1T ginger
+1C raw white rice
+4C vegetable broth
+3/4C Kirkland cashews
+1/4C raisins
+
+[recipe hearty healing sweet potato soup]
+source: Vegan Under Pressure p177, Jan
+servings: 6
+serving size: 450g
+2C onion
+4 cloves garlic
+2T ginger
+1-1/4lb sweet potatoes
+4 carrots
+2C spinach
+15.5oz (1 can) canned chickpeas
+1/4C oil
+
+[recipe sassy sesame tofu]
+source: Vegan Under Pressure p211, Jan
+servings: 6
+serving size: 350g
+2T (sesame) oil
+2/3 large onion
+2 carrots
+1C sweet potato
+3 cloves garlic
+2T sesame seeds
+14oz extra-firm tofu
+2T soy sauce
+1T vinegar
+2C white mushrooms
+2T sriracha sauce
+2T tahini
+1C bell pepper
