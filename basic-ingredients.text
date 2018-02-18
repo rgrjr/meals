@@ -954,22 +954,22 @@ serving size: 1C
 
 [item sugar]
 serving size: 1T
-# 1T = 12.6g
+serving size: 12.6g
 # 1C = 200g
-source: USDA: Sugars, granulated
+source: USDA: 19335, Sugars, granulated
 49 calories
 0g protein
 0g fat
-12.25g carbohydrate
+12.6g carbohydrate
 0g fiber
 0mg cholesterol
 0mg sodium
 
 [item brown sugar]
+source: USDA: 19334, Sugars, brown
 serving size: 1tsp
-# 1tsp packed = 4.6g
+serving size: 4.6g
 # 1C packed = 220g
-source: USDA: Basic Report:  19334, Sugars, brown
 17 calories
 0g protein
 0g fat
