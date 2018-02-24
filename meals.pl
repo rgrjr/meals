@@ -44,10 +44,12 @@ for my $item_name (@show_items) {
     }
 
     $item->present_summary(display_cho_p => 1);
-    my $total_weight = 0;
     my $ingredients = $item->ingredients;
     next
 	unless $ingredients;
+    my $missing_weight_p = 0;
+    my $total_weight = 0;
+    my $n_ingredients = @$ingredients;
     for my $ing (sort { $b->n_servings * $b->item->net_carbohydrate_grams
 			    <=> ($a->n_servings
 				 * $a->item->net_carbohydrate_grams);
@@ -59,14 +61,37 @@ for my $item_name (@show_items) {
 	my $fat = $n_svg * $it->fat_grams;
 	my $protein = $n_svg * $it->protein_grams;
 	my $cho_pct = $calories ? 100.0 * (4 * $carbs) / $calories : 0;
+	my $missing_p;
+	if ($it->serving_size_g) {
+	    $total_weight += $n_svg * $it->serving_size_g;
+	}
+	else {
+	    $missing_weight_p++;
+	    $missing_p = '*';
+	}
 	my $units = $ing->units || '';
 	$units = ''
 	    if $units eq 'serving';
-	printf("    %-28s  %s %s %s %s CHO%%%.1f\n",
+	printf(" %s  %-28s  %s %s %s %s CHO%%%.1f\n",
+	       $missing_p || ' ',
 	       ($ing->amount || '') . $units . ' ' . $it->name,
 	       $item->show_total($carbs), $item->show_total($fat),
 	       $item->show_total($protein),
 	       $item->show_total($calories), $cho_pct);
+    }
+    if ($total_weight) {
+	my $item_grams = $item->serving_size_g;
+	printf("  Declared serving size:  %dg\n", $item_grams)
+	    if $item_grams;
+	my $theo_grams = $total_weight / $item->n_servings;
+	if ($missing_weight_p) {
+	    printf("  Theoretical serving size:  %dg"
+		   . " (missing %d out of %d weights)\n",
+		   $theo_grams, $missing_weight_p, $n_ingredients);
+	}
+	else {
+	    printf("  Theoretical serving size:  %dg\n", $theo_grams);
+	}
     }
 }
 
