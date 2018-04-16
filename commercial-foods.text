@@ -421,6 +421,17 @@ serving size: 150g
 2g fiber
 4g protein
 
+[item Haldiram's mutter paneer]
+# serving size: 1/2 package
+# CHO%18.5
+260 calories
+19g fat
+25mg cholesterol
+600mg sodium
+14g carbohydrate
+2g fiber
+9g protein
+
 [item Haldiram's navrattan mixed vegetables]
 # serving size: 1/2 package
 # CHO%20.0
@@ -1405,6 +1416,17 @@ source: http://www.sparkpeople.com/calories-in.asp?food=sushi+salmon+roll
 0g fiber
 1.3g protein
 
+[item California roll]
+source: https://www.sushifaq.com/sushi-health/calories-in-sushi/
+# for the whole roll
+255 calories
+7g fat
+24mg cholesterol
+20mg sodium
+38g carbohydrate
+6g fiber
+9g protein
+
 [item tuna maki]
 source: https://www.sushifaq.com/sushi-health/calories-in-sushi/
 # for the whole roll
@@ -1883,6 +1905,30 @@ source: Beretta USA Inc.
 0g carbohydrate
 0g fiber
 15g protein
+
+[item Columbus Italian dry salame]
+# 1 serving = 8 slices
+serving size: 39g
+source: http://www.myfitnesspal.com/food/calories/columbus-italian-dry-salami-per-slice-from-costco-139989824
+100 calories
+8g fat
+20mg cholesterol
+420mg sodium
+1g carbohydrate
+0g fiber
+6g protein
+
+[item Clif bar, crunchy peanut butter]
+serving size: 68g
+source: Clif bar
+# CHO%55.4
+260 calories
+7g fat
+0mg cholesterol
+230mg sodium
+40g carbohydrate
+4g fiber
+11g protein
 
 [item Nature Valley cashew granola bar]
 serving size: 35g

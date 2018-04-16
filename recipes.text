@@ -245,6 +245,19 @@ serving size: 250g
 2T oil
 1T cornstarch
 
+[recipe stir-fried veggies with tofu 6]
+source: Jan
+servings: 4
+serving size: 300g
+4 celery stalks (really bok choy)
+2 bell peppers
+10oz white mushrooms
+1C snow peas
+14oz firm tofu (1 package)
+1T cornstarch
+1/4 cup soy sauce
+2T oil
+
 [recipe stir-fried veggies with peppers and tofu]
 servings: 4
 4 firm tofu (1 package)
@@ -556,6 +569,28 @@ serving size: 275g
 1/4C soy sauce
 4T oil
 
+[recipe stir-fried broccoli with fried tofu 7]
+servings: 6
+# serving size based on version 4 measurement.
+serving size: 275g
+28oz (2 packages) Vitasoy extra-firm tofu
+120g cornstarch
+2/3 large (one medium) onion
+3 carrots
+6C broccoli
+1/4C soy sauce
+4T oil
+
+[recipe stir-fried broccoli with fried tofu 8]
+servings: 4
+serving size: 275g
+14oz (1 packages) Vitasoy extra-firm tofu
+120g cornstarch
+4 carrots
+3C broccoli
+1/4C soy sauce
+4T oil
+
 [recipe Szechuan green beans with fried tofu]
 servings: 4
 serving size: 300g
@@ -850,6 +885,15 @@ servings: 6
 4 Tofurkey artisan Italian sausages
 3T oil
 # 8C water
+
+[recipe potato leek soup 3]
+source: Jan
+servings: 6
+8oz leeks
+500g potatoes ("4 small")
+3T oil
+# 8C water
+15.5oz Goya chickpeas
 
 [recipe potato leek soup with lentils]
 servings: 8
@@ -1480,6 +1524,16 @@ serving size: 300g
 2tsp salt
 4T oil
 
+[recipe roasted Brussels sprouts & potatoes]
+source: Jan
+servings: 8
+serving size: 100g
+2lb Brussels sprouts
+2lb potatoes
+3 cloves garlic
+2tsp salt
+4T oil
+
 [recipe roasted potatoes]
 source: Jan
 servings: 4
@@ -1487,6 +1541,16 @@ serving size: 220g
 2lb potatoes
 2tsp salt
 4T oil
+
+[recipe tofu bacon]
+source: Jan
+servings: 5
+serving size: 150g
+28oz (2 packages) Vitasoy extra-firm tofu
+4T soy sauce
+4T tomato paste
+2T maple syrup
+2T oil
 
 [recipe seared mushrooms with tofu cubes]
 source: This Can't Be Tofu!, p97
@@ -1748,6 +1812,16 @@ serving size: 350g
 3T oil
 12oz tomato sauce
 
+[recipe Jan's chili 13]
+source: Jan
+servings: 4
+serving size: 330g
+31oz (2 cans) black beans
+2 bell peppers
+1 large onion
+2T tomato paste
+3T oil
+
 [recipe Jan's sweet potato chili]
 source: Jan
 servings: 4
@@ -1830,6 +1904,14 @@ servings: 4
 2T soy sauce
 2T cornstarch
 1T oil
+
+[recipe sweet-and-sour toovar dal]
+source: World Vegetarian p87
+servings: 3
+1C toor dal
+1/2T brown sugar
+1T tamarind pulp
+2T oil
 
 [recipe toor dal with chopped spinach]
 source: The Art of Indian Vegetarian Cooking, p66
@@ -2427,6 +2509,7 @@ source: The Art of Indian Vegetarian Cooking, p423
 # but without the yogurt.
 # Makes 600-710ml
 servings: 6
+serving size: 110g
 2T sesame seeds
 40g almonds
 1 ancho chilis
@@ -2439,9 +2522,10 @@ servings: 6
 source: The Art of Indian Vegetarian Cooking, p474
 servings: 16
 # 1 serving = 1 kofta
+serving size: 25g
 2C canned chickpeas
 230g potatoes
-0.5T salt
+1/2T salt
 3T oil
 0.25C sesame seeds
 
@@ -2452,6 +2536,20 @@ servings: 6
 2lb tomatoes
 3T Kirkland cashews (chopped)
 2 ancho chilis
+1/2T brown sugar
+1T tomato paste
+4T oil
+1tsp salt
+
+[recipe seasoned tomato gravy 2]
+source: The Art of Indian Vegetarian Cooking, p425
+# Makes 600ml
+servings: 3
+serving size: 250g
+24oz tomatoes (2 containers)
+3T Kirkland cashews
+2 ancho chilis
+2T ginger
 1/2T brown sugar
 1T tomato paste
 4T oil
@@ -2583,6 +2681,18 @@ servings: 5
 0.7 onion
 1.5C dry lentils
 6C fresh kale
+1tsp salt
+2T lemon juice
+
+[recipe Moroccan lentil and spinach stew]
+source: 150 Vegan Favorites, p34.
+servings: 5
+1T oil
+2 carrots
+0.7 onion
+2 cloves garlic
+1.5C dry lentils
+2C fresh spinach
 1tsp salt
 2T lemon juice
 
@@ -3439,6 +3549,21 @@ serving size: 350g
 4tsp (rice) vinegar
 19oz Vitasoy extra-firm tofu
 
+[recipe Szechuan eggplant with tofu 7]
+source: Internet, Jan
+servings: 3
+serving size: 350g
+1/2lb eggplant (one small)
+5 scallions
+14oz Vitasoy extra-firm tofu
+1T soy sauce
+2T chili garlic sauce
+4T oil
+3 cloves garlic
+2T ginger
+1.5tsp sugar
+4tsp (rice) vinegar
+
 [recipe spicy garlic eggplant with tofu]
 source: Internet, Jan
 servings: 4
@@ -3466,6 +3591,22 @@ serving size: 350g
 1/8 cup soy sauce
 1/8 cup vinegar
 2T sriracha sauce
+
+[recipe Szechuan brussels sprouts with tofu]
+source: Internet, Jan
+servings: 6
+serving size: 325g
+4T sriracha sauce
+3T soy sauce
+2tsp vinegar
+2T maple syrup
+6T (sesame) oil
+14oz Vitasoy extra-firm tofu
+2lb brussels sprouts
+1/4 (absorbed frying) oil
+2T sesame seeds
+8oz (1 can) Sun Luck water chestnuts
+15oz (1 can) Sun Luck baby corn
 
 [recipe tofu, mushrooms, and green beans]
 alias: stir-fried tofu, mushrooms, and green beans
@@ -3575,6 +3716,19 @@ serving size: 50g
 9oz chocolate chips (really 1-1/2C)
 1C walnuts
 
+[recipe Lizzie's chocolate chip cookie]
+source: Nestle, Lizzie
+servings: 36
+serving size: 35g
+# CHO%51.2
+2-1/4C flour
+1tsp salt
+1C butter
+3/4C sugar
+3/4C brown sugar
+2T egg replacer
+2.2C chocolate chips
+
 [recipe vegan oatmeal raisin cookie]
 source: Vegan Cupcakes Take Over The World, p75
 # the recipe says 2 dozen, but not the way Jan and Lizzie make them.
@@ -3589,6 +3743,18 @@ serving size: 30g
 1/4tsp salt
 1-1/2C oats
 1/2C raisins
+
+[recipe peanut butter cookie]
+source: https://www.bettycrocker.com/recipes/peanut-butter-cookies/
+servings: 20
+serving size: 30g
+1/2C sugar
+1/2C brown sugar
+1/2C peanut butter
+1/4C oil (actually vegetable shortening)
+1/4C butter
+1 egg
+1-1/4C flour
 
 [recipe chocolate walnut cupcake]
 source: Anna
@@ -3804,6 +3970,20 @@ servings: 6
 29oz tomatoes
 1/2tsp salt
 
+[recipe eggplant gnocchi with chickpeas]
+servings: 6
+serving size: 380g
+20oz (1 package) potato gnocchi
+2T oil
+2/3 large onion (one medium)
+1 (green) bell pepper
+8oz white mushrooms
+2C eggplant
+4 cloves garlic
+29oz tomatoes
+15.5oz (1 can) canned chickpeas
+1/2tsp salt
+
 [recipe pad thai]
 source: Vegetarian Times (online), Jan
 servings: 4
@@ -3857,6 +4037,21 @@ serving size: 300g
 1 bell pepper
 3 medium carrots
 75g peanuts
+
+[recipe PETA pad thai]
+source: https://www.peta.org/recipes/easy-vegan-pad-thai/, Jan
+servings: 5
+serving size: 300g
+16oz dried rice noodles
+4T oil
+4 cloves garlic
+14oz Vitasoy extra-firm tofu
+8T soy sauce
+4T peanut butter
+4T lime juice
+1T agave nectar
+2T sriracha sauce
+6 scallions
 
 [recipe asian snow peas]
 source: Jan
@@ -5279,3 +5474,121 @@ serving size: 350g
 2T sriracha sauce
 2T tahini
 1C bell pepper
+
+[recipe blackened tofu]
+source: Jan
+servings: 4
+serving size: 200g
+28oz Vitasoy extra-firm tofu (2 packages)
+4T oil
+2T cornstarch
+
+[recipe Nigerian kidney bean stew]
+alias: Nigerian red kidney bean stew with a peanut sauce
+source: World Vegetarian, p49
+servings: 4
+1-1/2C dry kidney beans
+2tsp salt
+3T oil
+2/3 large onion
+2 cloves garlic
+1 bell pepper
+1C tomato sauce
+1T lemon juice
+6T peanut butter
+
+[recipe broccoli with garlic and pepper]
+servings: 4
+serving size: 150g
+6C broccoli
+4T oil
+5 cloves garlic
+# plus red pepper flakes
+
+[recipe red beans and pepitas]
+# only Jan used walnuts instead.
+source: The 30-Minute Vegetarian Mexican Cookbook p66, Jan
+servings: 4
+serving size: 300g
+1C walnuts
+1T brown sugar
+2 onions
+4 cloves garlic
+2C brown mushrooms
+2T oil
+14oz tomatoes
+7oz corn
+15.5oz (1 can) kidney beans
+2T tomato paste
+
+[recipe muttar chole]
+source: Vegetarian India, Jan
+servings: 4
+serving size: 250g
+31oz (2 cans) canned chickpeas
+2T oil
+1 onion
+1T ginger
+3 cloves garlic
+3 chilis
+2T tomato paste
+1tsp salt
+
+[recipe kidney beans with spinach and tomato]
+# original title:  chana dal with spinach and tomato
+source: Vegetarian India, Jan
+servings: 4
+serving size: 350g
+31oz (2 cans) kidney beans
+3T oil
+1 large onion
+2 cloves garlic
+1-1/2 tsp ginger
+12oz tomatoes
+8oz spinach
+
+[recipe celery black pepper tofu]
+source: https://www.veganricha.com/2015/08/celery-black-pepper-tofu.html, Jan
+servings: 3
+serving size: 250g
+14 oz Vitasoy extra-firm tofu
+4T soy sauce
+4T cornstarch
+1 tsp maple syrup
+1 tsp (rice) vinegar
+1/2 cup bell pepper
+4 celery stalks
+1T ginger
+8 cloves garlic
+4T oil
+
+[recipe roast asparagus and potatoes]
+source: Internet, Jan
+servings: 6
+serving size: 300g
+4/5kg (4 medium) potatoes
+1lb asparagus
+12oz white mushrooms
+15.5oz (1 can) kidney beans
+4T olive oil
+
+[recipe potato mushroom bake]
+source: Internet, Jan
+servings: 6
+serving size: 350g
+6/5kg (6 medium) potatoes
+15.5oz (1 can) kidney beans
+4T olive oil
+24oz brown mushrooms
+
+[recipe chickpeas in tomato glaze]
+alias: savory chickpeas in a tangy tomato glaze
+# the alias is the actual recipe title.
+source: The Art of Indian Vegetarian Cooking p74, Jan
+servings: 3.5
+serving size: 300g
+1C dry chickpeas
+5T oil
+1-1/2tsp ginger
+12oz tomatoes
+1tsp lemon juice

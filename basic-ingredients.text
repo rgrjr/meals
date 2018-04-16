@@ -178,6 +178,19 @@ source: Dynasty cut baby corn [product can]
 0mg cholesterol
 190mg sodium
 
+[item Sun Luck baby corn]
+source: Sun Luck baby corn [product can]
+serving size: 1/2C
+serving size: 130g
+# 1 can = 15oz
+120 calories
+0g fat
+0mg cholesterol
+500mg sodium
+25g carbohydrate
+3g fiber
+3g protein
+
 [item corn]
 alias: frozen corn
 source: USDA: 11178, Corn, sweet, yellow, frozen, kernels cut off cob, unprep.
@@ -1228,6 +1241,7 @@ serving size: 1C
 4mg sodium
 
 [item toor dal]
+alias: pigeon peas
 source: USDA: Pigeonpeas, immature seeds, raw
 serving size: 1C
 # 1C = 154g
@@ -1706,6 +1720,7 @@ serving size: 17g
 
 [item soy sauce]
 serving size: 1T
+serving size: 15g
 source: Kikkoman
 10 calories
 2g protein
@@ -1749,6 +1764,19 @@ source: USDA: Basic Report:  12093, Nuts, chestnuts, chinese, raw
 0g fiber
 0mg cholesterol
 3mg sodium
+
+[item Sun Luck water chestnuts]
+source: Sun Luck water chestnuts [product can]
+serving size: 1/4C
+serving size: 40g
+# 1 can = 8oz
+13 calories
+0g fat
+0mg cholesterol
+2mg sodium
+3.6g carbohydrate
+1g fiber
+0.3g protein
 
 [item refried beans]
 serving size: 118g
@@ -2265,6 +2293,7 @@ serving size: 100g
 [item chocolate chips]
 serving size: 14g
 # 1g = 2 chips
+serving size: 1T
 source: Nestle
 70 calories
 4g fat
@@ -2645,6 +2674,7 @@ serving size: 54g
 source: USDA: 09322, Tamarinds, raw 
 # "one cup pulp"
 serving size: 120g
+serving size: 1C
 287 calories
 3g protein
 1g fat
