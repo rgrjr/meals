@@ -567,6 +567,28 @@ serving size: 3T
 0g fiber
 5g protein
 
+[item Nuts and Fruit Every Day cashews]
+serving size: 28g
+155 calories
+12g fat
+0mg cholesterol
+3mg sodium
+9g carbohydrate
+1g fiber
+5g protein
+
+[item TJ's less salt whole cashews]
+alias: TJ's less salt cashews
+alias: TJ's cashews
+serving size: 28g
+170 calories
+14g fat
+0mg cholesterol
+60mg sodium
+8g carbohydrate
+1g fiber
+5g protein
+
 [item oil-roasted salted cashews]
 source: USDA: 12586, Nuts, cashew nuts, oil roasted, with salt added
 serving size: 30g
@@ -653,6 +675,17 @@ serving size: 0.187C
 0g fiber
 260mg sodium
 25mg cholesterol
+
+[item Trader Joe's light feta cheese]
+serving size: 1oz
+# 1 container = 12oz
+40 calories
+1.5g fat
+5mg cholesterol
+370mg sodium
+1g carbohydrate
+0g fiber
+5g protein
 
 [item paneer]
 source: USDA: 01228, Cheese, fresh, queso fresco
@@ -790,6 +823,19 @@ serving size: 1C
 2g fiber
 3g protein
 
+[item baby bella mushrooms]
+source: Monterey Mushrooms (brand)
+serving size: 85g
+# 2/3C sliced = 85g
+serving size: 2/3C
+20 calories
+0g fat
+0mg cholesterol
+5mg sodium
+4g carbohydrate
+1g fiber
+2g protein
+
 [item shiitake mushrooms]
 source: USDA: 11238, Mushrooms, shiitake, raw
 serving size: 100g
@@ -802,9 +848,10 @@ serving size: 100g
 2g fiber
 2g protein
 
-[item olive oil]
+[item oil]
 source: USDA: Basic Report:  44005, Oil, corn, peanut, and olive
-alias: oil
+alias: olive oil
+alias: canola oil
 serving size: 1T
 serving size: 14g
 0g carbohydrate
@@ -1244,7 +1291,7 @@ serving size: 1C
 alias: pigeon peas
 source: USDA: Pigeonpeas, immature seeds, raw
 serving size: 1C
-# 1C = 154g
+serving size: 154g
 209 calories
 11g protein
 2.5g fat
@@ -1431,6 +1478,19 @@ serving size: 0.40C
 0.6g fiber
 0mg cholesterol
 32mg sodium
+
+[item bok choy]
+source: USDA: 11116, Cabbage, chinese (pak-choi), raw
+serving size: 70g
+# 1 cup shredded = 70g
+serving size: 1C
+9 calories
+1g protein
+0g fat
+1.5g carbohydrate
+0.7g fiber
+0mg cholesterol
+46mg sodium
 
 [item chard]
 alias: swiss chard

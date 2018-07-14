@@ -1,5 +1,17 @@
 # This file contains "item" entries for commercial processed foods.
 
+[item blueberry bagel]
+source: USDA: 45170506, WESTERN BAGEL, BAGELS, BLUEBERRY, UPC: 074706065335
+serving size: 100g
+# 1 bagel = 85g
+282 calories
+9g protein
+1g fat
+59g carbohydrate
+2g fiber
+388mg sodium
+0mg cholesterol
+
 [item cinnamon-raisin bagel]
 alias: bagel
 source: USDA: Bagels, cinnamon-raisin
@@ -1028,6 +1040,18 @@ serving size: 78g
 3g fiber
 5g protein
 
+[item Utz kettle sweet potato chips]
+alias: Utz Kettle Classics sweet potato chips
+serving size: 1oz
+# CHO%40.0
+150 calories
+10g fat
+0mg cholesterol
+65mg sodium
+17g carbohydrate
+2g fiber
+1g protein
+
 [item Fritos corn chips]
 alias: corn chips
 alias: Fritos
@@ -1623,6 +1647,18 @@ serving size: 155g
 0g fiber
 0mg cholesterol
 327mg sodium
+
+[item peach pie]
+source: USDA: Pie, peach
+serving size: 117g
+# 1 slice (1/6 of 8" dia) = 117g
+262 calories
+2g protein
+12g fat
+38g carbohydrate
+1g fiber
+0mg cholesterol
+254mg sodium
 
 [item pumpkin pie]
 source: USDA: 18327, Pie, pumpkin, prepared from recipe
