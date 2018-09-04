@@ -270,6 +270,28 @@ serving size: 300g
 2T cornstarch
 2T oil
 
+[recipe stir-fried veggies with tofu 8]
+servings: 4
+serving size: 300g
+14oz House Foods firm tofu (1 package)
+400g broccoli
+1 bell pepper
+4.8oz snow peas
+1 large onion
+2T soy sauce
+2T oil
+
+[recipe stir-fried veggies with tofu 9]
+servings: 4
+serving size: 250g
+4 carrots
+1 large onion
+14oz House Foods firm tofu (1 package)
+5 celery stalks
+1/4C soy sauce
+1T corn starch
+4T oil
+
 [recipe stir-fried veggies with peppers and tofu]
 servings: 4
 4 firm tofu (1 package)
@@ -603,6 +625,17 @@ serving size: 275g
 1/4C soy sauce
 4T oil
 
+[recipe stir-fried broccoli with fried tofu 9]
+servings: 4
+serving size: 275g
+14oz (1 packages) Vitasoy extra-firm tofu
+4T cornstarch
+1/4C oil
+2T (sesame) oil
+1/4C soy sauce
+2 bell peppers
+1lb broccoli
+
 [recipe Szechuan green beans with fried tofu]
 servings: 4
 serving size: 300g
@@ -903,6 +936,19 @@ servings: 4
 2T oil
 1T sesame seeds
 
+[recipe Jan's fried rice]
+servings: 8
+serving size: 250g
+500g white rice
+1lb carrots
+3/4lb celery
+8oz white mushrooms
+2/3 large (1 medium) onion
+2/3C oil
+1/2C soy sauce
+4 eggs
+2 Tofurkey artisan Italian sausages
+
 [recipe potato leek soup]
 source: Jan
 servings: 8
@@ -1193,6 +1239,19 @@ serving size: 300g
 1tsp sugar
 2T oil
 
+[recipe aloo chole 2]
+servings: 8
+serving size: 400g
+2C dry chickpeas
+12oz tomato sauce
+12oz tomatoes
+1 large onion
+1 ancho chili
+2 cloves garlic
+2T ginger
+2.5 lb potatoes
+3T oil
+
 [recipe Jan's aloo gobhi]
 # 275g servings, CHO%42.
 servings: 6
@@ -1479,6 +1538,18 @@ serving size: 350g
 3 cloves garlic
 1/2lb broccoli (florets)
 1/2C uncooked pastina
+2T oil
+
+[recipe Jan's use-up-veggies soup 2]
+servings: 4
+serving size: 350g
+4 celery stalks
+4 carrots
+31oz (2 cans) kidney beans
+2lb green beans
+6oz shell pasta (dry)
+3 cloves garlic
+1 large (really 2 small) onion
 2T oil
 
 [recipe kidney bean minestrone]
@@ -2034,7 +2105,7 @@ servings: 3
 1tsp lemon juice
 
 [recipe sambar dal]
-source: The Vegetarian Table: India p86, Jan
+source: India: The Vegetarian Table p86, Jan
 servings: 4
 serving size: 250g
 # Jan's variation with carrots instead of yams.
@@ -3418,6 +3489,16 @@ serving size: 350g
 2lb feta cheese
 4 svg puff pastry (1 package)
 
+[recipe Jan's spanakopita 2]
+servings: 6
+serving size: 350g
+2.5lb spinach
+2T oil
+2 large onions
+2 eggs
+3lb feta cheese
+4 svg puff pastry (1 package)
+
 [recipe cold north indian street salad]
 alias: chaat
 source: Vegan Indian Cooking, p136; Jan
@@ -3843,7 +3924,7 @@ serving size: 300g
 
 [recipe General Gau's tofu]
 source: Jan
-servings: 5
+servings: 4
 serving size: 350g
 # fried tofu
 28oz Vitasoy extra-firm tofu (2 packages)
@@ -4310,6 +4391,39 @@ serving size: 350g
 5 eggs
 3/4C peanut butter
 5T oil (for frying)
+
+[recipe pad thai 5]
+source: Jan
+servings: 8
+serving size: 250g
+16oz dried rice noodles
+6T soy sauce
+1T maple syrup
+1T sriracha sauce
+1/4C vinegar
+3T lime juice
+3T oil
+8 scallions
+3 cloves garlic
+1/4C peanut butter
+
+[recipe pad thai 6]
+source: Jan
+servings: 6
+serving size: 250g
+8oz dried rice noodles
+14oz Vitasoy extra-firm tofu
+12oz bean sprouts
+2 carrots
+1T agave nectar
+1/4C soy sauce
+3T peanut butter
+1T agave nectar
+2T lime juice
+1T sriracha sauce
+5 scallions
+4T oil
+3 cloves garlic
 
 [recipe asian snow peas]
 source: Jan
@@ -4916,7 +5030,8 @@ servings: 1
 
 [recipe lentil bolognaise]
 source: Reader's Digest Vegetarian Cooking p165, Jan
-servings: 4
+servings: 6
+serving size: 250g
 1C dry lentils
 1T olive oil
 1 large onion
@@ -4981,6 +5096,32 @@ serving size: 210g
 5oz feta cheese
 1C onions
 2T oil
+
+[recipe oil crust]
+servings: 1
+source: The Joy Of Cooking p867, Jan
+1-1/3C flour
+1/2tsp salt
+1/3C oil
+1T oil
+1/4C almond milk
+
+[recipe feta and mushroom quiche 3]
+source: Jan
+servings: 6.28
+# serving size: 1 radian
+serving size: 210g
+1 oil crust
+3 eggs
+3/4C almond milk
+1C frozen spinach
+8oz white mushrooms
+1 large onion
+3 cloves garlic
+1/2C kalamata olives
+1/2C sun-dried tomatoes
+4T oil
+8oz feta cheese
 
 [recipe sausage, kale, and sun-dried tomatoes]
 source: Internet, Jan
@@ -5928,3 +6069,51 @@ serving size: 250g
 24oz brown mushrooms
 15.5oz (1 can) black beans
 1/2C oil
+
+[recipe indian lentils with zucchini]
+source: The 30-Minute Vegetarian Mexican Cookbook p64
+servings: 4
+serving size: 300g
+1C dry (yellow) lentils
+1/4C butter
+1 large onion
+4 cloves garlic
+2T ginger
+3 chilis
+1tsp salt
+2C zucchini
+
+[recipe scrambled egg with cauliflower]
+alias: curried cauliflower and egg
+source: World Vegetarian, p528
+servings: 4
+serving size: 300g
+1 medium cauliflower
+5 eggs
+5 scallions
+2T oil
+
+[recipe curried eggplant and spinach]
+source: India: The Vegetarian Table p135, Jan
+servings: 6
+serving size: 300g
+1-1/2lb eggplant
+3 bell peppers
+1/2C chickpea flour
+6T oil
+1-1/2 tsp salt
+2T ginger
+3 chilis
+1T sugar
+24oz tomatoes
+1lb fresh spinach
+
+[recipe tamatar aur adrakhi gobi]
+source: Vegetarian Cook Book (Tahlina Kaul) p28, Jan
+servings: 6
+serving size: 250g
+1 medium cauliflower
+12oz tomatoes
+2T ginger
+4T oil
+31oz (2 cans) canned chickpeas
