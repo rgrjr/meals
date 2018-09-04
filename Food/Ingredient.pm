@@ -55,4 +55,12 @@ sub new {
     return $self;
 }
 
+sub mark_last_use {
+    my ($self, $last_use) = @_;
+
+    my $item = $self->item;
+    $item->last_use($last_use)
+	if $item;
+}
+
 1;

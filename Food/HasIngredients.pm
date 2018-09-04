@@ -85,4 +85,16 @@ sub finalize {
     return $self;
 }
 
+sub mark_last_use {
+    my ($self, $last_use) = @_;
+
+    $self->last_use($last_use);
+    my $ingredients = $self->ingredients;
+    return
+	unless $ingredients;
+    for my $ingredient (@$ingredients) {
+	$ingredient->mark_last_use($last_use);
+    }
+}
+
 1;

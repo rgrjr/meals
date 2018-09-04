@@ -18,12 +18,13 @@ use Food::Recipe;
 
 BEGIN {
     Food::Item->define_class_slots
-	(qw(name serving_size_g serving_size_ml
+	(qw(name serving_size_g serving_size_ml last_use
 	    protein_grams fat_grams carbohydrate_grams
 	    fiber_grams calories cholesterol_mg sodium_mg));
 }
 
-our %item_from_name;
+use vars qw(%item_from_name);
+%item_from_name = ();
 
 my %message_and_units_from_name;
 BEGIN {
@@ -301,6 +302,12 @@ sub show_matching_recipes {
     for my $recipe (@recipes) {
 	$recipe->present_summary();
     }
+}
+
+sub mark_last_use {
+    my ($self, $last_use) = @_;
+
+    $self->last_use($last_use);
 }
 
 1;
