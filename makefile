@@ -22,3 +22,6 @@ test-show1:
 	./meals.pl --show "Jan's pancakes" > $@.tmp
 	cmp $@.text $@.tmp
 	rm -f $@.tmp
+
+tags:
+	find . -name '*.p[lm]' | etags -
