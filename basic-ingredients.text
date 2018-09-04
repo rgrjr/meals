@@ -879,6 +879,8 @@ serving size: 1T
 source: Pastene
 # five olives
 serving size: 15g
+# based on the "olive" numbers.
+serving size: 3.4T
 45 calories
 0g protein
 4.5g fat
@@ -1192,7 +1194,8 @@ serving size: 1/2C
 alias: dried kala channa
 source: USDA: Chickpeas (garbanzo beans, bengal gram), mature seeds, raw
 serving size: 1C
-# 1C = 200g
+serving size: 200g
+# 1C = 200g, cooks up to 3.8C or 922g.
 756 calories
 41g protein
 12g fat
@@ -1426,6 +1429,8 @@ serving size: 100ml
 1mg sodium
 0mg cholesterol
 
+# [here.  -- rgr, 14-Jul-18.]
+
 [item butternut squash]
 source: USDA: 11485, Squash, winter, butternut, raw
 serving size: 70g
@@ -1450,18 +1455,6 @@ serving size: 2floz
 20 calories
 0mg cholesterol
 280mg sodium
-
-[item ketchup]
-source: Nature's Promise organic tomato ketchup
-serving size: 17g
-serving size: 1T
-20 calories
-0g fat
-160mg sodium
-4g carbohydrate
-0g fiber
-0g protein
-0mg cholesterol
 
 [item celery]
 alias: celery stalk
@@ -1707,7 +1700,7 @@ serving size: 5.6C
 [item dry lentils]
 source: USDA: Lentils, raw
 serving size: 1C
-# 1C = 192g
+serving size: 192g
 676 calories
 47g protein
 2g fat
@@ -1766,53 +1759,6 @@ serving size: 6.25C
 0mg cholesterol
 38mg sodium
 
-[item mirin]
-source: http://nutritiondata.self.com/facts/custom/590060/2?quantity=2.64
-serving size: 1T
-serving size: 17g
-25 calories
-0g protein
-0g fat
-7g carbohydrate
-0g fiber
-0mg cholesterol
-130mg sodium
-
-[item soy sauce]
-serving size: 1T
-serving size: 15g
-source: Kikkoman
-10 calories
-2g protein
-0g fat
-0g carbohydrate
-0g fiber
-0mg cholesterol
-920mg sodium
-
-[item hoisin sauce]
-source: Kikkoman
-serving size: 1T
-35 calories
-0g fat
-0mg cholesterol
-240mg sodium
-10g carbohydrate
-0g fiber
-1g protein
-
-[item miso paste]
-serving size: 1T
-# 1T = 17g
-source: USDA: Miso
-34 calories
-2g protein
-1g fat
-5g carbohydrate
-1g fiber
-0mg cholesterol
-634mg sodium
-
 [item water chestnuts]
 serving size: 100g
 source: USDA: Basic Report:  12093, Nuts, chestnuts, chinese, raw
@@ -1837,17 +1783,6 @@ serving size: 40g
 3.6g carbohydrate
 1g fiber
 0.3g protein
-
-[item refried beans]
-serving size: 118g
-source: Old El Paso
-90 calories
-5g protein
-1g fat
-16g carbohydrate
-4g fiber
-0mg cholesterol
-570mg sodium
 
 [item apple cider vinegar]
 alias: vinegar
@@ -2339,17 +2274,6 @@ serving size: 100g
 50mg sodium
 49mg cholesterol
 
-[item french fries]
-source: USDA: Potatoes, french fried, all types, salt added in processing, frozen, home-prepared, oven heated
-serving size: 100g
-158 calories
-3g protein
-5g fat
-26g carbohydrate
-2g fiber
-324mg sodium
-0mg cholesterol
-
 [item chocolate chips]
 serving size: 14g
 # 1g = 2 chips
@@ -2374,6 +2298,66 @@ source: USDA: 19165, Cocoa, dry powder, unsweetened
 50g carbohydrate
 32g fiber
 17g protein
+
+## Prepared foods.
+
+[item mirin]
+source: http://nutritiondata.self.com/facts/custom/590060/2?quantity=2.64
+serving size: 1T
+serving size: 17g
+25 calories
+0g protein
+0g fat
+7g carbohydrate
+0g fiber
+0mg cholesterol
+130mg sodium
+
+[item soy sauce]
+serving size: 1T
+serving size: 15g
+source: Kikkoman
+10 calories
+2g protein
+0g fat
+0g carbohydrate
+0g fiber
+0mg cholesterol
+920mg sodium
+
+[item hoisin sauce]
+source: Kikkoman
+serving size: 1T
+35 calories
+0g fat
+0mg cholesterol
+240mg sodium
+10g carbohydrate
+0g fiber
+1g protein
+
+[item miso paste]
+serving size: 1T
+# 1T = 17g
+source: USDA: Miso
+34 calories
+2g protein
+1g fat
+5g carbohydrate
+1g fiber
+0mg cholesterol
+634mg sodium
+
+[item french fries]
+source: USDA: Potatoes, french fried, all types, salt added in processing, frozen, home-prepared, oven heated
+serving size: 100g
+158 calories
+3g protein
+5g fat
+26g carbohydrate
+2g fiber
+324mg sodium
+0mg cholesterol
 
 [item potato salad]
 source: USDA: 21140, Side dishes, potato salad
@@ -2422,6 +2406,17 @@ serving size: 256g
 497mg sodium
 8mg cholesterol
 
+[item roasted chicken breast]
+source: USDA: 05064, Chicken, broilers or fryers, breast, meat only, cooked, roasted
+serving size: 86g
+142 calories
+27g protein
+3g fat
+0g carbohydrate
+0g fiber
+64mg sodium
+73mg cholesterol
+
 ### Fruit, dried fruit, fruit juices, etc.
 
 [item apple]
@@ -2435,19 +2430,6 @@ serving size: 182g
 4g fiber
 2mg sodium
 0mg cholesterol
-
-[item Ocean Spray apple juice]
-alias: apple juice
-alias: Ocean Spray cranberry cocktail
-source: Ocean Spray
-serving size: 5.5floz
-70 calories
-0g fat
-5mg sodium
-19g carbohydrate
-0g fiber
-0mg cholesterol
-0g protein
 
 [item avocado]
 source: USDA: Avocados, raw, all commercial varieties
@@ -2485,17 +2467,6 @@ serving size: 1C
 1g fiber
 26mg sodium
 0mg cholesterol
-
-[item cherry craisins]
-serving size: 40g
-source: Ocean Spray
-130 calories
-0g fat
-0mg cholesterol
-0mg sodium
-33g carbohydrate
-3g fiber
-0g protein
 
 [item cranberries]
 alias: fresh cranberries
@@ -2695,17 +2666,6 @@ serving size: 0.26C
 5mg sodium
 0mg cholesterol
 
-[item reduced sugar craisins]
-serving size: 40g
-source: Ocean Spray
-100 calories
-0g fat
-0mg cholesterol
-0mg sodium
-31g carbohydrate
-10g fiber
-0g protein
-
 [item sliced ripe olives]
 source: Pastene
 serving size: 16g
@@ -2754,14 +2714,3 @@ serving size: 2T
 30 calories
 0mg cholesterol
 20mg sodium
-
-[item roasted chicken breast]
-source: USDA: 05064, Chicken, broilers or fryers, breast, meat only, cooked, roasted
-serving size: 86g
-142 calories
-27g protein
-3g fat
-0g carbohydrate
-0g fiber
-64mg sodium
-73mg cholesterol
