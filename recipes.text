@@ -91,6 +91,12 @@ source: Anna
 one half Boudin sourdough roll
 2T olive oil
 
+[recipe sourdough garlic bread]
+servings: 20
+serving size: 1oz
+1lb Boudin sourdough loaf
+1/4lb butter
+
 [recipe broccoli-potato soup with fresh herbs]
 source: Veganomicon, p139
 servings: 6
@@ -174,6 +180,17 @@ serving size: 215g
 0.5T sugar
 15.5oz Goya chickpeas
 5C broccoli (chopped)
+
+[recipe linguine with tomato curry 2]
+# half the tomato sauce.
+source: Bold Vegetarian p182, Jan
+servings: 4
+serving size: 230g
+1T olive oil
+12oz tomato sauce
+0.5T sugar
+15.5oz Goya chickpeas
+170g Lindsay extra large olives (1 can)
 
 [recipe Boca spaghetti sauce]
 servings: 5
@@ -291,6 +308,13 @@ serving size: 250g
 1/4C soy sauce
 1T corn starch
 4T oil
+
+[recipe stir-fried veggies with tofu 10]
+servings: 4
+serving size: 325g
+14oz House Foods firm tofu (1 package)
+900g Kirkland frozen stir-fry vegetable blend
+3T oil
 
 [recipe stir-fried veggies with peppers and tofu]
 servings: 4
@@ -636,6 +660,19 @@ serving size: 275g
 2 bell peppers
 1lb broccoli
 
+[recipe stir-fried broc with fried tofu 10]
+alias: stir-fried broccoli with fried tofu 10
+servings: 5
+serving size: 275g
+14oz (1 packages) Vitasoy extra-firm tofu
+4T cornstarch
+1/4C oil
+2T (sesame) oil
+1/4C soy sauce
+3/4lb broccoli
+12oz white mushrooms
+5 carrots
+
 [recipe Szechuan green beans with fried tofu]
 servings: 4
 serving size: 300g
@@ -777,6 +814,14 @@ serving size: 250g
 2T soy sauce
 4T oil
 
+[recipe stir-fried veggies 15]
+servings: 2
+serving size: 160g
+3 carrots
+3 celery stalks
+2T soy sauce
+2T oil
+
 [recipe stir-fried veggies with baked seitan]
 servings: 6
 12oz baked seitan
@@ -840,6 +885,27 @@ serving size: 320g
 1/4C oil
 2T soy sauce
 
+[recipe Dad's stir-fried veggies 6]
+servings: 2.5
+serving size: 300g
+280g broccoli (florets)
+192g carrots
+236g bell pepper (1 large red)
+21g ginger
+1/4C oil
+4T soy sauce
+
+[recipe Dad's stir-fried veggies 7]
+servings: 4
+serving size: 250g
+480g bell pepper (2 large red)
+134g broccoli (florets)
+52g broccoli (stems)
+236g carrots
+30g ginger
+1/4C oil
+3T soy sauce
+
 [recipe Anna's stir-fried veggies with tofu]
 servings: 4.5
 4 firm tofu (1 package)
@@ -853,6 +919,7 @@ servings: 4.5
 [recipe stir-fried veggies for ramen]
 source: Jan
 servings: 3
+serving size: 300g
 5 celery stalks
 12oz brown mushrooms
 150g broccoli (1 small head)
@@ -867,6 +934,28 @@ servings: 2
 2C broccoli
 1/2 onion
 2 carrots
+2T oil
+2T soy sauce
+
+[recipe stir-fried veggies for ramen 3]
+source: Jan
+servings: 4
+serving size: 225g
+1/2 onion
+2 bell peppers
+3/4lb broccoli
+5 carrots
+2T oil
+2T soy sauce
+
+[recipe stir-fried veggies for ramen 4]
+source: Jan
+servings: 6
+serving size: 150g
+1/2 onion
+14oz House Foods firm tofu (1 package)
+4 carrots
+4 celery stalks
 2T oil
 2T soy sauce
 
@@ -976,6 +1065,17 @@ servings: 6
 # 8C water
 15.5oz Goya chickpeas
 
+[recipe Lizzie's potato leek soup]
+source: Internet, Lizzie
+servings: 4
+1lb leeks ("four medium leeks")
+1/2 large onion
+500g potatoes ("2 medium")
+1T white flour
+1T butter
+# 4C chicken stock
+1/2C milk (2%)
+
 [recipe potato leek soup with lentils]
 servings: 8
 3lb potatoes
@@ -1061,6 +1161,7 @@ servings: 6
 
 [recipe sweet potato fries]
 servings: 4
+serving size: 130g
 4 medium sweet potatoes
 4T olive oil
 
@@ -1125,6 +1226,15 @@ serving size: 90g
 15.5oz (1 can) black beans
 15.5oz kidney beans
 1-1/4C Bob's Red Mill TVP
+5 cloves garlic
+2T oil
+
+[recipe jackfruit taco filling]
+servings: 10
+serving size: 50g
+1 large onion
+10oz jackfruit (1 can, drained)
+2T tomato paste
 5 cloves garlic
 2T oil
 
@@ -1201,7 +1311,7 @@ servings: 1
 
 [recipe Punjab aloo gobhi]
 servings: 1
-# serving size: 350g
+serving size: 350g
 5oz potatoes
 1/4 medium cauliflower
 2oz Goya chickpeas
@@ -1637,6 +1747,22 @@ serving size: 300g
 8oz white mushrooms
 15.5oz Goya chickpeas (1 can)
 
+[recipe luxurious tomato-basil pasta sauce 3]
+# with tofu sausage
+source: The Oh She Glows Cookbook p181, Jan
+servings: 4
+serving size: 300g
+1/2C oil-roasted salted cashews (Kirkland)
+1/2C almond milk
+1tsp oil
+1/2 large onion
+2 cloves garlic
+1-1/2C tomatoes
+3C spinach
+3T tomato paste
+8oz white mushrooms
+3 Tofurkey artisan Italian sausages
+
 [recipe zucchini and cashew pasta sauce]
 source: Internet, Jan
 servings: 5
@@ -2003,6 +2129,29 @@ serving size: 300g
 3T oil
 12oz tomatoes
 
+[recipe Jan's chili 16]
+source: Jan
+servings: 4
+serving size: 300g
+31oz (2 cans) black beans
+12oz tomatoes
+1.5 large onions
+3 cloves garlic
+1/4C Bob's Red Mill TVP
+3/16C oil
+
+[recipe Jan's chili 17]
+source: Jan
+servings: 4
+serving size: 300g
+8oz bell peppers
+1 onion
+3T tomato paste
+31oz (2 cans) kidney beans
+3 cloves garlic
+1C Bob's Red Mill TVP
+3T oil
+
 [recipe Jan's sweet potato chili]
 source: Jan
 servings: 4
@@ -2096,7 +2245,8 @@ servings: 3
 
 [recipe toor dal with chopped spinach]
 source: The Art of Indian Vegetarian Cooking, p66
-servings: 3
+servings: 4
+serving size: 200g
 # Jan's variation
 1C toor dal
 2T oil
@@ -2282,6 +2432,19 @@ servings: 4
 12oz white mushrooms
 2T oil
 
+[recipe spaghetti sauce with tofu sausage 4]
+source: Jan
+servings: 6
+serving size: 300g
+6oz tomato paste
+1 large onion
+12oz white mushrooms
+4 Tofurkey artisan Italian sausages
+2 celery stalks
+24oz (2 blops) tomato sauce
+20g garlic
+2T oil
+
 [recipe Dad's spaghetti sauce w/tofu sausage]
 alias: Dad's spaghetti sauce with tofu sausage
 source: Dad
@@ -2360,6 +2523,19 @@ serving size: 312g
 272g white mushrooms
 2T oil
 
+[recipe Bob's pasta sauce with tofu sausage 2]
+servings: 8
+serving size: 300g
+4 Tofurkey artisan Italian sausages
+290g white mushrooms
+190g onion
+6oz (black) olives (1 can)
+250g onion
+36oz tomatoes
+12oz tomato sauce
+# forgot the garlic!
+1/4C oil
+
 [recipe spaghetti sauce with kale and tofu sausage]
 source: Jan, Anna
 servings: 4
@@ -2406,6 +2582,33 @@ servings: 12
 1.5C pumpkin puree
 3T molasses
 1C fresh cranberries
+
+[recipe Lizzie's maple oatmeal scone]
+source: Lizzie, Internet
+servings: 15
+serving size: 100g
+# 1 scone = 1 serving
+2-1/4C flour
+1/2C oatmeal
+1/3C sugar
+1.25tsp salt
+1C butter
+1C heavy cream
+1 (large) egg
+2T maple syrup
+# icing
+3C (powdered) sugar
+4T maple syrup
+# 1/2tsp maple extract
+
+[recipe Lizzie's pumpkin soup]
+source: The Wizard's Cookbook p23, Lizzie
+servings: 2
+serving size: 350g
+2-1/4lb pumpkin
+# 1 bouillon cube
+# nutmeg
+# salt and pepper
 
 [recipe broccospuds]
 source: Jan
@@ -3281,6 +3484,28 @@ serving size: 325g
 135g feta cheese
 1/4C olive oil
 
+[recipe pasta and feta 12]
+servings: 4
+# based on 1510g total weight.
+serving size: 375g
+2T apple cider vinegar (really balsamic)
+18g garlic
+157g walnuts
+1lb dry pasta
+191g feta cheese
+1/4C olive oil
+
+[recipe pasta and feta 13]
+servings: 6
+# based on 1633g total weight.
+serving size: 275g
+2T apple cider vinegar (really balsamic)
+20g garlic
+200g walnuts
+1lb dry pasta
+208g feta cheese
+1/3C olive oil
+
 [recipe pasta and feta without feta]
 # Lizzie and I made this before realizing that the feta had gone bad.
 servings: 4
@@ -3325,7 +3550,8 @@ servings: 5
 [recipe tahini dressing]
 source: Vegan With A Vengeance, p121
 # makes 2 cups
-# serving size = 1/4C = 4T
+serving size: 1/4C
+serving size: 60g
 servings: 8
 8T olive oil
 3 cloves garlic
@@ -3337,6 +3563,7 @@ servings: 8
 [recipe VV falafel]
 source: Vegan With A Vengeance, p98
 servings: 4
+serving size: 150g
 2C cooked chickpeas
 1/4C bread crumbs
 2T flour
@@ -3855,6 +4082,21 @@ serving size: 300g
 14oz Vitasoy extra-firm tofu
 3 scallions
 
+[recipe Szechuan eggplant with black beans]
+source: Internet, Jan
+servings: 6
+serving size: 300g
+2 (large) eggplants
+6 scallions
+15.5oz (1 can) black beans
+3T sriracha sauce
+1T (black) vinegar
+10 cloves garlic
+1T ginger
+2tsp agave nectar
+4T soy sauce
+2T oil
+
 [recipe spicy garlic eggplant with tofu]
 source: Internet, Jan
 servings: 4
@@ -3969,6 +4211,16 @@ serving size: 350g
 4 scallions
 1 clove garlic
 1/2 tsp ginger
+
+[recipe Chinese carrot sauce]
+source: Jan
+servings: 4
+serving size: 130g
+3T oil
+1T cornstarch
+1lb carrots
+1/4C soy sauce
+2 cloves garlic
 
 [recipe carrots with fresh cilantro]
 source: World Vegetarian, p159
@@ -4187,12 +4439,35 @@ servings: 4
 [recipe Nepali potatoes]
 source: The Spice Box, p89
 servings: 4
-# serving size: 320g
+serving size: 320g
 # total (+ 288 373 620)1281g (/ 1281 373.0)
 4T oil
 1.5 onions (2 medium)
 800g potatoes (4 medium)
 4 cloves garlic
+
+[recipe Nepali potatoes 2]
+source: The Spice Box, p89
+servings: 5
+serving size: 300g
+# total (+ 288 373 620)1281g (/ 1281 373.0)
+4T oil
+437g onions (2 large)
+1020g potatoes (3 large)
+23g cloves garlic
+15g ginger
+
+[recipe Nepali potatoes 3]
+# Jan's chickpea version.
+source: The Spice Box, p89
+servings: 6
+serving size: 300g
+4T oil
+437g onions (2 large)
+1020g potatoes (3 large)
+15.5oz (1 can) canned chickpeas
+23g cloves garlic
+15g ginger
 
 [recipe Red Lentil special #1]
 # faked based on what was served on 3-Oct-15, and not including the
@@ -4692,6 +4967,16 @@ servings: 7
 1 clove garlic
 1/2C bread crumbs
 
+[recipe pine nut cream]
+servings: 7
+serving size: 80g
+1lb soft tofu
+1/2C pine nuts
+3T lemon juice
+# 1tsp arrowroot powder
+1 clove garlic
+1/2C bread crumbs
+
 [recipe Evelyn's mixed root vegetables]
 source: wild guessing
 servings: 8
@@ -4997,6 +5282,22 @@ servings: 12
 1/2C bread crumbs
 1/4C vital wheat gluten
 
+[recipe lentil-cauliflower curry]
+source: red lentil-cauliflower curry, Veganomicon p186, Jan
+servings: 6
+serving size: 300g
+3T oil
+1 large onion
+1 chili
+2 scallions
+2T ginger
+2 carrots (instead of parsnip)
+1-1/2C dry (red) lentils
+# 4C broth
+2lb cauliflower
+2T lime juice
+1/2T salt
+
 [recipe red lentil sauce]
 source: Jan
 servings: 4
@@ -5088,7 +5389,7 @@ serving size: 200g
 source: Jan, Anna
 servings: 6.28
 # serving size: 1 radian
-serving size: 210g
+serving size: 200g
 1 pie crust
 3 eggs
 2.5C broccoli
@@ -5096,6 +5397,36 @@ serving size: 210g
 5oz feta cheese
 1C onions
 2T oil
+
+[recipe Jan's feta and mushroom quiche 3]
+servings: 6.28
+# serving size: 1 radian
+serving size: 200g
+1 pie crust
+4 eggs
+3oz feta cheese
+1/2 onion
+1/2C sun-dried tomatoes
+3/4lb spinach
+8oz white mushrooms
+3/4C almond milk
+2T oil
+
+[recipe feta and mushroom quiche, no crust]
+source: Jan
+# makes two quiches
+servings: 12.56
+# serving size: 1 radian
+serving size: 160g
+12 eggs
+1lb bacon
+2/3C milk
+1lb spinach
+5oz feta cheese
+1 onion
+4 cloves garlic
+12oz white mushrooms
+5T oil
 
 [recipe oil crust]
 servings: 1
@@ -5280,6 +5611,18 @@ serving size: 300g
 8 cloves garlic
 2T oil
 
+[recipe Italian lentil soup]
+source: Jan
+servings: 4
+serving size: 300g
+1C dry lentils
+1 onion
+3 cloves garlic
+5 carrots
+8oz (4 small) tomatoes
+1T tomato paste
+3T oil
+
 [recipe vegetarian pot pie]
 source: Vegetarian Times Complete Cookbook p240, p446, Jan
 servings: 8
@@ -5442,6 +5785,18 @@ serving size: 107g
 1/2C heavy cream
 # salt to taste 
 
+[recipe paneer korma]
+# plus estimation based on Punjab Restaurant
+source: https://www.indianhealthyrecipes.com/paneer-korma-recipe-paneer-kurma/
+# servings computed from the calories in "Nutrition Facts" on the Web page.
+servings: 4.25
+serving size: 250g
+2 large onions
+400g paneer
+1 tomato
+25g Kirkland cashews
+1oz coconut
+
 [recipe navratan korma]
 # plus estimation based on Rang Indian Bistro
 source: http://allrecipes.com/recipe/86602/navratan-korma/
@@ -5590,6 +5945,27 @@ serving size: 500g
 # lasagna
 3/4lb cooked pasta
 1T olive oil
+
+[recipe cashew ricotta]
+servings: 8
+serving size: 1/4 cup
+serving size: 70g
+1/2C raw cashews
+1/4C lemon juice
+1T olive oil
+2 cloves garlic (roasted)
+1lb extra-firm tofu
+1-1/2tsp salt
+
+[recipe lasagne marinara with spinach]
+source: Veganomicon p196, Jan
+servings: 8
+serving size: 300g
+2 recipes cashew ricotta
+1lb dry pasta
+2lb spinach
+2T olive oil
+1 recipe pine nut cream
 
 [recipe masala zucchini]
 source: Internet, Jan
@@ -5813,6 +6189,19 @@ servings: 1
 4oz portabella mushrooms
 1T oil
 
+[recipe Red Lentil tofu with corn cake]
+alias: Pistachio & Coconut Herb-Encrusted Tofu with Corn Cake
+source: guesswork based on Red Lentil on 11-Oct-18.
+# http://theredlentil.com/menus/dinner-menu
+servings: 1
+2oz corn
+1oz pistachios
+1/2oz coconut
+4oz extra-firm tofu
+1oz white flour
+1oz Jan's spinach pesto (for spinach & pesto)
+2tsp oil
+
 [recipe Jan's artichoke and gnocchi wombat]
 servings: 4
 serving size: 350g
@@ -5897,6 +6286,26 @@ serving size: 450g
 15.5oz (1 can) canned chickpeas
 1/4C oil
 
+[recipe sweet potato and barley soup]
+source: Jan
+servings: 5
+serving size: 300g
+1 large onion
+4 cloves garlic
+2T ginger
+3 medium sweet potatoes
+1/2C dry pearl barley
+2T sriracha sauce
+3C spinach
+1/4C oil
+
+[recipe barbecued tofu]
+source: Jan
+servings: 4
+serving size: 100g
+14oz extra-firm tofu
+4oz Sweet Baby Ray's barbecue sauce
+
 [recipe sassy sesame tofu]
 source: Vegan Under Pressure p211, Jan
 servings: 6
@@ -5960,6 +6369,19 @@ serving size: 300g
 7oz corn
 15.5oz (1 can) kidney beans
 2T tomato paste
+
+[recipe Mexican stew]
+servings: 8
+serving size: 400g
+2 carrots
+3 celery stalks
+2 bell peppers
+1.5 large onion
+1.5lb potatoes
+24oz tomatoes (diced)
+3T oil
+31oz (2 cans) kidney beans
+4C water
 
 [recipe muttar chole]
 source: Vegetarian India, Jan
@@ -6117,3 +6539,26 @@ serving size: 250g
 2T ginger
 4T oil
 31oz (2 cans) canned chickpeas
+
+[recipe sopa de garbanzos]
+source: The 30-Minute Vegetarian Mexican Cookbook p19, Jan
+servings: 4
+serving size: 400g
+1/2 large onion
+3 cloves garlic
+3 carrots
+1T oil
+# 4C vegetable stock
+15.5oz (1 can) canned chickpeas
+2T chipotle in adobo
+# feta added separately
+
+[recipe vegan stroganoff sauce]
+source: Jan
+servings: 3
+serving size: 250g
+12oz white mushrooms
+5 cloves garlic
+1C raw cashews
+12oz soft tofu
+3T oil

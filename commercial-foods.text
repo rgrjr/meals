@@ -232,6 +232,16 @@ source: Starbucks: http://www.starbucks.com/menu/food/bakery/blueberry-scone
 420mg sodium
 75mg cholesterol
 
+[item Panera wild blueberry scone]
+source: https://www.panerabread.com/content/dam/panerabread/documents/nutrition/Panera-Nutrition.pdf
+460 calories
+19g fat
+64g carbohydrate
+1g fiber
+8g protein
+900mg sodium
+70mg cholesterol
+
 [item Panera orange scone]
 source: http://www.caloriecount.com/calories-panera-bread-orange-scone-i63414
 430 calories
@@ -316,6 +326,18 @@ serving size: 20g
 452mg sodium
 22g carbohydrate
 5g fiber
+6g protein
+
+[item Tasty Bite Kashmir spinach]
+# looks like palak paneer.
+# serving size: 1/2 package
+# CHO%10.9
+110 calories
+7g fat
+15mg cholesterol
+470mg sodium
+6g carbohydrate
+3g fiber
 6g protein
 
 [item Trader Joe's Jaipur vegetables]
@@ -432,6 +454,30 @@ serving size: 150g
 9g fiber
 10g protein
 
+[item Ashoka Bombay pav bhaji]
+# serving size: 1/2 package
+serving size: 140g
+# CHO%46.7
+120 calories
+4g fat
+0mg cholesterol
+580mg sodium
+16g carbohydrate
+2g fiber
+3g protein
+
+[item Ashoka saag aloo]
+# serving size: 1/2 package
+serving size: 140g
+# CHO%40.0
+140 calories
+7g fat
+0mg cholesterol
+830mg sodium
+15g carbohydrate
+1g fiber
+2g protein
+
 [item Haldiram's aloo mutter]
 # serving size: 1/2 package
 # CHO%28.6
@@ -504,7 +550,7 @@ serving size: 150g
 260 calories
 19g fat
 25mg cholesterol
-600mg sodium
+680mg sodium
 14g carbohydrate
 2g fiber
 9g protein
@@ -519,6 +565,17 @@ serving size: 150g
 13g carbohydrate
 2g fiber
 5g protein
+
+[item Haldiram's palak paneer]
+# serving size: 1/2 package
+# CHO%13.7
+350 calories
+20g fat
+35mg cholesterol
+770mg sodium
+14g carbohydrate
+2g fiber
+11g protein
 
 [item Haldiram's paneer makhani]
 # serving size: 1/2 package
@@ -545,7 +602,9 @@ serving size: 125g
 3g protein
 
 [item Kitchens of India mutter paneer]
-# serving size: 1/2 package
+alias: KoI peas & cottage cheese curry
+alias: Kitchens of India green peas & cottage cheese curry
+# serving size: 2.5 per package
 serving size: 125g
 # package size: 285g
 # CHO%24.0
@@ -614,6 +673,28 @@ alias: MTR aloo muttar
 10.5g carbohydrate
 7g fiber
 3g protein
+
+[item MTR dal palak]
+# serving size: 1/2 package
+# CHO%32.4
+111 calories
+5g fat
+2mg cholesterol
+435mg sodium
+12g carbohydrate
+3g fiber
+4.5g protein
+
+[item MTR dal makhani]
+# serving size: 1/2 package
+# CHO%11.8
+204 calories
+12g fat
+17mg cholesterol
+1287mg sodium
+18g carbohydrate
+12g fiber
+6g protein
 
 [item MTR kadhi pakora]
 # serving size: 1/2 package
@@ -716,6 +797,17 @@ serving size: 5oz
 13.5g carbohydrate
 6g fiber
 7.5g protein
+
+[item MTR pav bhaji]
+# serving size: 1/2 package
+# CHO%36.1
+144 calories
+8g fat
+12mg cholesterol
+716mg sodium
+15g carbohydrate
+2g fiber
+3g protein
 
 [item MTR peas & mushroom curry]
 # serving size: 1/2 package
@@ -1101,6 +1193,17 @@ serving size: 78g
 3g fiber
 5g protein
 
+[item Lay's wavy potato chips]
+# CHO%35.0
+serving size: 1oz
+160 calories
+10g fat
+0mg cholesterol
+140mg sodium
+15g carbohydrate
+1g fiber
+2g protein
+
 [item Utz kettle sweet potato chips]
 alias: Utz Kettle Classics sweet potato chips
 serving size: 1oz
@@ -1280,6 +1383,7 @@ serving size: 17g
 50mg sodium
 
 [item Boudin sourdough roll]
+alias: Boudin sourdough loaf
 alias: one half Boudin sourdough roll
 serving size: 56g
 150 calories
@@ -1886,6 +1990,18 @@ source: http://www.qdoba.com/menu-nutrition/burritos-menu-nutrition
 1665mg sodium
 0mg cholesterol
 
+[item Sweet Baby Ray's barbecue sauce]
+source: Sweet Baby Ray's
+serving size: 37g
+serving size: 2T
+70 calories
+0g protein
+0g fat
+18g carbohydrate
+0g fiber
+0mg cholesterol
+290mg sodium
+
 [item chili garlic sauce]
 source: Lee Kum Kee
 serving size: 18g
@@ -2079,6 +2195,17 @@ source: http://www.myfitnesspal.com/food/calories/columbus-italian-dry-salami-pe
 1g carbohydrate
 0g fiber
 6g protein
+
+[item Ticino Italian dry salame]
+serving size: 1oz
+source: Ticino Specialty Meats
+100 calories
+7g fat
+20mg cholesterol
+340mg sodium
+2g carbohydrate
+0g fiber
+7g protein
 
 [item Clif bar, crunchy peanut butter]
 serving size: 68g
