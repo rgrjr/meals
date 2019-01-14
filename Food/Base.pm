@@ -150,8 +150,11 @@ sub parse_units {
 	my ($units, $name) = ($1, $2);
 	my $unit_class;
 	$units = _canonicalize_units($units);
-	if ($units =~ /(svg|serving)s?$/i) {
+	if ($units =~ /^(svg|serving)s?$/i) {
 	    $unit_class = $units = 'serving';
+	}
+	elsif ($units =~ /^recipes?$/i) {
+	    $unit_class = $units = 'recipe';
 	}
 	elsif ($weight_in_grams{$units}) {
 	    $unit_class = 'weight';

@@ -74,8 +74,12 @@ for my $item_name (@show_items) {
 	    $missing_p = '*';
 	}
 	my $units = $ing->units || '';
-	$units = ''
-	    if $units eq 'serving';
+	if ($units eq 'serving') {
+	    $units = '';
+	}
+	elsif ($units eq 'recipe') {
+	    $units = ' recipe';
+	}
 	printf(" %s  %-28s  %s %s %s %s CHO%%%.1f\n",
 	       $missing_p || ' ',
 	       ($ing->amount || '') . $units . ' ' . $it->name,

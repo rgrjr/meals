@@ -32,6 +32,9 @@ sub new {
     if ($units eq 'serving') {
 	$self->n_servings($amount);
     }
+    elsif ($units eq 'recipe') {
+	$self->n_servings($amount * $item->n_servings);
+    }
     else {
 	my ($n_servings, $from_factor);
 	# [units are case-sensitive elsewhere.  -- rgr, 4-Apr-15.]
