@@ -115,6 +115,7 @@ serving size: 105g
 0mg cholesterol
 
 [item everything bagel]
+alias: multiseed bagel
 source: USDA: 45170505, Western Bagel, everything bagels
 # 
 serving size: 100g
@@ -212,6 +213,7 @@ alias: Kickstand Cafe scone, blueberry oatmeal
 alias: Kickstand Cafe scone, raspberry lemon
 alias: Kickstand Cafe scone, raspberry honey
 alias: Kickstand Cafe scone, raspberry ginger
+alias: Kickstand Cafe scone, raspberry oatmeal
 alias: Kickstand Cafe scone, pear ginger
 alias: Kickstand Cafe scone, strawberry coconut
 alias: Kickstand Cafe scone, cranberry orange
@@ -545,6 +547,7 @@ serving size: 140g
 4g protein
 
 [item Haldiram's mutter paneer]
+alias: Haldiram's muttar paneer
 # serving size: 1/2 package
 # CHO%18.5
 260 calories
@@ -907,6 +910,17 @@ serving size: 55g
 2g fiber
 9g protein
 
+[item Tofurky beef style crumbles]
+serving size: 55g
+# 1 pkg = 12oz (340g)
+100 calories
+5g fat
+0mg cholesterol
+270mg sodium
+4g carbohydrate
+2g fiber
+9g protein
+
 [item Daiya cheddar style shreds]
 serving size: 28g
 serving size: 1/4C
@@ -986,6 +1000,19 @@ serving size: 150g
 48g carbohydrate
 0g fiber
 0g protein
+
+[item soba]
+alias: soba noodles
+source: USDA: 20114, Noodles, japanese, soba, dry
+serving size: 100g
+336 calories
+14g protein
+1g fat
+0mg cholesterol
+75g carbohydrate
+792mg sodium
+# [fiber is not actually shown.
+0g fiber
 
 [item udon]
 serving size: 140g
@@ -1147,6 +1174,18 @@ serving size: 35g
 0g fiber
 2g protein
 
+[item 2019 Girl Scout PB cookies]
+alias: 2019 Girl Scout peanut butter sandwich cookies
+serving size: 35g
+# 35g = 3 cookies
+170 calories
+7g fat
+0mg cholesterol
+135mg sodium
+26g carbohydrate
+0g fiber
+2g protein
+
 [item Top Ramen]
 source: Nissin
 serving size: 1.5oz
@@ -1158,6 +1197,17 @@ serving size: 1.5oz
 26g carbohydrate
 1g fiber
 5g protein
+
+[item Utz new Ripples potato chips]
+serving size: 1oz
+# CHO%35.0
+160 calories
+10g fat
+0mg cholesterol
+95mg sodium
+15g carbohydrate
+1g fiber
+2g protein
 
 [item Utz Ripples potato chips]
 serving size: 1oz
@@ -1418,6 +1468,19 @@ serving size: 3.7oz
 2g fiber
 6g protein
 
+[item petite palmier]
+source: Sugar Bowl Bakery
+# CHO%42.9
+# 1 cookie = 26g
+serving size: 26g
+140 calories
+8g fat
+20mg cholesterol
+110mg sodium
+15g carbohydrate
+0g fiber
+2g protein
+
 [item Honeydew croissant]
 source: http://honeydewdonuts.com/menu/item/Croissant
 # CHO%50.9
@@ -1467,6 +1530,18 @@ source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/bakery/don
 1g fiber
 4g protein
 
+[item Dunkin' Donuts glazed stick]
+# as of 9-Apr-19.
+source: https://www.dunkindonuts.com/en/food-drinks/donuts/donuts
+# CHO%41.0
+410 calories
+25g fat
+30mg cholesterol
+370mg sodium
+43g carbohydrate
+1g fiber
+4g protein
+
 [item DD old fashioned cake donut]
 alias: Dunkin' Donuts old fashioned cake donut
 source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/bakery/donuts/donuts.html?DRP_FLAVOR=Old+Fashioned+Cake+Donut
@@ -1478,6 +1553,18 @@ source: http://www.dunkindonuts.com/content/dunkindonuts/en/menu/food/bakery/don
 33g carbohydrate
 1g fiber
 3g protein
+
+[item Dunkin' Donuts old fashioned donut]
+# as of 9-Apr-19.
+source: https://www.dunkindonuts.com/en/food-drinks/donuts/donuts
+# CHO%37.2
+290 calories
+19g fat
+25mg cholesterol
+320mg sodium
+28g carbohydrate
+1g fiber
+4g protein
 
 [item DD pumpkin munchkin]
 source: https://www.dunkindonuts.com/dunkindonuts/en/menu/food/bakery/munchkins/munchkins.html?DRP_FLAVOR=Pumpkin
@@ -1645,6 +1732,18 @@ serving size: 90g
 3g fiber
 3g protein
 
+[item frozen organic mixed vegetables]
+source: Watts Brothers Farms
+serving size: 90g
+serving size: 2/3C
+50 calories
+0.5g fat
+0mg cholesterol
+35mg sodium
+10g carbohydrate
+3g fiber
+2g protein
+
 [item Market Basket frozen mixed vegetables 2]
 source: Market Basket
 serving size: 90g
@@ -1798,6 +1897,18 @@ serving size: 135g
 1092mg sodium
 0mg cholesterol
 
+[item Market Basket pizza sauce]
+source: Market Basket
+serving size: 60g
+# 1 can = 425g
+25 calories
+0.5g fat
+0mg cholesterol
+80mg sodium
+4g carbohydrate
+1g fiber
+1g protein
+
 [item MB apple pie]
 source: Market Basket
 serving size: 4.6oz
@@ -1824,6 +1935,19 @@ serving size: 155g
 0g fiber
 0mg cholesterol
 327mg sodium
+
+[item blueberry crepe]
+source: USDA: 45203993, CREPES WITH FRUIT FILLING, UPC: 5410792001492 
+serving size: 65g
+# 1 crepe = 65g
+# CHO%55.7
+140 calories
+2g protein
+5g fat
+20.5g carbohydrate
+1g fiber
+12mg cholesterol
+100mg sodium
 
 [item peach pie]
 source: USDA: Pie, peach
@@ -2230,6 +2354,18 @@ source: Nature Valley "Sweet & Salty Nut"
 23g carbohydrate
 1g fiber
 2g protein
+
+[item Nature Valley peanut granola bar]
+serving size: 35g
+source: Nature Valley "Sweet & Salty Nut"
+# CHO%57.5
+170 calories
+8g fat
+0mg cholesterol
+140mg sodium
+20g carbohydrate
+1g fiber
+4g protein
 
 [item random mixed vegetable curry]
 serving size: 125g

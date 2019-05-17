@@ -95,6 +95,8 @@ alias: cooked rice
 alias: rice, white basmati
 source: USDA: Rice, white, long-grain, regular, cooked, enriched
 serving size: 100g
+# 1C = 158g
+serving size: 0.633C
 130 calories
 3g protein
 0g fat
@@ -294,6 +296,18 @@ serving size: 120g
 13mg sodium
 0mg cholesterol
 
+[item phyllo dough]
+source: USDA: 18338, Phyllo dough
+# 1 sheet = 19g
+serving size: 100g
+299 calories
+17g protein
+6g fat
+53g carbohydrate
+2g fiber
+483mg sodium
+0mg cholesterol
+
 [item rice flour]
 source: USDA: 20061, Rice flour, white, unenriched
 serving size: 1C
@@ -335,6 +349,7 @@ serving size: 30g
 source: Bob's Red Mill organic whole grain soy flour
 serving size: 0.25C
 # 1C = 125g
+serving size: 31g
 120 calories
 6g fat
 0mg cholesterol
@@ -613,6 +628,16 @@ serving size: 28g
 1g fiber
 5g protein
 
+[item TJ's less salt peanuts]
+serving size: 28g
+160 calories
+14g fat
+0mg cholesterol
+55mg sodium
+5g carbohydrate
+2g fiber
+7g protein
+
 [item oil-roasted salted cashews]
 source: USDA: 12586, Nuts, cashew nuts, oil roasted, with salt added
 serving size: 30g
@@ -815,7 +840,7 @@ serving size: 3/4C
 4g fiber
 2g protein
 
-[item white mushrooms]
+[item white mushroom]
 source: USDA: 11260, Mushrooms, white, raw
 serving size: 96g
 # 1C pieces or slices = 70g
@@ -1128,6 +1153,18 @@ source: Wholesome Sweeteners, Inc
 0mg cholesterol
 0mg sodium
 
+[item honey]
+source: USDA: 19296, Honey
+serving size: 1T
+serving size: 21g
+64 calories
+0g protein
+0g fat
+17g carbohydrate
+0g fiber
+0mg cholesterol
+0mg sodium
+
 [item vanilla extract]
 source: USDA: Vanilla extract
 serving size: 1tsp
@@ -1154,7 +1191,7 @@ source: Whole Foods
 [item almond milk]
 source: Blue Diamond Almond Breeze
 serving size: 1C
-# 1C = 240ml
+serving size: 240g
 # 1 container = 4C
 30 calories
 2.5g fat
@@ -1667,7 +1704,7 @@ serving size: 0.022C
 0mg sodium
 
 [item shredded cabbage]
-source: USDA: Cabbage, raw
+source: USDA: 11109, Cabbage, raw
 serving size: 1C
 # 1C shredded = 70g
 serving size: 70g
@@ -1720,10 +1757,10 @@ serving size: 136g
 0mg cholesterol
 
 [item egg]
-alias: eggs
 source: USDA: 01123, Egg, whole, raw, fresh
 serving size: 50g
 # 1 large egg = 50g
+alias: large egg
 72 calories
 6g protein
 5g fat
@@ -1972,6 +2009,31 @@ serving size: 1.5C
 0mg cholesterol
 79mg sodium
 
+[item cooked spinach]
+source: USDA: 11458, Spinach, cooked, boiled, drained, without salt
+serving size: 180g
+serving size: 1C
+41 calories
+5g protein
+1/2g fat
+7g carbohydrate
+4g fiber
+0mg cholesterol
+126mg sodium
+
+[item fresh parsley]
+source: USDA: 11297, Parsley, fresh
+serving size: 100g
+# 1C chopped = 60g
+serving size: 1.67C
+36 calories
+3g protein
+1g fat
+6g carbohydrate
+3g fiber
+0mg cholesterol
+56mg sodium
+
 [item frozen spinach]
 source: USDA: 11463, Spinach, frozen, chopped or leaf, unprepared
 serving size: 1C
@@ -2104,7 +2166,7 @@ serving size: 1.73C
 4mg sodium
 0mg cholesterol
 
-[item scallions]
+[item scallion]
 alias: bunches scallions
 # Jan: "six, skinny, stupid"
 source: USDA: 11291, Onions, spring or scallions (includes tops and bulb), raw
@@ -2752,7 +2814,7 @@ serving size: 0.26C
 5mg sodium
 0mg cholesterol
 
-[item sliced ripe olives]
+[item sliced ripe olive]
 source: Pastene
 serving size: 16g
 serving size: 2T
