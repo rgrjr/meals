@@ -558,6 +558,18 @@ alias: Haldiram's muttar paneer
 2g fiber
 9g protein
 
+[item Haldiram's new mutter paneer]
+alias: Haldiram's new muttar paneer
+# serving size: 1/2 package
+# CHO%18.2
+330 calories
+24g fat
+35mg cholesterol
+800mg sodium
+17g carbohydrate
+2g fiber
+11g protein
+
 [item Haldiram's navrattan mixed vegetables]
 # serving size: 1/2 package
 # CHO%20.0
@@ -899,6 +911,17 @@ serving size: 100g
 1g fiber
 30g protein
 
+[item Tofurkey original Italian sausage]
+# serving size: 1 sausage
+serving size: 99g
+270 calories
+15g fat
+0mg cholesterol
+490mg sodium
+10g carbohydrate
+2g fiber
+24g protein
+
 [item Tofurkey ground beef style]
 alias: meatless ground crumbles
 serving size: 55g
@@ -987,6 +1010,17 @@ serving size: 100g
 10g carbohydrate
 3g fiber
 11g protein
+
+[item egg roll wrapper]
+# I think this means 4 wrappers; Jan didn't count.
+serving size: 4oz
+320 calories
+2.5g fat
+50mg cholesterol
+310mg sodium
+59g carbohydrate
+0g fiber
+12g protein
 
 [item Jack Hua cooked rice noodles]
 source: Jack Hua Company Limited
@@ -1228,7 +1262,6 @@ serving size: 1oz
 0mg cholesterol
 160mg sodium
 15g carbohydrate
-# [fiber is a guess.  -- rgr, 27-Jun-15.]
 1g fiber
 2g protein
 

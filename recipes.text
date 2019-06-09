@@ -182,7 +182,7 @@ serving size: 215g
 5C broccoli (chopped)
 
 [recipe linguine with tomato curry 2]
-# half the tomato sauce.
+# half the tomato sauce, plus olives.
 source: Bold Vegetarian p182, Jan
 servings: 4
 serving size: 230g
@@ -206,6 +206,39 @@ serving size: 150g
 4 firm tofu (1 package)
 2T oil
 60g cornstarch
+
+[recipe asparagus with almonds]
+source: An Encyclopedia Of Chinese Food And Cooking p.376, Jan
+servings: 6
+serving size: 120g
+4T oil
+2 scallions
+1lb asparagus
+1tsp salt
+1/2tsp sugar
+1/3C almonds
+
+[recipe Jan's spring rolls]
+servings: 14
+serving size: 130g
+1/4 shredded cabbage
+4 carrots
+4 scallions
+6 eggs
+8oz brown mushrooms
+14 egg roll wrappers
+
+[recipe family style fish]
+source: An Encyclopedia Of Chinese Food And Cooking p.148, Jan
+servings: 4
+serving size: 150g
+5T oil
+1lb tilapia
+1T flour
+2 scallions
+1T ginger
+1tsp sugar
+1/8C soy sauce
 
 [recipe stir-fried veggies]
 # tofu served separately
@@ -340,6 +373,16 @@ serving size: 325g
 2 cloves garlic
 12oz white mushrooms
 1T sriracha sauce
+
+[recipe stir-fried veggies with tofu 12]
+servings: 4
+serving size: 300g
+14oz House Foods firm tofu (1 package)
+1/2lb green beans
+4 carrots
+3 bell peppers
+5T oil
+1/4C soy sauce
 
 [recipe stir-fried veggies with peppers and tofu]
 servings: 4
@@ -1715,7 +1758,7 @@ serving size: 45g
 [recipe Jan's pesto]
 # makes 275g total
 servings: 6
-serving size: 45g
+serving size: 40g
 2 cloves garlic
 # 1lb basil leaves
 0.5C olive oil
@@ -1725,12 +1768,21 @@ serving size: 45g
 [recipe Jan's light feta pesto]
 # makes 275g total
 servings: 6
-serving size: 45g
+serving size: 40g
 2 cloves garlic
 # 1lb basil leaves
 0.5C olive oil
 3oz Trader Joe's light feta cheese
 0.25C walnuts (chopped)
+
+[recipe Jan's extra walnut pesto]
+servings: 18
+serving size: 40g
+6 cloves garlic
+# basil leaves
+1.5C olive oil
+9oz feta cheese
+1.25C walnuts (chopped)
 
 [recipe multibean minestrone]
 source: recipes from an ecological kitchen, p50
@@ -3779,6 +3831,17 @@ serving size: 275g
 208g feta cheese
 1/3C olive oil
 
+[recipe pasta and feta 14]
+servings: 5
+# based on 1421g total weight.
+serving size: 280g
+2T apple cider vinegar (really balsamic)
+30g garlic
+200g walnuts
+760g cooked pasta
+200g feta cheese
+1/3C olive oil
+
 [recipe pasta and feta without feta]
 # Lizzie and I made this before realizing that the feta had gone bad.
 servings: 4
@@ -4439,6 +4502,21 @@ serving size: 300g
 1T ginger
 1tsp cornstarch
 
+[recipe Szechuan eggplant with black beans 3]
+source: Appetite for China (web), Jan
+servings: 5
+serving size: 320g
+2.5lb eggplant
+2T chili garlic sauce
+2T soy sauce
+2T vinegar
+2tsp agave nectar
+15.5oz (1 can) black beans
+1/4C (peanut) oil
+3 cloves garlic
+1T ginger
+1tsp cornstarch
+
 [recipe spicy garlic eggplant with tofu]
 source: Internet, Jan
 servings: 4
@@ -4681,6 +4759,21 @@ serving size: 35g
 3/4C brown sugar
 2T egg replacer
 2.2C chocolate chips
+
+[recipe Dagny's choco chippie cookie]
+alias: triple chocolate chip cookies
+# via Dagny and Lizzie.
+source: https://www.iheartnaptime.net/triple-chocolate-chip-cookies
+servings: 18
+serving size: 75g
+1 cup butter
+1-1/2 cups sugar
+1/2 cups brown sugar
+2 large eggs
+2 cups white flour
+3/4 cup cocoa powder
+1tsp salt
+2C chocolate chips
 
 [recipe vegan oatmeal raisin cookie]
 source: Vegan Cupcakes Take Over The World, p75
@@ -5052,6 +5145,22 @@ serving size: 300g
 4T oil
 4 cloves garlic
 14oz Vitasoy extra-firm tofu
+8T soy sauce
+4T peanut butter
+4T lime juice
+1T agave nectar
+2T sriracha sauce
+
+[recipe PETA pad thai 4]
+source: https://www.peta.org/recipes/easy-vegan-pad-thai/, Jan
+servings: 6
+serving size: 250g
+16oz dried rice noodles
+1lb snow peas
+4 (3 large) carrots
+250g (estimated) shredded cabbage
+4T oil
+4 cloves garlic
 8T soy sauce
 4T peanut butter
 4T lime juice
