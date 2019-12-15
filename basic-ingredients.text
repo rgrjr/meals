@@ -130,6 +130,19 @@ serving size: 195g
 2mg sodium
 0mg cholesterol
 
+[item spring roll skin]
+# 1 pkg = 24 skins
+# 1 skin = 14.4g
+serving size: 100g
+source: mfr
+340 calories
+0g fat
+0mg cholesterol
+860mg sodium
+82g carbohydrate
+0g fiber
+2g protein
+
 [item uncooked quinoa]
 serving size: 100g
 # 1C = 170g
@@ -628,6 +641,17 @@ serving size: 28g
 1g fiber
 5g protein
 
+[item TJ's not so salty cashew pieces]
+alias: TJ's cashew pieces
+serving size: 30g
+170 calories
+14g fat
+0mg cholesterol
+30mg sodium
+9g carbohydrate
+1g fiber
+5g protein
+
 [item TJ's less salt peanuts]
 serving size: 28g
 160 calories
@@ -986,6 +1010,7 @@ serving size: 60g
 0mg cholesterol
 
 [item dry pasta]
+# 1lb dry pasta = 2.35lb cooked pasta
 alias: shell pasta
 source: USDA: Macaroni, dry, enriched
 serving size: 100g
@@ -2352,6 +2377,17 @@ serving size: 150g
 0g fiber
 99mg cholesterol
 392mg sodium
+
+[item mahimahi]
+source: USDA: 15194, Fish, mahimahi, cooked, dry heat
+serving size: 100g
+109 calories
+24g protein
+1g fat
+0g carbohydrate
+0g fiber
+94mg cholesterol
+113mg sodium
 
 [item salmon]
 source: USDA: Fish, salmon, sockeye, cooked, dry heat

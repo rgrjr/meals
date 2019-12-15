@@ -54,6 +54,17 @@ serving size: 131g
 700mg sodium
 0mg cholesterol
 
+[item egg bagel]
+source: https://www.eatthismuch.com/food/nutrition/egg-bagel,190692/
+serving size: 77g
+217 calories
+2g fat
+19mg cholesterol
+393mg sodium
+41g carbohydrate
+2g fiber
+8g protein
+
 [item multigrain bagel]
 source: https://www.eatthismuch.com/food/view/multigrain-bagel,168376/
 serving size: 121g
@@ -456,6 +467,30 @@ serving size: 150g
 9g fiber
 10g protein
 
+[item Ashoka aloo matar]
+# serving size: 1/2 package
+serving size: 140g
+# 
+170 calories
+10g fat
+0mg cholesterol
+510mg sodium
+16g carbohydrate
+2g fiber
+4g protein
+
+[item Ashoka baigan bharta]
+# serving size: 1/2 package
+serving size: 140g
+# 
+150 calories
+9g fat
+0mg cholesterol
+600mg sodium
+12g carbohydrate
+3g fiber
+3g protein
+
 [item Ashoka Bombay pav bhaji]
 # serving size: 1/2 package
 serving size: 140g
@@ -465,6 +500,18 @@ serving size: 140g
 0mg cholesterol
 580mg sodium
 16g carbohydrate
+2g fiber
+3g protein
+
+[item Ashoka dum aloo]
+# serving size: 1/2 package
+serving size: 140g
+# 
+170 calories
+9g fat
+0mg cholesterol
+440mg sodium
+17g carbohydrate
 2g fiber
 3g protein
 
@@ -480,6 +527,18 @@ serving size: 140g
 1g fiber
 2g protein
 
+[item Ashoka shahi navratan korma]
+# serving size: 1/2 package
+serving size: 140g
+# 
+210 calories
+15g fat
+0mg cholesterol
+470mg sodium
+14g carbohydrate
+2g fiber
+3g protein
+
 [item Haldiram's aloo mutter]
 # serving size: 1/2 package
 # CHO%28.6
@@ -490,6 +549,17 @@ serving size: 140g
 11g carbohydrate
 1g fiber
 3g protein
+
+[item Haldiram's dal makhani]
+# serving size: 1/2 package
+# CHO%28.0
+200 calories
+12g fat
+350mg cholesterol
+790mg sodium
+17g carbohydrate
+3g fiber
+6g protein
 
 [item Haldiram's Dilli style choley]
 # serving size: 1/2 package
@@ -592,6 +662,17 @@ alias: Haldiram's new muttar paneer
 2g fiber
 11g protein
 
+[item Haldiram's new palak paneer]
+# serving size: 1/2 package
+# CHO%13.7
+300 calories
+27g fat
+30mg cholesterol
+790mg sodium
+8g carbohydrate
+1g fiber
+7g protein
+
 [item Haldiram's paneer makhani]
 # serving size: 1/2 package
 # CHO%17.5
@@ -602,6 +683,17 @@ alias: Haldiram's new muttar paneer
 15g carbohydrate
 1g fiber
 8g protein
+
+[item Haldiram's new paneer makhani]
+# serving size: 1/2 package
+# CHO%14.2
+310 calories
+26g fat
+45mg cholesterol
+820mg sodium
+12g carbohydrate
+1g fiber
+7g protein
 
 [item Kitchens of India aloo mutter]
 # serving size: about 40% of package
@@ -760,6 +852,7 @@ serving size: 5oz
 [item MTR palak paneer]
 # serving size: 1/2 package
 # CHO%8.7
+serving size: 150g
 208 calories
 17g fat
 0mg cholesterol
@@ -987,6 +1080,17 @@ serving size: 71g
 9g carbohydrate
 2g fiber
 11g protein
+
+[item Tuttorosso tomato sauce]
+serving size: 61g
+serving size: 2.15floz
+15 calories
+0g fat
+0mg cholesterol
+10mg sodium
+3g carbohydrate
+1g fiber
+1g protein
 
 [item Trader Giotto's organic tomato basil marinara]
 serving size: 113g
@@ -1221,9 +1325,9 @@ serving size: 35g
 2g protein
 
 [item Top Ramen]
-source: Nissin
-serving size: 1.5oz
-# 1.5oz = 1/2 package
+alias: Maruchan ramen
+serving size: 100g
+# 1.5oz dry weight = 1/2 package = 100g cooked weight
 190 calories
 7g fat
 0mg cholesterol
@@ -1231,6 +1335,17 @@ serving size: 1.5oz
 26g carbohydrate
 1g fiber
 5g protein
+
+[item salt and pepper potato chips]
+serving size: 1oz
+# CHO%35.0
+160 calories
+9g fat
+0mg cholesterol
+160mg sodium
+16g carbohydrate
+1g fiber
+2g protein
 
 [item Utz new Ripples potato chips]
 serving size: 1oz
@@ -1382,6 +1497,18 @@ serving size: 1oz
 100mg sodium
 19g carbohydrate
 1g fiber
+2g protein
+
+[item Kirkland new organic tortilla chips]
+source: Kirkland
+serving size: 1oz
+# CHO%48.6
+140 calories
+6g fat
+0mg cholesterol
+100mg sodium
+19g carbohydrate
+2g fiber
 2g protein
 
 [item Cape Cod kettle potato chips]
@@ -1895,6 +2022,42 @@ source: https://www.sushifaq.com/sushi-health/calories-in-sushi/
 0g fiber
 4g protein
 
+[item salmon nigiri sushi]
+source: https://www.eatthismuch.com/food/nutrition/salmon-nigiri-sushi,130047/
+serving size: 140g
+# 4 pieces
+140 calories
+6g fat
+30mg cholesterol
+530mg sodium
+18g carbohydrate
+1g fiber
+11g protein
+
+[item tuna nigiri sushi]
+source: https://www.eatthismuch.com/food/nutrition/tuna-nigiri-sushi,130014/
+serving size: 140g
+# 4 pieces
+140 calories
+0.5g fat
+25mg cholesterol
+520mg sodium
+18g carbohydrate
+1g fiber
+13g protein
+
+[item tofu nigiri sushi]
+source: estimated, based on tuna nigiri sushi
+serving size: 140g
+# 4 pieces
+100 calories
+0.5g fat
+0mg cholesterol
+520mg sodium
+13g carbohydrate
+1g fiber
+8g protein
+
 [item Trident Alaskan salmon burger]
 source: USDA: Fish, salmon, sockeye, cooked, dry heat
 serving size: 113g
@@ -2035,6 +2198,18 @@ serving size: 147g
 # The fiber amount does not appear in the table.
 0g fiber
 272mg sodium
+0mg cholesterol
+
+[item other strawberry rhubarb pie]
+source: USDA: 45316715, strawberry rhubarb pie, UPC: 851838006180
+serving size: 3oz
+# CHO%60.9
+230 calories
+1g protein
+10g fat
+36g carbohydrate
+1g fiber
+130mg sodium
 0mg cholesterol
 
 [item Himalya Fresh mini samosas]
