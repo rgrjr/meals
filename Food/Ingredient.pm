@@ -66,4 +66,25 @@ sub mark_last_use {
 	if $item;
 }
 
+sub calories {
+    my ($self) = @_;
+
+    return $self->n_servings * $self->item->calories;
+}
+
+# Support for tally-dinners.pl.
+sub better_main_course_p {
+    my ($self, $other) = @_;
+
+    my $self_item_type = ref($self->item);
+    my $other_item_type = ref($other->item);
+    return 1
+	if ($self_item_type eq 'Food::Recipe'
+	    && $other_item_type ne 'Food::Recipe');
+    return 0
+	if ($other_item_type eq 'Food::Recipe'
+	    && $self_item_type ne 'Food::Recipe');
+    return $self->calories > $other->calories;
+}
+
 1;
