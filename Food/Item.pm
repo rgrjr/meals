@@ -276,27 +276,27 @@ sub parse_recipes {
 sub show_matching_recipes {
     my ($class, $name_regexps, $ingredient_regexps) = @_;
 
+    # This is the "bar" we must pass:  A match to all recipe names and
+    # ingredients.
+    my $bar = @$name_regexps + @$ingredient_regexps;
     my @recipes = sort { $a->name cmp $b->name;
     } grep {
 	if ($_->isa('Food::Recipe')) {
+	    my $match_count = 0;
 	    my $name = $_->name;
-	    my $result = 0;
 	    for my $re (@$name_regexps) {
-		$result = 1, last
+		$match_count++
 		    if $name =~ /$re/i;
 	    }
 	    my $ingredients = $_->ingredients;
-	    if (! $result && $ingredients
-		&& @$ingredients && @$ingredient_regexps) {
-		for my $ingredient (@$ingredients) {
-		    my $name = $ingredient->item->name;
-		    for my $re (@$ingredient_regexps) {
-			$result = 1, last
-			    if $name =~ /$re/i;
-		    }
+	    for my $ingredient (@$ingredients) {
+		my $name = $ingredient->item->name;
+		for my $re (@$ingredient_regexps) {
+		    $match_count++
+			if $name =~ /$re/i;
 		}
 	    }
-	    $result;
+	    $match_count == $bar;
 	}
     } values(%item_from_name);
     for my $recipe (@recipes) {
