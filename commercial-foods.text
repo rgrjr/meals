@@ -482,7 +482,7 @@ serving size: 140g
 [item Ashoka baigan bharta]
 # serving size: 1/2 package
 serving size: 140g
-# 
+# CHO%24.0
 150 calories
 9g fat
 0mg cholesterol
@@ -512,6 +512,18 @@ serving size: 140g
 0mg cholesterol
 440mg sodium
 17g carbohydrate
+2g fiber
+3g protein
+
+[item Ashoka Kashmiri dum aloo]
+# serving size: 1/2 package
+serving size: 140g
+# CHO%37.8
+180 calories
+10g fat
+10mg cholesterol
+490mg sodium
+19g carbohydrate
 2g fiber
 3g protein
 
@@ -1037,6 +1049,18 @@ serving size: 55g
 2g fiber
 9g protein
 
+[item Morningstar sausage patties]
+alias: Morningstar sausage
+serving size: 38g
+# 1 patty = 38g
+70 calories
+3g fat
+0mg cholesterol
+260mg sodium
+3g carbohydrate
+1g fiber
+9g protein
+
 [item Daiya cheddar style shreds]
 serving size: 28g
 serving size: 1/4C
@@ -1324,6 +1348,19 @@ serving size: 35g
 0g fiber
 2g protein
 
+[item 2020 Girl Scout PB cookies]
+alias: 2020 Girl Scout peanut butter sandwich cookies
+# CHO%47.1
+serving size: 34g
+# 34g = 3 cookies
+170 calories
+7g fat
+0mg cholesterol
+105mg sodium
+21g carbohydrate
+1g fiber
+3g protein
+
 [item Top Ramen]
 alias: Maruchan ramen
 serving size: 100g
@@ -1474,6 +1511,19 @@ serving size: 1oz
 16g carbohydrate
 1g fiber
 2g protein
+
+[item Terra vegetable chips]
+alias: Terra chips
+source: The Hain Celestial Group, Inc.
+serving size: 1oz
+# 
+150 calories
+9g fat
+0mg cholesterol
+115mg sodium
+16g carbohydrate
+3g fiber
+1g protein
 
 [item multigrain tortilla chips]
 source: Food Should Taste Good, Inc.
@@ -2068,6 +2118,18 @@ serving size: 113g
 330mg sodium
 2g carbohydrate
 0g fiber
+20g protein
+
+[item Beyond burger]
+source: Beyond Meat
+serving size: 4oz
+# one patty
+260 calories
+18g fat
+0mg cholesterol
+350mg sodium
+5g carbohydrate
+2g fiber
 20g protein
 
 [item veggie burger]
@@ -2859,6 +2921,16 @@ serving size: 5.5floz
 0g fat
 5mg sodium
 19g carbohydrate
+0g fiber
+0mg cholesterol
+0g protein
+
+[item Apple & Eve apple juice]
+serving size: 200ml
+90 calories
+0g fat
+10mg sodium
+26g carbohydrate
 0g fiber
 0mg cholesterol
 0g protein

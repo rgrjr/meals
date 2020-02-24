@@ -990,7 +990,21 @@ serving size:  280g
 2T cornstarch
 5T oil
 3T soy sauce
- 
+
+[recipe stir-fried veggies 17]
+source: Jan
+servings: 5
+serving size:  280g
+6 (4 big) carrots
+19oz Vitasoy extra-firm tofu
+4C broccoli (florets)
+1T hoisin sauce
+2T sriracha sauce
+1/4C soy sauce
+4T oil
+2T cornstarch
+2T sesame seeds
+
 [recipe Kirkland stir-fried veggies]
 servings: 5
 serving size: 200g
@@ -1130,6 +1144,7 @@ serving size: 300g
 [recipe stir-fried veggies for ramen 2]
 source: Jan
 servings: 2
+serving size: 200g
 2C broccoli
 1/2 onion
 2 carrots
@@ -1201,6 +1216,17 @@ source: Jan
 2T oil
 2 cloves garlic
 4T soy sauce
+
+[recipe stir-fried veggies for ramen 9]
+source: Jan
+servings: 2
+serving size: 200g
+2 carrots
+1/2 large onion
+3/4C bell pepper
+4 celery stalks
+1T oil
+1T soy sauce
 
 [recipe Dad's stir-fried veggies for ramen]
 source: Dad
@@ -1343,6 +1369,18 @@ serving size: 350g
 3T oil
 # 4C water
 1C dry chickpeas
+
+[recipe potato leek soup 5]
+source: Jan
+servings: 8
+serving size: 550g
+# CHO%64.5
+3 leeks
+1kg (4 med large) potatoes
+1lb (5 large) carrots
+2T oil
+4C water
+31oz (2 cans) Goya chickpeas
 
 [recipe potato wombat soup]
 source: Jan
@@ -1598,6 +1636,19 @@ servings: 1
 serving size: 19g
 1/2 svg World Menu corn tortilla (1 count)
 1tsp oil
+
+[recipe Anna's sofritas with mushrooms]
+servings: 6
+serving size: 250g
+source: Anna
+3.5oz chipotle in adobo
+19oz Vitasoy extra-firm tofu
+12oz white mushrooms
+2/3 large onion
+15.5oz (1 can) black beans
+4 cloves garlic
+3T oil
+2T lime juice
 
 [recipe chick-pea-walnut cream]
 source: The Bold Vegetarian, p188
@@ -2348,7 +2399,8 @@ servings: 12
 [recipe blueberry pancakes 1]
 source: Jan and Anna's variation on Pancakes And Waffles, p14
 # doubled recipe
-servings: 11
+servings: 15
+serving size: 100g
 # one serving = one pancake
 2C whole wheat flour
 2T sugar
@@ -2638,6 +2690,19 @@ serving size: 420g
 12oz tomatoes
 31oz (2 cans) kidney beans
 3T oil
+
+[recipe Jan's chili 20]
+source: Jan
+servings: 4
+serving size: 300g
+15.5oz (1 can) black beans
+12oz tomatoes
+1 large onion
+3 cloves garlic
+1/4C Bob's Red Mill TVP
+4 celery stalks
+1C bell peppers
+2T oil
 
 [recipe Jan's sweet potato chili]
 source: Jan
@@ -3915,6 +3980,19 @@ serving size: 304g
 50g feta cheese
 10g butter
 
+[recipe four egg omelette 1]
+source: Bob
+servings: 1
+serving size: 550g
+# CHO%8.5
+17g scallions
+47g mung bean sprouts
+115g carrots (not all in the omelette)
+269g (4 count) eggs
+33g feta cheese
+1 Tofurkey original Italian sausage
+14g butter
+
 [recipe three egg omelette with home fries]
 source: http://mainstreetbistro.com/Breakfast.html, plus guesswork
 servings: 1
@@ -3984,6 +4062,18 @@ servings: 4
 4/3 large tomatoes (really 4 plum tomatoes)
 1/4C pine nuts
 1/4C olive oil
+
+[recipe Anna's pasta sauce 2]
+servings: 6
+serving size: 300g
+4 bell (really 7 anaheim) peppers
+4T olive oil
+1/2C raw cashews
+1/2C water
+8 cloves garlic
+8oz white mushrooms
+1 onion
+2lb cooked whole wheat pasta
 
 [recipe pasta and feta]
 servings: 2
@@ -4339,7 +4429,8 @@ servings: 4
 
 [recipe curried whole chickpeas]
 source: The Spice Box, p104
-servings: 4
+servings: 8
+serving size: 250g
 28oz canned chickpeas (2 cans)
 3T oil
 4 large onions
@@ -4898,6 +4989,21 @@ serving size: 300g
 6T soy sauce
 1tsp sugar
 
+[recipe baby bok choy salad w/sesame dressing]
+source: Internet, Jan
+servings: 8
+serving size: 300g
+1/4C brown sugar
+1/4C olive oil
+2T vinegar
+2T sesame seeds
+1T soy sauce
+2T olive oil
+2svg (1 package, uncooked) Top Ramen
+1/4C almonds
+9C (chopped) bok choy
+5 scallions
+
 [recipe tofu, mushrooms, and green beans]
 alias: stir-fried tofu, mushrooms, and green beans
 source: Vegan For Everybody p219, Jan
@@ -5013,6 +5119,55 @@ serving size: 300g
 1T cornstarch
 3T sriracha sauce
 2/3lb broccoli
+
+[recipe General Tso's tofu 3]
+source: https://thewoksoflife.com/2016/12/general-tsos-tofu/
+# with tweaks by Jan.
+# served 27-Dec-19.
+servings: 5
+serving size: 350g
+# 2x tofu
+1T agave nectar
+4T sriracha sauce
+28oz Vitasoy extra-firm tofu
+3T sesame seeds
+6T cornstarch
+2/3C oil
+# 2x sauce
+1tsp ginger
+4 cloves garlic
+# red pepper flakes
+1 bell pepper
+# 1T wine
+# 1C vegetable broth
+2C broccoli
+2.5T soy sauce
+2tsp (rice) vinegar
+1T agave nectar
+3T oil
+1.5T cornstarch
+4 carrots
+1 onion
+
+[recipe General Tso's tofu 4]
+source: Sabrina Snyder (in Jan's notebook, really General Tso's Chicken), Jan
+# served 8-Feb-20.
+servings: 6
+serving size: 250g
+1T agave nectar
+4T sriracha sauce
+28oz Vitasoy extra-firm tofu
+3T sesame seeds
+6T cornstarch
+2/3C oil
+# 2x sauce
+1T ginger
+5 cloves garlic
+# red pepper flakes
+1lb broccoli
+3T soy sauce
+3T (rice) vinegar
+3T oil
 
 [recipe Chinese carrot sauce]
 source: Jan
@@ -5708,6 +5863,17 @@ Chipotle brown rice
 Chipotle pinto beans
 Chipotle green chili salsa
 Chipotle guacamole
+
+[recipe Chipotle veggie burrito]
+servings: 1
+source: https://chipotle.com/nutrition-calculator
+905 calories
+38.5g fat
+0mg cholesterol
+1630mg sodium
+120g carbohydrate
+18g fiber
+22g protein
 
 [recipe banana muffin]
 source: Jan
@@ -7313,6 +7479,22 @@ serving size: 100g
 1tsp lemon juice
 # chopped cilantro for garnish
 
+[recipe silky roasted bell pepper pasta etc.]
+# the full name is "silky roasted bell pepper pasta with zucchini and
+# basil ribbons," but that's much too long.  -- rgr, 28-Jan-20.
+source: Thug Kitchen: The Official Cookbook p160, Jan
+servings: 6
+serving size: 300g
+12oz soft tofu
+2 (roasted) bell peppers
+4 cloves garlic
+1-1/2T (red wine) vinegar
+2tsp olive oil
+3/4tsp salt
+1lb dry pasta
+4 zucchini
+170g (1 can) Lindsay extra large olives
+
 [recipe one-pot chickpea biryani]
 source: Thug Kitchen 101 p95, Jan
 servings: 5
@@ -7437,6 +7619,18 @@ serving size: 400g
 3T oil
 31oz (2 cans) kidney beans
 4C water
+
+[recipe curried tofu with peas and mushrooms]
+source: Vegetarian India, Jan, Anna
+servings: 4
+serving size: 300g
+1/4C raw cashews
+8T tomato paste
+6T oil
+14oz Vitasoy extra-firm tofu
+12oz white mushrooms
+2C peas
+1T ginger
 
 [recipe muttar chole]
 source: Vegetarian India, Jan
@@ -7683,3 +7877,89 @@ serving size: 300g
 # 1 lemon
 1T olive oil
 31oz (2 cans) canned chickpeas
+
+[recipe roasted broccoli and millet pilaf]
+# part of roasted garlic hummus & broccoli bowl
+source: Thug Kitchen: The Official Cookbook p43, Jan
+servings: 3
+serving size: 350g
+1lb broccoli
+4tsp olive oil
+1C millet
+20 cloves (roasted) garlic (several heads)
+1T lemon juice
+
+[recipe Jan's garlic broccoli pizza]
+# make one smallish pizza
+servings: 6
+# 1 svg = 1/6 pizza
+serving size: 100g
+1-1/2C flour
+1/4C soy flour
+1tsp agave syrup
+2oz white mushrooms
+1C broccoli
+1/8C olive oil
+85g Lindsay extra large olives (1/2 can)
+2oz feta cheese
+1 bell pepper (roasted)
+20 cloves (roasted) garlic (several heads)
+
+[recipe Jan's asparagus pesto pizza]
+# make one smallish pizza
+servings: 6
+# 1 svg = 1/6 pizza
+serving size: 100g
+1-1/2C flour
+1/4C soy flour
+1tsp agave syrup
+2oz white mushrooms
+1/4lb asparagus
+1/8C olive oil
+85g Lindsay extra large olives (1/2 can)
+2oz feta cheese
+1 bell pepper (roasted)
+6 svg (1 recipe) Jan's pesto
+
+[recipe tortillas for tortilla soup]
+source: The Oh She Glows Cookbook, Jan
+servings: 6
+serving size: 30g
+# baked
+6 corn tortillas
+2T oil
+
+[recipe tortilla soup]
+source: The Oh She Glows Cookbook, Jan
+servings: 6
+1 onion
+3 cloves garlic
+1 bell pepper
+1C peas
+1C corn
+12oz tomatoes
+1C dry black beans
+2T lime juice
+1T oil
+
+[recipe hot and sour soup]
+source: Thug Kitchen 101 p64, Jan
+servings: 6
+serving size: 450g
+# double recipe, carrots and celery instead of cabbage.
+4tsp oil
+2C white mushrooms
+4 cloves garlic
+2T ginger
+5C water (broth)
+1/2C vinegar
+6T soy sauce
+2T chili garlic sauce
+2tsp agave nectar
+1-1/2C bamboo shoots
+19 oz Vitasoy extra-firm tofu
+2tsp cornstarch
+3 carrots
+4 celery stalks
+1/2C scallions
+1T (sesame) oil

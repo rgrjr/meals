@@ -62,6 +62,31 @@ serving size: 1oz
 139mg sodium
 0mg cholesterol
 
+[item Market Basket bulkie roll]
+alias: bulkie roll
+source: Market Basket
+serving size: 2.5oz
+# one roll
+200 calories
+1g fat
+0mg cholesterol
+400mg sodium
+40g carbohydrate
+1g fiber
+6g protein
+
+[item millet]
+source: USDA: millet, raw; FDC ID: 169702
+serving size: 100g
+serving size: 1/2C
+378 calories
+11g protein
+4g fat
+73g carbohydrate
+8.5g fiber
+5mg sodium
+0mg cholesterol
+
 [item medium-grain brown rice]
 alias: brown rice
 serving size: 100g
@@ -1041,6 +1066,7 @@ alias: dry whole-wheat pasta
 source: USDA: Macaroni, whole-wheat, dry
 serving size: 57g
 # 1C elbow shaped = 105g
+# 100g dry pasta yields 280g cooked pasta.
 198 calories
 8g protein
 1g fat
@@ -1056,6 +1082,7 @@ serving size: 1C
 serving size: 140g
 # 1C elbow shaped = 140g
 174 calories
+# (/ 174 140.0) 1.243 cal/g
 7g protein
 1g fat
 37g carbohydrate
@@ -2354,6 +2381,19 @@ serving size: 85g
 0mg cholesterol
 10mg sodium
 
+[item Nasoya organic sprouted firm tofu]
+alias: Nasoya firm tofu
+source: Nasoya
+serving size: 85g
+# package size: 510g = 18oz
+80 calories
+5g fat
+0mg cholesterol
+20mg sodium
+2g carbohydrate
+0g fiber
+8g protein
+
 [item bean curd thread stick]
 source: Yu Yee Brand
 serving size: 35g
@@ -2365,6 +2405,19 @@ serving size: 35g
 2g fiber
 0mg cholesterol
 0mg sodium
+
+[item dried bean curd stick]
+source: Ming Lee Food Factory, Hong Kong
+# dried weight
+serving size: 85g
+# package size: 400g
+350 calories
+45g protein
+10g fat
+20g carbohydrate
+8g fiber
+0mg cholesterol
+240mg sodium
 
 [item haddock]
 source: USDA: 15034, Fish, haddock, cooked, dry heat
@@ -2508,6 +2561,31 @@ source: USDA: Miso
 1g fiber
 0mg cholesterol
 634mg sodium
+
+[item Market Basket dijon mustard]
+alias: dijon mustard
+source: Market Basket
+serving size: 5g
+serving size: 1tsp
+5 calories
+0g fat
+0mg cholesterol
+120mg sodium
+1g carbohydrate
+0g fiber
+0g protein
+
+[item Trader Joe's dijon mustard]
+source: Trader Joe's
+serving size: 5g
+serving size: 1tsp
+10 calories
+0.5g fat
+0mg cholesterol
+105mg sodium
+0g carbohydrate
+0g fiber
+0g protein
 
 [item french fries]
 source: USDA: Potatoes, french fried, all types, salt added in processing, frozen, home-prepared, oven heated
