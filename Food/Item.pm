@@ -14,13 +14,13 @@ package Food::Item;
 
 use base qw(Food::Base);
 
-use Food::Recipe;
-
 BEGIN {
     Food::Item->define_class_slots
 	(qw(name serving_size_g serving_size_ml last_use
 	    protein_grams fat_grams carbohydrate_grams
-	    fiber_grams calories cholesterol_mg sodium_mg));
+	    fiber_grams calories cholesterol_mg sodium_mg),
+	 # Where defined.
+	 qw(file_name line_number));
 }
 
 use vars qw(%item_from_name);
@@ -120,8 +120,13 @@ sub present_summary {
     }
 }
 
+# Remember files by their device and inode numbers so we have a solid handle on
+# whether we've seen it before, regardless of relative file naming, links, etc.
+my %file_from_dev_and_inode;
+
 sub parse_recipes {
     my ($class, $file_name) = @_;
+    require Food::Recipe;
 
     my $open_file = sub {
 	my ($file_name, $base_file_name) = @_;
@@ -149,7 +154,7 @@ sub parse_recipes {
     my $store_item = sub {
 	# Put the item in the %item_from_name hash under $name, warning about
 	# any conflicts.
-	my ($name, $item) = @_;
+	my ($name, $item, $file, $line) = @_;
 
 	my $lc_name = lc($name);
 	my $existing_item = $item_from_name{$lc_name};
@@ -158,6 +163,10 @@ sub parse_recipes {
 	}
 	else {
 	    $item_from_name{$lc_name} = $item;
+	    if ($file) {
+		$item->file_name($file);
+		$item->line_number($line);
+	    }
 	}
     };
 
@@ -165,13 +174,24 @@ sub parse_recipes {
     $parse_file = sub {
 	my ($file_name, $base_file_name) = @_;
 
+	# Open the file, and check if we've seen it before.
 	my $stream = $open_file->($file_name, $base_file_name);
 	if (! $stream) {
 	    $warning->("Can't open '$file_name':  $!");
 	    return;
 	}
+	my ($dev, $inode) = stat($stream);
+	my $key = ($inode
+		   ? "$dev:$inode"
+		   # Probably we're running on a non-POSIX system, so try to
+		   # fake it with just the file name.
+		   : $file_name);
+	return
+	    if $file_from_dev_and_inode{$key};
+	$file_from_dev_and_inode{$key} = $file_name;
 	push(@include_stack, [ $stream, $file_name ]);
 
+	# It's new, so parse the thing.
 	my $current_item;
 	while (<$stream>) {
 	    chomp;
@@ -193,11 +213,13 @@ sub parse_recipes {
 		    if $current_item && $current_item->can('finalize');
 		if ($type eq 'item') {
 		    $current_item = Food::Item->new(name => $name);
-		    $store_item->($name, $current_item);
+		    $store_item->($name, $current_item, $file_name,
+				  $stream->input_line_number);
 		}
 		elsif ($type eq 'recipe') {
 		    $current_item = Food::Recipe->new(name => $name);
-		    $store_item->($name, $current_item);
+		    $store_item->($name, $current_item, $file_name,
+				  $stream->input_line_number);
 		}
 		else {
 		    $warning->("Unknown type '$type'.\n");
@@ -308,6 +330,72 @@ sub mark_last_use {
     my ($self, $last_use) = @_;
 
     $self->last_use($last_use);
+}
+
+sub show_item_details {
+    my ($self) = @_;
+
+    $self->present_summary(display_cho_p => 1);
+    my $ingredients = $self->ingredients;
+    next
+	unless $ingredients;
+    my $missing_weight_p = 0;
+    my $total_weight = 0;
+    my $n_ingredients = @$ingredients;
+    for my $ing (sort { $b->n_servings * $b->item->net_carbohydrate_grams
+			    <=> ($a->n_servings
+				 * $a->item->net_carbohydrate_grams);
+		 } @$ingredients) {
+	my $it = $ing->item;
+	my $n_svg = $ing->n_servings;
+	my $calories = $n_svg * $it->calories;
+	my $carbs = $n_svg * $it->net_carbohydrate_grams;
+	my $fat = $n_svg * $it->fat_grams;
+	my $protein = $n_svg * $it->protein_grams;
+	my $cho_pct = $calories ? 100.0 * (4 * $carbs) / $calories : 0;
+	my $missing_p;
+	my $units = $ing->units || '';
+	if ($units eq 'serving') {
+	    $units = '';
+	}
+	elsif ($units eq 'recipe') {
+	    $units = ' recipe';
+	}
+	my $display = ($ing->amount || '') . $units . ' ' . $it->name;
+	if ($it->serving_size_g) {
+	    my $grams = $n_svg * $it->serving_size_g;
+	    $total_weight += $grams;
+	    $display .= sprintf(' (%dg)', $grams);
+	}
+	else {
+	    $missing_weight_p++;
+	    $missing_p = '*';
+	}
+	printf(" %s  %-28s  %s %s %s %s CHO%%%.1f\n",
+	       $missing_p || ' ', $display,
+	       $self->show_total($carbs), $self->show_total($fat),
+	       $self->show_total($protein),
+	       $self->show_total($calories), $cho_pct);
+    }
+    if ($total_weight) {
+	my $item_grams = $self->serving_size_g;
+	printf("  Declared serving size:  %dg\n", $item_grams)
+	    if $item_grams;
+	my $n_servings = $self->n_servings;
+	if (! $n_servings) {
+	    print "  Assuming one serving.\n";
+	    $n_servings = 1;
+	}
+	my $theo_grams = $total_weight / $n_servings;
+	if ($missing_weight_p) {
+	    printf("  Theoretical serving size:  %dg"
+		   . " (missing %d out of %d weights)\n",
+		   $theo_grams, $missing_weight_p, $n_ingredients);
+	}
+	else {
+	    printf("  Theoretical serving size:  %dg\n", $theo_grams);
+	}
+    }
 }
 
 1;

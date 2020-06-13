@@ -1,4 +1,9 @@
 
+include test-recipes.text
+# Include this twice to test that it doesn't actually get read twice,
+# despite the nominally different file name.
+include ./test-recipes.text
+
 22-Dec-14:
    1 Kickstand Cafe scone, mixed berry (140g)
    2 medium (12 oz) coffee, double whole milk, no sugar

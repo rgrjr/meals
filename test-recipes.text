@@ -1,0 +1,26 @@
+### test recipes.
+
+include basic-ingredients.text
+include commercial-foods.text
+
+[recipe Indian cauliflower dish]
+source: Jan
+servings:  5
+serving size: 325g
+434g Goya chickpeas
+1 onion
+15g tomato paste (1T)
+160g tomato sauce (2/3C)
+280g white mushrooms
+0.5C frozen peas
+450g frozen cauliflower
+
+[recipe spiced spinach with "paneer"]
+source:  Vegan Indian Cooking, p175
+servings: 5
+2T olive oil
+1 onion
+2 large tomatoes
+2T tomato paste
+10oz fresh spinach
+400g extra-firm tofu
