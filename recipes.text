@@ -218,7 +218,7 @@ serving size: 120g
 1/2tsp sugar
 1/3C almonds
 
-[recipe Jan's spring rolls]
+[recipe Jan's spring roll]
 servings: 14
 serving size: 130g
 1/4 shredded cabbage
@@ -403,6 +403,54 @@ serving size: 230g
 1 bell pepper
 2T oil
 2T soy sauce
+
+[recipe stir-fried veggies with tofu 14]
+servings: 4
+serving size: 300g
+18oz Nasoya organic sprouted firm tofu (1 package)
+4 carrots
+1lb asparagus
+3T oil
+1/4C soy sauce
+
+[recipe stir-fried veggies with tofu 15]
+servings: 4
+serving size: 300g
+3/4lb broccoli
+18oz Nasoya organic sprouted firm tofu (1 package)
+4 carrots
+1 onion
+3 cloves garlic
+2T ginger
+2T oil
+1T cornstarch
+2T soy sauce
+
+[recipe stir-fried veggies with tofu 16]
+servings: 6
+serving size: 300g
+1lb broccoli
+6 (4 large) carrots
+1 bell pepper
+2 celery stalks
+18oz Nasoya organic sprouted firm tofu (1 package)
+1 onion
+1/2C soy sauce
+3T cornstarch
+4T oil
+
+[recipe stir-fried veggies with tofu 17]
+servings: 6
+serving size: 250g
+3/4lb broccoli
+2 bell peppers
+1 onion
+4 celery stalks
+5 cloves (3 large) garlic
+3T ginger
+18oz Nasoya organic sprouted firm tofu (1 package)
+2T soy sauce
+2T oil
 
 [recipe stir-fried veggies with peppers and tofu]
 servings: 4
@@ -669,6 +717,15 @@ serving size: 250g
 4T soy sauce
 6T oil
 1T cornstarch
+
+[recipe stir-fried veggies with fried tofu 22]
+servings: 4
+serving size: 300g
+16oz House Foods firm tofu (1 package)
+1-1/4lb Kirkland frozen stir-fry vegetable blend
+4T soy sauce
+6T oil
+4T cornstarch
 
 [recipe stir-fried carrots with fried tofu]
 # served while I was on a low-residue diet
@@ -1005,6 +1062,17 @@ serving size:  280g
 2T cornstarch
 2T sesame seeds
 
+[recipe stir-fried veggies 18]
+servings: 6
+serving size: 250g
+1lb (baby) bok choy
+1lb broccoli (florets)
+10oz white mushrooms
+220g (4 large) carrots
+2T cornstarch
+2T soy sauce
+4T oil
+
 [recipe Kirkland stir-fried veggies]
 servings: 5
 serving size: 200g
@@ -1227,6 +1295,34 @@ serving size: 200g
 4 celery stalks
 1T oil
 1T soy sauce
+
+[recipe stir-fried veggies for ramen 10]
+servings: 3
+serving size: 250g
+150g carrots
+150g celery stalks
+250g broccoli
+1 large onion
+1/4C oil
+# soy sauce
+
+[recipe stir-fried veggies for ramen 11]
+servings: 6
+serving size: 200g
+1/2lb asparagus
+4 carrots
+4C broccoli
+10oz white mushrooms
+1/2 (1 small) onion
+4T oil
+# soy sauce
+
+[recipe stir-fried veggies for ramen 12]
+servings: 6
+serving size: 80g
+4C Kirkland stir fry vegetable blend
+4T oil
+4T soy sauce
 
 [recipe Dad's stir-fried veggies for ramen]
 source: Dad
@@ -1568,6 +1664,19 @@ servings: 8
 1oz white mushrooms
 30g kalamata olives (about ten count)
 
+[recipe Jan's Daiya sausage pizza]
+servings: 8
+serving size: 110g
+1-1/2C flour
+1/2T agave syrup
+3oz Trader Joe's new artichoke hearts
+3oz olives
+140g Market Basket pizza sauce
+75g Daiya mozzarella style shreds
+75g Daiya cheddar style shreds
+6 cloves garlic
+1.5 Tofurkey original Italian sausages
+
 [recipe taco filling]
 servings: 8
 15.5oz (1 can) black beans
@@ -1876,6 +1985,30 @@ serving size: 350g
 2T ginger
 1tsp salt
 1/2C oil
+
+[recipe aloo gobhi 13]
+source: World Vegetarian p163, Jan
+# double recipe, chickpeas, extra potatoes, parboiled & baked
+servings: 12
+serving size: 300g
+2 medium cauliflowers
+4lb potatoes
+31oz Goya chickpeas (2 cans)
+2T ginger
+1tsp salt
+3/4C oil
+
+[recipe aloo gobhi 14]
+source: World Vegetarian p163, Jan
+# double recipe, chickpeas, extra potatoes & oil, parboiled & baked
+servings: 12
+serving size: 300g
+2 medium cauliflowers
+4lb potatoes
+31oz Goya chickpeas (2 cans)
+2T ginger
+1tsp salt
+1C oil
 
 [recipe Indian eggplant stew]
 # recipe is called "Spicy Eggplant Stew with Potatoes, Mushrooms, and
@@ -2222,6 +2355,49 @@ serving size: 250g
 8oz white mushrooms
 1C Bob's Red Mill TVP
 
+[recipe luxurious tomato-basil pasta sauce 7]
+# with tofu sausage, no tomato paste
+source: The Oh She Glows Cookbook p181, Jan
+servings: 4
+serving size: 300g
+1/2C oil-roasted salted cashews (Kirkland)
+1/2C almond milk
+1tsp oil
+1/2 large onion
+2 cloves garlic
+12oz tomatoes
+3C spinach
+8oz white mushrooms
+3 Tofurkey original Italian sausages
+
+[recipe luxurious tomato-basil pasta sauce 8]
+# double recipe, no tomato paste, with mushrooms.
+source: The Oh She Glows Cookbook p181, Jan
+servings: 6
+serving size: 250g
+1C raw cashews
+1C almond milk
+2tsp oil
+1 large onion
+4 cloves garlic
+24oz tomato sauce
+10oz portabella mushrooms
+1/2lb spinach
+
+[recipe luxurious tomato-basil pasta sauce 9]
+# single recipe, no tomato paste
+source: The Oh She Glows Cookbook p181, Jan
+servings: 4
+serving size: 190g
+1/2C raw cashews
+1/2C almond milk
+2tsp oil
+1/2 large onion
+2 cloves garlic
+12oz tomato sauce
+1/4lb spinach
+1C Bob's Red Mill TVP
+
 [recipe Jan's wombat pasta sauce]
 source: Jan, based on the luxurious tomato-basil version
 servings: 6
@@ -2246,6 +2422,14 @@ servings: 5
 1/2C oil-roasted salted cashews (Kirkland)
 2tsp oil
 2 cloves garlic
+
+[recipe cashew sauce]
+source: Jan
+servings: 6
+serving size: 25g
+1/2C raw cashews
+1/4C almond milk
+2T lemon juice
 
 [recipe vegan alfredo sauce #1 with salmon]
 servings: 8
@@ -2389,6 +2573,7 @@ serving size: 45g
 [recipe pancake]
 servings: 12
 # one serving = one pancake
+serving size: 70g
 2C whole wheat flour
 2T sugar
 1/2tsp salt
@@ -2435,6 +2620,79 @@ servings: 30
 2T oil
 4 eggs
 4C almond milk
+
+[recipe best-ever waffle]
+alias: waffle
+# double recipe
+servings: 8
+serving size: 150g
+source: Pancakes And Waffles p14, Jan
+2C whole wheat flour
+2tsp salt
+2tsp agave nectar
+2C almond milk
+2 egg
+4T oil
+
+[recipe Jan's pancakes 4]
+# double recipe, with 1/4 soy flour.
+servings: 20
+serving size: 50g
+# CHO%33.2
+source: Pancakes And Waffles p14, Jan
+1-1/2C white whole wheat flour
+1/2C soy flour
+2tsp salt
+2tsp agave nectar
+2C almond milk
+2 egg
+4T oil
+
+[recipe Jan's blueberry pancakes 4]
+# double recipe, with 1/4 soy flour and blueberries
+servings: 20
+serving size: 54g
+source: Pancakes And Waffles p14, Jan
+1-1/2C whole wheat flour
+1/2C soy flour
+1/2C frozen blueberries
+2tsp salt
+2tsp agave nectar
+2C almond milk
+2 egg
+4T oil
+
+[recipe ginger pumpkin pancakes]
+source: https://cookieandkate.com/pumpkin-pancakes-recipe, Jan
+# triple recipe
+servings: 20
+serving size: 75g
+# CHO%41.3
+2C white whole wheat flour
+1C soy flour
+3/4tsp salt
+3C almond milk
+1C pumpkin puree
+3 eggs
+3T agave nectar
+1/2T vanilla extract
+3T oil
+2T ginger
+
+[recipe Jan's banana pancakes]
+source: https://www.onceuponachef.com/recipes/banana-pancakes.html, Jan
+# double recipe, with 1/3 soy flour and agave nectar
+servings: 15
+serving size: 75g
+2C white whole wheat flour
+1C soy flour
+3T agave nectar
+1tsp salt
+1 banana
+2 eggs
+2-1/4C almond milk
+1tsp vanilla extract
+6T butter
 
 [recipe blueberry maple syrup pie]
 # as made by Anna to celebrate her birthday early, 5-Aug-16.
@@ -2702,6 +2960,19 @@ serving size: 300g
 1/4C Bob's Red Mill TVP
 4 celery stalks
 1C bell peppers
+2T oil
+
+[recipe Jan's cabbage chili]
+source: Jan
+servings: 6
+serving size: 300g
+31oz (2 cans) black beans
+12oz tomatoes
+1C corn
+300g (1/3 head) shredded cabbage
+1 large onion
+2 cloves garlic
+1/4C Bob's Red Mill TVP
 2T oil
 
 [recipe Jan's sweet potato chili]
@@ -3253,6 +3524,19 @@ servings: 6
 14oz Vitasoy extra-firm tofu
 28oz tomatoes
 
+[recipe curried kidney beans with paneer 2]
+# the actual title is "curried red kidney beans with paneer"
+source: The Art of Indian Vegetarian Cooking p77, Jan
+servings: 6
+serving size: 250g
+2-1/2C dry kidney beans
+# 6C water
+2T oil
+1T salt
+1.5T lemon juice
+14oz House Foods firm tofu
+12oz tomatoes
+
 [recipe bell pepper pakoras]
 source: The Art of Indian Vegetarian Cooking, p450
 servings: 6
@@ -3525,7 +3809,7 @@ serving size: 300g
 1-1/4lb spinach
 12oz Derie Farms paneer
 
-[recipe Jan's saag paneer 2]
+[recipe Jan's saag paneer 3]
 # same as tofu saag paneer but with paneer instead of tofu
 source: Vegan For Everybody p226, Jan
 servings: 5
@@ -3559,6 +3843,19 @@ serving size: 300g
 1/2C (roasted & ground) Kirkland cashews
 1tsp sugar
 1-1/2T lemon juice
+
+[recipe Jan's saag paneer 5]
+# with Jan's home-made paneer.
+source: Jan
+servings: 8
+serving size: 300g
+1lb Derie Farms (not) paneer
+4lb spinach
+4T oil
+4 chilis
+# 3 cloves garlic
+4T ginger
+1C almond milk
 
 [recipe Jan's minimal tofu saag]
 servings: 4
@@ -3835,6 +4132,25 @@ servings: 3
 1T oil
 2 ancho chilis
 
+[recipe chickpea dal with mixed veggies]
+# Jan wanted to make toor dal but was out so substituted split baby
+# chickpeas, and added frozed mized vegetables.
+source: The Spice Box, p100
+servings: 4
+serving size: 250g
+1C dry chickpeas
+# 3C water
+1tsp salt
+# actually, Jan uses 2T mango powder
+2T lemon juice
+8oz carrots
+8oz peas
+8oz corn
+# bagar:
+1T oil
+4 cloves garlic
+2 ancho chilis
+
 [recipe spinach in black sesame dressing]
 source: The Japanese Kitchen, p252
 servings: 4
@@ -3847,7 +4163,8 @@ servings: 4
 [recipe Spice Box rassam]
 alias: south Indian soup
 source: The Spice Box, p63
-servings: 6
+servings: 4
+serving size: 200g
 10g tamarind pulp
 1/4C dry lentils
 2 ancho chilis (dried)
@@ -3859,6 +4176,7 @@ servings: 6
 source: Dakshin: Vegetarian Cuisine From South India, p58
 # Jan more or less doubled the recipe.
 servings: 4
+serving size: 200g
 5 carrots
 1 cucumbers
 2 tomatoes
@@ -3979,6 +4297,47 @@ serving size: 304g
 39g white mushrooms
 50g feta cheese
 10g butter
+
+[recipe Jan's three egg lockdown omelette]
+source: Jan
+servings: 1
+serving size: 279g
+3 eggs
+1/6 onion
+1/6lb spinach
+2oz feta cheese
+10g butter
+
+[recipe Jan's three egg lockdown omelette 2]
+source: Jan
+servings: 1
+serving size: 263g
+1.5oz feta cheese
+3oz white mushrooms
+1/4C onion
+3 eggs
+2tsp oil
+
+[recipe Jan's three egg lockdown omelette 3]
+source: Jan
+servings: 1
+serving size: 258g
+3 eggs
+1/8C onion
+1 jalapeno
+2 cloves garlic
+2oz feta cheese
+2tsp oil
+
+[recipe Jan's three egg lockdown omelette 4]
+source: Jan
+servings: 1
+serving size: 270g
+3 eggs
+1/8C onion
+1/3C broccoli
+2oz feta cheese
+2tsp oil
 
 [recipe four egg omelette 1]
 source: Bob
@@ -4255,6 +4614,27 @@ serving size: 250g
 148g feta cheese
 1/4C olive oil
 
+[recipe pasta and feta 17]
+servings: 5
+serving size: 270g
+2T apple cider vinegar (really balsamic)
+40g garlic
+71g walnuts
+2.35lb cooked pasta (1lb dry pasta)
+165g feta cheese
+1/4C olive oil
+
+[recipe pasta and feta 18]
+servings: 5
+serving size: 300g
+2T apple cider vinegar (really balsamic)
+6 cloves garlic
+175g walnuts
+375g (1 box) dry whole wheat pasta (= 1050g cooked pasta)
+675g water (absorbed by the pasta)
+165g feta cheese
+1/4C olive oil
+
 [recipe pasta and feta without feta]
 # Lizzie and I made this before realizing that the feta had gone bad.
 servings: 4
@@ -4461,6 +4841,38 @@ servings: 4
 serving size: 400g
 42oz canned chickpeas (3 cans)
 2/3 large onion
+3 chilis
+2 cloves garlic
+12oz tomato sauce
+1T ginger
+2T oil
+1tsp salt
+1T lime juice
+
+[recipe curried chickpeas with spinach]
+source: 1000 Indian Recipes p379, Jan
+# actual recipe title is "chickpeas in traditional curry sauce."
+servings: 6
+serving size: 350g
+42oz canned chickpeas (3 cans)
+1lb spinach
+2/3 large onion
+3 chilis
+2 cloves garlic
+12oz tomato sauce
+1T ginger
+2T oil
+1tsp salt
+1T lime juice
+
+[recipe curried chickpeas with potatoes]
+source: 1000 Indian Recipes p379, Jan
+# actual recipe title is "chickpeas in traditional curry sauce."
+servings: 8
+serving size: 300g
+42oz canned chickpeas (3 cans)
+1-1/2lb potatoes
+1 large onion
 3 chilis
 2 cloves garlic
 12oz tomato sauce
@@ -4885,6 +5297,22 @@ serving size: 300g
 14oz Vitasoy extra-firm tofu
 3 scallions
 
+[recipe Szechuan eggplant without tofu]
+source: Appetite for China (web), Jan
+# Jan forgot the tofu.
+servings: 4
+serving size: 300g
+1-1/2lb eggplant
+1T chili garlic sauce
+2T soy sauce
+2T vinegar
+2tsp agave nectar
+6T oil
+3 cloves garlic
+1T ginger
+1tsp cornstarch
+5 scallions
+
 [recipe Szechuan eggplant with black beans]
 source: Internet, Jan
 servings: 6
@@ -5232,6 +5660,19 @@ servings: 4
 6 cloves garlic
 1/4C oil
 1C white mushrooms
+
+[recipe fudgy brownie]
+# without the frosting
+source: bhg.com
+servings: 16
+serving size: 35g
+1/2C butter
+3oz chocolate chips
+1C sugar
+2 eggs
+# 1tsp vanilla
+2/3C flour
+1/2C walnuts
 
 [recipe chocolate chip cookie with walnuts]
 source: Best-Ever Cookies p8, Anna.
@@ -6118,6 +6559,18 @@ servings: 10
 2T soy sauce
 # 1tsp dried red pepper flakes
 
+[recipe Thai peanut sauce 2]
+source: The Oh She Glows Cookbook p153
+servings: 4
+serving size: 30g
+1 (large) clove garlic
+2T oil
+3T peanut butter
+2tsp ginger
+3T lime juice
+2-1/3T soy sauce
+1tsp agave nectar
+
 [recipe chickpeas and zucchini with couscous]
 source: World Vegetarian, p501
 servings: 3
@@ -6571,6 +7024,20 @@ serving size: 200g
 1 oil crust
 4T oil
 5oz feta cheese
+
+[recipe feta, mushroom, and asparagus quiche]
+source: Jan
+servings: 6.28
+# serving size: 1 radian
+serving size: 220g
+2/3 pie crust (1/3 of a double recipe)
+1lb asparagus
+1/2 large onion
+10oz white mushrooms
+3 eggs
+2T oil
+1C almond milk
+6oz feta cheese
 
 [recipe sausage, kale, and sun-dried tomatoes]
 source: Internet, Jan
@@ -7377,6 +7844,19 @@ serving size: 250g
 15.5oz (1 can) cannellini beans
 4.5T (3 heaping T) capers
 
+[recipe pasta sauce w/asparagus, mushrooms, & tofu]
+source: Jan
+servings: 4
+serving size: 300g
+2T oil
+1C raw cashews
+2/3C almond milk
+10oz asparagus
+10oz white mushrooms
+12oz soft tofu
+8 cloves garlic
+1/4 cup oil
+
 [recipe curried broccoli and potatoes]
 source: Jan
 servings: 4
@@ -7846,6 +8326,26 @@ serving size: 250g
 1T ginger
 # scallions measured separately
 
+[recipe yakisoba with tofu 2]
+source: Internet, Jan
+# ramen cooked & served separately
+servings: 8
+serving size: 250g
+19 oz House Foods new firm tofu (1 package)
+1lb snow peas
+8oz white mushrooms
+3 carrots
+1T ginger
+1 large onion
+5 scallions
+# half the sauce
+1/4C soy sauce
+1/8C vinegar
+1/2T agave nectar
+1/2T sriracha sauce
+3T oil
+# scallions measured separately
+
 [recipe yaki soba with ramen and egg]
 source: Internet, Jan
 servings: 6
@@ -7963,3 +8463,118 @@ serving size: 450g
 4 celery stalks
 1/2C scallions
 1T (sesame) oil
+
+[recipe Jan's tofu nigiri sushi]
+source: Jan
+servings: 1
+serving size: 190g
+# 4 pieces per serving
+150g white (sushi) rice
+40g Nasoya organic sprouted firm tofu
+
+[recipe Jan's giant vegetable maki]
+source: Jan
+servings: 1
+serving size: 190g
+# 3 pieces per serving
+152.5g white (sushi) rice
+12.5g carrots
+12.5g avocado
+12.5g asparagus
+
+[recipe Jan's beets & potatoes & beans]
+source: Jan
+servings: 8
+serving size: 250g
+1.5lb (3 count) potatoes
+4 carrots
+250g (3 count) beets
+15.5oz (1 can) canned chickpeas
+15.5oz (1 can) black beans
+1/4C olive oil
+3T vinegar
+
+[recipe Jan's refried beans]
+servings: 8
+serving size: 100g
+1.5lb pinto beans (really 2C dry)
+4 jalapeno peppers
+1 onion
+4 cloves garlic
+2T oil
+
+[recipe bean and quinoa soup]
+source: Vegan With A Vengeance p67, Jan
+# the original called for black beans
+servings: 4
+serving size: 400g
+2T olive oil
+1 onion
+4 cloves garlic
+12oz tomato sauce
+1/2C uncooked quinoa
+3 carrots
+29oz (1 large can) kidney beans
+# tortilla chips & avocado served separately
+
+[recipe Jan's salmon Rangoon]
+source: Jan
+servings: 44
+serving size: 26g
+8oz feta cheese
+12oz soft tofu
+6oz salmon
+6 scallions
+12oz egg roll wrappers (quartered)
+1/4C oil
+
+[recipe potato and kidney bean soup]
+source: Jan
+servings: 8
+1 onion
+2 cloves garlic
+4 celery stalks
+4 carrots
+4 (medium) potatoes
+10oz white mushrooms
+29oz (1 large can) kidney beans
+2T oil
+
+[recipe Jan's potato salad]
+source: Jan
+servings: 8
+serving size: 250g
+3.5lb potatoes
+2 onions
+2T oil
+8 celery stalks
+5 eggs
+1C Vegenaise
+1T Market Basket dijon (actually French's) mustard
+# 1/2C dill pickle relish (0 calories)
+
+[recipe channa saag]
+# recipe doubled except for spinach & almond milk
+source: Forks Over Knives p213, Jan
+servings: 9
+serving size: 300g
+2 onion
+2 jalapeno pepper
+6 cloves garlic
+12oz tomato sauce
+1C almond milk
+2lb spinach
+4C cooked chickpeas
+
+[recipe Mexican zucchini]
+source: Jan
+servings: 6
+# serving size: 220g
+6 zucchini
+15.5oz (1 can) black beans
+1 bell pepper
+1/4 onion
+2 cloves garlic
+3/4C Daiya cheddar style shreds
+1/2C TVP
+3T oil

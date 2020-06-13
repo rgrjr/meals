@@ -26,6 +26,30 @@ serving size: 105g
 361mg sodium
 0mg cholesterol
 
+[item Finagle a Bagel cinnamon-raisin bagel]
+source: Finagle a Bagel
+# CHO%85.9
+serving size: 142g
+410 calories
+2g fat
+0mg cholesterol
+500mg sodium
+96g carbohydrate
+8g fiber
+16g protein
+
+[item Finagle a Bagel sesame bagel]
+source: Finagle a Bagel
+# CHO%79.0
+serving size: 142g
+410 calories
+6g fat
+0mg cholesterol
+580mg sodium
+88g carbohydrate
+7g fiber
+16g protein
+
 [item whole-wheat bagel]
 alias: wheat bagel
 source: USDA: 18968, Bagels, wheat
@@ -1373,6 +1397,16 @@ serving size: 100g
 1g fiber
 5g protein
 
+[item A-sha Tainan noodle]
+serving size: 95g
+290 calories
+3g fat
+0mg cholesterol
+1510mg sodium
+58g carbohydrate
+2g fiber
+10g protein
+
 [item salt and pepper potato chips]
 serving size: 1oz
 # CHO%35.0
@@ -1597,6 +1631,7 @@ serving size: 1oz
 
 [item tortilla chips]
 alias: Tostitos original restaurant style tortilla chips
+alias: Tostitos scoops
 serving size: 1oz
 # CHO%54.3
 140 calories
@@ -2842,6 +2877,19 @@ serving size: 1T
 0g fiber
 0g protein
 0mg cholesterol
+
+[item Vegenaise]
+source: Earth Island
+serving size: 14g
+serving size: 1T
+# container size 16floz
+90 calories
+9g fat
+0mg cholesterol
+70mg sodium
+0g carbohydrate
+0g fiber
+0g protein
 
 [item Ortega medium taco sauce]
 # subtitled "Original"

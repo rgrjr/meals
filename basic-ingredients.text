@@ -1,6 +1,6 @@
 # This file just contains "item" entries for ingredients.
 
-# USDA:  Nutrient Database at http://ndb.nal.usda.gov/ndb/
+# USDA:  Nutrient Database at https://fdc.nal.usda.gov/fdc-app.html
 
 [item water]
 serving size: 1C
@@ -320,6 +320,19 @@ serving size: 120g
 86g carbohydrate
 13g fiber
 2mg sodium
+0mg cholesterol
+
+[item white whole-wheat flour]
+alias: white whole wheat flour
+source: https://www.goldmedalflour.com/our-flour/white-whole-wheat-flour/
+serving size: 1/4C
+serving size: 30g
+100 calories
+4g protein
+0.5g fat
+21g carbohydrate
+3g fiber
+0mg sodium
 0mg cholesterol
 
 [item buckwheat flour]
@@ -846,6 +859,7 @@ serving size: 57g
 
 [item TVP]
 serving size: 100g
+serving size: 1C
 290 calories
 1g fat
 0mg cholesterol
@@ -886,6 +900,19 @@ serving size: 3/4C
 0mg cholesterol
 50mg sodium
 5g carbohydrate
+4g fiber
+2g protein
+
+[item Trader Joe's new artichoke hearts]
+source: Trader Joe's
+serving size: 85g
+serving size: 3/4C
+# 1 package = 12oz
+35 calories
+0g fat
+0mg cholesterol
+50mg sodium
+7g carbohydrate
 4g fiber
 2g protein
 
@@ -2269,6 +2296,19 @@ serving size: 17g
 0mg cholesterol
 7mg sodium
 
+[item jalapeno pepper]
+alias: jalapeno
+source: USDA: 11979
+# "one pepper"
+serving size: 14g
+4 calories
+0g protein
+0g fat
+1g carbohydrate
+0g fiber
+0mg cholesterol
+0mg sodium
+
 [item green chile]
 alias: green chili
 source: Old El Paso chopped green chiles
@@ -2356,6 +2396,17 @@ serving size: 85g
 2g carbohydrate
 1g fiber
 7g protein
+
+[item House Foods new firm tofu]
+serving size: 135g
+# 1 package = 19oz = 4 servings
+110 calories
+7g fat
+0mg cholesterol
+20mg sodium
+3g carbohydrate
+3g fiber
+11g protein
 
 [item extra-firm tofu]
 source: USDA
@@ -2563,7 +2614,7 @@ source: USDA: Miso
 634mg sodium
 
 [item Market Basket dijon mustard]
-alias: dijon mustard
+alias: Trader Joe's brown mustard
 source: Market Basket
 serving size: 5g
 serving size: 1tsp
@@ -2732,6 +2783,19 @@ serving size: 1C
 13g carbohydrate
 5g fiber
 2mg sodium
+0mg cholesterol
+
+[item blueberries]
+source: USDA: 786762, Blueberries, raw
+serving size: 100g
+# 1C unthawed = 155g
+# serving size: 155g
+57 calories
+1g protein
+0g fat
+14g carbohydrate
+2g fiber
+1mg sodium
 0mg cholesterol
 
 [item frozen blueberries]
