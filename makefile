@@ -1,7 +1,11 @@
 # meals.pl testing.  -- rgr, 24-Jan-15.
 
-test:	test-show1 test-day1 test-day2 test-day3 test-day4
+test:	test-null test-show1 test-day1 test-day2 test-day3 test-day4
 
+test-null:
+	./meals.pl --det /dev/null > $@.tmp 2>&1
+	cmp /dev/null $@.tmp
+	rm -f $@.tmp
 test-day1:
 	./meals.pl --recipe-file day1-recipes.text day1.text > $@.tmp
 	cmp $@.tbl $@.tmp

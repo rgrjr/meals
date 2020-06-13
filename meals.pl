@@ -173,7 +173,7 @@ for my $file (@ARGV) {
     produce_day_total($day_total);
     $file_total->present_summary(detailed_p => $detailed_p,
 				 display_cho_p => 1)
-	unless $daily_p;
+	if @$meals && ! $daily_p;
 }
 
 # Produce a calorie plot if requested.
