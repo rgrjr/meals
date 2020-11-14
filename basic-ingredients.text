@@ -396,6 +396,18 @@ serving size: 30g
 1g fiber
 23g protein
 
+[item soy protein powder]
+source: Bob's Red Mill soy protein powder
+serving size: 1/4C
+serving size: 20g
+80 calories
+1g fat
+0mg cholesterol
+190mg sodium
+0g carbohydrate
+0g fiber
+18g protein
+
 [item soy flour]
 source: Bob's Red Mill organic whole grain soy flour
 serving size: 0.25C
@@ -530,6 +542,18 @@ serving size: 245g
 0g fiber
 257mg sodium
 27mg cholesterol
+
+[item whole milk]
+source: USDA: Milk, whole
+serving size: 1C
+serving size: 244g
+149 calories
+8g protein
+8g fat
+12g carbohydrate
+0g fiber
+105mg sodium
+24mg cholesterol
 
 [item 2% milk]
 alias: milk
@@ -828,6 +852,7 @@ source: USDA: 01228, Cheese, fresh, queso fresco
 serving size: 122g
 # 1C crumbled = 122g
 serving size: 1C
+# 1gal of milk makes 5.35 svg of paneer = 653g
 365 calories
 22g protein
 29g fat
@@ -2072,6 +2097,52 @@ serving size: 588g
 0mg cholesterol
 176mg sodium
 
+[item radish]
+alias: radishes
+source: USDA: 787814, Radish, raw
+serving size: 100g
+# 1 medium = 4.5g
+16 calories
+0.7g protein
+0g fat
+3g carbohydrate
+1.6g fiber
+0mg cholesterol
+39mg sodium
+
+[item rutabaga]
+source: USDA: 787815, Rutabaga, raw
+serving size: 100g
+37 calories
+1g protein
+0g fat
+9g carbohydrate
+2g fiber
+0mg cholesterol
+12mg sodium
+
+[item fennel]
+source: USDA: 787786, Fennel bulb, raw
+serving size: 100g
+31 calories
+1g protein
+0g fat
+7g carbohydrate
+3g fiber
+0mg cholesterol
+52mg sodium
+
+[item lettuce]
+source: USDA: 787797, Lettuce, raw
+serving size: 100g
+14 calories
+1g protein
+0g fat
+3g carbohydrate
+1g fiber
+0mg cholesterol
+10mg sodium
+
 [item fresh spinach]
 alias: spinach
 source: USDA: 11457, Spinach, raw
@@ -2242,6 +2313,17 @@ serving size: 1.73C
 0g fat
 7g carbohydrate
 2g fiber
+4mg sodium
+0mg cholesterol
+
+[item delicata squash]
+source: USDA: 889756, Delicata squash (branded, Wegmans)
+serving size: 100g
+35 calories
+1g protein
+0g fat
+10.6g carbohydrate
+1g fiber
 4mg sodium
 0mg cholesterol
 
@@ -2493,6 +2575,17 @@ serving size: 100g
 94mg cholesterol
 113mg sodium
 
+[item cooked trout]
+source: USDA: 782668, Trout, cooked, NS as to cooking method
+serving size: 100g
+205 calories
+24g protein
+11g fat
+0g carbohydrate
+0g fiber
+72mg cholesterol
+376mg sodium
+
 [item salmon]
 source: USDA: Fish, salmon, sockeye, cooked, dry heat
 serving size: 100g
@@ -2615,6 +2708,8 @@ source: USDA: Miso
 
 [item Market Basket dijon mustard]
 alias: Trader Joe's brown mustard
+# The USDA database doesn't have a generic entry for "dijon mustard."
+alias: dijon mustard
 source: Market Basket
 serving size: 5g
 serving size: 1tsp
@@ -2637,6 +2732,30 @@ serving size: 1tsp
 0g carbohydrate
 0g fiber
 0g protein
+
+[item Organicville dijon mustard]
+source: Trader Joe's
+serving size: 5g
+serving size: 1tsp
+0 calories
+0g fat
+0mg cholesterol
+115mg sodium
+0g carbohydrate
+0g fiber
+0g protein
+
+[item Grey Poupon dijon mustard]
+source: Grey Poupon
+serving size: 5g
+serving size: 1tsp
+5 calories
+0g fat
+0mg cholesterol
+115mg sodium
+0.6g carbohydrate
+0g fiber
+0.6g protein
 
 [item french fries]
 source: USDA: Potatoes, french fried, all types, salt added in processing, frozen, home-prepared, oven heated
@@ -2785,6 +2904,18 @@ serving size: 1C
 2mg sodium
 0mg cholesterol
 
+[item dried cranberries]
+source: Trader Joe's
+serving size: 40g
+serving size: 1/4C
+140 calories
+0g protein
+0g fat
+35g carbohydrate
+2g fiber
+0mg sodium
+0mg cholesterol
+
 [item blueberries]
 source: USDA: 786762, Blueberries, raw
 serving size: 100g
@@ -2833,6 +2964,17 @@ source: Sun Maid
 23g carbohydrate
 1g fiber
 0g protein
+
+[item mango]
+serving size: 100g
+source: USDA: 786699, Mango, raw
+60 calories
+0g fat
+0mg cholesterol
+1mg sodium
+15g carbohydrate
+1.6g fiber
+1g protein
 
 [item rhubarb stalks]
 source: USDA: 09307, Rhubarb, raw
