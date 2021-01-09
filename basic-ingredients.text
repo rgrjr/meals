@@ -283,9 +283,12 @@ serving size: 0.781C
 0mg cholesterol
 
 [item oats]
+alias: old-fashioned oats
+alias: old-fashioned rolled oats
 source: Stop And Shop Old Fashioned Oats
 serving size: 0.5C
 # 0.5C = 40g dry
+serving size: 40g
 150 calories
 5g protein
 2.5g fat
@@ -297,6 +300,8 @@ serving size: 0.5C
 [item flour]
 alias: white flour
 alias: wheat flour
+alias: all-purpose flour
+alias: unbleached all-purpose flour
 source: USDA: Wheat flour, white, all-purpose, enriched, bleached
 serving size: 100g
 # 1C = 125g
@@ -591,6 +596,19 @@ serving size: 242g
 0g fiber
 148mg sodium
 85mg cholesterol
+
+[item light cream]
+source: USDA: 1097884, Cream, light
+alias: cream
+serving size: 1C
+serving size: 240g
+468 calories
+7g protein
+46g fat
+9g carbohydrate
+0g fiber
+173mg sodium
+142mg cholesterol
 
 [item heavy cream]
 source: USDA: 01053, Cream, fluid, heavy whipping
@@ -1247,7 +1265,7 @@ source: USDA: Syrups, maple
 alias: organic blue agave
 alias: agave syrup
 serving size: 1T
-# 1T = 20.7g
+serving size: 20.7g
 source: Wholesome Sweeteners, Inc
 60 calories
 0g protein
@@ -1272,7 +1290,7 @@ serving size: 21g
 [item vanilla extract]
 source: USDA: Vanilla extract
 serving size: 1tsp
-# 1tsp = 4.2g
+serving size: 4.2g
 12 calories
 0g protein
 0g fat
@@ -1459,7 +1477,7 @@ serving size: 1C
 [item cooked black soy beans]
 source: USDA: Soybeans, mature cooked, boiled, without salt 
 serving size: 1C
-# 1C = 172g
+serving size: 172g
 298 calories
 29g protein
 15g fat
@@ -2706,11 +2724,11 @@ source: USDA: Miso
 0mg cholesterol
 634mg sodium
 
-[item Market Basket dijon mustard]
+[item dijon mustard]
+alias: Market Basket dijon mustard
 alias: Trader Joe's brown mustard
+alias: French's dijon mustard
 # The USDA database doesn't have a generic entry for "dijon mustard."
-alias: dijon mustard
-source: Market Basket
 serving size: 5g
 serving size: 1tsp
 5 calories
@@ -2857,6 +2875,7 @@ serving size: 182g
 source: USDA: Avocados, raw, all commercial varieties
 serving size: 100g
 # 1C = 150g
+serving size: 0.667C
 160 calories
 2g protein
 15g fat
@@ -2919,8 +2938,8 @@ serving size: 1/4C
 [item blueberries]
 source: USDA: 786762, Blueberries, raw
 serving size: 100g
-# 1C unthawed = 155g
-# serving size: 155g
+# 1C = 150g
+serving size: 2/3C
 57 calories
 1g protein
 0g fat
@@ -2953,6 +2972,18 @@ serving size: 24g
 2g fiber
 0mg cholesterol
 0mg sodium
+
+[item Kirkland organic dried mangoes]
+serving size: 40g
+serving size: 1/2C
+source: Kirkland
+140 calories
+0g fat
+0mg cholesterol
+0mg sodium
+34g carbohydrate
+2g fiber
+1g protein
 
 [item dried mango]
 serving size: 1oz

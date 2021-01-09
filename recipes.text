@@ -816,6 +816,20 @@ serving size: 300g
 6T oil
 4T cornstarch
 
+[recipe stir-fried veggies with fried tofu 25]
+servings: 4
+serving size: 300g
+1/2 large onion
+1/2lb broccoli
+4 carrots
+3T ginger
+5 cloves garlic
+3T oil
+2 ancho chilis
+18oz Nasoya organic sprouted firm tofu (1 package)
+1/4C soy sauce
+4T cornstarch
+
 [recipe stir-fried carrots with fried tofu]
 # served while I was on a low-residue diet
 servings: 5
@@ -1161,6 +1175,19 @@ serving size: 250g
 2T cornstarch
 2T soy sauce
 4T oil
+
+[recipe stir-fried veggies 19]
+servings: 6
+serving size: 250g
+18oz Nasoya organic sprouted firm tofu (1 package)
+200g (3 large) carrots
+4 celery stalks
+3/4lb broccoli
+4 cloves garlic
+2oz (estimated) ginger
+2 bell peppers
+3T oil
+1/4C soy sauce
 
 [recipe Kirkland stir-fried veggies]
 servings: 5
@@ -2898,6 +2925,20 @@ serving size: 75g
 1tsp vanilla extract
 6T butter
 
+[recipe Jan's banana pancakes 2]
+source: https://www.onceuponachef.com/recipes/banana-pancakes.html, Jan
+# double recipe, no soy flour, with agave nectar
+servings: 15
+serving size: 95g
+3C white whole wheat flour
+3T agave nectar
+1tsp salt
+2 bananas
+2 eggs
+2-1/4C almond milk
+1tsp vanilla extract
+6T butter
+
 [recipe blueberry maple syrup pie]
 # as made by Anna to celebrate her birthday early, 5-Aug-16.
 source: Anna
@@ -3191,6 +3232,32 @@ serving size: 350g
 12oz (1 container) tomato sauce
 5 celery stalks
 3T oil
+
+[recipe Jan's chili 23]
+source: Jan
+servings: 6
+serving size: 250g
+# CHO%16.1
+2C cooked black soy beans
+1-1/4C Bob's Red Mill TVP
+5 tomatoes
+1/2 large onion
+5 cloves garlic
+3T oil
+
+[recipe Jan's chili 24]
+source: Jan
+servings: 5
+serving size: 350g
+# CHO%34.0
+1 large onion
+4 celery stalks
+6 cloves garlic
+1/2lb bell peppers
+2 tomatoes
+31oz (2 cans) kidney beans
+2T oil
+1/2C Bob's Red Mill TVP
 
 [recipe Jan's cabbage chili]
 source: Jan
@@ -3681,6 +3748,23 @@ servings: 12
 3T molasses
 1C fresh cranberries
 
+[recipe Jan's maple oatmeal scone]
+source: Jan, https://www.onceuponachef.com/recipes/glazed-oatmeal-maple-scones-with-pecans-currants.html
+servings: 6
+serving size: 130g
+# CHO%47.2
+1-1/2 cups unbleached all-purpose flour
+1-1/4 cups old-fashioned rolled oats (not quick cooking or instant)
+# 1-1/2 teaspoons baking powder
+# 1/4 teaspoon baking soda
+1/4 teaspoon salt
+1/2 cup walnuts
+1/2 cup raisins
+1/2 cup butter
+1/3 cup (cold) heavy cream
+1/2 cup maple syrup
+1 (cold) egg
+
 [recipe Lizzie's maple oatmeal scone]
 source: Lizzie, Internet
 servings: 15
@@ -3911,7 +3995,8 @@ servings: 6
 [recipe golden "chicken" patties]
 alias: golden "chicken" patty
 source: Vegetarian Times Cookbook, p266
-servings: 6
+servings: 10
+serving size: 100g
 31oz (2 cans) Goya chickpeas
 1.5C oats
 1 clove garlic
@@ -4890,6 +4975,17 @@ serving size: 300g
 375g (1 box) dry whole wheat pasta (= 1050g cooked pasta)
 675g water (absorbed by the pasta)
 165g feta cheese
+1/4C olive oil
+
+[recipe pasta and feta 19]
+servings: 5
+serving size: 300g
+2T apple cider vinegar (really balsamic)
+6 cloves garlic
+124g walnuts
+1lb (1 box) dry pasta (= 2.35lb cooked pasta)
+1.35lb water (absorbed by the pasta)
+205g feta cheese
 1/4C olive oil
 
 [recipe pasta and feta without feta]
@@ -5910,6 +6006,27 @@ serving size: 300g
 2T cornstarch
 5 scallions
 
+[recipe General Tso's tofu 7]
+source: https://domesticsuperhero.com/general-tsos-tofu/, Jan, Lizzie
+# in Jan's notebook
+# double tofu, triple sauce, served 1-Jan-21.
+# For the Tofu
+servings: 8
+serving size: 250g
+18oz (1 pkg) Nasoya organic sprouted firm tofu
+8T cornstarch
+8T canola oil
+# For the sauce
+4-1/2T agave nectar
+9T hoisin sauce
+9T vinegar
+9T ketchup
+6T soy sauce
+3/2 cup water
+3T oil
+6 scallions
+6T ginger
+
 [recipe Chinese carrot sauce]
 source: Jan
 servings: 4
@@ -6195,6 +6312,18 @@ serving size: 300g
 23g cloves garlic
 15g ginger
 
+[recipe Nepali potatoes 4]
+# with chickpeas and extra oil.
+source: The Spice Box, p89
+servings: 6
+serving size: 300g
+1/2C oil
+437g onions (2 large)
+1kg potatoes (3 large)
+15.5oz (1 can) canned chickpeas
+25g garlic
+15g ginger
+
 [recipe Red Lentil special #1]
 # faked based on what was served on 3-Oct-15, and not including the
 # fruit and spinach garnish or the chipotle cashew glaze.
@@ -6458,6 +6587,21 @@ serving size: 250g
 1T agave nectar
 2T sriracha sauce
 
+[recipe PETA pad thai 5]
+source: https://www.peta.org/recipes/easy-vegan-pad-thai/, Jan
+servings: 6
+serving size: 250g
+8oz dried rice noodles
+18oz (1 pkg) Nasoya organic sprouted firm tofu
+2T oil
+5 carrots
+4 scallions
+4 cloves garlic
+4T soy sauce
+2T peanut butter
+4T lime juice
+2T agave nectar
+
 [recipe pad thai 4]
 source: Jan
 servings: 6
@@ -6638,6 +6782,43 @@ servings: 12
 # 1tsp vanilla
 1C wheat flour
 # 1tsp baking powder
+
+[recipe blueberry muffin]
+source: Joy of Cooking p632, Jan
+# 1 muffin = 1 serving
+servings: 12
+serving size: 70g
+# CHO%45.4
+1-1/2C all-purpose flour
+2C blueberries
+1/2C soy flour
+1/2 tsp salt
+1C cream
+2 (large) eggs
+1/2C sugar
+1/4C oil
+# 1tsp vanilla
+
+[recipe oatmeal raisin muffin]
+source: https://apriljharris.com/old-fashioned-oatmeal-raisin-muffins/
+servings: 12
+serving size: 70g
+# CHO%54.0
+1 cup (all purpose plain) white whole-wheat flour
+1 cup (rolled) oats
+1/2 cup (packed light) brown sugar
+# 1 teaspoon baking powder
+# 1/2 teaspoon baking soda
+1/4 tsp salt
+# 1-1/2 teaspoons cinnamon
+# 1/4 teaspoon ground nutmeg
+1 large egg (beaten)
+# 1 cup buttermilk
+1/2C milk
+1/2C vinegar
+# 1 teaspoon vanilla extract
+1/2 cup olive oil
+1 cup raisins
 
 [recipe Jan's steamed eggplant]
 servings: 3
@@ -7441,6 +7622,17 @@ serving size: 250g
 14oz Vitasoy extra-firm tofu
 1tsp salt
 
+[recipe mushroom and pea curry]
+source: Jan
+servings: 7.5
+serving size: 300g
+2T oil
+20oz white mushrooms
+1lb frozen peas
+20oz tomatoes
+2T ginger
+31oz (2 cans) Goya chickpeas
+
 [recipe kung pao eggplant]
 source: http://blog.foodnetwork.com/healthyeats/2016/07/13/kung-pao-eggplant/
 # plus guesstimation, based on what Zhu Restaurant served on 8-Aug-16.
@@ -8164,6 +8356,30 @@ serving size: 50g
 2tsp brown sugar
 1T (brown rice) vinegar
 1 cloves garlic
+
+[recipe 5-ingredient peanut sauce]
+source: https://minimalistbaker.com/5-ingredient-peanut-sauce/, Liz
+servings: 4
+serving size: 60g
+1/2 cup peanut butter
+2T soy sauce
+1T agave nectar
+1 tsp sriracha sauce
+2T lime juice
+1/4 cup water (to thin)
+
+[recipe fried tofu squares]
+# squares are 1.5cm by 4cm by 5cm, but that gives them only 16% more surface
+# area, hence cornstarch and oil, than tofu cubes of the same size.
+# (* 1.5 4 5) 30.0
+# cube surface:  (* 6 (expt 30.0 0.667)) = 57.995
+# square surface:  (* 2 (+ (* 1.5 4) (* 1.5 5) (* 5 4))) = 67.0
+# difference:  (/ 67.0 57.995) = 1.155
+servings: 21
+serving size: 35g
+18oz Nasoya organic sprouted firm tofu (1 package)
+12T cornstarch
+3/4C oil
 
 [recipe pasta sauce w/greens, beans, & tom]
 alias: spaghetti sauce with greens, beans, and tomatoes 2
@@ -8903,6 +9119,19 @@ serving size: 20g
 1T vinegar
 1/4C oil
 
+[recipe Jan's salmon Rangoon 4]
+source: Jan
+# 1 count = 1 serving
+servings: 79
+serving size: 16g
+# CHO%37.1
+8 scallions
+18oz Nasoya organic sprouted firm tofu (1 package)
+5oz salmon
+2T vinegar
+537g (most of 2 packages) Nasoya vegan wonton wrappers
+1C oil
+
 [recipe potato and kidney bean soup]
 source: Jan
 servings: 8
@@ -8927,6 +9156,21 @@ serving size: 250g
 1C Vegenaise
 1T Market Basket dijon (actually French's) mustard
 # 1/2C dill pickle relish (0 calories)
+
+[recipe Jan's potato salad 2]
+source: Jan
+servings: 16
+serving size: 250g
+6lb potatoes
+6 celery stalks
+9 eggs
+2tsp Market Basket dijon mustard
+# 4T pickle relish
+6 scallions
+# 1/2C dill pickle relish (0 calories)
+12oz (1 package) soft tofu
+2T vinegar
+1T agave nectar
 
 [recipe Mexican potato salad]
 source: The Vegetarian Table: Mexico p115, Jan
@@ -9142,3 +9386,53 @@ serving size: 90g
 1 onion
 2oz chipotle in adobo
 1 clove garlic
+
+[recipe potato and broccoli soup]
+source: Jan
+servings: 6
+serving size: 500g
+3 carrots
+2/3 large (1 medium) onion
+4 cloves garlic
+1/2lb broccoli
+2 (large) potatoes
+2T oil
+
+[recipe vanilla frosting]
+source: https://www.google.com/amp/s/www.foodnetwork.com/recipes/giada-de-laurentiis/vanilla-frosting-recipe-1962111.amp
+servings: 3
+serving size: 250g
+1/2 cup (1 stick) butter
+3 cups (powdered) sugar
+1/4 cup whole milk
+1tsp vanilla extract
+
+[recipe Lizzie's strawberry yule log]
+source:  https://www.mexicoinmykitchen.com/strawberry-cream-roll-cake/
+servings: 10
+serving size: 200g
+1-1/4 cup sugar
+6 eggs
+2tsp vanilla extract
+1/2 cup flour
+1/4 lb butter
+1 pound strawberries
+2-1/2 cups heavy cream
+1/2 cup (confectioners) sugar
+vanilla frosting (colored pink)
+
+[recipe Mark's miracle black bean soup]
+# with tweaks by Jan
+source: Vegan Vittles p85, Jan
+servings: 6
+serving size: 400g
+1T oil
+1-1/2C carrot
+1-1/2C onion
+1C celery
+1T garlic
+1/2 tsp salt
+4C water
+31oz (2 cans) black beans
+1/4C tomato paste
+1-1/2 tsp soy sauce
