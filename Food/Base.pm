@@ -64,6 +64,8 @@ BEGIN {
 	= (cup => 'C',
 	   ounce => 'oz',
 	   pound => 'lb',
+	   teaspoon => 'tsp',
+	   teasp => 'tsp',
 	   tablespoon => 'T',
 	   tbsp => 'T');
 }
