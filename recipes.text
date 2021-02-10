@@ -264,6 +264,22 @@ serving size: 100g
 2T ginger
 1/2C oil (estimated)
 
+[recipe Jan's egg roll 3]
+source: Internet, Jan
+servings: 30
+serving size: 100g
+2lb egg roll wrappers
+3/4C oil (estimated)
+4 cloves garlic
+3T ginger
+12oz white mushrooms
+4 carrots
+1 onion
+600g shredded cabbage
+1/4C soy sauce
+1T cornstarch
+18oz Nasoya organic sprouted firm tofu (1 package)
+
 [recipe family style fish]
 source: An Encyclopedia Of Chinese Food And Cooking p.148, Jan
 servings: 4
@@ -992,6 +1008,16 @@ serving size: 350g
 5 carrots
 5 celery stalks
 
+[recipe stir-fried broc with fried tofu 14]
+alias: stir-fried broccoli with fried tofu 14
+servings: 4
+serving size: 300g
+18oz Nasoya organic sprouted firm tofu (1 package)
+4T cornstarch
+1/4C oil
+1/4C soy sauce
+1.5lb broccoli
+
 [recipe Szechuan green beans with fried tofu]
 servings: 4
 serving size: 300g
@@ -1188,6 +1214,15 @@ serving size: 250g
 2 bell peppers
 3T oil
 1/4C soy sauce
+
+[recipe stir-fried veggies 20]
+servings: 3
+serving size: 250g
+4 carrots
+1/2lb broccoli
+1/2lb Kirkland stir fry vegetable blend
+4T oil
+4T soy sauce
 
 [recipe Kirkland stir-fried veggies]
 servings: 5
@@ -2615,6 +2650,21 @@ serving size: 190g
 1/4lb spinach
 1C Bob's Red Mill TVP
 
+[recipe luxurious tomato-basil pasta sauce 10]
+# single recipe, mushrooms, extra cashews and almond milk, no spinach
+source: The Oh She Glows Cookbook p181, Jan
+servings: 4
+serving size: 250g
+1C raw cashews
+1C almond milk
+12oz white mushrooms
+2tsp oil
+1/2 large onion
+2 cloves garlic
+12oz tomato sauce
+3T tomato paste
+1C Bob's Red Mill TVP
+
 [recipe Jan's wombat pasta sauce]
 source: Jan, based on the luxurious tomato-basil version
 servings: 6
@@ -2915,6 +2965,7 @@ source: https://www.onceuponachef.com/recipes/banana-pancakes.html, Jan
 # double recipe, with 1/3 soy flour and agave nectar
 servings: 15
 serving size: 75g
+# CHO%39.4
 2C white whole wheat flour
 1C soy flour
 3T agave nectar
@@ -2930,6 +2981,7 @@ source: https://www.onceuponachef.com/recipes/banana-pancakes.html, Jan
 # double recipe, no soy flour, with agave nectar
 servings: 15
 serving size: 95g
+# CHO%51.5
 3C white whole wheat flour
 3T agave nectar
 1tsp salt
@@ -3764,6 +3816,28 @@ serving size: 130g
 1/3 cup (cold) heavy cream
 1/2 cup maple syrup
 1 (cold) egg
+
+[recipe Jan's maple oatmeal scone 2]
+source: Jan, https://www.onceuponachef.com/recipes/glazed-oatmeal-maple-scones-with-pecans-currants.html
+# this time with pecans and icing
+servings: 6
+serving size: 150g
+# CHO%47.4
+1 cups unbleached all-purpose flour
+1/2C soy flour
+1-1/4 cups old-fashioned rolled oats (not quick cooking or instant)
+# 1-1/2 teaspoons baking powder
+# 1/4 teaspoon baking soda
+1/4 teaspoon salt
+1/2 cup pecans
+1/2 cup raisins
+1/2 cup butter
+1/3 cup (cold) heavy cream
+1/2 cup maple syrup
+1 (cold) egg
+# icing
+1/3C confectioner's sugar
+2T maple syrup
 
 [recipe Lizzie's maple oatmeal scone]
 source: Lizzie, Internet
@@ -4986,6 +5060,17 @@ serving size: 300g
 1lb (1 box) dry pasta (= 2.35lb cooked pasta)
 1.35lb water (absorbed by the pasta)
 205g feta cheese
+1/4C olive oil
+
+[recipe pasta and feta 20]
+servings: 5
+serving size: 300g
+2T apple cider vinegar (really balsamic)
+10g garlic
+125g walnuts
+1lb (1 box) dry pasta (= 2.35lb cooked pasta)
+1.35lb water (absorbed by the pasta)
+207g feta cheese
 1/4C olive oil
 
 [recipe pasta and feta without feta]
@@ -9198,6 +9283,19 @@ serving size: 300g
 2lb spinach
 4C cooked chickpeas
 
+[recipe Jan's saag paneer 6]
+# based on channa saag, but with Jan's home-made paneer.
+source: Forks Over Knives p213, Jan
+servings: 8
+serving size: 250g
+1 onion
+4g (3 count) Thai chilis
+3 cloves garlic
+10oz tomato sauce
+1C almond milk
+2lb spinach
+650g paneer (from 1gal of milk)
+
 [recipe Mexican zucchini]
 source: Jan
 servings: 6
@@ -9436,3 +9534,85 @@ serving size: 400g
 31oz (2 cans) black beans
 1/4C tomato paste
 1-1/2 tsp soy sauce
+
+[recipe restaurant baingan bharta 2]
+source: https://cooking.nytimes.com/recipes/1014830-baingan-bharta
+servings: 6
+serving size: 250g
+2 pounds eggplant
+2 tablespoons lime juice
+3 tablespoons oil
+2/3 (1 medium) onion
+3 cloves garlic
+1 jalapeño
+1 pound tomatoes
+# 1/2 teaspoon turmeric
+1 teaspoon salt
+# 1/2 cup chopped cilantro, thin stems included
+# 2 teaspoons garam masala
+
+[recipe lentil-chickpea saute]
+alias: lentil-chickpea saute with apple and curry
+source: Vegetarian Times Complete Cookbook p278
+servings: 4
+serving size: 250g
+# CHO%54.7
+1C dry (yellow) lentils
+15.5oz (1 can) Goya chickpeas
+1/2 (1 small) onion
+1 clove garlic
+2T oil
+1T ginger
+4T soy sauce
+1/3C raisins
+1C water
+1 apple
+
+[recipe celery black pepper tofu 2]
+source: Internet, Jan
+servings: 3
+serving size: 260g
+# CHO%32.2
+18oz Nasoya organic sprouted firm tofu (1 package)
+3tsp soy sauce
+4T cornstarch
+1tsp oil
+8 cloves garlic
+2T ginger
+2 chilis
+1.5C (chopped) celery
+1/4C carrots
+1T soy sauce
+1T water
+1tsp maple syrup
+1tsp vinegar
+
+[recipe Jan's jambalaya]
+source: The Joy of Cooking p331, Jan
+# the Joy of Cooking recipe is actually chicken jambalaya, but we
+# dropped the chicken and used tofu sausage (not included in the recipe).
+servings: 4
+serving size: 300g
+1tsp salt
+2T oil
+2/3 (1 medium) onion
+1 bell pepper
+1 celery stalk
+3 cloves garlic
+1C raw white rice
+2T tomato paste
+2C water
+12oz tomatoes
+1/2tsp salt
+
+[recipe Jan's asparagus and salmon alfredo]
+source: Jan
+servings: 6
+serving size: 250g
+1/2C raw cashews
+1/2C almond milk
+12oz soft tofu
+3T lemon juice
+2T oil
+2lb asparagus
+10oz (2 cans) salmon

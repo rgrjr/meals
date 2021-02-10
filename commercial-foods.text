@@ -1411,6 +1411,21 @@ serving size: 34g
 1g fiber
 3g protein
 
+[item 2021 Girl Scout PB cookies]
+# these are called "do-si-dos" from a different baking company
+alias: 2021 Girl Scout peanut butter sandwich cookies
+source: littlebrowniebakers.com
+# CHO%52.5
+serving size: 34g
+# 34g = 3 cookies
+160 calories
+7g fat
+0mg cholesterol
+100mg sodium
+22g carbohydrate
+1g fiber
+3g protein
+
 [item Top Ramen]
 alias: Maruchan ramen
 serving size: 100g
@@ -2041,18 +2056,6 @@ serving size: 2/3C
 3g fiber
 3g protein
 
-[item Kirkland frozen stir-fry vegetable blend]
-serving size: 91g
-serving size: 1C
-# 1 package = 2.49kg
-35 calories
-0g fat
-0mg cholesterol
-20mg sodium
-7g carbohydrate
-2g fiber
-1g protein
-
 [item Cantonese Blend vegetables]
 alias: Cantonese Blend frozen mixed vegetables
 source: Grande Classics (brand)
@@ -2068,6 +2071,7 @@ serving size: 3/4C
 1g protein
 
 [item Kirkland stir fry vegetable blend]
+alias: Kirkland frozen stir-fry vegetable blend
 source: Kirkland
 serving size: 93g
 serving size: 1C

@@ -1223,6 +1223,19 @@ source: USDA: 19335, Sugars, granulated
 0mg cholesterol
 0mg sodium
 
+[item confectioner's sugar]
+alias: powered sugar
+serving size: 120g
+serving size: 1C
+source: USDA: 1103934, Sugar, white, confectioner's, powdered
+467 calories
+0g protein
+0g fat
+120g carbohydrate
+0g fiber
+0mg cholesterol
+0mg sodium
+
 [item brown sugar]
 source: USDA: 19334, Sugars, brown
 serving size: 1tsp
@@ -2396,7 +2409,21 @@ serving size: 17g
 0mg cholesterol
 7mg sodium
 
+[item hot chili]
+alias: Thai chili
+source: USDA: 75121000, Pepper, hot chili, raw
+# one pepper = 1.5g
+serving size: 100g
+34 calories
+1g protein
+0g fat
+8g carbohydrate
+2g fiber
+0mg cholesterol
+6mg sodium
+
 [item jalapeno pepper]
+alias: jalapeño
 alias: jalapeno
 source: USDA: 11979
 # "one pepper"
