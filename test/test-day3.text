@@ -1,5 +1,5 @@
-day3.text:12:Can't find 'green naan' to add it to the current meal.
-day3.text:13:Can't find 'white naan' to add it to the current meal.
+test/day3.text:12:Can't find 'green naan' to add it to the current meal.
+test/day3.text:13:Can't find 'white naan' to add it to the current meal.
 27-Dec-14 breakfast:            	  58.0	  31.0	  10.0	 592.0 CHO%39.2
   Kickstand Cafe scone          	  54.0	  29.0	   6.0	 500.0
   medium coffee, double whole milk	   4.0	   2.0	   4.0	  92.0	2.00svg
@@ -13,4 +13,4 @@ day3.text:13:Can't find 'white naan' to add it to the current meal.
 27-Dec-14 snack:                	  65.1	  21.7	   4.6	 469.3 CHO%55.5
   apple pie                     	  65.1	  21.7	   4.6	 469.3	1.14svg
 27-Dec-14 total:                	 230.8	  85.9	  46.5	1918.4 CHO%48.1
-day3.text total:                	 230.8	  85.9	  46.5	1918.4 CHO%48.1
+test/day3.text total:           	 230.8	  85.9	  46.5	1918.4 CHO%48.1
