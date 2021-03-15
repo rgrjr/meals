@@ -387,11 +387,19 @@ sub show_item_details {
 	if ($it->serving_size_g) {
 	    my $grams = $n_svg * $it->serving_size_g;
 	    $total_weight += $grams;
-	    $display .= sprintf(' (%dg)', $grams);
+	    $display .= sprintf(' (%dg)', $grams)
+		# No sense duplicating this.
+		unless $units eq 'g';
 	}
 	else {
 	    $missing_weight_p++;
 	    $missing_p = '*';
+	}
+	# Print the item name display on a separate line if it is too long.
+	if (length($display) > 33) {
+	    printf(" %s  %s\n",
+		   $missing_p || ' ', $display);
+	    ($missing_p, $display) = ('', '');
 	}
 	printf(" %s  %-33s  %s %s %s %s CHO%%%.1f\n",
 	       $missing_p || ' ', $display,
