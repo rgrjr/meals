@@ -92,13 +92,18 @@ sub present_summary {
 	if $keys{colon_p};
     $name = "  $name"
 	if $keys{indent_name_p};
-    printf('%-32s', $name);
+    if (length($name) > 38) {
+	# Print the name on its own line so as not to shift the other columns.
+	print $name, "\n";
+	$name = '';
+    }
+    printf('%-38s', $name);
     for my $slot (qw(net_carbohydrate_grams fat_grams
 		     protein_grams calories)) {
 	my $value = $self->$slot();
 	$value *= $n_servings
 	    if defined($value);
-	print $self->show_total($value, ! defined($value));
+	print ' ', $self->show_total($value, ! defined($value));
     }
     if ($keys{display_cho_p}) {
 	my $cho_percent = $self->carbohydrate_percent;
@@ -106,7 +111,7 @@ sub present_summary {
 	    if defined($cho_percent);
     }
     elsif ($n_servings != 1) {
-	printf "\t%3.2fsvg", $n_servings;
+	printf "  %3.2fsvg", $n_servings;
     }
     print "\n";
     if ($keys{detailed_p} && $self->can('ingredients') && $self->ingredients) {
@@ -388,7 +393,7 @@ sub show_item_details {
 	    $missing_weight_p++;
 	    $missing_p = '*';
 	}
-	printf(" %s  %-28s  %s %s %s %s CHO%%%.1f\n",
+	printf(" %s  %-33s  %s %s %s %s CHO%%%.1f\n",
 	       $missing_p || ' ', $display,
 	       $self->show_total($carbs), $self->show_total($fat),
 	       $self->show_total($protein),

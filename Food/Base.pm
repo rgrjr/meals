@@ -186,13 +186,13 @@ sub show_total {
     my ($class, $total, $missing_p) = @_;
 
     if (! defined($total)) {
-	"\t     ?";
+	"      ?";
     }
     elsif (! $missing_p) {
-	sprintf "\t%6.1f", $total;
+	sprintf " %6.1f", $total;
     }
     else {
-	sprintf "\t%6.1f+", $total;
+	sprintf " %6.1f+", $total;
     }
 }
 
