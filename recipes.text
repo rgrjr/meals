@@ -530,6 +530,19 @@ serving size: 250g
 4 celery stalks
 2T oil
 
+[recipe stir-fried veggies with tofu 21]
+servings: 5
+serving size: 280g
+3/4lb broccoli
+6 carrots (really 4 large ones)
+1 onion
+6 cloves garlic
+3T ginger
+3T oil
+1/4C soy sauce
+1T cornstarch
+18oz Nasoya organic sprouted firm tofu (1 package)
+
 [recipe stir-fried veggies with peppers and tofu]
 servings: 4
 4 firm tofu (1 package)
@@ -845,6 +858,15 @@ serving size: 300g
 18oz Nasoya organic sprouted firm tofu (1 package)
 1/4C soy sauce
 4T cornstarch
+
+[recipe stir-fried veggies with fried tofu 26]
+servings: 5
+serving size: 325g
+36oz Nasoya organic sprouted firm tofu (2 packages)
+4C Kirkland frozen stir-fry vegetable blend
+8T soy sauce
+12T oil
+8T cornstarch
 
 [recipe stir-fried carrots with fried tofu]
 # served while I was on a low-residue diet
@@ -1223,6 +1245,19 @@ serving size: 250g
 1/2lb Kirkland stir fry vegetable blend
 4T oil
 4T soy sauce
+
+[recipe stir-fried veggies with chick'n]
+source: Jan
+servings: 4
+serving size: 220g
+225g (1 package) Tofurky plant-based chick'n
+4 celery stalks
+2 bell peppers
+1/2lb broccoli
+2T ginger
+4T oil
+1/4C soy sauce
+3T cornstarch
 
 [recipe Kirkland stir-fried veggies]
 servings: 5
@@ -2078,6 +2113,17 @@ serving size: 400g
 2T ginger
 2.5 lb potatoes
 3T oil
+
+[recipe aloo chole 3]
+servings: 6
+serving size: 300g
+3C Goya chickpeas
+600g (3 medium) potatoes
+1/2lb spinach
+2 cloves garlic
+2T ginger
+12oz tomato sauce
+1 large onion
 
 [recipe Jan's aloo gobhi]
 # 275g servings, CHO%42.
@@ -3311,6 +3357,33 @@ serving size: 350g
 2T oil
 1/2C Bob's Red Mill TVP
 
+[recipe Jan's chili 25]
+source: Jan
+servings: 5
+serving size: 325g
+# CHO%34.0
+1 large onion
+4 celery stalks
+6 cloves garlic
+1/2lb bell peppers
+2 tomatoes
+31oz (2 cans) kidney beans
+2T oil
+
+[recipe Jan's chili 26]
+source: Jan
+servings: 6
+serving size: 325g
+# CHO%51.5
+1 large onion
+3 cloves garlic
+4 celery stalks
+1-1/2 bell peppers
+31oz (2 cans) kidney beans
+8oz tomatoes
+12oz tomato sauce
+1/2C tomato paste
+
 [recipe Jan's cabbage chili]
 source: Jan
 servings: 6
@@ -3802,6 +3875,7 @@ servings: 12
 
 [recipe Jan's maple oatmeal scone]
 source: Jan, https://www.onceuponachef.com/recipes/glazed-oatmeal-maple-scones-with-pecans-currants.html
+# no icing, and walnuts instead of pecans
 servings: 6
 serving size: 130g
 # CHO%47.2
@@ -3819,7 +3893,7 @@ serving size: 130g
 
 [recipe Jan's maple oatmeal scone 2]
 source: Jan, https://www.onceuponachef.com/recipes/glazed-oatmeal-maple-scones-with-pecans-currants.html
-# this time with pecans and icing
+# this time with 1/3 soy flour, pecans and icing
 servings: 6
 serving size: 150g
 # CHO%47.4
@@ -3830,7 +3904,6 @@ serving size: 150g
 # 1/4 teaspoon baking soda
 1/4 teaspoon salt
 1/2 cup pecans
-1/2 cup raisins
 1/2 cup butter
 1/3 cup (cold) heavy cream
 1/2 cup maple syrup
@@ -3838,6 +3911,25 @@ serving size: 150g
 # icing
 1/3C confectioner's sugar
 2T maple syrup
+
+[recipe Jan's maple oatmeal scone 3]
+source: Jan, https://www.onceuponachef.com/recipes/glazed-oatmeal-maple-scones-with-pecans-currants.html
+# with pecans and soy flour but no icing
+# Jan actually made 19 scones from triple the recipe.
+servings: 6.333
+serving size: 110g
+# CHO%47.4
+1 cups unbleached all-purpose flour
+1/2C soy flour
+1-1/4 cups old-fashioned rolled oats (not quick cooking or instant)
+# 1-1/2 teaspoons baking powder
+# 1/4 teaspoon baking soda
+1/4 teaspoon salt
+1/2 cup pecans
+1/2 cup butter
+1/3 cup (cold) heavy cream
+1/2 cup maple syrup
+1 (cold) egg
 
 [recipe Lizzie's maple oatmeal scone]
 source: Lizzie, Internet
@@ -5072,6 +5164,42 @@ serving size: 300g
 1.35lb water (absorbed by the pasta)
 207g feta cheese
 1/4C olive oil
+
+[recipe pasta and feta 21]
+servings: 5
+serving size: 300g
+# CHO%42.7
+2T apple cider vinegar (really balsamic)
+10g garlic
+125g walnuts
+1lb (1 box) dry pasta (= 2.35lb cooked pasta)
+1.35lb water (absorbed by the pasta)
+250g feta cheese
+1/4C olive oil
+
+[recipe pasta and feta 22]
+servings: 5
+serving size: 300g
+# CHO%41.7
+2T apple cider vinegar (really balsamic)
+10g garlic
+129g walnuts
+1lb (1 box) dry pasta (= 2.35lb cooked pasta)
+1.35lb water (absorbed by the pasta)
+212g feta cheese
+1/3C olive oil
+
+[recipe pasta and feta 23]
+servings: 5
+serving size: 300g
+# CHO%41.7
+2T apple cider vinegar (really balsamic)
+10g garlic
+129g walnuts
+1lb (1 box) dry pasta (= 2.35lb cooked pasta)
+1.35lb water (absorbed by the pasta)
+228g feta cheese
+1/3C olive oil
 
 [recipe pasta and feta without feta]
 # Lizzie and I made this before realizing that the feta had gone bad.
@@ -6687,6 +6815,28 @@ serving size: 250g
 4T lime juice
 2T agave nectar
 
+[recipe PETA pad thai 6]
+# double sauce
+source: https://www.peta.org/recipes/easy-vegan-pad-thai/, Jan
+servings: 8
+serving size: 350g
+14oz dried rice noodles
+18oz (1 pkg) Nasoya organic sprouted firm tofu
+8oz snow peas
+8oz bean sprouts
+4 carrots
+6 scallions
+2T ginger
+4 cloves garlic
+3T oil
+1T soy sauce
+# double sauce
+4T peanut butter
+3T lime juice
+3T agave nectar
+1T sriracha sauce
+3T soy sauce
+
 [recipe pad thai 4]
 source: Jan
 servings: 6
@@ -7997,6 +8147,19 @@ serving size: 225g
 4oz feta cheese
 2T olive oil
 
+[recipe veggie frittata]
+source: Jan
+servings: 8
+serving size: 150g
+2T olive oil
+1/2C onion
+1tsp garlic
+3C broccoli
+12oz white mushrooms
+10 eggs
+1/2tsp salt
+1C feta cheese
+
 [recipe aloo matar]
 # plus estimation based on Rang Indian Bistro
 source: http://allrecipes.com/recipe/52232/aloo-matar/
@@ -8110,8 +8273,24 @@ serving size: 300g
 2.5C tomatoes
 2T lemon juice
 
-[recipe classic no-onion kidney bean curry]
+[recipe spicy punjabi red kidney bean stew 3]
 source: World Vegetarian p47, Jan
+servings: 4
+serving size: 350g
+# CHO%35.2
+29oz (1 large can) kidney beans
+2tsp salt
+3T oil
+1C (chopped) onions
+1T garlic
+1T ginger
+12oz tomatoes
+5g hot chilis (3 count)
+2T lemon juice
+3/2C TVP
+
+[recipe classic no-onion kidney bean curry]
+source: Jan
 servings: 4
 serving size: 300g
 31oz (2 cans) kidney beans
@@ -9057,6 +9236,20 @@ serving size: 100g
 1 bell pepper (roasted)
 6 svg (1 recipe) Jan's pesto
 
+[recipe Jan's pesto tofu sausage and olive pizza]
+# make one smallish pizza
+servings: 6
+# 1 svg = 1/6 pizza
+serving size: 110g
+1-1/3C flour
+2/3C soy flour
+1tsp agave syrup
+1 Tofurkey original Italian sausage
+57g Lindsay extra large olives (1/3 can)
+6oz Jan's pesto
+1/4lb spinach
+10 cloves garlic
+
 [recipe tortillas for tortilla soup]
 source: The Oh She Glows Cookbook, Jan
 servings: 6
@@ -9089,6 +9282,19 @@ servings: 6
 15.5oz (1 can) black beans
 2T lime juice
 1T oil
+
+[recipe tortilla soup 3]
+source: The Oh She Glows Cookbook p135, Jan
+servings: 8
+serving size: 325g
+1 onion
+3 cloves garlic
+1 jalapeno
+3C frozen organic mixed vegetables
+3T oil
+3C water
+24oz tomatoes
+31oz (2 cans) black beans
 
 [recipe hot and sour soup]
 source: Thug Kitchen 101 p64, Jan
@@ -9616,3 +9822,12 @@ serving size: 250g
 2T oil
 2lb asparagus
 10oz (2 cans) salmon
+
+[recipe sauteed artichokes and mushrooms]
+# for adding to pasta and pesto
+source: Jan
+servings: 3
+serving size: 250g
+12oz artichoke hearts
+18oz white mushrooms
+1T oil
