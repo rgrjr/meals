@@ -332,6 +332,23 @@ sub mark_last_use {
     $self->last_use($last_use);
 }
 
+sub _sane_amount {
+    my ($amount, $units) = @_;
+
+    return ''
+	unless defined($amount) && length($amount);
+    return $amount . $units
+	unless $amount =~ /^(.*[.])(.*)$/;
+    # Truncate the decimal fraction to a reasonable length.
+    my ($whole_part, $fraction) = $amount =~ //;
+    return $whole_part . $units
+	if $units eq 'g';
+    my $max_digits = $units eq 'C' || $units eq 'lb' ? 3 : 2;
+    return $amount . $units
+	if length($fraction) <= $max_digits;
+    return $whole_part . substr($fraction, 0, $max_digits) . $units;
+}
+
 sub show_item_details {
     my ($self) = @_;
 
@@ -361,7 +378,7 @@ sub show_item_details {
 	elsif ($units eq 'recipe') {
 	    $units = ' recipe';
 	}
-	my $display = ($ing->amount || '') . $units . ' ' . $it->name;
+	my $display = _sane_amount($ing->amount, $units) . ' ' . $it->name;
 	if ($it->serving_size_g) {
 	    my $grams = $n_svg * $it->serving_size_g;
 	    $total_weight += $grams;
