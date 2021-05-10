@@ -28,8 +28,14 @@ sub name {
 sub parse_meals {
     my ($class, $file_name) = @_;
 
-    open(my $stream, '<', $file_name)
-	or die "$0:  Can't open '$file_name' for input:  $!";
+    my $stream;
+    if ($file_name eq '-') {
+	$stream = *STDIN;
+    }
+    else {
+	open($stream, '<', $file_name)
+	    or die "$0:  Can't open '$file_name' for input:  $!";
+    }
     my ($current_date, $current_meal_name, $current_meal);
     my $meals = [ ];
     my $register_meal = sub {
