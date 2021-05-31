@@ -111,7 +111,9 @@ sub present_summary {
 	    if defined($cho_percent);
     }
     elsif ($n_servings != 1) {
-	printf "  %3.2fsvg", $n_servings;
+	printf "  %3.2fsvg", $n_servings
+	    # Don't show negative servings.
+	    if $n_servings > 0;
     }
     print "\n";
     if ($keys{detailed_p} && $self->can('ingredients') && $self->ingredients) {
