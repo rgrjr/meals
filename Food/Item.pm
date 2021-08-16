@@ -361,7 +361,7 @@ sub show_item_details {
 
     $self->present_summary(display_cho_p => 1);
     my $ingredients = $self->ingredients;
-    next
+    return
 	unless $ingredients;
     my $missing_weight_p = 0;
     my $total_weight = 0;
