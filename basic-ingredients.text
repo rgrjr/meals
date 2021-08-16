@@ -1045,6 +1045,7 @@ serving size: 100g
 source: USDA: Basic Report:  44005, Oil, corn, peanut, and olive
 alias: olive oil
 alias: canola oil
+alias: coconut oil
 serving size: 1T
 serving size: 14g
 0g carbohydrate
@@ -1334,6 +1335,19 @@ serving size: 240g
 180mg sodium
 2g carbohydrate
 1g fiber
+1g protein
+
+[item coconut milk]
+source: A Taste Of Thai
+serving size: 80ml
+serving size: 80g
+# 1 container = 400ml
+130 calories
+13g fat
+0mg cholesterol
+25mg sodium
+2g carbohydrate
+0g fiber
 1g protein
 
 [item ginger]
@@ -2744,6 +2758,7 @@ source: Kikkoman
 [item hoisin sauce]
 source: Kikkoman
 serving size: 1T
+serving size: 15g
 35 calories
 0g fat
 0mg cholesterol
@@ -2768,6 +2783,7 @@ source: USDA: Miso
 alias: Market Basket dijon mustard
 alias: Trader Joe's brown mustard
 alias: French's dijon mustard
+alias: Gulden's stone ground dijon mustard
 # The USDA database doesn't have a generic entry for "dijon mustard."
 serving size: 5g
 serving size: 1tsp

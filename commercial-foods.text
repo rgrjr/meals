@@ -199,6 +199,19 @@ serving size: 100g
 817mg sodium
 2mg cholesterol
 
+[item Joseph's lavash bread]
+alias: lavash bread
+source: Joseph's
+# 1 serving = 1/2 flatbread
+serving size: 32g
+60 calories
+1.5g fat
+0mg cholesterol
+290mg sodium
+8g carbohydrate
+2g fiber
+6g protein
+
 [item buttermilk pancake]
 source: USDA: 18390, Pancakes, buttermilk, prepared from recipe
 # guesswork, based on Main Street Bistro in New Paltz NY
@@ -250,6 +263,7 @@ alias: Kickstand Cafe scone, raspberry honey
 alias: Kickstand Cafe scone, raspberry ginger
 alias: Kickstand Cafe scone, raspberry oatmeal
 alias: Kickstand Cafe scone, pear ginger
+alias: Kickstand Cafe scone, lemon ginger
 alias: Kickstand Cafe scone, strawberry coconut
 alias: Kickstand Cafe scone, cranberry orange
 source: USDA: some random Starbucks scone
@@ -561,6 +575,18 @@ serving size: 140g
 19g carbohydrate
 2g fiber
 3g protein
+
+[item Ashoka methi malai matar]
+# serving size: 1/2 package
+serving size: 140g
+# CHO%22.2
+180 calories
+12g fat
+10mg cholesterol
+620mg sodium
+12g carbohydrate
+2g fiber
+5g protein
 
 [item Ashoka saag aloo]
 # serving size: 1/2 package
@@ -1432,6 +1458,17 @@ serving size: 45g
 2g fiber
 4g protein
 
+[item Snyder's mini pretzels]
+source: Snyder's mini pretzels
+serving size: 42g
+160 calories
+1g fat
+0mg cholesterol
+420mg sodium
+34g carbohydrate
+1g fiber
+4g protein
+
 [item Girl Scout PB cookies]
 alias: Girl Scout peanut butter sandwich cookies
 serving size: 35g
@@ -1484,6 +1521,18 @@ serving size: 34g
 1g fiber
 3g protein
 
+[item Ghirardelli brownie mix]
+# CHO%58.8
+serving size: 30g
+# 1 pouch = 19 brownies
+130 calories
+3g fat
+0mg cholesterol
+90mg sodium
+24g carbohydrate
+0g fiber
+1g protein
+
 [item Top Ramen]
 alias: Maruchan ramen
 serving size: 100g
@@ -1506,6 +1555,19 @@ serving size: 95g
 58g carbohydrate
 2g fiber
 10g protein
+
+[item rice ramen noodle]
+source: Lotus Foods
+serving size: 35g
+# Each serving absorbs 1.364 times its weight in water or 47.7g,
+# assuming it absorbs as much as Top Ramen.  -- rgr, 18-Jun-21.
+120 calories
+1.5g fat
+0mg cholesterol
+0mg sodium
+23g carbohydrate
+2g fiber
+4g protein
 
 [item Kirkland "krinkle cut" potato chips]
 serving size: 1oz
@@ -2804,6 +2866,18 @@ serving size: 1/4C
 5mg sodium
 48g carbohydrate
 1g fiber
+1g protein
+
+[item Grandmother's mincemeat]
+serving size: 91g
+serving size: 1/3C
+# 1 jar = 28oz
+170 calories
+0g fat
+0mg cholesterol
+170mg sodium
+43g carbohydrate
+2g fiber
 1g protein
 
 [item pie crust]
