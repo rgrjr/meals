@@ -87,24 +87,35 @@ sub present_summary {
     my ($self, %keys) = @_;
     my $n_servings = $keys{n_servings} || 1;
 
-    my $name = $self->name;
-    $name .= ':'
-	if $keys{colon_p};
-    $name = "  $name"
-	if $keys{indent_name_p};
-    if (length($name) > 38) {
-	# Print the name on its own line so as not to shift the other columns.
-	print $name, "\n";
-	$name = '';
-    }
-    printf('%-38s', $name);
+    # Make the food value columns first, so we can enlarge the name width if
+    # the net carbs don't take up much space.
+    my @food_values;
     for my $slot (qw(net_carbohydrate_grams fat_grams
 		     protein_grams calories)) {
 	my $value = $self->$slot();
 	$value *= $n_servings
 	    if defined($value);
-	print ' ', $self->show_total($value, ! defined($value));
+	push(@food_values, $self->show_total($value, ! defined($value)));
     }
+    my $food_value_string = join(' ', @food_values);
+    my $name_width = 38;
+    $name_width += length($1)
+	if $food_value_string =~ s/^(\s+) //;
+
+    # Make the name, and print name and food values.
+    my $name = $self->name;
+    $name .= ':'
+	if $keys{colon_p};
+    $name = "  $name"
+	if $keys{indent_name_p};
+    if (length($name) > $name_width) {
+	# Print the name on its own line so as not to shift the other columns.
+	print $name, "\n";
+	$name = '';
+    }
+    printf("%-${name_width}s  %s", $name, $food_value_string);
+
+    # Print the CHO% or serving size column.
     if ($keys{display_cho_p}) {
 	my $cho_percent = $self->carbohydrate_percent;
 	printf(" CHO%%%.1f", $cho_percent)

@@ -1,6 +1,7 @@
 # meals.pl testing.  -- rgr, 24-Jan-15.
 
-test:	test-null test-show1 test-day1 test-day2 test-day3 test-day4 test-plot
+test:	test-null test-show1 test-day1 test-day2 test-day3 \
+	test-day4 test-day5 test-plot
 
 test-null:
 	./meals.pl --recipe-file recipes.text --det=item /dev/null > $@.tmp
@@ -39,6 +40,10 @@ test-plot:
 test-day4:
 	./meals.pl --recipe-file recipes.text --file \
 		--det=item test/day4.text > $@.tmp
+	cmp test/$@.text $@.tmp
+	rm -f $@.tmp
+test-day5:
+	./meals.pl --det=item test/day5.text > $@.tmp
 	cmp test/$@.text $@.tmp
 	rm -f $@.tmp
 test-show1:
