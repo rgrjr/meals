@@ -13,6 +13,17 @@ serving size: 236.6g
 0mg sodium
 0mg cholesterol
 
+[item sherry]
+source: USDA: sherry cooking wine, sherry, Brand: Meijer, FDC ID: 1584627 
+serving size: 100ml
+133 calories
+0g protein
+0g fat
+6.7g carbohydrate
+0g fiber
+533mg sodium
+0mg cholesterol
+
 [item salt]
 source: USDA: Salt, table
 serving size: 1tsp
@@ -890,6 +901,17 @@ serving size: 1oz
 0g fiber
 6g protein
 
+[item Gopi paneer]
+serving size: 1oz
+# 1 container = 28oz
+90 calories
+7g fat
+25mg cholesterol
+5mg sodium
+1g carbohydrate
+0g fiber
+7g protein
+
 [item Boca veggie crumbles]
 serving size: 57g
 70 calories
@@ -1057,6 +1079,7 @@ serving size: 14g
 0mg sodium
 
 [item olive]
+alias: black olive
 source: USDA: 09193, Olives, ripe, canned (small-extra large)
 serving size: 8.4g
 serving size: 1T
@@ -1650,6 +1673,19 @@ serving size: 1C
 4g carbohydrate
 0g fiber
 3g protein
+
+[item soy bean sprouts]
+alias: soy sprouts
+source: USDA: 11452, Soybeans, mature seeds, sprouted, raw
+serving size: 100g
+serving size: 1.43C
+122 calories
+6.7g fat
+0mg cholesterol
+14mg sodium
+9.6g carbohydrate
+1g fiber
+13g protein
 
 [item bamboo shoots]
 source: USDA: 11026, Bamboo shoots, raw
@@ -3087,6 +3123,17 @@ serving size: 1C
 13g carbohydrate
 3g fiber
 2mg sodium
+0mg cholesterol
+
+[item plum]
+source: USDA: 9279, Plums, raw
+serving size: 66g
+30 calories
+0.46g protein
+0.19g fat
+7.52g carbohydrate
+0.92g fiber
+0mg sodium
 0mg cholesterol
 
 [item honeydew melon]

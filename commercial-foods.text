@@ -402,6 +402,17 @@ serving size: 20g
 3g fiber
 6g protein
 
+[item Tasty Bite Jaipur vegetables]
+# serving size: 1 package
+# CHO%26.9
+360 calories
+25g fat
+5mg cholesterol
+1000mg sodium
+25g carbohydrate
+6g fiber
+10g protein
+
 [item Trader Joe's Jaipur vegetables]
 serving size: 142g
 # CHO%14.1
@@ -910,6 +921,17 @@ alias: MTR aloo muttar
 3g fiber
 5g protein
 
+[item MTR "meal time" mixed vegetable curry]
+# serving size: 1 package
+# CHO%8.0
+240 calories
+16g fat
+6mg cholesterol
+1480mg sodium
+18g carbohydrate
+10g fiber
+8g protein
+
 [item MTR muttar paneer]
 alias: MTR mutter paneer
 # serving size: 1/2 package
@@ -958,6 +980,18 @@ serving size: 150g
 3g fiber
 7.5g protein
 
+[item MTR "meal time" palak paneer]
+# still in English and French.  -- rgr, 6-Sep-21.
+# serving size: 1 package
+# CHO%21.1
+300 calories
+26g fat
+30mg cholesterol
+980mg sodium
+10g carbohydrate
+4g fiber
+10g protein
+
 [item MTR paneer butter masala]
 # serving size: 1/2 package
 # CHO%7.8
@@ -1001,6 +1035,17 @@ serving size: 150g
 13.5g carbohydrate
 6g fiber
 7.5g protein
+
+[item MTR "meal time" paneer makhani]
+# serving size: 1 package
+# CHO%13.3
+500 calories
+38g fat
+60mg cholesterol
+1320mg sodium
+26g carbohydrate
+2g fiber
+14g protein
 
 [item MTR pav bhaji]
 # serving size: 1/2 package
@@ -1223,6 +1268,17 @@ serving size: 71g
 9g carbohydrate
 2g fiber
 11g protein
+
+[item Trader Joe's new soy chorizo]
+serving size: 2oz
+# 1 package = 12oz = 340g = 6 svg
+130 calories
+17g fat
+0mg cholesterol
+660mg sodium
+8g carbohydrate
+5g fiber
+8g protein
 
 [item Cibo Naturals sundried tomato pesto]
 alias: Cibo Naturals organic sundried tomato pesto with basil
@@ -2094,6 +2150,17 @@ source: http://www.friendlys.com/menu/lunch-dinner/entrees
 11g fiber
 28g protein
 
+[item generic fried clam strips]
+source: USDA: FDC ID: 1501257; Branded "SEAPAK" clam strips
+serving size: 100g
+294 calories
+16g fat
+18mg cholesterol
+494mg sodium
+28g carbohydrate
+1g fiber
+8g protein
+
 [item Bertucci's shrimp scampi]
 source: http://www.bertuccis.com/sites/default/files/April%202015%20Nutritionals.pdf
 # CHO%31
@@ -2374,6 +2441,18 @@ serving size: 60g
 0mg cholesterol
 80mg sodium
 4g carbohydrate
+1g fiber
+1g protein
+
+[item Pastene pizza sauce]
+source: Pastene
+serving size: 61g
+# 1 can = 425g
+30 calories
+1g fat
+0mg cholesterol
+260mg sodium
+6g carbohydrate
 1g fiber
 1g protein
 
