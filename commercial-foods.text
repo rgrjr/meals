@@ -257,6 +257,7 @@ alias: Kickstand Cafe scone, maple pecan
 alias: Kickstand Cafe scone, vegan raisin
 alias: Kickstand Cafe scone, blackberry oatmeal
 alias: Kickstand Cafe scone, blackberry ginger
+alias: Kickstand Cafe scone, blueberry
 alias: Kickstand Cafe scone, blueberry oatmeal
 alias: Kickstand Cafe scone, raspberry lemon
 alias: Kickstand Cafe scone, raspberry honey
@@ -367,6 +368,42 @@ serving size: 20g
 13g carbohydrate
 0g fiber
 0g protein
+
+[item Hellman's vegan dressing & spread]
+alias: Hellman's vegan mayonnaise
+source: Hellman's
+serving size: 1T
+serving size: 14g
+70 calories
+8g fat
+0mg cholesterol
+100mg sodium
+1g carbohydrate
+0g fiber
+0g protein
+
+[item generic french fries]
+source: USDA: Restaurant, family style, french fries; FDC ID: 169836
+serving size: 100g
+289 calories
+3.5g protein
+14g fat
+37g carbohydrate
+4g fiber
+357mg sodium
+1mg cholesterol
+
+[item generic onion rings]
+source: USDA: Restaurant, family style, onion rings; FDC ID: 169027
+serving size: 100g
+356 calories
+5g protein
+19g fat
+41g carbohydrate
+2.6g fiber
+692mg sodium
+# there isn't actually a number given for cholesterol.
+0mg cholesterol
 
 [item Regal Kitchen mixed vegetable curry]
 # serving size: 1/3 package
@@ -923,7 +960,7 @@ alias: MTR aloo muttar
 
 [item MTR "meal time" mixed vegetable curry]
 # serving size: 1 package
-# CHO%8.0
+# CHO%13.3
 240 calories
 16g fat
 6mg cholesterol
@@ -944,6 +981,18 @@ serving size: 5oz
 11g carbohydrate
 2g fiber
 8g protein
+
+[item MTR "meal time" muttar paneer]
+# serving size: 1 package
+serving size: 300g
+# CHO%12.0
+400 calories
+30g fat
+40mg cholesterol
+940mg sodium
+18g carbohydrate
+6g fiber
+14g protein
 
 [item MTR navratan kurma]
 # serving size: 1/2 package
@@ -983,7 +1032,7 @@ serving size: 150g
 [item MTR "meal time" palak paneer]
 # still in English and French.  -- rgr, 6-Sep-21.
 # serving size: 1 package
-# CHO%21.1
+# CHO%8.0
 300 calories
 26g fat
 30mg cholesterol
@@ -1002,6 +1051,17 @@ serving size: 150g
 4g carbohydrate
 0.7g fiber
 7g protein
+
+[item MTR "meal time" paneer butter masala]
+# serving size: one package
+# CHO%10.0
+320 calories
+26g fat
+46mg cholesterol
+1120mg sodium
+12g carbohydrate
+4g fiber
+10g protein
 
 [item MTR paneer tikka masala]
 # serving size: 1/2 package
@@ -1090,6 +1150,17 @@ serving size: 150g
 18g carbohydrate
 2g fiber
 8g protein
+
+[item MTR "meal time" shahi paneer]
+# serving size: one package
+# CHO%15.0
+320 calories
+24g fat
+40mg cholesterol
+1480mg sodium
+16g carbohydrate
+4g fiber
+12g protein
 
 [item paneer shahi korma]
 source: http://www.myfitnesspal.com/food/calories/indian-shahi-paneer-korma-216979503
@@ -1202,6 +1273,19 @@ serving size: 55g
 2g fiber
 9g protein
 
+[item Alpha strips grilled chik'n]
+source: alphaplantbased.com
+serving size: 55g
+serving size: 1/2C
+# 1 pkg = 8oz (227g)
+80 calories
+3g fat
+0mg cholesterol
+310mg sodium
+4g carbohydrate
+0g fiber
+10g protein
+
 [item Tofurky plant-based chick'n]
 serving size: 75g
 # 1 pkg = 8oz (225g)
@@ -1247,6 +1331,18 @@ serving size: 1/4C
 1g fiber
 1g protein
 
+[item Violife mozzarella style shreds]
+source: Violife
+serving size: 28g
+serving size: 1/4C
+80 calories
+7g fat
+0mg cholesterol
+190mg sodium
+6g carbohydrate
+0g fiber
+0g protein
+
 [item Helen's Kitchen organic veggie chorizo]
 serving size: 57g
 # 1 package = 340g = 6 svg
@@ -1257,6 +1353,29 @@ serving size: 57g
 6g carbohydrate
 4g fiber
 7g protein
+
+[item soyrizo]
+source: elburrito.com
+serving size: 55g
+# 1 package = 340g = 6 svg
+90 calories
+4g fat
+0mg cholesterol
+370mg sodium
+6g carbohydrate
+2g fiber
+7g protein
+
+[item Butler's soy curls]
+serving size: 3/4C
+serving size: 30g
+130 calories
+5g fat
+0mg cholesterol
+0mg sodium
+8g carbohydrate
+6g fiber
+11g protein
 
 [item Trader Joe's soy chorizo]
 serving size: 71g
@@ -1352,6 +1471,18 @@ serving size: 20g
 0g fiber
 2g protein
 
+[item Twin Dragon egg roll wrapper]
+# 1 wrapper per serving
+serving size: 26g
+# package size: "about" 676g
+70 calories
+0g fat
+0mg cholesterol
+65mg sodium
+15g carbohydrate
+0g fiber
+3g protein
+
 [item Jack Hua cooked rice noodles]
 source: Jack Hua Company Limited
 # estimate of cooked weight
@@ -1420,6 +1551,18 @@ serving size: 64g
 39g carbohydrate
 2g fiber
 7g protein
+
+[item TVP bacon bits]
+source: Country Life Natural Foods
+serving size: 45g
+serving size: 1/4C
+157 calories
+7g fat
+0mg cholesterol
+1094mg sodium
+12g carbohydrate
+6g fiber
+18g protein
 
 [item Market Basket banana chips]
 serving size: 30g
