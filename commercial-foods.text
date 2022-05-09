@@ -1273,6 +1273,19 @@ serving size: 55g
 2g fiber
 9g protein
 
+[item Impossible meatballs]
+serving size: 85g
+# 1 svg = 3 meatballs
+# 1 pkg = 14oz (397g) = 14 meatballs
+# CHO%18.0
+200 calories
+12g fat
+0mg cholesterol
+400mg sodium
+11g carbohydrate
+2g fiber
+12g protein
+
 [item Alpha strips grilled chik'n]
 source: alphaplantbased.com
 serving size: 55g
@@ -2426,6 +2439,19 @@ serving size: 1C
 2g fiber
 1g protein
 
+[item organic greens 5]
+source: www.tattooedchef.com
+serving size: 85g
+serving size: 1C
+# 1 package = four 14oz bags
+45 calories
+2g fat
+0mg cholesterol
+170mg sodium
+6g carbohydrate
+2g fiber
+2g protein
+
 [item Wonderful raw almonds]
 source: Wonderful
 serving size: 42g
@@ -2542,8 +2568,8 @@ serving size: 113g
 
 [item Beyond burger]
 source: Beyond Meat
-serving size: 4oz
 # one patty
+serving size: 4oz
 260 calories
 18g fat
 0mg cholesterol
@@ -2551,6 +2577,18 @@ serving size: 4oz
 5g carbohydrate
 2g fiber
 20g protein
+
+[item Beyond chicken]
+source: Beyond Meat
+# two pieces, uncooked weight; cooked weight = 74g
+serving size: 80g
+210 calories
+12g fat
+0mg cholesterol
+450mg sodium
+15g carbohydrate
+3g fiber
+11g protein
 
 [item veggie burger]
 source: USDA: 16147, Veggie burgers or soyburgers, unprepared
@@ -2573,6 +2611,18 @@ serving size: 135g
 3g carbohydrate
 1g fiber
 1092mg sodium
+0mg cholesterol
+
+[item Mt. Olive dill pickle relish]
+source: Mt. Olive
+serving size: 1T
+serving size: 15g
+0 calories
+0g protein
+0g fat
+0g carbohydrate
+0g fiber
+170mg sodium
 0mg cholesterol
 
 [item Market Basket pizza sauce]

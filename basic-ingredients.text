@@ -498,6 +498,7 @@ serving size: 94g
 
 [item Quaker Oats oatmeal]
 alias: oatmeal
+alias: Quaker Oats Old Fashioned Oatmeal
 serving size: 40g
 serving size: 1/2C
 150 calories
@@ -523,7 +524,7 @@ serving size: 0.877 cup
 5mg sodium
 0mg cholesterol
 
-[item flour tortillas]
+[item flour tortilla]
 source: USDA: 18450, Tortillas, ready-to-bake or -fry, flour, without added calcium
 serving size: 32g
 # 1 medium 10" tortilla = 32g
