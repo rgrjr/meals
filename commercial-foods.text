@@ -682,6 +682,17 @@ serving size: 140g
 2g fiber
 3g protein
 
+[item Haldiram's dal palak]
+# serving size: 1/2 package
+# CHO%36.4
+110 calories
+5g fat
+0mg cholesterol
+700mg sodium
+12g carbohydrate
+2g fiber
+5g protein
+
 [item Haldiram's dal makhani]
 # serving size: 1/2 package
 # CHO%28.0
@@ -1004,6 +1015,17 @@ serving size: 300g
 12g carbohydrate
 1.3g fiber
 6g protein
+
+[item MTR "meal time" navratan kurma]
+# serving size: 1 package
+# CHO%6.7
+240 calories
+18g fat
+30mg cholesterol
+1180mg sodium
+12g carbohydrate
+8g fiber
+8g protein
 
 [item MTR palak paneer]
 # serving size: 1/2 package
@@ -2589,6 +2611,18 @@ serving size: 80g
 15g carbohydrate
 3g fiber
 11g protein
+
+[item Beyond sausage]
+source: Beyond Meat
+# 1 serving = 1 cooked sausage
+serving size: 76g
+190 calories
+12g fat
+0mg cholesterol
+500mg sodium
+5g carbohydrate
+3g fiber
+16g protein
 
 [item veggie burger]
 source: USDA: 16147, Veggie burgers or soyburgers, unprepared
